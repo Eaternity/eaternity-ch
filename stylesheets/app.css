@@ -1,0 +1,180 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+	p.intro { font-size: 18px; line-height: 1.3; color: #555; }
+	h1 small, h2 small, h3 small, h4 small, h5 small { color: #777; font-size: 60%; font-weight: normal; }
+	body { font-family: "Open Sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+	.row {  max-width: 940px; }
+	.button { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; margin-right: 10px;margin-bottom: 10px;  }
+	body { background: #fff url(../images/background.jpg) 0 0 repeat;}
+	.page  { 
+		padding: 30px 20px; max-width:960px;  margin: 0 auto;
+		 /*-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;*/
+		background: #efefef;
+		background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4));
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
+		box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+		-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+	}
+	
+	a { color:  #11639d;text-decoration: none; line-height: inherit; }
+	a:hover { color: #2a85e8; }
+	.logo {max-width: 200px; margin-bottom: -50px;}
+
+/* -----------------------------------------
+   Header and Footer
+----------------------------------------- */
+
+	header { padding-bottom: 650px; padding-top: 20px; margin-bottom:-640px;
+	 background: url(../images/cut3.png) repeat-x ;
+	 	}
+	
+	/*header nav ul { margin: 0 0 0 -20px; padding: 0; float: right; overflow: hidden; }
+	header nav ul li { margin: 0 0 0 20px; padding: 0; display: block; float: left; }*/
+	
+	
+	header nav { margin-top: 61px; }
+    header nav ul {  text-transform: uppercase; margin: 0 0 0 -20px; padding: 0; float: right; overflow: hidden; }
+    header nav ul li { margin: 15px 0 0 30px; padding: 0; display: block; float: left; position: relative; }
+    header nav ul li:after { content: ""; display: block; width: 4px; height: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  position: absolute; top: 6px; right: -17px; }
+    header nav ul li a { font-size: 15px; font-weight: bold; }
+    header nav ul li a > span {  margin-right: 2px; }
+    header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url(../images/icons/active-nav.png) 0 0 no-repeat; display: block; }
+    
+    header nav ul.show-on-mobile { display:none }
+
+	footer { padding-bottom: 20px; background: url(../images/doodle.png) right bottom no-repeat ; }
+	footer .row { margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 1px solid #ddd; }
+
+/* -----------------------------------------
+   Homepage
+----------------------------------------- */
+
+
+
+    .jumbotron { position: relative; margin-bottom: 20px; }
+    .jumbotron h1 { position: absolute; left: 20px; bottom: 20px; }
+    .jumbotron img { 
+    /*-webkit-border-radius: 5px; -moz-border-radius: 5px;	
+    border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	border-bottom-right-radius: 0px 0px;
+	border-bottom-left-radius: 0px 0px;*/
+	 }
+
+	.homepage .content { 
+	position: absolute; left: 20px; bottom: 20px; margin-right:20px; 
+	width: 40%; background: rgba(255,255,255,0.85); padding: 20px;
+	
+	 /*-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;*/
+		/*background: #efefef;
+		background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4));*/
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
+		box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+		/*-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);*/
+	
+	 }
+	.homepage .content blockquote { padding: 0; border-left: none; font-size: 22px; font-weight: bold; background: url(../images/misc/quote.png) 0 0 no-repeat; padding: 9px 20px 0 19px; margin: 0 0 4px;
+}
+	.homepage .content h1 { position: relative; left: 0px; bottom: 0px; font-size: 18px; font-weight: normal; }
+
+	
+    
+	.homepage a.slider { display: block; background: #fff; width: 30px; height: 80px; line-height: 80px; position: absolute; top: 50%; margin-top: -40px; text-align: center; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; display: none;}
+	
+    .homepage a#prev { left: 0px; }
+    .homepage a#next { right: 0px; }
+    
+    body.home { background: #087d96 url(../images/bg/home.jpg) center 0 repeat;}
+    body.home header { margin-bottom: 10px; }
+    body.home #homepageDivider { position: relative; height: 44px; margin: -20px -20px 0 -20px; background: transparent url(../images/bg/home-divider.png) center 0 repeat-x; }
+    body.home #homepageContent { background: #afe1e8; margin: 0 -20px -40px -20px; }
+    
+    .blog {	border: 1px solid #EEE;padding: 20px; margin-bottom:20px; margin-top:20px;}
+    
+    
+    .eyecatcher { padding-bottom: 0px;  margin-bottom: 10px; border-bottom: 1px solid #ddd;}
+    h4 { padding: 30px 10px 0px 10px; height: 50px; }
+    
+    .team img { padding: 4px;}
+    
+    .prominent { 
+    	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px; 
+    	border: 1.5px solid #FF8300;
+		background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%) url(../images/doodle2.png) right bottom no-repeat;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4)) ;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
+		box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+		-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    }
+    
+    .tapete { background: url(../images/karotten-tapete2.png) center bottom repeat;}
+    .recipe { background: url(../images/misc/spoon.png) right top no-repeat;}
+    .recipe h5 {margin-right:60px; color:  #A75C21; margin-bottom: 0px; margin-top:16px;}
+    .recipe h4 { }
+    .tapete img { border: 5px solid #fff;}
+
+/* -----------------------------------------
+   Culinary Academy
+----------------------------------------- */
+
+   .culinary .content { position: absolute; left: 0; bottom: 0; width: 100%; background: rgba(255,255,255,0.85); }
+    .culinary .content p { width: 60%; padding: 20px; font-size: 15px; color: #555; margin: 0; }
+    .culinary .content .button { position: absolute; right: 20px; bottom: 20px; }
+    .culinary .jumbotron .content { background: none; position: static; }
+    .culinary .jumbotron .content h3 { color: #424242; font-family: Museo, serif; font-size: 34px; line-height: 1.3; width: 100%; }
+    .culinary .jumbotron .content p { font-size: 20px; font-family: Museo, serif; width: 100%; padding: 0 0 30px 0; }
+    .culinary .jumbotron .content .button { position: static; }
+    .culinary .culinary-divider { height: 19px; margin: 0 -20px; background: url(../images/misc/scallop_edge.png) 0 0 repeat-x; }
+    .culinary .culinary-content { padding-top: 20px; padding-bottom: 20px; background: #fbe4c0; margin: 0 -20px; }
+    .culinary-content h1, .culinary-content h2, .culinary-content h3, .culinary-content h4, .culinary-content h5 { color: #aa2a1d; }
+    
+    .culinary-content .panel { background: #fff7ea; -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.1); -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.1); box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    .culinary-content .panel { color: #424242; }
+    .culinary-content .panel h4 { color: #424242; }
+    
+    .culinary footer { margin: 0; background: #d28e61; }
+    .culinary footer .gray-teal.button { background-color: #fbe4c0; color: #d28e61 !important; font-size: 15px; }
+    .culinary footer .gray-teal.button:hover { background-color: #fbeeda; }
+    
+    body.culinary { background: #fff url(../images/misc/stripe.png) 0 0 repeat-x; }
+    body.culinary nav a { color: #424242; }
+    body.culinary header nav ul li:after { content: ""; width: 0; height: 0; }
+    body.culinary header nav ul li a span { color: #bbb; }
+    body.culinary header nav ul li a:hover,
+    body.culinary header nav ul li.active a { color: #D94301; }
+    
+    body.culinary .large.button { font-weight: normal; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    body.culinary img.fancy { border-color: #fdf2e0; }
+	
+	
+/* -----------------------------------------
+   Event
+----------------------------------------- */
+	
+	.cta { margin: 30px 0; text-align: center; }
+	.date { padding: 20px 0; background: #ddd; text-align: center; }
+	.date span { display: block; text-align: center; margin-bottom: 6px; }
+	.date strong { font-size: 30px; }
+	
+	a.map { display: block; }
+
+
