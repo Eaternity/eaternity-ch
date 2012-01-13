@@ -61,6 +61,18 @@
 	footer { padding-bottom: 20px; background: url(../images/doodle.png) right bottom no-repeat ; }
 	footer .row { margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 1px solid #ddd; }
 
+
+/* -----------------------------------------
+   Orbit
+----------------------------------------- */
+
+     #featured { 
+          width: 940px;
+          height: 500px;
+          background: #000 url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
+     /*#featured img,  
+     #featured div { display: none; }*/
+     
 /* -----------------------------------------
    Homepage
 ----------------------------------------- */
