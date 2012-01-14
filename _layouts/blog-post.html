@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="row">
+	<div class="twelve columns">
+		<h3>Rebekah Children's Services </h3>
+		<p>This is some text to describe the blog.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="eight columns">
+		<div class="row">
+			<div class="three columns">
+				{{page.circa}}
+			</div>
+			
+			<div class="nine columns">
+				<div>
+					{% if page.previous and page.previous.category == page.category %}
+				    <a class='prev' href='{{base}}{{page.previous.url}}'>&laquo; Prev</a>
+				    {% endif %}
+				    {% if page.next and page.next.category == page.category %}
+				    <a class='next' href='{{base}}{{page.next.url}}'>Next &raquo;</a>
+				    {% endif %}
+				
+					<h4>{{page.title}}</h4>
+					<small>{{page.media}}</small>
+					
+					<p>{{content}}</p>
+					
+					<ul>
+						<li style="display:block; float: left">Comment</li>
+						<li style="display:block; float: left">Like</li>
+						<li style="display:block; float: left">Tweet</li>
+						<li style="display:block; float: left">+1</li>
+					</ul>
+					
+					<hr />
+			
+					<h5>Comments</h5>	
+					
+					Facebook Comments
+				</div>
+			</div>
+		</div>	
+		
+		
+	</div>
+			
+</div>
+

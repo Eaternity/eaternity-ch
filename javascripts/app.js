@@ -51,14 +51,14 @@ $(document).ready(function () {
 
 	$('#featured').orbit({
 	     animation: 'horizontal-push',                  // fade, horizontal-slide, vertical-slide, horizontal-push
-	     animationSpeed: 1200,                // how fast animtions are
+	     animationSpeed: 800,                // how fast animtions are
 	     timer: true, 			 // true or false to have the timer
-	     advanceSpeed: 6000, 		 // if timer is enabled, time between transitions 
-	     pauseOnHover: true, 		 // if you hover pauses the slider
-	     startClockOnMouseOut: true, 	 // if clock should start on MouseOut
+	     advanceSpeed: 8000, 		 // if timer is enabled, time between transitions 
+	     pauseOnHover: false, 		 // if you hover pauses the slider
+	     startClockOnMouseOut: false, 	 // if clock should start on MouseOut
 	     startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
 	     directionalNav: false, 		 // manual advancing directional navs
-	     captions: false, 			 // do you want captions?
+	     captions: true, 			 // do you want captions?
 	     captionAnimation: 'fade', 		 // fade, slideOpen, none
 	     captionAnimationSpeed: 800, 	 // if so how quickly should they animate in
 	     bullets: true,			 // true or false to activate the bullet navigation
@@ -67,6 +67,15 @@ $(document).ready(function () {
 	     afterSlideChange: function(){}, 	 // empty function 
 	     fluid: true                         // or set a aspect ratio for content slides (ex: '4x3') 
 	});
+	
+	/* Something about Links??? ------------- */
+	$("#aside .thumbs a").click(
+	function() {
+		var thumbInt = $(this).attr("id").substring(5);
+		var newPath = $("#data"+thumbInt).text();
+		$("#main img").attr("src", newPath);
+	});
+
 	
 	
 	/* UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE6/7/8 SUPPORT AND ARE USING .block-grids */
