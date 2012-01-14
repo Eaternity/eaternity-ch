@@ -1,53 +1,55 @@
 ---
-layout: default
+layout: blog
 ---
 
-<div class="row">
-	<div class="twelve columns">
-		<h3>Rebekah Children's Services </h3>
-		<p>This is some text to describe the blog.</p>
-	</div>
-</div>
 
 <div class="row">
-	<div class="eight columns">
-		<div class="row">
-			<div class="three columns">
-				{{page.circa}}
-			</div>
-			
-			<div class="nine columns">
-				<div>
-					{% if page.previous and page.previous.category == page.category %}
-				    <a class='prev' href='{{base}}{{page.previous.url}}'>&laquo; Prev</a>
-				    {% endif %}
-				    {% if page.next and page.next.category == page.category %}
-				    <a class='next' href='{{base}}{{page.next.url}}'>Next &raquo;</a>
-				    {% endif %}
-				
-					<h4>{{page.title}}</h4>
-					<small>{{page.media}}</small>
-					
-					<p>{{content}}</p>
-					
-					<ul>
-						<li style="display:block; float: left">Comment</li>
-						<li style="display:block; float: left">Like</li>
-						<li style="display:block; float: left">Tweet</li>
-						<li style="display:block; float: left">+1</li>
-					</ul>
-					
-					<hr />
-			
-					<h5>Comments</h5>	
-					
-					Facebook Comments
-				</div>
-			</div>
-		</div>	
-		
-		
+	<div class="three columns">
+		{{ page.date | date_to_string }}
 	</div>
+	
+	<div class="nine columns">
+		<div>
+			{% if page.previous and page.previous.category == page.category %}
+		    <a class='prev' href='{{base}}{{page.previous.url}}'>&laquo; Prev</a>
+		    {% endif %}
+		    {% if page.next and page.next.category == page.category %}
+		    <a class='next' href='{{base}}{{page.next.url}}'>Next &raquo;</a>
+		    {% endif %}
+		
+			<h3>{{page.title}}</h3>
+			<small>{{page.media}}</small>
 			
-</div>
+			{{content}}
+			
+			<ul class="like-buttons">
+	            <li><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=121316227966331&amp;xfbml=1"></script><fb:like href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+				<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" data-count="horizontal" data-via="rcskids">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+				<li><g:plusone href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment"></g:plusone></li>
+			</ul>
+			
+			<hr>
+			
+			<ul class="social-media">
+				<li></li>
+				<li>
+					<h5>Comments</h5>
+	            <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" num_posts="2" width="452" href="http://rcskids.org"></fb:comments></li>
+			</ul>
+			
+			
+			<div id="related">
+			  <h5>Related Posts</h5><br>
+			  <ul class="posts">
+			    {% for post in site.related_posts limit:3 %}
+			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			    {% endfor %}
+			  </ul>
+			</div>
+			
+		</div>
+	</div>
+</div>	
+
+
 

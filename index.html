@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Weniger CO₂ &#10031; Voller Genuss
 ---
 
 <div class="row eyecatcher">
@@ -32,7 +33,7 @@ layout: default
 	</div>
 </div>	
 
-<div class="container prominent">
+<div class="prominent">
 	<div class="row">
 		<div class="six columns">
 			<h4>Wir brauchen deine Unterstützung!</h4>
@@ -79,8 +80,11 @@ layout: default
 <div class="row">
 	<div class="twelve columns">
 		<div class="blog">
-				<a href="blog/index.html"><h5>Blog</h5></a>
-				<a href="blog/blog-post.html">Aktuellster Artikel: Hier kannst du mehr darüber lesen &larr;</a>
+			<a href="/blog/"><h5>Blog</h5></a>
+			{% for item in site.categories['blog'] reversed limit:1 %}
+				<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ item.url }}">{{ item.title }} &larr;</a>
+		    {% endfor %}
+				
 				
 				<div class="three right">
 					<a href="blog/blog-post.html">Twitter | Facebook | Google+</a>
