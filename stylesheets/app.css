@@ -22,7 +22,7 @@
 	.button { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; margin-right: 10px;margin-bottom: 10px;  }
 	body { background: #fff url(../images/background.jpg) 0 0 repeat;}
 	.page  { 
-		padding: 30px 20px; max-width:960px;  margin: 0 auto;
+		padding: 30px 20px; max-width:960px; margin: 0 auto;
 		 /*-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;*/
 		background: #efefef;
 		background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%);
@@ -60,7 +60,7 @@
     header nav ul.show-on-mobile { display:none }
 
 	footer { padding-bottom: 20px; background: url(../images/doodle.png) right bottom no-repeat ; }
-	footer .row { margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 1px solid #ddd; }
+	footer .row { margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 0px solid #ddd; }
 
 
 /* -----------------------------------------
@@ -126,8 +126,10 @@
     .eyecatcher { padding-bottom: 0px;  margin-bottom: 10px; border-bottom: 1px solid #ddd;}
     h4 { padding: 20px 10px 0px 10px; height: 50px; }
     
-    .team img { padding: 4px;}
-    
+    .team img { padding: 4px; filter:gray;}
+    .team hr { border: 0; }
+    .team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:70px;width:80px;margin:4px 4px -74px 4px;}
+
     .prominent { 
     	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px; 
     	border: 1.5px solid #FF8300;

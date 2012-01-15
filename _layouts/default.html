@@ -127,10 +127,21 @@
 				</div>
 			
 				<div class="five columns team">
-					<a href="aboutus"><h5>Hallo, wir sind Eaternity &larr;</h5></a>
-					<img src="http://placehold.it/80x70" />&nbsp;<img src="http://placehold.it/80x70" />&nbsp;<img src="http://placehold.it/80x70" />&nbsp;<img src="http://placehold.it/80x70" />&nbsp;<img src="http://placehold.it/80x70" />&nbsp;<img src="http://placehold.it/80x70" />&nbsp;<img src="http://placehold.it/80x70" />&nbsp;<img src="http://placehold.it/80x70" />&nbsp;
-					<p>Werde Vereins-Mitglied. So kannst du aktiv mitwirken oder uns finanziell unterstützen. </p>
-					<a href="get-involved/" class="nice small radius black right button">Werde Mitglied &rarr;</a><a href="get-involved/" class="nice radius white small right button">Unser Team</a>
+					
+					
+					<a href="about"><h5>Hallo, wir sind Eaternity &larr;</h5></a>
+					<hr>
+
+						{% for item in site.categories['team'] reversed limit:9 %}
+							<div class="three columns">
+								<a href="{{item.url}}"><div class="cover-thumb"></div><img src="{{item.thumb}}" /></a>
+							</div>
+					    {% endfor %}
+						<hr>
+						<p>Werde Vereins-Mitglied. So kannst du aktiv mitwirken oder uns finanziell unterstützen.</p>
+						<a href="get-involved/" class="nice small radius black right button">Werde Mitglied &rarr;</a><a href="get-involved/" class="nice radius white small right button">Unser Team</a>
+
+					
 				</div>
 			</div>
 		</div>
