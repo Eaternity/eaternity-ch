@@ -3,6 +3,8 @@ layout: team-member
 category: team
 date: 0002-01-03
 
+short: mklarmann
+
 title: Manuel Klarmann
 thumb: /images/team/mklarmann_thumb.jpg
 180: /images/team/mklarmann_180.jpg

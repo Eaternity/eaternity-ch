@@ -3,6 +3,8 @@ layout: team-member
 category: team
 date: 0002-01-03
 
+short: aroth
+
 title: Andrea Roth
 thumb: /images/team/aroth_thumb.jpg
 180: /images/team/mklarmann_180.jpg

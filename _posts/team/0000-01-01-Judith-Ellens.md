@@ -3,6 +3,8 @@ layout: team-member
 category: team
 date: 0002-01-03
 
+short: jellens
+
 title: Judith Ellens
 thumb: /images/team/jellens_thumb.jpg
 180: /images/team/mklarmann_180.jpg

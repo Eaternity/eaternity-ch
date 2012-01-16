@@ -135,7 +135,7 @@
 
 						{% for item in site.categories['team'] reversed limit:9 %}
 							<div class="three columns">
-								<a href="/eaternity-website/{{item.url}}"><div class="cover-thumb"></div><img src="/eaternity-website/{{item.thumb}}" /></a>
+								<a href="/eaternity-website{{item.url}}"><div onMouseover="document.getElementById('{{ item.short }}').style.display='none';" onMouseout="document.getElementById('{{ item.short }}').style.display='block';" id="{{ item.short }}" class="cover-thumb"></div><img id="{{ item.short }}2" src="/eaternity-website/{{item.thumb}}" /></a>
 							</div>
 					    {% endfor %}
 						<hr>
