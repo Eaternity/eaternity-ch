@@ -49,21 +49,21 @@ title: Weniger CO₂ &#10031; Voller Genuss
 		</div>
 	</div>
 	
-<div class="row">
+	<div class="row">
 	
-	<div class="six columns">
+		<div class="six columns">
 		
-		<h6>Unsere Ernährung verursacht mehr als ein Drittel der konsumbedingten Treibhausgase in Europa, dass sind über 2 Tonnen CO₂ pro pro Person im Jahr. Die wachsende Welt-Population sowie eine steigende Pro-Kopf-Nachfrage nach ressourcenintensiven Lebensmittel-Produkten bedeutet eine zunehmende Belastung für Gesellschaft, Umwelt und Natur. Würde die gesamte Weltbevölkerung ihren Ernährungsstil dem unseren angleichen bräuchte es ausserdem 2-3 mal so viel Land und 3 mal so viel Wasser.</h6>
+			<h6>Unsere Ernährung verursacht mehr als ein Drittel der konsumbedingten Treibhausgase in Europa, dass sind über 2 Tonnen CO₂ pro pro Person im Jahr. Die wachsende Welt-Population sowie eine steigende Pro-Kopf-Nachfrage nach ressourcenintensiven Lebensmittel-Produkten bedeutet eine zunehmende Belastung für Gesellschaft, Umwelt und Natur. Würde die gesamte Weltbevölkerung ihren Ernährungsstil dem unseren angleichen bräuchte es ausserdem 2-3 mal so viel Land und 3 mal so viel Wasser.</h6>
 		
+		</div>
+		<div class="six columns">
+		
+			<h6>Eaternity hat zum Ziel klimafreundliche Ernährung in der Gesellschaft zu etablieren und zu einer attraktiven, nachhaltigen und fairen Lösung beizutragen.</h6>
+			<p><h6>Eine genussvolle, gesunde und klimafreundliche Ernährung verursacht über 50% weniger Treibhausgase. Das sind 1 Tonne CO₂ pro Person im Jahr. Dazu steht sie für eine faire und angemessene Rohstoffverwendung.</h6></p>
+			<a href="/eaternity-website/act/" class="nice radius right black button">Unterstütze Uns &rarr;</a>
+		
+		</div>
 	</div>
-	<div class="six columns">
-		
-		<h6>Eaternity hat zum Ziel klimafreundliche Ernährung in der Gesellschaft zu etablieren und zu einer attraktiven, nachhaltigen und fairen Lösung beizutragen.</h6>
-		<p><h6>Eine genussvolle, gesunde und klimafreundliche Ernährung verursacht über 50% weniger Treibhausgase. Das sind 1 Tonne CO₂ pro Person im Jahr. Dazu steht sie für eine faire und angemessene Rohstoffverwendung.</h6></p>
-		<a href="/eaternity-website/act/" class="nice radius right black button">Unterstütze Uns &rarr;</a>
-		
-	</div>
-</div>
 </div>
 		
 <div class="row">
@@ -89,9 +89,9 @@ title: Weniger CO₂ &#10031; Voller Genuss
 <div class="row">
 	<div class="twelve columns">
 		<div class="blog">
-			<a href="/eaternity-website//blog/"><h5>Blog</h5></a>
+			<a href="/eaternity-website/blog/"><h5>Blog</h5></a>
 			{% for item in site.categories['blog'] reversed limit:1 %}
-				<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="/eaternity-website/{{ item.url }}">{{ item.title }} &larr;</a>
+				<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="/eaternity-website{{ item.url }}">{{ item.title }} &larr;</a>
 		    {% endfor %}
 				
 				
