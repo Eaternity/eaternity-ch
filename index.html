@@ -9,33 +9,33 @@ title: Weniger CO₂ &#10031; Voller Genuss
 		<div class="jumbotron homepage">
 			<div class="row" id="featured">
 				<div>
-					<img src="images/eyecatcher/herbstmarkt.jpg" class="bg" />
+					<img src="/eaternity-website/images/eyecatcher/herbstmarkt.jpg" class="bg" />
 					<div class="content six columns centered">
 						<blockquote>Wir etablieren klimafreundliche Ernährung in der Gesellschaft.<cite>Vision Eaternity</cite></blockquote>
 						<!--h1>Wir implementieren die Massnahmen das umzusetzen, was unsere Wissenschaft uns aufzeigt.</h1-->
-						<a href="get-involved/" class="medium radius nice right white button">Mehr Informationen &larr;</a>
+						<a href="/eaternity-website/about/eaternity/" class="medium radius nice right white button">Mehr Informationen &larr;</a>
 					</div>
 				</div>
 				
 				<div>
-					<img src="images/eyecatcher/pumpkin-soup.jpg" class="bg" />
+					<img src="/eaternity-website/images/eyecatcher/pumpkin-soup.jpg" class="bg" />
 					<div class="content six columns centered">
 						<h1>Mit Genuss zeigen wir auf wie sowas funktioniert.</h1>
-						<a href="get-involved/" class="medium radius nice right white button">Mehr Informationen &larr;</a>
+						<a href="/eaternity-website/recipes/" class="medium radius nice right white button">Mehr Informationen &larr;</a>
 					</div>
 				</div>
 				
 				<div>
-					<img src="images/eyecatcher/klimawaage.jpg" class="bg" />
+					<img src="/eaternity-website/images/eyecatcher/klimawaage.jpg" class="bg" />
 					<div class="content six columns centered">
 						<h1>Und man tut was Gutes für die Welt.</h1>
-						<a href="get-involved/" class="medium radius nice right white button">Mehr Informationen &larr;</a>
+						<a href="/eaternity-website/act/" class="medium radius nice right white button">Mehr Informationen &larr;</a>
 					</div>
 				</div>
 				
 			
-			<!--a href="#" id="prev" class="slider">&larr;</a>
-			<a href="#" id="next" class="slider">&rarr;</a-->
+			<!--a href="/eaternity-website/#" id="prev" class="slider">&larr;</a>
+			<a href="/eaternity-website/#" id="next" class="slider">&rarr;</a-->
 			</div>
 		</div>
 	
@@ -60,7 +60,7 @@ title: Weniger CO₂ &#10031; Voller Genuss
 		
 		<h6>Eaternity hat zum Ziel klimafreundliche Ernährung in der Gesellschaft zu etablieren und zu einer attraktiven, nachhaltigen und fairen Lösung beizutragen.</h6>
 		<p><h6>Eine genussvolle, gesunde und klimafreundliche Ernährung verursacht über 50% weniger Treibhausgase. Das sind 1 Tonne CO₂ pro Person im Jahr. Dazu steht sie für eine faire und angemessene Rohstoffverwendung.</h6></p>
-		<a href="get-involved/" class="nice radius right black button">Unterstütze Uns &rarr;</a>
+		<a href="/eaternity-website/act/" class="nice radius right black button">Unterstütze Uns &rarr;</a>
 		
 	</div>
 </div>
@@ -68,18 +68,18 @@ title: Weniger CO₂ &#10031; Voller Genuss
 		
 <div class="row">
 	<div class="four columns">
-		<h4><a href="/about/facts">Relevanz & Möglichkeiten.</a></h3>
-		<a href="about/facts"><img src="images/frontpage/relevance.jpg" /></a>
+		<h4><a href="/eaternity-website/about/facts">Relevanz & Möglichkeiten.</a></h3>
+		<a href="/eaternity-website/about/facts"><img src="/eaternity-website/images/frontpage/relevance.jpg" /></a>
 		
 	</div>
 	<div class="four columns">
-		<h4><a href="/about/eaternity">Unsere Vision.</a></h3>
-		<a href="about/eaternity"><img src="images/frontpage/vision.jpg" /></a>
+		<h4><a href="/eaternity-website/about/eaternity">Unsere Vision.</a></h3>
+		<a href="/eaternity-website/about/eaternity"><img src="/eaternity-website/images/frontpage/vision.jpg" /></a>
 		
 	</div>
 	<div class="four columns">
-		<h4><a href="/recipes/">Aktuelles Projekt: Rezepte-Archiv.</a></h3>
-		<a href="/recipes/"><img src="images/frontpage/factors.jpg" /></a>
+		<h4><a href="/eaternity-website/recipes/">Wir suchen Entwickler.</a></h3>
+		<a href="/eaternity-website/recipes/"><img src="/eaternity-website/images/frontpage/factors.jpg" /></a>
 		
 	</div>
 </div>
@@ -89,21 +89,21 @@ title: Weniger CO₂ &#10031; Voller Genuss
 <div class="row">
 	<div class="twelve columns">
 		<div class="blog">
-			<a href="/blog/"><h5>Blog</h5></a>
+			<a href="/eaternity-website//blog/"><h5>Blog</h5></a>
 			{% for item in site.categories['blog'] reversed limit:1 %}
-				<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ item.url }}">{{ item.title }} &larr;</a>
+				<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="/eaternity-website/{{ item.url }}">{{ item.title }} &larr;</a>
 		    {% endfor %}
 				
 				
 				<div class="three right">
-					<a href="blog/blog-post.html">Twitter | Facebook | Google+</a>
+					<a href="/eaternity-website/blog/blog-post.html">Twitter | Facebook | Google+</a>
 				</div>
 		</div>
 	</div>
 	<!--div class="six columns">
 		<div class="blog">
-			<a href="blog/index.html"><h5>Twitter?</h5></a>
-			<a href="blog/blog-post.html">Aktuellster Tweet: Hier kannst du mehr darüber lesen &larr;</a>
+			<a href="/eaternity-website/blog/index.html"><h5>Twitter?</h5></a>
+			<a href="/eaternity-website/blog/blog-post.html">Aktuellster Tweet: Hier kannst du mehr darüber lesen &larr;</a>
 		</div>
 	</div-->
 </div>
@@ -112,12 +112,12 @@ title: Weniger CO₂ &#10031; Voller Genuss
 	<div class="six columns tapete">
 		<div class="row">
 			<div class="five columns">
-				<a href="#">
-					<img src="images/recipes/pesto.jpg" />
+				<a href="/eaternity-website/#">
+					<img src="/eaternity-website/images/recipes/pesto.jpg" />
 				</a>
 			</div>
 			<div class="seven columns recipe">
-				<a href="#">
+				<a href="/eaternity-website/#">
 					<h5>Rezept des Monats</h5>
 					<h4>Bärlauch Pesto</h4>
 				</a>
@@ -127,12 +127,12 @@ title: Weniger CO₂ &#10031; Voller Genuss
 	</div>
 	<div class="six columns tapete">
 			<div class="five columns">
-				<a href="#">
-					<img src="images/recipes/gnocci.jpg" />
+				<a href="/eaternity-website/#">
+					<img src="/eaternity-website/images/recipes/gnocci.jpg" />
 				</a>
 			</div>
 			<div class="seven columns recipe">
-				<a href="#">
+				<a href="/eaternity-website/#">
 					<h5>Beliebtestes Rezept</h5>
 					<h4>Gnocci mit Spinat</h4>
 				</a>
