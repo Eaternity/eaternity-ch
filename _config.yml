@@ -3,6 +3,7 @@ server:      true
 
 pygments:    true
 permalink: /:categories/:title
+baseurl: /eaternity-website
 url:
 exclude: 
     Foundation
