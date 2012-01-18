@@ -24,12 +24,12 @@
 	
 	
 	<!-- Included CSS Files -->
-	<link rel="stylesheet" href="/eaternity-website/stylesheets/foundation.css">
-	<link rel="stylesheet" href="/eaternity-website/stylesheets/app.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/stylesheets/foundation.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/stylesheets/app.css">
 
 
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="/eaternity-website/stylesheets/ie.css">
+		<link rel="stylesheet" href="{{site.baseurl}}/stylesheets/ie.css">
 	<![endif]-->
 
 	
@@ -48,15 +48,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="three columns">
-				<a href="/eaternity-website/index.html"><img class="logo" src="/eaternity-website/images/generic/logo-eaternity-small_04-11-2010.png" /></a>
+				<a href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/images/generic/logo-eaternity-small_04-11-2010.png" /></a>
 			</div>
 			<div class="nine columns">
 				<nav>
 					<ul>
-						<li><a href="/eaternity-website/about/eaternity">Was ist Eaternity?</a></li>
-						<li><a href="/eaternity-website/about/facts">Umweltfakten</a></li>
-						<li><a href="/eaternity-website/projects/">Projekte & Erfolge</a></li>
-						<li><a href="/eaternity-website/about/act">Werde Aktiv</a></li>
+						<li><a href="{{site.baseurl}}/about/eaternity/index.html">Was ist Eaternity?</a></li>
+						<li><a href="{{site.baseurl}}/about/facts/index.html">Umweltfakten</a></li>
+						<li><a href="{{site.baseurl}}/projects/index.html">Projekte & Erfolge</a></li>
+						<li><a href="{{site.baseurl}}/about/act/index.html">Werde Aktiv</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -99,24 +99,24 @@
 		<div class="container">
 			<div class="row">
 				<div class="three columns">
-					<a href="/eaternity-website/#"><h5>Seitenübersicht &larr;</h5></a>
+					<a href="{{site.baseurl}}/#"><h5>Seitenübersicht &larr;</h5></a>
 					<p>
-						<a href="/eaternity-website/#">Organisation</a><br />
-						<a href="/eaternity-website/#">Blog</a><br />
-						<a href="/eaternity-website/#">Rezepte</a><br />
-						<!-- a href="/eaternity-website/#">Spenden  &rarr;</a><br /-->
+						<a href="{{site.baseurl}}/#">Organisation</a><br />
+						<a href="{{site.baseurl}}/#">Blog</a><br />
+						<a href="{{site.baseurl}}/#">Rezepte</a><br />
+						<!-- a href="{{site.baseurl}}/#">Spenden  &rarr;</a><br /-->
 						<br />
-						<a href="/eaternity-website/#">Presse</a><br />
-						<a href="/eaternity-website/#">Materialien</a><br />
-						<!--a href="/eaternity-website/#">Quellen?</a><br /-->
+						<a href="{{site.baseurl}}/#">Presse</a><br />
+						<a href="{{site.baseurl}}/#">Materialien</a><br />
+						<!--a href="{{site.baseurl}}/#">Quellen?</a><br /-->
 						<br />
-						<a href="/eaternity-website/#">FAQ & Support</a><br />
-						<!--a href="/eaternity-website/#">Feedback (Zur Homepage)?</a><br /-->
-						<!--a href="/eaternity-website/#">Impressum ?</a><br /-->
-						<a href="/eaternity-website/#">Kontakt</a><br />
+						<a href="{{site.baseurl}}/#">FAQ & Support</a><br />
+						<!--a href="{{site.baseurl}}/#">Feedback (Zur Homepage)?</a><br /-->
+						<!--a href="{{site.baseurl}}/#">Impressum ?</a><br /-->
+						<a href="{{site.baseurl}}/#">Kontakt</a><br />
 					</p>
-					<p><h5><img src="/eaternity-website/images/generic/cc_icon_small.png" />&nbsp;2011 Eaternity</h5><a rel="license" href="/eaternity-website/http://creativecommons.org/licenses/by/3.0/" target="_blank"> Creative Commons Attribution 3.0 Unported License</a></p>
-					<p><a href="/eaternity-website/">Privat & Haftbarkeit & Rechtshinweise</a></p>
+					<p><h5><img src="{{site.baseurl}}/images/generic/cc_icon_small.png" />&nbsp;2011 Eaternity</h5><a rel="license" href="{{site.baseurl}}/http://creativecommons.org/licenses/by/3.0/" target="_blank"> Creative Commons Attribution 3.0 Unported License</a></p>
+					<p><a href="{{site.baseurl}}/">Privat & Haftbarkeit & Rechtshinweise</a></p>
 				</div>
 				<div class="four columns">
 					<h5>Newsletter</h5>
@@ -130,17 +130,17 @@
 				<div class="five columns team">
 					
 					
-					<a href="/eaternity-website/about"><h5>Hallo, wir sind Eaternity &larr;</h5></a>
+					<a href="{{site.baseurl}}/about"><h5>Hallo, wir sind Eaternity &larr;</h5></a>
 					<hr>
 
 						{% for item in site.categories['team'] reversed limit:9 %}
 							<div class="three columns">
-								<a href="/eaternity-website{{item.url}}"><div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div><img id="{{ item.short }}" src="/eaternity-website/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
+								<a href="{{site.baseurl}}{{item.url}}"><div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div><img id="{{ item.short }}" src="{{site.baseurl}}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
 							</div>
 					    {% endfor %}
 						<hr>
 						<p>Werde Vereins-Mitglied. So kannst du aktiv mitwirken oder uns finanziell unterstützen.</p>
-						<a href="/eaternity-website/get-involved/" class="nice small radius black right button">Werde Mitglied &rarr;</a><a href="/eaternity-website/get-involved/" class="nice radius white small right button">Unser Team</a>
+						<a href="{{site.baseurl}}/get-involved/" class="nice small radius black right button">Werde Mitglied &rarr;</a><a href="{{site.baseurl}}/get-involved/" class="nice radius white small right button">Unser Team</a>
 
 					
 				</div>
@@ -150,8 +150,8 @@
 	</footer>
 
 	<!-- Included JS Files -->
-	<script src="/eaternity-website/javascripts/foundation.js"></script>
-	<script src="/eaternity-website/javascripts/app.js"></script>
+	<script src="{{site.baseurl}}/javascripts/foundation.js"></script>
+	<script src="{{site.baseurl}}/javascripts/app.js"></script>
 	
 	<script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
