@@ -9,11 +9,11 @@ folder: recipes
 		<div class="jumbotron homepage">
 			<div id="featured-preview">
 			
-					<img src="/eaternity-website/images/eyecatcher/herbstmarkt.jpg" class="bg" data-thumb="gnocci.jpg" />
-					<img src="/eaternity-website/images/eyecatcher/pumpkin-soup.jpg" class="bg" data-thumb="pesto.jpg" />
-					<img src="/eaternity-website/images/eyecatcher/pumpkin-soup.jpg" class="bg" data-thumb="pesto.jpg" />
-					<img src="/eaternity-website/images/eyecatcher/pumpkin-soup.jpg" class="bg" data-thumb="pesto.jpg" />
-					<img src="/eaternity-website/images/eyecatcher/pumpkin-soup.jpg" class="bg" data-thumb="pesto.jpg" />
+					<img src="http://placehold.it/940x300" class="bg" data-thumb="gnocci.jpg" />
+					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
+					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
+					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
+					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
 			
 			
 			<!-- 5 thumnails passen auf die Seite-->
@@ -37,12 +37,12 @@ folder: recipes
 	</div>
 	
 	<div class="three columns">
-		<a href="#nice2"><h4>Rezepte nach Saison</h3>
+		<a href="#nice2"><h4>Alle Rezepte nach Saison</h3>
 		<img src="/eaternity-website/images/frontpage/vision.jpg" /></a>
 	</div>
 	
 	<div class="three columns">
-		<a href="#nice3"><h4>Vorteile der Gerichte</h3>
+		<a href="#nice3"><h4>Mehrwert auf allen Ebenen</h3>
 		<img src="/eaternity-website/images/frontpage/factors.jpg" /></a>
 	</div>
 	
@@ -54,38 +54,14 @@ folder: recipes
 </div>
 
 
-
-<!-- <dl class="contained tabs recipe">
-  <dd><a href="#nice1" class="active">
-	
-		<h5>Koch-Tips fürs Klima</h5>
-		<img src="/eaternity-website/images/recipes/preview/gnocci.jpg" />
-
-  </a></dd>
-  <dd><a href="#nice2">
-	
-		<h5>Rezepte nach Saison</h5>
-		<img src="/eaternity-website/images/recipes/preview/gnocci.jpg" />
-	
-  </a></dd>
-  <dd><a href="#nice3">
-	
-		<h5>Vorteile der Gerichte</h5>
-		<img src="/eaternity-website/images/recipes/preview/gnocci.jpg" />
-	
-  </a></dd>
-  <dd><a href="#nice4" >
-	
-		<h5>Eigenes Rezept </h5>
-		<img src="/eaternity-website/images/recipes/preview/gnocci.jpg" />
-	
-  </a></dd>
-</dl> -->
-
-
 <ul class="tabs-content recipes blog">
   <li class="active" id="nice1Tab">This is nice tab 1's content. Pretty neat, huh?</li>
-  <li id="nice2Tab">This is nice tab 2's content. Now you see it!<br><br><br><br><br><br></li>
+  <li id="nice2Tab">
+	
+	{% assign numOfItems = 50 %}
+	{% include recipe-list.html %}
+	
+	</li>
   <li id="nice3Tab">This is nice tab 3's content. It's, you know...okay.</li>
   <li id="nice4Tab">This is nice tab 's content. It's, you know...okay.</li>
 </ul>

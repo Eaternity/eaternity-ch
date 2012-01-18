@@ -1,0 +1,28 @@
+
+	{% for item in site.categories[page.folder] reversed limit:numOfItems %}
+<div class="row">
+	
+
+	<div class="three columns">
+
+		<img src="{{site.baseurl}}{{ item.image-thumb }}" />
+	</div>
+	
+	<div class="nine columns">
+		<div>
+			<h3><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h3>
+			<!--small>2:18AM by Melissa</small-->
+			
+		
+			{{ item.content | strip_html | truncatewords: 75 }} 
+			
+			
+		</div>
+		<div class="right">Saison: {{ item.season }}</div>
+	</div>
+	<hr />	
+
+	
+</div>	
+
+	{% endfor %}

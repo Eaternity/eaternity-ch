@@ -1,0 +1,86 @@
+---
+layout: default
+---
+<div class="row">
+	<div class="twelve columns">
+		<img src="{{site.baseurl}}{{page.image-big}}" width="940px;">
+	</div>
+</div>
+<div class="row">
+	<div class="three columns">
+		<p>{{ page.date | date_to_string }}</p>
+
+		
+		
+		<div class="panel">
+			<h5>{{page.co2-value}} g <br>CO2-Äquivalent.</h5><br>
+		</div>
+		
+		<h5>Autor: {{page.autor}}</h5>
+		
+		<h4><a href="{{site.baseurl}}/recipes/#nice2" > &laquo; Zur klimafreundlichen Rezepte-Küche</a></h4>
+	</div>
+	
+	<div class="nine columns">
+		<div>
+			{% if page.previous and page.previous.category == page.category %}
+		    <a class='prev' href='{{base}}{{page.previous.url}}'>&laquo; Prev</a>
+		    {% endif %}
+		    {% if page.next and page.next.category == page.category %}
+		    <a class='next' href='{{base}}{{page.next.url}}'>Next &raquo;</a>
+		    {% endif %}
+		
+			<h3>{{page.title}}</h3>
+			<small>{{page.media}}</small>
+			
+			{{content}}
+			
+			<ul class="like-buttons">
+	            <li><div id="fb-root"></div>
+					<fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" >Twittern</a></li>
+					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
+			</ul>
+			
+			<hr>
+			
+			<!-- <ul class="social-media">
+				<li></li>
+				<li>
+					<h5>Comments</h5>
+	            <div id="fb-root"></div></script><fb:comments href="{{site.url}}{{site.baseurl}}{{item.url}}" num_posts="2" width="452" href="{{site.url}}{{site.baseurl}}"></fb:comments></li>
+			</ul> -->
+			
+			
+			<div id="related">
+			  <h5>Andere Rezepte</h5><br>
+			  <ul class="posts">
+			    {% for post in site.related_posts limit:3 %}
+			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			    {% endfor %}
+			  </ul>
+			</div>
+			
+		</div>
+	</div>
+</div>	
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=178395151751";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+

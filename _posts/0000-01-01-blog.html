@@ -12,13 +12,13 @@ folder: blog
 			
 			<div class="nine columns">
 				<div>
-					<a href="/eaternity-website{{item.url}}"><img  src="{{ item.image }}" >
+					<a href="{{site.baseurl}}{{item.url}}{{item.url}}"><img  src="{{ item.image }}" >
 					<h3>{{item.title}}</h3></a>
 					<!--small>2:18AM by Melissa</small-->
 					
 				
 					{{ item.content | strip_html | truncatewords: 42 }} 
-					<a href="/eaternity-website{{item.url}}">&nbsp;weiterlesen</a>
+					<a href="{{site.baseurl}}{{item.url}}{{item.url}}">&nbsp;weiterlesen</a>
 					
 					<ul class="like-buttons">
 			            <li><div id="fb-root"></div>
