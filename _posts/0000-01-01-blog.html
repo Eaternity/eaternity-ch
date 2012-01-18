@@ -1,5 +1,33 @@
 ---
-layout: blog-list
+layout: blog
 title: Blog 
 folder: blog
 ---
+{% for item in site.categories[page.folder] reversed %}
+
+		<div class="row">
+			<div class="three columns">
+				{{ item.date | date_to_string }}
+			</div>
+			
+			<div class="nine columns">
+				<div>
+					<a href="/eaternity-website{{item.url}}"><img  src="{{ item.image }}" >
+					<h3>{{item.title}}</h3></a>
+					<!--small>2:18AM by Melissa</small-->
+					
+				
+					{{ item.content | strip_html | truncatewords: 42 }} 
+					<a href="/eaternity-website{{item.url}}">&nbsp;weiterlesen</a>
+					<ul class="like-buttons">
+			            <li><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=121316227966331&amp;xfbml=1"></script><fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+						<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" data-count="horizontal" data-via="rcskids">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+						<li><g:plusone href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
+					</ul>
+					
+				</div>
+			</div>
+			<hr />	
+		</div>	
+		
+{% endfor %}

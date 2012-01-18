@@ -4,7 +4,7 @@ server:      true
 pygments:    true
 permalink: /:categories/:title
 baseurl: /eaternity-website
-url:
+url: http://mklarmann.github.com
 exclude: 
     Foundation
     CNAME

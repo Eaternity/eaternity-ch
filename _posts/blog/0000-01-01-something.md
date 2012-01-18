@@ -3,6 +3,7 @@ layout: blog-post
 category: blog
 date: 0002-01-03
 
+image: http://placehold.it/452x150
 title: There is something going on
 ---
 
