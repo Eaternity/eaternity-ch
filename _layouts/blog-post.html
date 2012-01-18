@@ -23,9 +23,10 @@ layout: blog
 			{{content}}
 			
 			<ul class="like-buttons">
-	            <li><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=121316227966331&amp;xfbml=1"></script><fb:like href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-				<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" data-count="horizontal" data-via="rcskids">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
-				<li><g:plusone href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment"></g:plusone></li>
+	            <li><div id="fb-root"></div>
+					<fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" >Twittern</a></li>
+					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
 			</ul>
 			
 			<hr>
@@ -34,7 +35,7 @@ layout: blog
 				<li></li>
 				<li>
 					<h5>Comments</h5>
-	            <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" num_posts="2" width="452" href="http://rcskids.org"></fb:comments></li>
+	            <div id="fb-root"></div></script><fb:comments href="{{site.url}}{{site.baseurl}}{{item.url}}" num_posts="2" width="452" href="{{site.url}}{{site.baseurl}}"></fb:comments></li>
 			</ul>
 			
 			

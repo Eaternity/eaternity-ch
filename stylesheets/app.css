@@ -89,19 +89,20 @@
 	border-bottom-right-radius: 0px 0px;
 	border-bottom-left-radius: 0px 0px;*/
 	 }
+	
 
 	.homepage .content { 
 	position: absolute; left: 20px; bottom: 20px; margin-right:20px; 
 	width: 40%; background: rgba(255,255,255,0.85); padding: 20px;
 	
-	 /*-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;*/
-		/*background: #efefef;
+	 -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;
+		background: #efefef;
 		background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%);
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4));*/
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4));
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
 		box-shadow: 0 2px 5px rgba(0,0,0,0.35);
-		/*-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);*/
+		-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
 	
 	 }
 	 
@@ -128,6 +129,15 @@
     
     .blog {	border: 1px solid #EEE;padding: 20px; margin-bottom:20px; margin-top:20px;}
     
+    
+    /*.orbit-wrapper { overflow: hidden;}*/
+    .orbit-bullets {  overflow: hidden; max-height: 110px;margin-left: -460px;  }
+	.orbit-bullets.has-thumb { overflow: hidden; height: 110px;}
+    .orbit-bullets li.has-thumb { width: 150px;   height: 105px; }
+    
+    .orbit-bullets li.has-thumb {   background-size: 100% auto; }
+    
+    #featured-preview { padding-bottom:90px;}
     
     .eyecatcher { padding-bottom: 0px;  margin-bottom: 10px; border-bottom: 1px solid #ddd;}
     h4 { padding: 20px 10px 0px 10px; height: 50px; }
@@ -213,6 +223,12 @@ ul.social-media { background: transparent; margin-top: -4px; }
 /*    --------------------------------------------------
     Tabs
     -------------------------------------------------- */
+    
+    #donateModal {
+	 height: 320px; }
+	 
+
+	 
     dl.tabs { display: block; margin: 0 0 20px 0; padding: 0; height: 30px;border: 0px; }
     dl.tabs dt { display: block; width: auto; height: 30px; padding: 0px 9px 0 20px; line-height: 30px; float: left; color: #999; font-size: 11px; text-transform: uppercase; cursor: default; }
     dl.tabs dt:first-child { padding: 0 9px 0 0px; }
@@ -223,7 +239,15 @@ ul.social-media { background: transparent; margin-top: -4px; }
     .tabs-content h1 { height: 50px; width: 140px; margin-right: 20px; text-align: right;}
     .tabs-content p { height: 50px; }
     /*.tabs-content button { float: right; margin-top: 0px;}*/
-    #donateModal {height: 320px;}
+   
+ 
+   .recipes.tabs { margin: 20px 0px -10px 0px; padding:10px 10px 0px 10px; }
+   .recipes.tabs a.active{ border-bottom: 3px solid #aaa;}
+   .recipes.tabs a.active img{ margin-top:10px; 		box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+		-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);}
+   .recipes.tabs-content { min-height: 600px; margin-top:11px; }
+
 
     .nice.tabs { border-bottom: solid 1px #eee; margin: 0 0 30px 0; height:43px; }
     .nice.tabs dd a { padding: 7px 18px 9px; font-size: 15px; font-size: 1.5rem; color: #555555; background: none; border: none; }
