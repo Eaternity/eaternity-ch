@@ -9,26 +9,47 @@ layout: default
 <div class="row">
 	<div class="three columns">
 		<p>{{ page.date | date_to_string }}</p>
+		<br>
+		{% assign value = page.co2-value %}
+		{% include co2-label.html %}
+		
+			<p>Saison: {{ page.season }}</p>
+		
+		<h6>Zusammengestellt von: {{page.author}}.</h6>
+		<br><br>
+		
+		<h5><a href="{{site.baseurl}}/recipes/#nice2" > &laquo; Zur klimafreundlichen Rezepte-Küche</a></h5>
+		
 
+		<p>
+		{% if page.previous and page.previous.category == page.category %}
+	    <a class='prev' href='{{site.baseurl}}{{page.previous.url}}'>&laquo; Vorheriges Rezept</a>
+	    {% endif %}
+	    {% if page.next and page.next.category == page.category %}
+	    <a class='next' href='{{site.baseurl}}{{page.next.url}}'>Nächstes Rezept &raquo;</a>
+	    {% endif %}
+		</p>
 		
-		
-		<div class="panel">
-			<h5>{{page.co2-value}} g <br>CO2-Äquivalent.</h5><br>
+
+			
+		<div class='follow'>
+		    <div class='graph'>
+		      <div class='tens'></div>
+		      <div class='ones'></div>
+		      <div class='mask'></div>
+		    </div>
+		    <strong class='title'><span class='count'>0</span> tweets link to this blog post.</strong>
+
+		    <small>Start a conversation with <a target='_blank' href='http://twitter.com/eaternity'>@eaternity</a> on Twitter.</small>
+		    <div class='tweets'></div>
 		</div>
-		
-		<h5>Autor: {{page.autor}}</h5>
-		
-		<h4><a href="{{site.baseurl}}/recipes/#nice2" > &laquo; Zur klimafreundlichen Rezepte-Küche</a></h4>
+
+	
 	</div>
 	
-	<div class="nine columns">
+	<div class="six columns">
 		<div>
-			{% if page.previous and page.previous.category == page.category %}
-		    <a class='prev' href='{{base}}{{page.previous.url}}'>&laquo; Prev</a>
-		    {% endif %}
-		    {% if page.next and page.next.category == page.category %}
-		    <a class='next' href='{{base}}{{page.next.url}}'>Next &raquo;</a>
-		    {% endif %}
+
 		
 			<h3>{{page.title}}</h3>
 			<small>{{page.media}}</small>
@@ -37,9 +58,9 @@ layout: default
 			
 			<ul class="like-buttons">
 	            <li><div id="fb-root"></div>
-					<fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" >Twittern</a></li>
-					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
+					<fb:like href="{{site.url}}{{site.baseurl}}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >Twittern</a></li>
+					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{page.url}}"></g:plusone></li>
 			</ul>
 			
 			<hr>
@@ -63,6 +84,21 @@ layout: default
 			
 		</div>
 	</div>
+	
+	
+	
+	<div class="three columns">
+		<br><br><p>
+		<h5>Zutaten für 4 Personen</h5>
+		</p>
+		<ul>
+			{% for ingedient in page.zutaten %}
+		      <li>{{ ingedient }}</li>
+		    {% endfor %}
+		</ul>
+		
+	</div>
+	
 </div>	
 
 

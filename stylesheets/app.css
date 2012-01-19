@@ -161,7 +161,7 @@
     }
     
     .tapete { background: url(../images/karotten-tapete2.png) center bottom repeat;}
-    .recipe { background: url(../images/misc/spoon.png) right top no-repeat;}
+    .recipe { background: url(../images/misc/spoon.png) right top no-repeat; height: 220px;}
     .recipe h5 {margin-right:60px; color:  #A75C21; margin-bottom: 0px; margin-top:16px;}
     .recipe h4 { }
     .tapete img { border: 5px solid #fff;}

@@ -8,18 +8,25 @@
 		<img src="{{site.baseurl}}{{ item.image-thumb }}" />
 	</div>
 	
-	<div class="nine columns">
+	<div class="six columns">
 		<div>
-			<h3><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h3>
+			<h5><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h5>
 			<!--small>2:18AM by Melissa</small-->
 			
 		
-			{{ item.content | strip_html | truncatewords: 75 }} 
-			
+			{{ item.content | strip_html | truncatewords: 38 }} 
+			<a href="{{site.baseurl}}{{item.url}}">&nbsp;weiterlesen</a>
 			
 		</div>
+		
+	</div>
+	
+	<div class="three columns">
+		{% assign value = item.co2-value %}
+		{% include co2-label.html %}
 		<div class="right">Saison: {{ item.season }}</div>
 	</div>
+	
 	<hr />	
 
 	

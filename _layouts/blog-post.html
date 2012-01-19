@@ -11,10 +11,10 @@ layout: blog
 	<div class="nine columns">
 		<div>
 			{% if page.previous and page.previous.category == page.category %}
-		    <a class='prev' href='{{base}}{{page.previous.url}}'>&laquo; Prev</a>
+		    <a class='prev' href='{{site.baseurl}}{{page.previous.url}}'>&laquo; Prev</a>
 		    {% endif %}
 		    {% if page.next and page.next.category == page.category %}
-		    <a class='next' href='{{base}}{{page.next.url}}'>Next &raquo;</a>
+		    <a class='next' href='{{site.baseurl}}{{page.next.url}}'>Next &raquo;</a>
 		    {% endif %}
 		
 			<h3>{{page.title}}</h3>

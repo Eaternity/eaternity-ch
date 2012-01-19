@@ -116,57 +116,36 @@ title: Weniger CO₂ &#10031; Voller Genuss
 
 
 <div class="row">
-	<div class="six columns tapete">
-		<div class="row">
-			<div class="five columns">
-				<a href="{{site.baseurl}}/recipes/pesto/index.html">
-					<img src="{{site.baseurl}}/images/recipes/pesto.jpg" />
-				</a>
-			</div>
-			<div class="seven columns recipe">
-				<a href="{{site.baseurl}}/recipes/pesto/index.html">
-					<h5>Rezept des Monats</h5>
-					<h4>Bärlauch Pesto</h4>
-				</a>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	{% for item in site.categories['recipes'] reversed limit:2 %}
+		<div class="six columns tapete">
+			<div class="row">
+			
+			
+					<div class="five columns">
+						<a href="{{site.baseurl}}{{ item.url }}">
+							<img src="{{site.baseurl}}{{ item.image-thumb }}" />
+						</a>
+					</div>
+					<div class="seven columns recipe">
+						<a href="{{site.baseurl}}{{ item.url }}">
+							<h5>{{ item.type }}</h5>
+							<h4>{{ item.title }}</h4>
+						</a>
+						<p>{{ item.content | strip_html | truncatewords: 22 }} 
+						<a href="{{site.baseurl}}{{item.url}}">&nbsp;weiterlesen</a></p>
+					</div>
+		    
 			</div>
 		</div>
-	</div>
-	<div class="six columns tapete">
-			<div class="five columns">
-				<a href="{{site.baseurl}}/recipes/gnocci/index.html">
-					<img src="{{site.baseurl}}/images/recipes/gnocci.jpg" />
-				</a>
-			</div>
-			<div class="seven columns recipe">
-				<a href="{{site.baseurl}}/recipes/gnocci/index.html">
-					<h5>Beliebtestes Rezept</h5>
-					<h4>Gnocci mit Spinat</h4>
-				</a>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
-	</div>
+	{% endfor %}
 </div>
 
 <div class="row">
 	<div class="twelve columns">
-		<h4><a href="{{site.baseurl}}/recipes/index.html" >Weitere leckere Rezepte.</a></h4>
+		<hr>
+		<a href="{{site.baseurl}}/recipes/#nice2" class="medium radius nice right white button">Weitere leckere Rezepte &larr;</a>
+		
 	</div>
 </div>
 
-<div class="row">
-	<div class="four columns right offset-by-eight">
-		&nbsp;
-		<div class='follow'>
-		    <div class='graph'>
-		      <div class='tens'></div>
-		      <div class='ones'></div>
-		      <div class='mask'></div>
-		    </div>
-		    <strong class='title'><span class='count'>0</span> tweets link to this blog post.</strong>
 
-		    <small>Start a conversation with <a target='_blank' href='http://twitter.com/developmentseed'>@developmentseed</a> on Twitter.</small>
-		    <div class='tweets'></div>
-		  </div>
-	</div>
-</div>
