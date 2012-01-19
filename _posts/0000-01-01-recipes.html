@@ -20,7 +20,7 @@ folder: recipes
 			
 				<!-- 5 thumnails passen auf die Seite-->
 				{% for item in site.categories['recipes'] reversed limit:5 %}
-					<a href ="{{site.baseurl}}{{item.url}}" data-thumb="{{site.baseurl}}{{item.image-thumb}}" ><img width="940" src="{{site.baseurl}}{{item.image-slider}}" class="bg"  /></a>
+					<a href ="{{site.baseurl}}{{item.url}}" data-thumb="{{site.baseurl}}{{item.image-thumb}}" ><img src="{{site.baseurl}}{{item.image-slider}}" class="bg"  /></a>
 				{% endfor %}
 
 			</div>
