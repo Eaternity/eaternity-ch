@@ -3,25 +3,6 @@ layout: default
 title: Die klimafreundliche Rezepte-Küche 
 folder: recipes
 ---
-<div class="row eyecatcher">
-	<div class="twelve columns">
-	
-		<div class="jumbotron homepage">
-			<div id="featured-preview">
-			
-					<img src="http://placehold.it/940x300" class="bg" data-thumb="gnocci.jpg" />
-					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
-					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
-					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
-					<img src="http://placehold.it/940x300" class="bg" data-thumb="pesto.jpg" />
-			
-			
-			<!-- 5 thumnails passen auf die Seite-->
-			</div>
-		</div>
-	
-	</div>
-</div>
 
 <div class="row">
 	<div class="twelve columns">
@@ -29,6 +10,26 @@ folder: recipes
 		<hr>
 	</div>
 </div>
+
+
+<div class="row eyecatcher">
+	<div class="twelve columns">
+	
+		<div class="jumbotron homepage">
+			<div id="featured-preview">
+			
+				<!-- 5 thumnails passen auf die Seite-->
+				{% for item in site.categories['recipes'] reversed limit:5 %}
+					<a href ="{{site.baseurl}}{{item.url}}" data-thumb="{{site.baseurl}}{{item.image-thumb}}" ><img width="940" src="{{site.baseurl}}{{item.image-slider}}" class="bg"  /></a>
+				{% endfor %}
+
+			</div>
+		</div>
+	
+	</div>
+</div>
+
+
 
 <div class="row tabs recipes">
 	<div class="three columns">

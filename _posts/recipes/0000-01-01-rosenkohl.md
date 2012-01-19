@@ -10,6 +10,7 @@ season: November bis März
 
 image-big: /images/recipes/kohlauflauf.jpg
 image-thumb: /images/recipes/preview/kohlauflauf.jpg
+image-slider: /images/recipes/slider/kohlauflauf.jpg
 
 co2-value: 150
 

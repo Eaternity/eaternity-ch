@@ -44,13 +44,17 @@
 
 <!-- Header Content -->
 <header>
-	<!-- container -->
-	<div class="container">
+<!-- container -->
+<div class="container">
+	
 		<div class="row">
 			<div class="three columns">
 				<a href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/images/generic/logo-eaternity-small_04-11-2010.png" /></a>
 			</div>
-			<div class="nine columns">
+		</div>
+		
+		<div class="row">
+			<div class="twelve columns">
 				<nav>
 					<ul>
 						<li><a href="{{site.baseurl}}/about/eaternity/index.html">Was ist Eaternity?</a></li>
@@ -115,16 +119,19 @@
 						<!--a href="{{site.baseurl}}/#">Impressum ?</a><br /-->
 						<a href="{{site.baseurl}}/#">Kontakt</a><br />
 					</p>
-					<p><h5><img src="{{site.baseurl}}/images/generic/cc_icon_small.png" />&nbsp;2011 Eaternity</h5><a rel="license" href="{{site.baseurl}}/http://creativecommons.org/licenses/by/3.0/" target="_blank"> Creative Commons Attribution 3.0 Unported License</a></p>
-					<p><a href="{{site.baseurl}}/">Privat & Haftbarkeit & Rechtshinweise</a></p>
+					<h5>International</h5>
+					<div id="google_translate_element"></div>
+
+					
 				</div>
 				<div class="four columns">
-					<h5>Newsletter</h5>
-					<p>Signup</p>
+					<h5><img src="{{site.baseurl}}/images/generic/cc_icon_small.png" />&nbsp;2011 Eaternity</h5>
+					<p><a rel="license" href="{{site.baseurl}}/http://creativecommons.org/licenses/by/3.0/" target="_blank"> Creative Commons Attribution 3.0 Unported License</a></p>
+					<p><a href="{{site.baseurl}}/">Privat & Haftbarkeit & Rechtshinweise</a></p>
 					<h5>Anschrift</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<h5>Internationale Flaggen-Bilder</h5>
-					<p>Deutsch / Englisch / Italienisch / Französisch</p>
+					<h5>Newsletter</h5>
+					<p>Signup</p>
 				</div>
 			
 				<div class="five columns team">
@@ -150,10 +157,26 @@
 	</footer>
 
 	<!-- Included JS Files -->
-	<script src="{{site.baseurl}}/javascripts/foundation.js"></script>
-	<script src="{{site.baseurl}}/javascripts/app.js"></script>
 	
-	<script type="text/javascript">
+<script src="{{site.baseurl}}/javascripts/foundation.js"></script>
+<script src="{{site.baseurl}}/javascripts/app.js"></script>
+
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'de',
+    includedLanguages: 'de,en,fr,it',
+    autoDisplay: false,
+    gaTrack: true,
+    gaId: 'UA-10486321-1',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+<script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>

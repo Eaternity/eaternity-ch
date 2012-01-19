@@ -38,9 +38,9 @@ layout: default
 		      <div class='ones'></div>
 		      <div class='mask'></div>
 		    </div>
-		    <strong class='title'><span class='count'>0</span> tweets link to this blog post.</strong>
+		    <strong class='title'><span class='count'></span> <!-- tweets link to this blog post. --></strong>
 
-		    <small>Start a conversation with <a target='_blank' href='http://twitter.com/eaternity'>@eaternity</a> on Twitter.</small>
+		    <!-- <small>Start a conversation with <a target='_blank' href='http://twitter.com/eaternity'>@eaternity</a> on Twitter.</small> -->
 		    <div class='tweets'></div>
 		</div>
 
@@ -117,6 +117,8 @@ $(function() { dso.follow('{{site.url}}{{site.baseurl}}{{page.url}}', track) });
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <script type="text/javascript">
+  window.___gcfg = {lang: 'de'};
+
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://apis.google.com/js/plusone.js';
