@@ -199,6 +199,14 @@
     body.culinary .large.button { font-weight: normal; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
     body.culinary img.fancy { border-color: #fdf2e0; }
 	
+/* -----------------------------------------
+   About Us
+----------------------------------------- */	
+ .top-margin {
+	
+		margin-top: 0px !important;
+		min-height: 600px;
+	}
 	
 /* -----------------------------------------
    Event
