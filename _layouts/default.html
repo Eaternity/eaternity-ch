@@ -108,19 +108,19 @@
 				<div class="three columns">
 					<a href="{{site.baseurl}}/#"><h5>Seitenübersicht &larr;</h5></a>
 					<p>
-						<a href="{{site.baseurl}}/#">Organisation</a><br />
-						<a href="{{site.baseurl}}/#">Blog</a><br />
-						<a href="{{site.baseurl}}/#">Rezepte</a><br />
+						<a href="{{site.baseurl}}/about/#organisation">Organisation</a><br />
+						<a href="{{site.baseurl}}/blog/">Blog</a><br />
+						<a href="{{site.baseurl}}/recipes/#nice2">Rezepte</a><br />
 						<!-- a href="{{site.baseurl}}/#">Spenden  &rarr;</a><br /-->
 						<br />
-						<a href="{{site.baseurl}}/#">Presse</a><br />
-						<a href="{{site.baseurl}}/#">Materialien</a><br />
+						<a href="{{site.baseurl}}/about/#newsmedia">Presse</a><br />
+						<a href="{{site.baseurl}}/about/#material">Materialien</a><br />
 						<!--a href="{{site.baseurl}}/#">Quellen?</a><br /-->
 						<br />
 						<a href="{{site.baseurl}}/#">FAQ & Support</a><br />
 						<!--a href="{{site.baseurl}}/#">Feedback (Zur Homepage)?</a><br /-->
 						<!--a href="{{site.baseurl}}/#">Impressum ?</a><br /-->
-						<a href="{{site.baseurl}}/#">Kontakt</a><br />
+						<a href="{{site.baseurl}}/about/#contact">Kontakt</a><br />
 					</p>
 
 					<h5><img src="{{site.baseurl}}/images/generic/cc_icon_small.png" />&nbsp;2011 Eaternity</h5>
@@ -163,7 +163,7 @@
 					<hr>
 
 						{% for item in site.categories['team'] reversed limit:9 %}
-							<div class="three columns">
+							<div class="three phone-three columns">
 								<a href="{{site.baseurl}}{{item.url}}"><div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div><img id="{{ item.short }}" src="{{site.baseurl}}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
 							</div>
 					    {% endfor %}
