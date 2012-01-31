@@ -1,0 +1,110 @@
+---
+layout: default
+title: Informationen Über Uns.
+folder: infos
+---
+
+<div class="row">
+	<div class="three columns">
+		<dl class="nice vertical tabs">
+		  <!--dd><a href="#organisation" class="active">Organisation</a></dd>
+		  <dd><a href="#personen">Personen</a></dd>
+		  <dd><a href="#geschichte">Geschichte</a></dd>
+		  <dd><a href="#referenzen">Referenzen</a></dd>
+		  <dd><a href="#newsmedia">News & Media</a></dd>
+		  <dd><a href="#material">Material</a></dd>
+		  <dd><a href="#contact">Kontakt</a></dd-->
+		
+			{% for item in site.categories[page.folder] reversed %}
+			<dd><a href="#{{ item.short }}">
+					{{ item.title }} 
+			</a></dd>
+
+			{% endfor %}
+		</dl>
+	</div>
+	<div class="nine columns">
+
+		<ul class="tabs-content top-margin">
+			
+			{% for item in site.categories[page.folder] reversed %}
+			<li class="active" id="{{ item.short }}Tab">
+
+					{{ item.content }} 
+			</li>
+
+			{% endfor %}
+			
+			
+		  <!--li class="active" id="organisationTab">
+			
+			<strong>Unsere Organisation als Verein</strong>
+
+			Vereins - Statuten:
+			-Auszug + Download
+			
+			</li>
+			
+			
+		  <li id="personenTab">This is nice tab 3's content. It's, you know...okay.</li>
+		  <li id="geschichteTab">This is nice tab 3's content. It's, you know...okay.</li>
+		  <li id="referenzenTab">This is nice tab 3's content. It's, you know...okay.</li>
+		  <li id="newsmediaTab">This is nice tab 1's content. Pretty neat, huh?</li>
+		  <li id="materialTab">This is nice tab 1's content. Pretty neat, huh?</li>
+		  <li id="contactTab">
+			
+			<div style="height:50px;margin-bottom:20px" class="row">
+				<div class="eight columns">
+					<h2>Kontaktiere Uns</h2>
+				</div>
+				<div class="four columns"> 
+					<a target="_blank" href="https://www.facebook.com/eaternity" class="nice radius white small right button">Facebook</a>
+					<a target="_blank" href="https://twitter.com/eaternity" class="nice radius white small right button">Twitter</a>
+
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="eight columns">
+			
+					<iframe src ="http://support.eaternity.ch/customer/emails/new"width="420" height="450"
+					border="0" scrolling="no"></iframe>
+				
+				</div>
+				<div class="four columns">
+					
+					<h5>Email</h5>
+					<p>
+					<a href="mailto:info@eaternity.ch">info@eaternity.ch</a>
+					<a href="mailto:services@eaternity.ch">services@eaternity.ch</a>
+					</p>
+					
+					<h5>Anschrift</h5>
+					<ul class="vcard">
+					    <li style="display:none" class="org">Eaternity</li>
+						<li class="street-address">Grabenwies 18</li>
+					    <li class="locality">CH-8057 Zürich</li>
+					    <li class="tel">+41 (0)77-44-981</li>
+						<li style="display:none" class="email"><a href="mailto:info@eaternity.ch">info@eaternity.ch</a></li>
+					</ul>
+		
+					<h5>Hub Zürich</h5>
+					<ul class="vcard">
+					    <li style="display:none" class="org">The Hub Zürich</li>
+						<li class="street-address">Viaduktstrasse 93-95</li>
+					    <li class="locality">CH-8005 Zurich</li>
+					    <li class="tel">+41 (0)44-273-58-79</li>
+					</ul>
+					
+					<h5>Google Maps</h5>
+					<a target="_blank" href="http://maps.google.com/maps/place?cid=3758137987510734202"><img src="http://mt0.google.com/vt/data=de5TsfOJ3kEzXMjEDQIv9jrcLEFlTvx3j4B8SmPePDeDnQj9ZLEuXqqLh5CBavksNEMI_soysHisd69XI8Ng33X2fGSp9Q8hcg" width="300" height="218"></a>
+
+				</div>
+			</div>
+
+			
+			</li-->
+		</ul>
+		
+	</div>
+</div>
