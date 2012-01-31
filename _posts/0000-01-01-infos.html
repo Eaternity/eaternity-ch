@@ -33,8 +33,8 @@ folder: infos
 
 				<div style="height:50px;margin-bottom:20px" class="row">
 					<div class="eight columns">
-						<h2>{{ item.header }} </h2>
-						<h3>{{ item.sub-header }} </h3>
+						<h2>{{ item.header }}</h2>
+						<h5>{{ item.sub-header }}</h5>
 					</div>
 					<div class="four columns"> 
 							{{ item.focus }} 
@@ -43,10 +43,49 @@ folder: infos
 				<hr>
 				<div class="row">
 					<div class="eight columns">
-							{{ item.content }} 
+						{{ item.content }} 
+						
+					
+						
+							{% case item.list_type %}
+								{% when 'boxed' %}
+								     {{ list_item.title }} 
+								{% when 'team' %}
+									
+									<ul class="block-grid three-up">
+										{% for list_item in site.categories[item.list] reversed %}
+										<li> 
+											<a href="{{ site.baseurl }}{{ list_item.url }}"><img src="{{ site.baseurl }}{{ list_item.square }}">
+											{{ list_item.title }}</a>
+											
+										</li>
+										{% endfor %}
+									</ul>
+
+								{% else %}
+								     {{ list_item.title }} 
+							{% endcase %}
+							
+						
 					</div>
 					<div class="four columns">
-							{{ item.floater }} 
+						{{ item.floater }}
+						
+						<hr>
+							
+							{% for float_list_item in site.categories[item.float_list] reversed limit: 3 %}
+							
+								{% case item.float_list_type %}
+
+									{% when 'boxed' %}
+									     {{ float_list_item.title }}
+									{% else %}
+									     {{ float_list_item.title }}
+									
+								{% endcase %}
+								
+								
+							{% endfor %}
 					</div>
 				</div>
 					

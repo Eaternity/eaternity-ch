@@ -244,8 +244,8 @@ ul.social-media { background: transparent; margin-top: -4px; }
     dl.tabs dd a { display: block; width: auto; height: 77px; padding: 0px 1px; line-height: 30px; margin: 0 -1px 0 0; color: #555; background: url(/images/assets/modal-tab.png); border: 0px; }
     dl.tabs dd a.active { background: url(/images/assets/modal-tab-active.png);height: 77px; }
     
-    .tabs-content h1 { height: 50px; width: 140px; margin-right: 20px; text-align: right;}
-    .tabs-content p { height: 50px; }
+    #donateModal .tabs-content h1 { height: 50px; width: 140px; margin-right: 20px; text-align: right;}
+    #donateModal .tabs-content p { height: 50px; }
     /*.tabs-content button { float: right; margin-top: 0px;}*/
    
  

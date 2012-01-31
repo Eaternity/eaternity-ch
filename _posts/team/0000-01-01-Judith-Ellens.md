@@ -4,24 +4,16 @@ category: team
 date: 0002-01-03
 
 short: jellens
+contact: judith.ellens@eaternity.ch
 
 title: Judith Ellens
 thumb: /images/team/jellens_thumb.jpg
-180: /images/team/mklarmann_180.jpg
-portrait: /images/team/mklarmann.jpg
+square: /images/team/jellens_180.jpg
+portrait: /images/team/jellens.jpg
 
-material:
-- bookHollow1.jpg
-- bookHollow2.jpg
-- bookHollow3.jpg
-- bookHollow4.jpg
+comment: |
+  Die Vision einer umwelt- und menschengerechten Welt auf einfache Weise ein wenig näher kommen zu können, hat mich motiviert, mit eaternity anzufangen. Ich glaube fest daran, dass das Engagement jedes Einzelnen hierbei ein wichtiger Grundstein ist, auf den wir versuchen zu bauen.
 ---
 
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Judith Ellens gründete das Projekt. Als Managerin ist sie die erste Ansprechperson für Interessierte und verantwortlich für die wissenschaftlichen Analysen und deren Kommunikation. Nach ihrem Bachelor-Diplom in Biologie und einer Vertiefung in Philosophie an der Universität Leiden in den Niederlanden widmete sie sich dem Masterstudium der Umweltnaturwissenschaften mit Schwerpunkt Ecology&Evolution an der ETH Zürich. Im Moment arbeitet sie für den WWF Schweiz an der Kampagne „One Planet Living“. Sie hält eine Ehrenauszeichnung in Sustainable Development an der Universität Leiden inne.
 
-![Placeholder Image"][2]
-
-Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Photo taken by [Sarah MacWright][1]
-
-[1]: http://sarahmacwright.com
-[2]: http://placehold.it/452x150 "Placeholder Image"

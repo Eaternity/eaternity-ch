@@ -4,24 +4,26 @@ category: team
 date: 0002-01-03
 
 short: mklarmann
+twitter: mklarmann
+contact: mklarmann@eaternity.ch
 
 title: Manuel Klarmann
 thumb: /images/team/mklarmann_thumb.jpg
-180: /images/team/mklarmann_180.jpg
+square: /images/team/mklarmann_180.jpg
 portrait: /images/team/mklarmann.jpg
 
-material:
+comment: |
+ Bei Eaternity gibt es ständig gutes Essen. Dazu kommen noch die Umweltaspekte, die auch nur überzeugen können. Auch die Liebe zur Natur geht bei mir durch den Magen.
+
+materialien:
 - bookHollow1.jpg
 - bookHollow2.jpg
 - bookHollow3.jpg
 - bookHollow4.jpg
 ---
 
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
-![Placeholder Image"][2]
+Seit der gemeinsamen Gründung setzt sich Manuel Klarmann begeistert für Eaternity ein. Als kreativer Kopf, treibende Kraft und Assistent für alle technischen Belange finden sich hier immer wieder anspruchsvolle Aufgaben. Im Mittelpunkt steht stets die Vision von Eaternity klimafreundliches Essen zu etablieren. 
 
-Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Photo taken by [Sarah MacWright][1]
+Er studierte Mathematik mit Psychologie und Informatik an der Ludwig Maximillians Universität in München und an der Universität Utrecht. Nach dem Erhalt des Bachelordiploms in Mathematik mit Neuroinformatik an der Universität Zürich absolvierte er den Master in Neuroinformatik an der ETH Zürich. Manuel realisiert als freier Mitarbeiter der Earlybirdmedia AG München Internetauftritte sowie die informationstechnische Automatisierung von Testauswertungen des Youngworld Institut München. Er hielt diverse Mathematik Tutorien an den Universitäten sowie Informatik-Schulungen an den Beruflichen Fortbildungszentren der Bayerischen Wirtschaft in München.
 
-[1]: http://sarahmacwright.com
-[2]: http://placehold.it/452x150 "Placeholder Image"

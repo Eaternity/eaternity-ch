@@ -1,6 +1,7 @@
 auto:        true
 server:      true
 
+
 pygments:    true
 permalink: /:categories/:title
 baseurl: /eaternity-website
