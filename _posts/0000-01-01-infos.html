@@ -48,6 +48,31 @@ folder: infos
 					
 						
 							{% case item.list_type %}
+							
+								{% when 'media' %}
+										<ul>
+											{% for list_item in site.tags['presse'] reversed %}
+											<li> 
+												<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ site.baseurl }}{{ list_item.url }}">
+												{{ list_item.title }}</a>
+
+											</li>
+											{% endfor %}
+										</ul>
+										
+										<h4>Pressespiegel</h4>
+										<p>Eaternity in den Medien – wir sorgen für ein grosses Medienecho: Mehr als 50 Zeitungen, Radios, Fernsehstationen und Online-Medien haben bereits über uns informiert. Hier finden Sie eine kleine Auswahl der Berichte.</p>
+										
+										<ul>
+											{% for list_item in site.categories[item.list] reversed %}
+											<li> 
+												<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ site.baseurl }}{{ list_item.url }}">
+												{{ list_item.title }}</a>
+
+											</li>
+											{% endfor %}
+										</ul>
+								
 								{% when 'boxed' %}
 								     {{ list_item.title }} 
 								{% when 'team' %}
@@ -63,7 +88,9 @@ folder: infos
 									</ul>
 
 								{% else %}
-								     {{ list_item.title }} 
+
+								
+								
 							{% endcase %}
 							
 						
@@ -71,16 +98,21 @@ folder: infos
 					<div class="four columns">
 						{{ item.floater }}
 						
-						<hr>
+						
 							
 							{% for float_list_item in site.categories[item.float_list] reversed limit: 3 %}
 							
 								{% case item.float_list_type %}
 
 									{% when 'boxed' %}
-									     {{ float_list_item.title }}
+									
+										
+										<p><a href='{{site.baseurl}}{{float_list_item.url}}'>
+										<img src="{{site.baseurl}}{{ float_list_item.blog-image }}" />
+									     &raquo;{{ float_list_item.title }}</a></p>
+									
 									{% else %}
-									     {{ float_list_item.title }}
+									     
 									
 								{% endcase %}
 								

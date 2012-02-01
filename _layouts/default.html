@@ -117,7 +117,7 @@
 						<!-- a href="{{site.baseurl}}/#">Spenden  &rarr;</a><br /-->
 						<br />
 						<a href="{{site.baseurl}}/infos/#newsmedia">Presse</a><br />
-						<a href="{{site.baseurl}}/insfos/#material">Materialien</a><br />
+						<a href="{{site.baseurl}}/infos/#material">Materialien</a><br />
 						<!--a href="{{site.baseurl}}/#">Quellen?</a><br /-->
 						<br />
 						<a  target="_blank" href="http://support.eaternity.ch">FAQ & Support</a><br />
@@ -164,12 +164,14 @@
 					
 					<a href="{{site.baseurl}}/infos/#personen"><h5>Hallo, wir sind Eaternity &larr;</h5></a>
 					<hr>
-
+                        <ul class="block-grid three-up">
 						{% for item in site.categories['team'] reversed limit:9 %}
-							<div class="three phone-three columns">
-								<a href="{{site.baseurl}}{{item.url}}"><div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div><img id="{{ item.short }}" src="{{site.baseurl}}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
-							</div>
+							
+								<li><a href="{{site.baseurl}}{{item.url}}"><div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div><img id="{{ item.short }}" src="{{site.baseurl}}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a></li>
+							
 					    {% endfor %}
+					    </ul>
+					    
 						<hr>
 						<p>Werde Vereins-Mitglied. So kannst du aktiv mitwirken oder uns finanziell unterstützen.</p>
 						<a href="{{site.baseurl}}/act/#mitglied" class="nice small radius black right button">Werde Mitglied &rarr;</a><a href="{{site.baseurl}}/about/#personen" class="nice radius white small right button">Unser Team</a>

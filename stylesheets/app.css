@@ -144,7 +144,7 @@
     
     .team img { padding: 4px; filter:gray;}
     .team hr { border: 0; }
-    .team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:70px;width:80px;margin:4px 4px -74px 4px;}
+    .team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:105px;width:120px;margin:0px 4px -105px 4px;}
 
     .prominent { 
     	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px; 
