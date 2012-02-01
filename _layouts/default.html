@@ -127,11 +127,11 @@
 					</p>
 
 					<h5><img src="{{site.baseurl}}/images/generic/cc_icon_small.png" />&nbsp;2011 Eaternity</h5>
-					<p><a rel="license" href="{{site.baseurl}}/http://creativecommons.org/licenses/by/3.0/" target="_blank"> Creative Commons Attribution 3.0 Unported License</a></p>
-					<p><a href="{{site.baseurl}}/">Privatsphäre & Haftbarkeit & Rechtshinweise</a></p>
+					<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank"> Creative Commons Attribution 3.0 Unported License</a></p>
+					<p><a href="{{site.baseurl}}/legal">Haftbarkeit & Rechtshinweise</a></p>
 					
 				</div>
-				<div class="four columns">
+				<div class="three columns">
 
 					<h5>International</h5>
 					<p>
@@ -159,13 +159,13 @@
 
 				</div>
 			
-				<div class="five columns team">
+				<div class="four columns team offset-by-two">
 					
 					
-					<a href="{{site.baseurl}}/infos/#personen"><h5>Hallo, wir sind Eaternity &larr;</h5></a>
+					<a href="{{site.baseurl}}/infos/#team"><h5>Hallo, wir sind Eaternity &larr;</h5></a>
 					<hr>
                         <ul class="block-grid three-up">
-						{% for item in site.categories['team'] reversed limit:9 %}
+						{% for item in site.categories['team'] reversed limit:6 %}
 							
 								<li><a href="{{site.baseurl}}{{item.url}}"><div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div><img id="{{ item.short }}" src="{{site.baseurl}}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a></li>
 							
