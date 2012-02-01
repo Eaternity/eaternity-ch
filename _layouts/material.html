@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+
+<div class="row">
+	<div class="eight columns">
+		<h2>{{ page.title}}</h2></a>
+		<p><a href="{{ site.baseurl }}/infos/#material">Hier kommen Sie zum Material Archiv.</a></p>
+			<hr />
+	</div>
+		
+	<div class="four columns">
+		
+			
+				
+				<div class="prominent">
+					<h5>Warum spendest du nicht?</h5>
+					<a href="#" class="nice radius full-width black button"  data-reveal-id="donateModal">Jetzt Spenden</a>
+				</div>
+				
+		
+		
+	</div>
+	
+</div>
+
+<!-- this is only for the blog -->
+<!-- Platzieren Sie diese Render-Anweisung an einer geeigneten Stelle. -->
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=178395151751";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<div class="row">
+	<div class="six columns">
+<div class="panel">	
+{{ content }}
+<br><br>
+
+
+<ul>
+
+	<li> 
+		<span><a href="{{ site.baseurl }}{{ list_item.url }}">{{ page.date | date_to_string }}</a></span>  &raquo; 
+		{{ page.title }}:
+		
+		<blockquote><ul>
+			{% for document in page.documents reversed %}
+			<li><strong><a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ document | escape_once }}">{{ document }}  &larr; </a></strong><br> Autoren: {{ page.authors | first }}{% for author in page.authors offset:1 %}, {{author}} {% endfor %}</li>
+			{% endfor %}
+		</ul></blockquote>
+
+	</li>
+
+</ul>
+</div>	
+		
+		<ul class="like-buttons">
+            <li><div id="fb-root"></div>
+				<fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+				<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" >Twittern</a></li>
+				<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
+		</ul>
+		
+	
+		
+
+		
+	</div>
+	
+	<div class="four columns offset-by-two">
+		<p></p>
+		
+		<blockquote>"Mit Ihrer Spenden wird ermöglicht, dass wir weiterhin unsere Maerialien umsonst bereitstellen können" <cite>Es dankt Eaternity!</cite></blockquote>
+		
+		
+		<ul class="social-media">
+			<li></li>
+			<li>
+				<h5>Kommentare</h5>
+            <div id="fb-root"></div></script><fb:comments href="{{site.url}}{{site.baseurl}}{{item.url}}" num_posts="2" width="283" href="{{site.url}}{{site.baseurl}}"></fb:comments></li>
+		</ul>
+		
+
+	</div>			
+</div>

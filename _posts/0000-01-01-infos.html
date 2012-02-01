@@ -73,8 +73,23 @@ folder: infos
 											{% endfor %}
 										</ul>
 								
-								{% when 'boxed' %}
-								     {{ list_item.title }} 
+								{% when 'material' %}
+									<ul>
+										{% for list_item in site.categories[item.list] reversed %}
+										<li> 
+											<span><a href="{{ site.baseurl }}{{ list_item.url }}">{{ list_item.date | date_to_string }}</a></span>  &raquo; 
+											{{ list_item.title }}:
+											
+											<blockquote><ul>
+												{% for document in list_item.documents reversed %}
+												<li><strong><a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ document | escape_once }}">{{ document }}  &larr; </a></strong><br> Autoren: {{ list_item.authors | first }}{% for author in list_item.authors offset:1 %}, {{author}} {% endfor %}</li>
+												{% endfor %}
+											</ul></blockquote>
+
+										</li>
+										{% endfor %}
+									</ul>
+								
 								{% when 'team' %}
 									
 									<ul class="block-grid three-up">
@@ -88,13 +103,13 @@ folder: infos
 									</ul>
 
 									{% when 'referenzen' %}
-										<ul class="block-grid three-up">
+										<ul class="block-grid two-up">
 
 											{% for list_item in site.tags['Partner'] reversed %}
 											{% for partner in list_item.partner %}
-												<li style="padding:5px"> 
+												<li><p style="padding:5px">
 													<img src="{{ site.baseurl }}/images/partner/{{ partner | downcase | replace:' ','_' }}.jpg"><a href="{{ site.baseurl }}{{ list_item.url }}">
-													 &rarr; <strong>{{ partner }}</a></strong>
+													 &rarr; <strong>{{ partner }}</a></strong></p>
 
 												</li>
 											{% endfor %}
