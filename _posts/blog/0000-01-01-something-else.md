@@ -3,11 +3,13 @@ layout: blog-post
 category: blog
 date: 0002-01-03
 
-title: There is something going on
+title: There is something else going on
 blog-image: /images/blog/2012-01-28_hub-fellows-cover.jpg
 circa: Fall 2005
 
-media: book of etchings
+
+image: http://placehold.it/452x150
+media: Tagesanzeiger
 
 slides:
 - bookHollow1.jpg
@@ -16,7 +18,12 @@ slides:
 - bookHollow4.jpg
 
 tags:
-- presse
+ - Presse
+ - Partner
+
+partner:
+ - SV Catering
+ - Hub Zürich
 ---
 Das ist ein Presse-Statement.
 

@@ -51,10 +51,10 @@ folder: infos
 							
 								{% when 'media' %}
 										<ul>
-											{% for list_item in site.tags['presse'] reversed %}
+											{% for list_item in site.tags['Presse'] reversed %}
 											<li> 
-												<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ site.baseurl }}{{ list_item.url }}">
-												{{ list_item.title }}</a>
+												<span>{{ list_item.date | date_to_string }} </span>  &raquo; <a href="{{ site.baseurl }}{{ list_item.url }}">
+												{{ list_item.title }}</a>  &rarr; <strong>{{ list_item.media }}</strong>
 
 											</li>
 											{% endfor %}
@@ -87,6 +87,20 @@ folder: infos
 										{% endfor %}
 									</ul>
 
+									{% when 'referenzen' %}
+										<ul class="block-grid three-up">
+
+											{% for list_item in site.tags['Partner'] reversed %}
+											{% for partner in list_item.partner %}
+												<li style="padding:5px"> 
+													<img src="{{ site.baseurl }}/images/partner/{{ partner | downcase | replace:' ','_' }}.jpg"><a href="{{ site.baseurl }}{{ list_item.url }}">
+													 &rarr; <strong>{{ partner }}</a></strong>
+
+												</li>
+											{% endfor %}
+											{% endfor %}
+										</ul>
+										
 								{% else %}
 
 								
