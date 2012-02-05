@@ -103,6 +103,7 @@ folder: infos
 									</ul>
 
 									{% when 'referenzen' %}
+									I still want this to be different, and with comments of the partner
 										<ul class="block-grid two-up">
 
 											{% for list_item in site.tags['Partner'] reversed %}
@@ -138,6 +139,14 @@ folder: infos
 										
 										<p><a href='{{site.baseurl}}{{float_list_item.url}}'>
 										<img src="{{site.baseurl}}{{ float_list_item.blog-image }}" />
+									     &raquo;{{ float_list_item.title }}</a></p>
+									
+									
+									{% when 'projects' %}
+
+
+										<p><a href='{{site.baseurl}}{{float_list_item.url}}'>
+										<img src="{{site.baseurl}}/images/projects/{{ float_list_item.short }}/{{ float_list_item.images | first }}" />
 									     &raquo;{{ float_list_item.title }}</a></p>
 									
 									{% else %}

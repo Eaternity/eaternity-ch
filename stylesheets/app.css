@@ -92,8 +92,8 @@
 	
 
 	.homepage .content { 
-	position: absolute; left: 20px; bottom: 20px; margin-right:20px; 
-	width: 40%; background: rgba(255,255,255,0.85); padding: 20px;
+	position: absolute; right: 10px; bottom: 20px; margin-right:10px; margin-left:10px;
+	width: 33%; background: rgba(255,255,255,0.45); padding: 20px;
 	
 	 -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;
 		background: #efefef;
@@ -144,7 +144,9 @@
     
     .team img { padding: 4px; filter:gray;}
     .team hr { border: 0; }
-    .team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:105px;width:120px;margin:0px 4px -105px 4px;}
+    /*.team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:105px;width:120px;margin:0px 4px -105px 4px;}*/
+    
+    .team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:80px;width:90px;margin:4px 4px -84px 4px;}
 
     .prominent { 
     	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px; 
@@ -169,6 +171,8 @@
 /* -----------------------------------------
    Culinary Academy
 ----------------------------------------- */
+
+	.ingredients li { margin-bottom: 6px;}
 
    .culinary .content { position: absolute; left: 0; bottom: 0; width: 100%; background: rgba(255,255,255,0.85); }
     .culinary .content p { width: 60%; padding: 20px; font-size: 15px; color: #555; margin: 0; }

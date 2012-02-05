@@ -15,6 +15,7 @@ authors:
 
 tags:
  - Partner
+ - Menu Plus
 
 partner:
  - WWF Schweiz

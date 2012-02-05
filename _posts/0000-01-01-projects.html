@@ -3,3 +3,151 @@ layout: project-list
 title: Projekte 
 folder: projects
 ---
+
+
+{% for item in site.categories[page.folder] reversed %}
+		
+		<div class="row">
+			<div class="twelve columns">	
+				<div class="right">{{ item.date | date_to_string }}</div>
+				<a href="{{site.baseurl}}{{item.url}}"><img  src="{{site.baseurl}}/images/projects/{{ item.short }}/{{ item.images | first }}" ></a>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="nine columns">
+				
+				
+		
+				<a href="{{site.baseurl}}{{item.url}}"><h3>{{item.title}}</h3>
+				<h5>{{item.sub-title}}</h5></a>
+				
+				<p>
+				{{ item.content | strip_html | truncatewords: 42 }} 
+				&nbsp;<a href="{{site.baseurl}}{{item.url}}">&rarr;&nbsp; weiterlesen.</a></p>
+				
+				
+				
+				<p>Liste von Medienartikel zur Aktion:</p>
+				
+				<blockquote><ul>
+				{% for media in site.categories['media']  %}
+					{% for tag in media.tags %}
+						{% if tag == item.title %}
+
+								<li><a target="_blank" href="{{ site.baseurl }}/bla/{{ material.documents | first | escape_once }}">{{ media.title }}</a> – <strong>{{ media.media-title }}</strong></li>
+
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</ul></blockquote>
+
+				<p>Hier gibt es weitere Dokumente:</p>
+				
+				{% for material in site.categories['material']  %}
+					{% for tag in material.tags %}
+						{% if tag == item.title %}
+							<blockquote>
+								<a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ material.documents | first | escape_once }}">{{ material.documents | first }}</a>{% for document in material.documents offset:1 %}, <a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ document | escape_once }}">{{ document }}</a>{% endfor %}
+							</blockquote>
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				
+				<p>Blogartikel? Gibt es hier:</p>
+				
+				<blockquote><ul>
+				{% for blog in site.categories['blog']  %}
+					{% for tag in blog.tags %}
+						{% if tag == item.title %}
+
+								<li><a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ material.documents | first | escape_once }}">{{ blog.title }}</a></li>
+
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</ul></blockquote>
+				
+				
+				<p>Mhh, Es gab auch leckere Rezepte:</p>
+				
+				<blockquote><ul class="block-grid three-up">
+				{% for recipe in site.categories['recipes']  %}
+					{% for tag in recipe.tags %}
+						{% if tag == item.title %}
+
+								<li><img src="{{ site.baseurl }}/{{ recipe.image-thumb }}" ><a href="">{{ recipe.title }}</a></li>
+
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</ul></blockquote>
+				
+				<p>Ein paar Impressionen:</p>
+				
+				<blockquote><ul class="block-grid three-up">
+				{% for all in site.posts  %}
+					{% for tag in all.tags %}
+						{% if tag == item.title %}
+						{% if all.impressions != empty %}
+							{% for image in all.impressions %}
+
+									<li><a href="#" data-reveal-id="{{ forloop.index }}modal"><img src="{{ site.baseurl }}/{{ image }}" ></a></li>
+									
+									<div id="{{ forloop.index }}modal" class="reveal-modal" style="margin-top:-500px">
+									     <img src="{{ site.baseurl }}/{{ image }}" >
+									     <a class="close-reveal-modal">&#215;</a>
+									</div>
+									
+							{% endfor %}
+						{% endif %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</ul></blockquote>
+
+			</div>
+			
+			<div class="three columns">
+				<br>
+				<ul  class="block-grid one-up">
+					<li><div class="prominent">
+						<h6>{{ item.impact  }}</h6>
+					</div></li>
+					
+					<li>{% if item.get-involved == true %}
+					<a href="{{site.baseurl}}/about/#personen" class="nice radius  white small button">Nehme daran Teil!</a>
+					{% endif %}</li>
+
+					<li>{% if item.copy == true %}
+					<a href="{{site.baseurl}}/about/#personen" class="nice radius white small button">Kopiere diese Aktion.</a>
+					{% endif %}</li>
+					
+					<li><strong>Was:</strong><br>{{ item.details  }}</li>
+					<li><strong>Wann und Wo:</strong><br>{{ item.happening  }}</li>
+					<li><strong>Wie:</strong><br>{{ item.ressources  }}</li>
+				</ul>
+				
+
+
+				
+				
+			</div>
+			
+		</div>	
+		<div class="row">
+			<div class="twelve columns">
+				<h4>Partner</h4>
+				<ul class="block-grid two-up">
+					{% for partner in item.partners %}
+						<li><p style="padding:5px">
+							<img src="{{ site.baseurl }}/images/partner/{{ partner | downcase | replace:' ','_' }}.jpg"><a href="{{ site.baseurl }}{{ item.url }}-link to partner page with all projects">
+							 &rarr; <strong>{{ partner }}</a></strong></p>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<hr />
+		</div>
+		
+{% endfor %}
