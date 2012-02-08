@@ -5,7 +5,7 @@ date: 0002-01-03
 
 short: aroth
 contact: aroth@eaternity.ch
-
+published: false
 
 title: Andrea Roth
 thumb: /images/team/aroth_thumb.jpg

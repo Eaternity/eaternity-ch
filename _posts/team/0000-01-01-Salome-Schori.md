@@ -4,6 +4,7 @@ category: team
 date: 0002-01-03
 
 short: sschori
+published: false
 
 title: Salome Schori
 thumb: /images/team/sschori_thumb.jpg
