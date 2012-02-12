@@ -15,7 +15,7 @@ square: /images/team/amueller_180.jpg
 portrait: /images/team/alex.jpg
 
 comment: |
- Bei Eaternity gibt es stÃ¤ndig gutes Essen. Dazu kommen noch die Umweltaspekte, die auch nur Ã¼berzeugen kÃ¶nnen. Auch die Liebe zur Natur geht bei mir durch den Magen.
+ Ich finde Eaternity toll.
 
 materialien:
 - bookHollow1.jpg
