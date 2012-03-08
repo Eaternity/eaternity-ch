@@ -1,4 +1,4 @@
-﻿---
+---
 layout: blog-post
 category: blog
 date: 0002-01-03

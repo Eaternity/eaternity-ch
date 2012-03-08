@@ -1,4 +1,4 @@
-﻿---
+---
 layout: blog-post
 category: blog
 date: 2011-05-26

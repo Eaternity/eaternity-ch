@@ -1,4 +1,4 @@
-﻿---
+---
 layout: blog-post
 category: blog
 date: 2012-02-04

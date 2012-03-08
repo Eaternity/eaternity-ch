@@ -1,4 +1,4 @@
-﻿---
+---
 layout: blog-post
 category: blog
 date: 2009-12-09
@@ -19,7 +19,7 @@ partner:
  - ETH
 --- 
 
-"eaternity" präsentiert euch am 9. Dezember den Film Ratatouille beim MittWochsFilm im HIT E 51. Unser Team wird auch da sein und euch die Idee hinter eaternity erklären. Daneben können wir dann auch über Erfahrungen aus den Kampagnen-Wochen berichten und warum klimafreundliches Essen nicht nur gesund sondern auch lecker ist.
+"Eaternity" präsentiert euch am 9. Dezember den Film Ratatouille beim MittWochsFilm im HIT E 51. Unser Team wird auch da sein und euch die Idee hinter eaternity erklären. Daneben können wir dann auch über Erfahrungen aus den Kampagnen-Wochen berichten und warum klimafreundliches Essen nicht nur gesund sondern auch lecker ist.
 
 Wir freuen uns auf euch!
 

@@ -1,10 +1,10 @@
-﻿---
+---
 layout: blog-post
 category: blog
 date: 0002-01-03
 
 image: http://placehold.it/452x150
-title: [Eaternity am Herbstmarkt in Science City][1]
+title: Eaternity am Herbstmarkt in Science City
 
 blog-image: /images/blog/2012-01-28_hub-fellows-cover.jpg
 
@@ -46,5 +46,6 @@ Der Verein Eaternity, möchte klimafreundliche Ernährung in der Gesellschaft et
 Eaternity sieht sich als Bindeglied zwischen Wissenschaft und Praxis. Wir bereiten wissenschaftliche Informationen verständlich und für alle zugänglich auf. Es ist unser Ziel effektiv Konsumenten-Entscheidungen zu beeinflussen um zu einer nachhaltigen, gesunden und fairen Lösung beizutragen.
 
 
+[Mehr zum ETH Wochenmarkt][1]
 
 [1]: http://www.vs.ethz.ch/projekte/wochenmarkt
