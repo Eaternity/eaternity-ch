@@ -1,0 +1,2 @@
+
+find . -name "*.md" -exec vim -c "set nobomb" -c "wq" {} \;
