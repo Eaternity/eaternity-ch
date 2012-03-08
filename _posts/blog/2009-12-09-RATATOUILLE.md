@@ -11,11 +11,13 @@ media:
 
 
 tags:
--Mittwochskino
-----Ratatouille
------Partner
+ - Mittwochskino
+ - Ratatouille
+ - Partner
 
-Partner: 
+partner:
+ - ETH
+--- 
 
 "eaternity" präsentiert euch am 9. Dezember den Film Ratatouille beim MittWochsFilm im HIT E 51. Unser Team wird auch da sein und euch die Idee hinter eaternity erklären. Daneben können wir dann auch über Erfahrungen aus den Kampagnen-Wochen berichten und warum klimafreundliches Essen nicht nur gesund sondern auch lecker ist.
 

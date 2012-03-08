@@ -14,8 +14,11 @@ media:
 
 tags:
 - Veranstaltung
-- Gessnerallee
+- Partner
 - Kunst
+
+partner:
+- Theater Gessnerallee
 ---
 
 *Am Samstag 4. Februar 2012 lud die Gessnerallee Zürich zu einer Nachhaltigkeitsmesse ein. Interessant wurde das Thema Nachhaltigkeit in künstlerischer Perspektive aufgearbeitet und präsentiert. Und so hatten wir die Möglichkeit mit unserem frisch gewonnen WWF Hub Fellowship beim Programm mitzuwirken. Wir konnten unsere Aspekte der Nachhaltigkeit der Öffentlichkeit vorzustellen und uns mit verschiedenen Organisationen und Erwerbstätigen auszutauschen.*

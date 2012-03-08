@@ -11,13 +11,16 @@ media:
 
 
 tags:
--Herbstmarkt
---Science City
----Kräuterstand
-----Veranstaltung
------Partner
+ - Herbstmarkt
+ - Science City
+ - Kräuterstand
+ - Veranstaltung
+ - Partner
 
-Partner: ETH
+partner: 
+ - ETH
+---
+
 
 Eaternity ist mit einer Kräuteraktion am Herbstmarkt in Science City. So gibt es jeden Donnerstag im Monat Oktober frische handverlesene Rezepte mit den entsprechenden Kräutern, sowie das aktuellste zur klimafreundlichen Ernährung. Wir freuen uns auf euren Besuch auf der Piazza (ETH Hönggerberg) und hoffen wieder ein wenig direkter mit unserer Botschaft bei euch zu sein.
 

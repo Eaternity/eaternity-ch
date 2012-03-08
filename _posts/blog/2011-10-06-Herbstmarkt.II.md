@@ -12,9 +12,15 @@ media: Beobachter Natur
 
 
 tags:
-- Veranstaltung
---ETH
---- Herbstmarkt
+ - Veranstaltung
+ - Herbstmarkt
+
+partner:
+ - ETH
+ - Science City
+ - Mäder Kräuter
+
+--- 
 
 Weniger CO2
 	100% Geschmack

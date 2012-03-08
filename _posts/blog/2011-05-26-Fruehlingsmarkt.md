@@ -15,12 +15,13 @@ slides:
 
 tags:
  - Veranstaltung
- -- partner
+ - Partner
 
 partner:
  - ETH
  - Seedcity
---- Science City
+ - Science City
+--- 
 
 Diesen Donnerstag 26. Mai zum Letzen Mal gibt es einen Infostand von SeedCity von 11-17Uhr an der ETH Hönngerberg. Da könnt ihr auch ein von eaternity CO2-optimiertes leckeres grüner Spargel-Risotto essen und gleichzeitig dieses nachhaltiges und soziales Projekt unterstützen. Also nichts als hin und ausprobieren!
 Das Risotto lässt sich auch prima selber kochen, eine [Koch-Anleitung gibt es hier][1], oder man schaut bei unserem [eaternity-Rechner][2] vorbei.
@@ -30,7 +31,7 @@ Hier gibt es paar [Bilder zum Stand][4]. Mehr lesen über SeedCity...
 [Read more...][5]
 
 [1]: 2011-05-26-Fruehlingsmarkt-seed-city-recipe.pdf
-[2]:  Eaternity Rechner link
+[2]: http://rechner.eaternity.ch
 [3]: http://www.seedcity.ethz.ch/
-[4]: ?
+[4]: https://www.dropbox.com/gallery/1214503/1/2011-ETH-Herbstmarkt?h=060d60#gallery:0
 [5]: http://www.seedcity.ethz.ch/

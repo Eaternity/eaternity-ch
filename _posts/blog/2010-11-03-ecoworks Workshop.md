@@ -11,11 +11,13 @@ media:
 
 
 tags:
--Ecoworks
---Veranstaltung
----Partner
+ - Ecoworks
+ - Veranstaltung
+ - Partner
 
-Partner: ETH
+partner: 
+ - ETH
+---
 
 Mit einem Kurzvortrag sind wir beim kommenden ecoworks-Workshop (Mi 3. Nov. gegen 13 Uhr) mit dabei. Vielen Dank für die Einladung! Ich freue mich wieder darauf interessante Leute und tolle Ideen zu treffen. Lg Manuel
 

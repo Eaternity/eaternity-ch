@@ -11,11 +11,12 @@ media:
 
 
 tags:
--Mittwochskino
-----Ratatouille
------Partner
+ - Mittwochskino
+ - Ratatouille
+ - Partner
 
-Partner: 
+partner: 
+---
 
 Mittwoch, 09. Dezember 2009 - 19:15 Uhr - HIT E 51
 
