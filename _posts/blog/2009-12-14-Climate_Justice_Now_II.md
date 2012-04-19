@@ -4,7 +4,7 @@ category: blog
 date: 2010-12-04
 
 image: http://placehold.it/452x150
-title:  
+title:  test
 blog-image: 
 
 media:  

@@ -4,28 +4,28 @@ layout: blog
 
 {% for item in site.categories[page.folder] reversed %}
 
-		<div class="row">
-			<div class="three columns">
-				{{ item.date | date_to_string }}
-			</div>
-			
-			<div class="nine columns">
-				<div>
-					<h3><a href="{{item.url}}">{{item.title}}</a></h3>
-					<!--small>2:18AM by Melissa</small-->
-					
+	<div class="row-fluid">
+		<div class="span3">
+			{{ item.date | date_to_string }}
+		</div>
+		
+		<div class="span9">
+			<div>
+				<h3><a href="{{ BASE_PATH }}{{item.url}}">{{item.title}}</a></h3>
+				<!--small>2:18AM by Melissa</small-->
 				
-					{{ item.content | strip_html | truncatewords: 75 }} 
-					
-					<ul class="like-buttons">
-			            <li><div id="fb-root"></div><fb:like href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-						<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" data-count="horizontal" data-via="rcskids">Tweet</a></li>
-						<li><g:plusone href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment"></g:plusone></li>
-					</ul>
-					
-				</div>
+			
+				{{ item.content | strip_html | truncatewords: 75 }} 
+				
+				<ul class="like-buttons">
+		            <li><div id="fb-root"></div><fb:like href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+					<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment" data-count="horizontal" data-via="rcskids">Tweet</a></li>
+					<li><g:plusone href="http://www.rcskids.org/blog-archive/32-a-culinary-accomplishment"></g:plusone></li>
+				</ul>
+				
 			</div>
-			<hr />	
-		</div>	
+		</div>
+
+	</div>	
 		
 {% endfor %}

@@ -17,7 +17,7 @@ partner:
 
 ---
 
- Am Montag 26. Oktober startet der Filmzyklus von project21 und zeigt zusammen mit eaternity den Film HOME von Yann-Arthus Bertrand. Im StuZ2 (CAB Gebäude [genaue Lage][1]) gibt es Barbetrieb ab 18:30, Filmbeginn 19:15, Eintritt kostenlos
+Am Montag 26. Oktober startet der Filmzyklus von project21 und zeigt zusammen mit eaternity den Film HOME von Yann-Arthus Bertrand. Im StuZ2 (CAB Gebäude [Read more...][2]) gibt es Barbetrieb ab 18:30, Filmbeginn 19:15, Eintritt kostenlos
 
 Diesen Termin merken
 
@@ -26,4 +26,4 @@ Diesen Termin merken
 
 
 [1]:  http://www.filmstelle.ethz.ch/kontakt/
-[2]: 
+[2]: x

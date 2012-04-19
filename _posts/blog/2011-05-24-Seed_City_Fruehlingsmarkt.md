@@ -4,7 +4,7 @@ category: blog
 date: 2011-05-26
 
 title: SeedCity @ Science City Frühlings-Markt
-blog-image: 
+blog-image:  tesrt
 
 image: http://placehold.it/452x150
  
@@ -21,6 +21,7 @@ partner:
  - ETH
  - Seedcity
  - Science City
+
 --- 
 
 Diesen Donnerstag 26. Mai zum Letzen Mal gibt es einen Infostand von SeedCity von 11-17Uhr an der ETH Hönngerberg. Da könnt ihr auch ein von eaternity CO2-optimiertes leckeres grüner Spargel-Risotto essen und gleichzeitig dieses nachhaltiges und soziales Projekt unterstützen. Also nichts als hin und ausprobieren!

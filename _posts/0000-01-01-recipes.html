@@ -1,73 +1,92 @@
 ---
-layout: default
-title: Die klimafreundliche Rezepte-Küche 
+layout: page
+title: Die klimafreundliche Rezepte-Küche.
 folder: recipes
 ---
 
-<div class="row">
-	<div class="twelve columns">
-		<h2>Willkommen, zur klimafreundlichen Rezepte-Küche.</h2>
-		<hr>
-	</div>
-</div>
-
+{% include JB/setup %}
 
 <div class="row eyecatcher">
-	<div class="twelve columns">
+	<div class="span12">
 	
-		<div class="jumbotron homepage">
-			<div id="featured-preview">
+		<div id="recipeCarousel" class="carousel">
+			<div class="carousel-inner" id="featured-preview">
 			
 				<!-- 5 thumnails passen auf die Seite-->
 				{% for item in site.categories['recipes'] reversed limit:5 %}
-					<a href ="{{site.baseurl}}{{item.url}}" data-thumb="{{site.baseurl}}{{item.image-thumb}}" ><img src="{{site.baseurl}}{{item.image-slider}}" class="bg"  /></a>
+				<div class="{% if forloop.first %} active  {% endif %} item">
+					<a href ="{{ BASE_PATH }}}{{item.url}}" data-thumb="{{ ASSET_PATH }}{{item.image-thumb}}" ><img src="{{ ASSET_PATH }}{{item.image-slider}}" class="bg"  /></a>
+				</div>
 				{% endfor %}
 
 			</div>
+			<!-- Carousel nav -->
+			 <a class="carousel-control left" href="#recipeCarousel" data-slide="prev">&lsaquo;</a>
+			 <a class="carousel-control right" href="#recipeCarousel" data-slide="next">&rsaquo;</a>
 		</div>
 	
 	</div>
 </div>
 
 
+<div class="row-fluid tabbable">
+	
+	<ul class="nav row-fluid nav-tabs" style="margin-bottom:0px;">
+		<li class="span3">
+			<a class="active  " data-target="#kitchen1" data-toggle="tab"><h4>Unsere Koch-Tips fürs Klima</h3>
+			<img src="{{ ASSET_PATH }}/images/frontpage/relevance.jpg" /></a>
+		</li>
+	
+		<li class="span3">
+			<a  class=" " data-target="#kitchen2" data-toggle="tab"><h4>Alle Rezepte nach Saison</h3>
+			<img src="{{ ASSET_PATH }}/images/frontpage/vision.jpg" /></a>
+		</li>
+	
+		<li class="span3">
+			<a  class=" " data-target="#kitchen3" data-toggle="tab"><h4>Mehrwerte auf allen Ebenen</h3>
+			<img src="{{ ASSET_PATH }}/images/frontpage/factors.jpg" /></a>
+		</li>
+	
+		<li class="span3">
+			<a  class=" " data-target="#kitchen4" data-toggle="tab"><h4>Eigene Rezepte vorschlagen</h3>
+			<img src="{{ ASSET_PATH }}/images/frontpage/factors.jpg" /></a>
+		</li>
+	
+	</ul>
 
-<div class="row tabs recipes">
-	<div class="three columns">
-		<a class="active" href="#kitchen1"><h4>Unsere Koch-Tips fürs Klima</h3>
-		<img src="/eaternity-website/images/frontpage/relevance.jpg" /></a>
-	</div>
+
+	<div class="tab-content" style="background:white;padding-top:20px;-webkit-border-radius: 0 0 4px 4px ;
+	-moz-border-radius: 0 0 4px 4px ;
+	border-radius:0 0 4px 4px;padding:20px;border:0px">
+	  <div class="tab-pane fade in active well" id="kitchen1">This is kitchen tab 1's content. Pretty neat, huh?</div>
+	  <div class="tab-pane fade well" id="kitchen2">
+		<h3>Leckere, klimafreundliche Rezepte.</h3><hr>
+		
+		{% assign numOfItems = 50 %}
+		{% include custom/recipe-list.html %}
 	
-	<div class="three columns">
-		<a href="#kitchen2"><h4>Alle Rezepte nach Saison</h3>
-		<img src="/eaternity-website/images/frontpage/vision.jpg" /></a>
-	</div>
-	
-	<div class="three columns">
-		<a href="#kitchen3"><h4>Mehrwerte auf allen Ebenen</h3>
-		<img src="/eaternity-website/images/frontpage/factors.jpg" /></a>
-	</div>
-	
-	<div class="three columns">
-		<a href="#kitchen4"><h4>Eigene Rezepte vorschlagen</h3>
-		<img src="/eaternity-website/images/frontpage/factors.jpg" /></a>
+		</div>
+	  <div id="kitchen3" class="tab-pane fade well">This is kitchen tab 3's content. It's, you know...okay.</div>
+	  <div id="kitchen4" class="tab-pane fade well">This is kitchen tab 's content. It's, you know...okay.</div>
 	</div>
 	
 </div>
 
+<script src="{{ ASSET_PATH }}/js/jquery.js"></script>
 
-<ul class="tabs-content recipes prominent">
-  <li class="active" id="kitchen1Tab">This is kitchen tab 1's content. Pretty neat, huh?</li>
-  <li id="kitchen2Tab">
-	<h3>Leckere, klimafreundliche Rezepte.</h3><hr>
-	{% assign numOfItems = 50 %}
-	{% include recipe-list.html %}
-	
-	</li>
-  <li id="kitchen3Tab">This is kitchen tab 3's content. It's, you know...okay.</li>
-  <li id="kitchen4Tab">This is kitchen tab 's content. It's, you know...okay.</li>
-</ul>
+<script>
+$(function () {
+  var activeTab = $('[href=' + location.hash + ']');
+  activeTab && activeTab.tab('show');
+});
 
+$('.nav a').on('shown', function (e) {
+  window.location.hash = e.target.hash;
+})
 
-
+</script>
+<script>
+$('.carousel').carousel()
+</script>
 
 

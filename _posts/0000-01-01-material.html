@@ -5,26 +5,26 @@ folder: material
 ---
 {% for item in site.categories[page.folder] reversed %}
 
-		<div class="row">
-			<div class="three columns">
+		<div class="row-fluid">
+			<div class="span3">
 				{{ item.date | date_to_string }}
 			</div>
 			
-			<div class="nine columns">
+			<div class="span9">
 				<div>
-					<a href="{{site.baseurl}}{{item.url}}{{item.url}}"><img  src="{{ item.image }}" >
+					<a href="{{ BASE_PATH }}{{item.url}}"><img  src="{{ ASSET_PATH }}{{ item.image }}" >
 					<h3>{{item.title}}</h3></a>
 					<!--small>2:18AM by Melissa</small-->
 					
 				
 					{{ item.content | strip_html | truncatewords: 42 }} 
-					<a href="{{site.baseurl}}{{item.url}}">&nbsp;weiterlesen</a>
+					<a href="{{ BASE_PATH }}{{item.url}}">&nbsp;weiterlesen</a>
 					
 					<ul class="like-buttons">
 			            <li><div id="fb-root"></div>
-							<fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-							<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" >Twittern</a></li>
-							<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
+							<fb:like href="{{ BASE_PATH }}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+							<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{ BASE_PATH }}{{item.url}}" >Twittern</a></li>
+							<li><g:plusone size="medium" annotation="inline" href="{{ BASE_PATH }}{{item.url}}"></g:plusone></li>
 					</ul>
 
 					

@@ -1,56 +1,110 @@
 ---
-layout: blog
+layout: page
 ---
 
+{% include JB/setup %}
 
-<div class="row">
-	<div class="three columns">
+
+<div class="row-fluid">
+	<div class="span8">
+
+<div class="row-fluid">
+	<div class="span3">
 		{{ page.date | date_to_string }}
+		<br />
+		{% if page.previous and page.previous.category == page.category %}
+	    <a class='prev' href='{{ BASE_PATH }}{{page.previous.url}}'>&laquo; Prev</a>
+	    {% endif %}
+	    {% if page.next and page.next.category == page.category %}
+	    <a class='next' href='{{ BASE_PATH }}{{page.next.url}}'>Next &raquo;</a>
+	    {% endif %}
 	</div>
 	
-	<div class="nine columns">
-		<div>
-			{% if page.previous and page.previous.category == page.category %}
-		    <a class='prev' href='{{site.baseurl}}{{page.previous.url}}'>&laquo; Prev</a>
-		    {% endif %}
-		    {% if page.next and page.next.category == page.category %}
-		    <a class='next' href='{{site.baseurl}}{{page.next.url}}'>Next &raquo;</a>
-		    {% endif %}
-		
-			<h3>{{page.title}}</h3>
+
+	<div class="span9">
+		<img src="{{ ASSET_PATH }}/images/blog/{{ page.image }}" >
+
 			<small>{{page.media}}</small>
+			
+
 			
 			{{content}}
 			
-			<ul class="like-buttons">
-	            <li><div id="fb-root"></div>
-					<fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" >Twittern</a></li>
-					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
-			</ul>
+			
 			
 			<hr>
+
 			
-			<ul class="social-media">
-				<li></li>
-				<li>
-					<h5>Comments</h5>
-	            <div id="fb-root"></div></script><fb:comments href="{{site.url}}{{site.baseurl}}{{item.url}}" num_posts="2" width="452" href="{{site.url}}{{site.baseurl}}"></fb:comments></li>
+			<h5>Comments</h5>
+			<div class="comments">
+		    {% include JB/comments %}
+		  	</div>
+			
+			<ul class="like-buttons">
+	            <li><div id="fb-root"></div>
+					<fb:like href="{{ BASE_PATH }}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}{{item.url}}" >Twittern</a></li>
+					<li><g:plusone size="medium" annotation="inline" href="{{ BASE_PATH }}{{item.url}}"></g:plusone></li>
 			</ul>
 			
-			
-			<div id="related">
+			<!-- div id="related">
 			  <h5>Related Posts</h5><br>
 			  <ul class="posts">
 			    {% for post in site.related_posts limit:3 %}
 			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 			    {% endfor %}
 			  </ul>
-			</div>
-			
-		</div>
+			</div -->
+
 	</div>
 </div>	
 
+	</div>
+	
+	<div class="span4">
+		<a href="{{ BASE_PATH }}/blog/"><h2>zurück zum Blog</h2></a>
+			
+		<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+		
+		
+		
+		<div class="prominent">
+			<h5>Warum spendest du nicht?</h5><br />
+			<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
+		</div>
+		
+		<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
 
 
+		<hr />
+		
+
+		
+		<ul>
+		{% for more in site.categories['blog'] %}
+			<li><h6>{{ more.date | date_to_string }} – <a href="{{ BASE_PATH }}{{more.url}}">{{more.title}}</h6></a>
+		{% endfor %}
+		</ul>
+		
+	</div>			
+</div>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=178395151751";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script src="{{ ASSET_PATH }}/js/jquery.js"></script>

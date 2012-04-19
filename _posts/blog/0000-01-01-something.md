@@ -3,10 +3,8 @@ layout: blog-post
 category: blog
 date: 2002-01-03
 
-image: http://placehold.it/452x150
 title: There is something going on
-
-blog-image: /images/blog/2012-01-28_hub-fellows-cover.jpg
+image: /images/blog/2012-01-28_hub-fellows-cover.jpg
 
 media: Beobachter Natur
 

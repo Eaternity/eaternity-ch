@@ -6,7 +6,7 @@ date: 2012-01-25
 title: Dokumente zum WWF Hub Fellowship
 
 documents: 
- - 2012-01-25 Hub Fellowship Eaternity.pdf
+ - 2012-01-25 Slides Hub Fellowship Eaternity.pdf
 
 authors: 
  - Manuel Klarmann

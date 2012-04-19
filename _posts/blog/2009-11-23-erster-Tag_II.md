@@ -4,7 +4,7 @@ category: blog
 date: 2009-11-23
 
 image: http://placehold.it/452x150
-title: eaternity Menu: Erster Tag
+title: Eaternity Menu erster Tag
 blog-image:  
 
 media: 
@@ -17,7 +17,7 @@ partner:
 
 ---
 
- eaternity Menu: Der erste Tag
+Eaternity Menu: Der erste Tag
 
 Um 9:45 Uhr ging es los: Mit Äpfeln und Flyern bewaffnet  machten wir uns auf den Weg.  Unsere Mission: Das eaternity Menu den Menschen auf dem ETH Campus schmackhaft machen. Schnell waren die Flyer und vor allem die Äpfel verteilt. Viele freuten sich über das gesunde Znüni und waren interessiert am klimafreundlichen Mittagessen.
 

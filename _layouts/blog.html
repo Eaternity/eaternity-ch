@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
+{% include JB/setup %}
 
-
-<div class="row">
-	<div class="eight columns">
-		<a href="/eaternity-website/blog/"><h2>Blog</h2></a>
+<div class="row-fluid">
+	<div class="span8">
+		<a href="{{ BASE_PATH }}/blog/"><h2>Blog</h2></a>
 		<p>This is some text to describe the blog. This is some text to describe the blog.</p>
 			<hr />
 	</div>
 		
-	<div class="four columns">
-		<div class="row">
-			<div class="six columns ">
-				<img src="/eaternity-website/images/karotten.png" />
+	<div class="span4">
+		<div class="row-fluid">
+			<div class="span6">
+				<img src="{{ ASSET_PATH }}/images/karotten.png" />
 			</div>
 		</div>
 	</div>
@@ -23,32 +23,16 @@ layout: default
 <!-- this is only for the blog -->
 <!-- Platzieren Sie diese Render-Anweisung an einer geeigneten Stelle. -->
 
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=178395151751";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
-<div class="row">
-	<div class="eight columns">
+<div class="row-fluid">
+	<div class="span8">
 		
 {{ content }}
 		
 	</div>
 	
-	<div class="four columns">
+	<div class="span4">
 		<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
 		
 		

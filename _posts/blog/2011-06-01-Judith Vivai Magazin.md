@@ -5,7 +5,7 @@ date: 2011-06-01
 
 published: true
 
-image:  
+image: 2011-Vivai-Magazin-Migros.jpg
 title: Judith im Vivai Magazin 
 
 blog-image: 
@@ -25,5 +25,5 @@ Nein, nein Judith macht hier keine Werbung für ihre neue Herbstjacke, sondern f
 
 [Artikel lesen][1]
 
-[1]: image 2011-Vivai Magazin Migros.jpg
+[1]: x
 

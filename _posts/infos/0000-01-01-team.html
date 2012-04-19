@@ -15,7 +15,7 @@ focus: |
 floater: |
    Termin nächste Teamsitzung steht noch offen.
    <p><a target="_blank" href="http://www.doodle.com/fg9e7u76qhkgr2pn">Zur Abstimmung der nächsten Teamsitzung.</a></p><p>
-   <a href="#" data-reveal-id="calendar">Kalender anzeigen</a></p>    <div class="prominent">Wir suchen Leute, die mit uns aktiv mitarbeiten wollen: <br><br><a href="mailto:contact@eaternity.ch" class="nice radius full-width black button">Join Our Team &rarr;</a></div>
+   <a class="btn" data-toggle="modal" href="#myModal" >Kalender anzeigen</a></p>    <div class="prominent">Wir suchen Leute, die mit uns aktiv mitarbeiten wollen: <br><br><a href="mailto:contact@eaternity.ch" class="btn btn-inverse">Join Our Team &rarr;</a></div>
 
 list: team
 float_list: 
@@ -27,30 +27,47 @@ float_list_type: simple
 
 
 
-
-<a href="#" data-reveal-id="calendar">Kalender anzeigen</a>
-
-<div id="calendar" class="reveal-modal" style="margin-top:-320px">
-<iframe src="https://www.google.com/calendar/embed?src=eaternity.ch_6pumesna0h28fpaofmkmeccop4%40group.calendar.google.com&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=Europe%2FZurich" style=" border:solid 1px #777 " width="520" height="620" frameborder="0" scrolling="no"></iframe><a class="close-reveal-modal">&#215;</a>
+<div class="modal fade" id="myModal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>Unser Veranstaltungs Kalender.</h3>
+  </div>
+  <div class="modal-body">
+    <p><iframe src="https://www.google.com/calendar/embed?src=eaternity.ch_6pumesna0h28fpaofmkmeccop4%40group.calendar.google.com&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=Europe%2FZurich" style=" border:solid 1px #777 " width="520" height="400" frameborder="0" scrolling="no"></iframe></p>
+  </div>
+  <!--div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div-->
 </div>
+
+
+<!-- <a href="#" data-reveal-id="calendar">Kalender anzeigen</a> -->
+
+
+
+<!--div id="calendar" class="reveal-modal" style="margin-top:-320px">
+<iframe src="https://www.google.com/calendar/embed?src=eaternity.ch_6pumesna0h28fpaofmkmeccop4%40group.calendar.google.com&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=Europe%2FZurich" style=" border:solid 1px #777 " width="520" height="620" frameborder="0" scrolling="no"></iframe><a class="close-reveal-modal">&#215;</a>
+</div-->
 
 <p>Bisher arbeiteten viele verschiedene Vereins-Mitglieder hauptsächlich ehrenamtlich an unterschiedlichen Projekten. Wir konnten hier immer auf eine Vielfalt an Kompetenzen und tolle Helfer zurückgreifen: Projektmanagement und Organisation, Öffentlichkeitsarbeit und Texte, Networking, Vereinsverwaltung, Software-Entwicklung, Wissenschaftliche Analysen und Design – You name it! Vielen Dank für eure Unterstützung!<p>
 
 
 
-<h4>Unsere Grundwerte</h4>
+
+<h5>Unsere Grundwerte</h5>
 <p>
 Wir stehen für Transparenz und Demokratie. Eaternity verwirklicht Prinzipien der Gemeinützigkeit und des Voluntarismus. Es ist unser Bestreben den internationalen Status einer Nichtregierungsorganisation (NGO) anerkannt zu bekommen um eine teilweise Finanzierung der internen Arbeitsfelder durch unabhängige Spendengelder zu sichern.</p>
 
 <p>
 Zu den weiteren Grundwerte welche wir entschieden anwenden und nach aussen hin repräsentieren wollen gehören die folgenden. Wir sind:</p>
 <ul>
-<li>• Positiv und optimistisch,</li> 
-<li>• zugänglich,</li>
-<li>• pragmatisch,</li>
-<li>• objektiv,</li>
-<li>• verständlich und klar</li>
-<li>• und haben Charme.</li>
+<li>Positiv und optimistisch,</li> 
+<li>zugänglich,</li>
+<li>pragmatisch,</li>
+<li>objektiv,</li>
+<li>verständlich und klar</li>
+<li>und haben Charme.</li>
 </ul>
 
 <p>
@@ -59,6 +76,7 @@ Im weiteren gilt: Einfachheit ist der exzellenteste Weise um den gewünschten Ef
 In der Organisation streben wir nach nach einem exzellenten Miteinander, wir verwirklichen positives Feedback, ungestörte Arbeitsatmosphären, klare Verantwortungsteilungen, Teambildungen.</p>
 
 
-<h4>Unser Kernteam</h4>
+<h5>Unser Kernteam</h5>
 
 <p>Wer wir sind und was uns antreibt gemeinsam unsere Vision zu verwirklichen findest du wenn du auf die Person klickst.</p>
+

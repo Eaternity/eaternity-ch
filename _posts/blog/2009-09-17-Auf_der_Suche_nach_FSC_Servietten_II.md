@@ -17,7 +17,7 @@ partner:
 
 ---
 
- Unser primäres Ziel ist es, so effektiv wie möglich CO2 einzusparen. Dass dies nicht immer so einfach ist, mussten wir schon bei unseren ersten Druckmaterialien für die Aktionswoche erfahren. Um die Emissionen, verursacht durch unsere Aktionswochen im Physikrestaurant Science City, gering zu halten, versuchen wir für die begleitenden Werbemassnahmen schon bestehende Kommunikationskanäle zu nutzen.
+Unser primäres Ziel ist es, so effektiv wie möglich CO2 einzusparen. Dass dies nicht immer so einfach ist, mussten wir schon bei unseren ersten Druckmaterialien für die Aktionswoche erfahren. Um die Emissionen, verursacht durch unsere Aktionswochen im Physikrestaurant Science City, gering zu halten, versuchen wir für die begleitenden Werbemassnahmen schon bestehende Kommunikationskanäle zu nutzen.
 
 DUNI AB LogoEin Beispiel: SV Catering gibt in ihren Restaurants Servietten mit ihrem Logo heraus. Daher ist es sinnvoll auch unsere Botschaft auf den SV-Servietten zu verbreiten. Wir wollten aber nicht irgendwelche Servietten verwenden. Deshalb machten wir uns auf die Suche nach einem Anbieter, der entweder auf FSC, auf Recycling-Material oder im Idealfall auf Material mit einer dieser [Auszeichnungen][1] druckt.
 
@@ -31,10 +31,10 @@ Wir recherchierten also weiter und kontaktierten einerseits sämtliche Unternehm
 
 Das Ergebnis war ernüchternd. Folgende Servietten-Anbieter haben wir gefunden, die FSC/Recycling Material anbieten:
 
-    [Coop Oecoplan-Sortiment][4] Servietten 
-    [WIDA][5] hat Servietten aus Recycling Papier im Angebot, bedruckt diese jedoch nicht
-    [Premium Papers][7] liefert ausschliesslich Serviettenbasis Papier in Rollen zur Weiterverarbeitung
-    [Decoprint][6] liefert nicht das richtige Format
+[Coop Oecoplan-Sortiment][4] Servietten 
+[WIDA][5] hat Servietten aus Recycling Papier im Angebot, bedruckt diese jedoch nicht
+[Premium Papers][7] liefert ausschliesslich Serviettenbasis Papier in Rollen zur Weiterverarbeitung
+[Decoprint][6] liefert nicht das richtige Format
 	
 	image:EcoPlan Coop Logo
 
@@ -43,7 +43,7 @@ Nach langen Überlegungen sind wir nun zu dem Schluss gekommen, den bestehenden 
 [1]: http://www.umweltschutz.ch/index.php?pid=408&group=45&submit=Suchen
 [2]: http://info.fsc.org/
 [3]: http://www.duni.com/
-[4]:  http://www.coop.ch/pb/site/viva/node/68878438/Lde/index.html
+[4]: http://www.coop.ch/pb/site/viva/node/68878438/Lde/index.html
 [5]: http://www.wida.ch/
 [6]: http://www.decoprint.net/
 [7]: http://www.premium-papers.ch/

@@ -1,36 +1,142 @@
 ---
-layout: blog
-title: Blog 
+layout: default
+title: Blog
 folder: blog
 ---
-{% for item in site.categories[page.folder] reversed %}
 
-		<div class="row">
-			<div class="three columns">
-				{{ item.date | date_to_string }}
+{% include JB/setup %}
+
+<div class="row-fluid">
+	<div class="span8">
+		<a href="{{ BASE_PATH }}/blog/"><h2>Blog</h2></a>
+		<p>This is some text to describe the blog. This is some text to describe the blog.</p>
+			<hr />
+	</div>
+		
+	<div class="span4">
+		<div class="row-fluid">
+			<div class="span6">
+				<img src="{{ ASSET_PATH }}/images/karotten.png" />
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<!-- this is only for the blog -->
+<!-- Platzieren Sie diese Render-Anweisung an einer geeigneten Stelle. -->
+
+
+<div class="row-fluid">
+	<div class="span8">
+
+{% for item in site.categories[page.folder] limit:6 %}
+
+	<div class="row-fluid">
+		<div class="span3">
+			{{ item.date | date_to_string }}
+		</div>
+		
+		<div class="span9">
+			<div class="well">
+				<a href="{{ BASE_PATH }}{{item.url}}"><img  src="{{ ASSET_PATH }}/images/blog/{{ item.image }}" >
+				<h3>{{item.title}}</h3></a>
+				<!--small>2:18AM by Melissa</small-->
+				
+			
+				{{ item.content | strip_html | truncatewords: 42 }} 
+				<a href="{{ BASE_PATH }}{{item.url}}">&nbsp;weiterlesen</a>
+				
+				<!-- ul class="like-buttons">
+		            <li><div id="fb-root"></div>
+						<fb:like href="{{ BASE_PATH }}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}{{item.url}}" >Twittern</a></li>
+						<li><g:plusone size="medium" annotation="inline" href="{{ BASE_PATH }}{{item.url}}"></g:plusone></li>
+				</ul -->
+				
 			</div>
 			
-			<div class="nine columns">
-				<div>
-					<a href="{{site.baseurl}}{{item.url}}"><img  src="{{ item.image }}" >
-					<h3>{{item.title}}</h3></a>
-					<!--small>2:18AM by Melissa</small-->
-					
-				
-					{{ item.content | strip_html | truncatewords: 42 }} 
-					<a href="{{site.baseurl}}{{item.url}}">&nbsp;weiterlesen</a>
-					
-					<ul class="like-buttons">
-			            <li><div id="fb-root"></div>
-							<fb:like href="{{site.url}}{{site.baseurl}}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-							<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{item.url}}" >Twittern</a></li>
-							<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{item.url}}"></g:plusone></li>
-					</ul>
+			<hr />
+			
+		</div>
 
-					
-				</div>
-			</div>
-			<hr />	
-		</div>	
-		
+	</div>
 {% endfor %}
+
+	</div>
+	
+	<div class="span4">
+		<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+		
+		
+	
+
+		<hr />
+		
+		<ul>
+		{% for more in site.categories[page.folder] offset:6 %}
+			<li><h6>{{ more.date | date_to_string }} – <a href="{{ BASE_PATH }}{{more.url}}">{{more.title}}</h6></a>
+		{% endfor %}
+		</ul>
+		
+	</div>			
+</div>
+
+
+<!-- pagination (a page1 folder isn't created by Jekyll.
+To avoid 404s when going to the first page it must be
+specified separately) -->
+
+
+<!--
+
+<div class="pagination">
+  <ul>
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <li>
+          <a href="/">&laquo;</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/page{{paginator.previous_page}}">&laquo;</a>
+        </li>
+      {% endif %}
+    {% else %}
+      <li class="disabled">
+        <a href="#">&laquo;</a>
+      </li>
+    {% endif %}
+    {% if paginator.page == 1 %}
+      <li class="active">
+        <a href="#">1</a>
+      </li>
+    {% else %}
+      <li>
+        <a href="/">1</a>
+      </li>
+    {% endif %}
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+        <li class="active">
+          <a href="#">{{count}}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/page{{count}}">{{count}}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+      <li>
+        <a href="/page{{paginator.next_page}}">&raquo;</a>
+      </li>
+    {% else %}
+      <li class="disabled">
+        <a href="#">&raquo;</a>
+      </li>
+    {% endif %}
+  </ul>
+</div>
+
+-->

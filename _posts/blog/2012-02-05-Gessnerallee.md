@@ -5,10 +5,9 @@ date: 2012-02-04
 
 published: true
 
-image: /images/blog/preview/2012-02-04_Nachhaltigkeitsmesse_Gessnerallee.jpg
+image: 2012-02-04_Nachhaltigkeitsmesse_Gessnerallee.jpg
 title: Nachhaltigkeitsmesse «Expanding Energy» in der Gessnerallee Zürich
 
-blog-image: /images/blog/2012-02-04_Nachhaltigkeitsmesse_Gessnerallee.jpg
 
 media: 
 
@@ -20,6 +19,8 @@ tags:
 partner:
 - Theater Gessnerallee
 ---
+
+
 
 *Am Samstag 4. Februar 2012 lud die Gessnerallee Zürich zu einer Nachhaltigkeitsmesse ein. Interessant wurde das Thema Nachhaltigkeit in künstlerischer Perspektive aufgearbeitet und präsentiert. Und so hatten wir die Möglichkeit mit unserem frisch gewonnen WWF Hub Fellowship beim Programm mitzuwirken. Wir konnten unsere Aspekte der Nachhaltigkeit der Öffentlichkeit vorstellen und uns mit verschiedenen Organisationen und Erwerbstätigen auszutauschen.*
 
@@ -38,9 +39,11 @@ Das Highlight des Abends war die letzte Performance «Expanding Energy», bei de
 
 Wohin rennen wir? In den Abgrund oder in eine Welt, in der wir es schaffen das zerstörerische Tempo wieder etwas zu bremsen?
 
+{% include JB/setup %}
+
 [1]: http://www.meilibeef.ch/
 [2]: http://www.cultiva.ch/
 [3]: http://www.kalkbreite.net/
 [4]: http://www.sichtbar.ch/
 [5]: http://neustartschweiz.ch/
-[6]: http://0.0.0.0:4000/eaternity-website/images/blog/2012-02-04_Nachhaltigkeitsmesse_Gessnerallee.jpg
+[6]: {{ ASSET_PATH }}/images/blog/2012-02-04_Nachhaltigkeitsmesse_Gessnerallee.jpg

@@ -6,7 +6,7 @@ date: 2011-09-29
 published: true
 
 image: /images/blog/ 
-title:  Die Klimabilanz Ihres Apéros
+title: Die Klimabilanz Ihres Apéros
 
 blog-image:  
 

@@ -22,4 +22,4 @@ partner:
 [Read more...][1]
 
 
-[1]:  
+[1]: x

@@ -19,12 +19,10 @@ partner:
 
 20min Studentenecke
 
-image: ???
-
 ETH life
 
- [image 2009-11-26-eaternity_Pilot-Wochen_Presse_Echo_ethlife.jpg][1]
+[2009-11-26-eaternity_Pilot-Wochen_Presse_Echo_ethlife.jpg][1]
  
  
- [1]: http://www.ethlife.ethz.ch/archive_articles/091125_eaternity_lul/index
+[1]: http://www.ethlife.ethz.ch/archive_articles/091125_eaternity_lul/index
  

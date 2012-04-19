@@ -1,17 +1,15 @@
 ---
-layout: default
+layout: page
+title: Projekte & Erfolge
 ---
-
+{% include JB/setup %}
 
 <div class="row">
-	<div class="four columns"><img src="{{ site.baseurl }}/images/smiley.png"></div>
-	<div class="eight columns">
-		<a href="{{ site.baseurl }}/projects"><h2>Projekte & Erfolge</h2></a>
-		<h5>Was hier steht macht uns glücklich. :-)<br>Hier verwirklicht sich unsere Vision.</h5>
+	<div class="span4"><img src="{{ ASSET_PATH }}/images/smiley.png"></div>
+	<div class="span8">
+		<h3>Hier steht was uns glücklich macht.<br>Hier verwirklicht sich unsere Vision.</h3>
 			<hr />
 	</div>
-		
-	
 </div>
 
 <!-- this is only for the blog -->
@@ -35,20 +33,34 @@ layout: default
   })();
 </script>
 
-<div class="row">
-	<div class="four columns">
-		<blockquote style="border:1px">Mit unseren Projekten und Massnahmen erreichen wir Menschen direkt und betreiben Öffentlichkeitsarbeit. Stück für Stück realiseren wir zusammen  mit Partnern klimafreundliche Menüs. Bringen die Thematik auf den Tisch,sensibiliseren und bewegen. Diese Plattform dient auch als Vorlage für weitere Projekte, unsere Erfahrungen und Materialien finden sich in der jeweiligen Projektübersicht – und sind für ein weiteres Projekt bereit verwendet zu werden.</blockquote>
 
+<div class="row">
+	<div class="span4 ">
 		
+		
+		<div class="well">
 		<div class="prominent">
-			<h5>Realisiere dein eigenes Projekt.</h5><br>
-			<a href="#" class="nice radius full-width black button"  data-reveal-id="donateModal">Jetzt Anfragen!</a>
+			 <p>Mit unseren Projekten und Massnahmen erreichen wir Menschen direkt und betreiben Öffentlichkeitsarbeit. Stück für Stück realiseren wir
+	        zusammen mit Partnern klimafreundliche Menüs. Bringen die Thematik auf den Tisch,sensibiliseren und bewegen. Diese Plattform dient auch als
+	        Vorlage für weitere Projekte, unsere Erfahrungen und Materialien finden sich in der jeweiligen Projektübersicht – und sind für ein weiteres
+	        Projekt bereit verwendet zu werden.</p>
+	
+			<h2>Dein Projekt.</h2><br>
+			<p>
+			<a href="{{ BASE_PATH }}/act/" class="btn">Jetzt anfragen und realisieren!</a>
+			</p>
 			<p>Sei selbst die Veränderung die du in der Welt sehen möchtest!</p>
-		</div>
-		<p>Eigene Ideen und Vorschläge kannst du auch in unserem <a target="_blank" href="http://support.eaternity.ch">Support Forum</a> einbringen. Wir freuen uns über Hinweise und Ideen wie wir eine grössere Wirkung erzielen könne.
+
+	 	</div>
+
+		<br>
+		 <p>Eigene Ideen und Vorschläge kannst du auch in unserem <a target="_blank" href="http://support.eaternity.ch">Support Forum</a> einbringen.
+	       Wir freuen uns über Hinweise und Ideen wie wir eine grössere Wirkung erzielen könne.</p>
+	
+		</div>		
 	</div>
 	
-	<div class="eight columns">
+	<div class="span8">
 		
 		{{ content }}
 	

@@ -21,6 +21,6 @@ It's Sunday 9 o'clock: students from all over the world gather at the university
 
 [Read more...][1]
 
-[1] 
+[1]: x
  
 

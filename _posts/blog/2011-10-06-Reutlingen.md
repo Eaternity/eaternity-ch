@@ -26,5 +26,5 @@ Die Stadt Reutlingen in Deutschland vergibt alle 2 Jahre den Reutlinger Umweltpr
 Recht spontan wurden auch wir von eaternity eingeladen einen Vortrag zu halten. Wir freuten uns sehr, denn unser Konzept passte sehr gut in die generelle Nachhaltigkeits-Planung der Stadt. Serviert wurde eine [klimafreundliche Suppe][2], das Rezept natürlich von uns, direkt auf der Konferenz, welche neben unseren Lösungsansätzen breit angepriesen wurde. In der Entwicklung eines Klimakonzeptes der Stadt und bei den interessierten Teilnehmern der Konferenz konnten wir nachhaltig unsere Idee verankern.
 
 [1]: http://www.reutlingen.de/ceasy/modules/cms/main.php5?cPageId=2310&view=publish&item=article&id=2949
-[2]: Das Rezept! 
+[2]: Das_Rezept
 

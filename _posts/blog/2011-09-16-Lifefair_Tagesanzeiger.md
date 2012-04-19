@@ -22,4 +22,4 @@ Mit einem kleinen Artikel über Eaternity gibt es heute das [Lifefair][1] Magazi
 [Read more...][2]
 
 [1]: http://www.lifefair.ch/
-[2]:  
+[2]: #

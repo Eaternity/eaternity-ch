@@ -26,6 +26,6 @@ Das Migros Magazin hatte 2011 eine Auflage von 1'558'918 und eine Leserzahl von 
 [Artikel mit Rezept lesen][1]
 
 
-[1]: image  2011_MM_43_saisonkueche.pdf
+[1]: 2011_MM_43_saisonkueche.pdf
 
 

@@ -1,51 +1,49 @@
 ---
-layout: default
+layout: page
 title: Informationen Über Uns.
 folder: infos
 ---
 
-<div class="row">
-	<div class="three columns">
-		<dl class="nice vertical tabs">
+{% include JB/setup %}
+
+<div class="row tabs-left tabbable">
+		<ul class="nav nav-tabs span3 about-us-nav">
 		  <!--dd><a href="#organisation" class="active">Organisation</a></dd>
 		  <dd><a href="#personen">Personen</a></dd>
 		  <dd><a href="#geschichte">Geschichte</a></dd>
 		  <dd><a href="#referenzen">Referenzen</a></dd>
 		  <dd><a href="#newsmedia">News & Media</a></dd>
 		  <dd><a href="#material">Material</a></dd>
-		  <dd><a href="#contact">Kontakt</a></dd-->
+		  <dd><a href="#contact">Kontakt</a></dd
+		href="#{{ item.short }}"
+		-->
 		
 			{% for item in site.categories[page.folder] reversed %}
-			<dd><a href="#{{ item.short }}">
-					{{ item.title }} 
-			</a></dd>
-
+					<li><a  href="javascript:{{ item.short }}.tab('show');window.location.hash = #{{ item.short }}"  data-target="#{{ item.short }}" data-toggle="tab">{{ item.title }}</a></li>
 			{% endfor %}
-		</dl>
-	</div>
-	<div class="nine columns">
+		</ul>
+	<div class="span9">
 
-		<ul class="tabs-content top-margin">
+		<div class="tab-content about-us">
 			
 			{% for item in site.categories[page.folder] reversed %}
 			
-			<li id="{{ item.short }}Tab">
+			<div id="{{ item.short }}" class="tab-pane fade {% if forloop.first %}  in active  {% endif %}">
 
-				<div style="height:50px;margin-bottom:20px" class="row">
-					<div class="eight columns">
-						<h2>{{ item.header }}</h2>
-						<h5>{{ item.sub-header }}</h5>
+				<div style="margin-bottom:20px" class="row-fluid">
+					<div class="span8">
+						<br>
+						<h1>{{ item.header }}</h1>
+						<h3>{{ item.sub-header }}</h3>
 					</div>
-					<div class="four columns"> 
+					<div class="span4"> 
 							{{ item.focus }} 
 					</div>
 				</div>
 				<hr>
-				<div class="row">
-					<div class="eight columns">
+				<div class="row-fluid">
+					<div class="span8">
 						{{ item.content }} 
-						
-					
 						
 							{% case item.list_type %}
 							
@@ -53,7 +51,7 @@ folder: infos
 										<ul>
 											{% for list_item in site.tags['Presse'] reversed %}
 											<li> 
-												<span>{{ list_item.date | date_to_string }} </span>  &raquo; <a href="{{ site.baseurl }}{{ list_item.url }}">
+												<span>{{ list_item.date | date_to_string }} </span>  &raquo; <a href="{{ ASSET_PATH }}{{ list_item.url }}">
 												{{ list_item.title }}</a>  &rarr; <strong>{{ list_item.media }}</strong>
 
 											</li>
@@ -66,7 +64,7 @@ folder: infos
 										<ul>
 											{% for list_item in site.categories[item.list] reversed %}
 											<li> 
-												<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ site.baseurl }}{{ list_item.url }}">
+												<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ ASSET_PATH }}{{ list_item.url }}">
 												{{ list_item.title }}</a>
 
 											</li>
@@ -77,12 +75,12 @@ folder: infos
 									<ul>
 										{% for list_item in site.categories[item.list] reversed %}
 										<li> 
-											<span><a href="{{ site.baseurl }}{{ list_item.url }}">{{ list_item.date | date_to_string }}</a></span>  &raquo; 
+											<span><a href="{{ ASSET_PATH }}{{ list_item.url }}">{{ list_item.date | date_to_string }}</a></span>  &raquo; 
 											{{ list_item.title }}:
 											
 											<blockquote><ul>
 												{% for document in list_item.documents reversed %}
-												<li><strong><a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ document | escape_once }}">{{ document }}  &larr; </a></strong><br> Autoren: {{ list_item.authors | first }}{% for author in list_item.authors offset:1 %}, {{author}} {% endfor %}</li>
+												<li><strong><a target="_blank" href="{{ ASSET_PATH }}/files/{{ document | escape_once }}">{{ document }}  &larr; </a></strong><br> Autoren: {{ list_item.authors | first }}{% for author in list_item.authors offset:1 %}, {{author}} {% endfor %}</li>
 												{% endfor %}
 											</ul></blockquote>
 
@@ -92,28 +90,24 @@ folder: infos
 								
 								{% when 'team' %}
 									
-									<ul class="block-grid three-up">
+									<ul class="thumbnails">
 										{% for list_item in site.categories[item.list] reversed %}
-										<li> 
-											<a href="{{ site.baseurl }}{{ list_item.url }}"><img src="{{ site.baseurl }}{{ list_item.square }}">
+										<li class="span2"> 
+											<a href="{{ BASE_PATH }}{{ list_item.url }}" style="background:white;" class="thumbnail"><img src="{{ ASSET_PATH }}{{ list_item.square }}">
 											{{ list_item.title }}</a>
 											
 										</li>
 										{% endfor %}
 									</ul>
 
-									{% when 'referenzen' %}
-									I still want this to be different, and with comments of the partner
-										<ul class="block-grid two-up">
+								{% when 'referenzen' %}
+									
+										<ul class="thumbnails">
 
-											{% for list_item in site.tags['Partner'] reversed %}
-											{% for partner in list_item.partner %}
-												<li><p style="padding:5px">
-													<img src="{{ site.baseurl }}/images/partner/{{ partner | downcase | replace:' ','_' }}.jpg"><a href="{{ site.baseurl }}{{ list_item.url }}">
-													 &rarr; <strong>{{ partner }}</a></strong></p>
-
-												</li>
-											{% endfor %}
+											{% for list_item in site.categories[item.list] reversed %}
+													
+											<a href="{{ site.baseurl }}{{ list_item.url }}" style="margin-top:20px;background:white;" class="thumbnail span6"><li style="padding:10px 10px 0px 10px;"><img src="{{ ASSET_PATH }}/images/partner/{{ list_item.partner-logo }}"> <p> &rarr; <strong>{{ list_item.title }}</strong></p></li></a>
+													
 											{% endfor %}
 										</ul>
 										
@@ -125,7 +119,8 @@ folder: infos
 							
 						
 					</div>
-					<div class="four columns">
+					<div class="span4">
+						<div class="well">
 						{{ item.floater }}
 						
 						
@@ -137,16 +132,16 @@ folder: infos
 									{% when 'boxed' %}
 									
 										
-										<p><a href='{{site.baseurl}}{{float_list_item.url}}'>
-										<img src="{{site.baseurl}}{{ float_list_item.blog-image }}" />
+										<p><a href='{{ BASE_PATH }}{{float_list_item.url}}'>
+										<img src="{{ ASSET_PATH }}{{ float_list_item.blog-image }}" />
 									     &raquo;{{ float_list_item.title }}</a></p>
 									
 									
 									{% when 'projects' %}
 
 
-										<p><a href='{{site.baseurl}}{{float_list_item.url}}'>
-										<img src="{{site.baseurl}}/images/projects/{{ float_list_item.short }}/{{ float_list_item.images | first }}" />
+										<p><a href='{{ BASE_PATH }}{{float_list_item.url}}'>
+										<img src="{{ ASSET_PATH }}/images/projects/{{ float_list_item.short }}/{{ float_list_item.images | first }}" />
 									     &raquo;{{ float_list_item.title }}</a></p>
 									
 									{% else %}
@@ -156,16 +151,29 @@ folder: infos
 								
 								
 							{% endfor %}
+						</div>
 					</div>
 				</div>
 					
-			</li>
+			</div>
 
 			{% endfor %}
 			
-			
-
-		</ul>
+		</div>	
 		
 	</div>
 </div>
+
+<script src="{{ ASSET_PATH }}/js/jquery.js"></script>
+
+<script>
+$(function () {
+  var activeTab = $('[href=' + location.hash + ']');
+  activeTab && activeTab.tab('show');
+});
+
+$('.nav a').on('shown', function (e) {
+  window.location.hash = e.target.hash;
+})
+
+</script>

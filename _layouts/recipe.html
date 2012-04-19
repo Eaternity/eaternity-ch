@@ -1,32 +1,36 @@
 ---
 layout: default
 ---
+{% include JB/setup %}
+
+
 <div class="row">
-	<div class="twelve columns">
-		<img src="{{site.baseurl}}{{page.image-big}}" width="940px;">
+	<div class="span12">
+		<img src="{{ ASSET_PATH }}{{ page.image-big }}">
 	</div>
 </div>
+
 <div class="row">
-	<div class="three columns">
+	<div class="span3">
 		<p>{{ page.date | date_to_string }}</p>
 		<br>
 		{% assign value = page.co2-value %}
-		{% include co2-label.html %}
+		{% include custom/co2-label.html %}
 		
 			<p>Saison: {{ page.season }}</p>
 		
 		<h6>Zusammengestellt von: {{page.author}}.</h6>
 		<br><br>
 		
-		<h5><a href="{{site.baseurl}}/recipes/#kitchen2" ><img src="/eaternity-website/images/recipe_kitchen.jpg" />&laquo; Zur klimafreundlichen Rezepte-Küche</a></h5>
+		<h5><a href="{{ BASE_PATH }}/recipes/#kitchen2" ><img src="{{ ASSET_PATH }}/images/recipe_kitchen.jpg" />&laquo; Zur klimafreundlichen Rezepte-Küche</a></h5>
 		
 
 		<p>
 		{% if page.previous and page.previous.category == page.category %}
-	    <a class='prev' href='{{site.baseurl}}{{page.previous.url}}'>&laquo; Vorheriges Rezept</a>
+	    <a class='prev' href='{{ BASE_PATH }}{{page.previous.url}}'>&laquo; Vorheriges Rezept</a>
 	    {% endif %}
 	    {% if page.next and page.next.category == page.category %}
-	    <a class='next' href='{{site.baseurl}}{{page.next.url}}'>Nächstes Rezept &raquo;</a>
+	    <a class='next' href='{{ BASE_PATH }}{{page.next.url}}'>Nächstes Rezept &raquo;</a>
 	    {% endif %}
 		</p>
 		
@@ -47,7 +51,7 @@ layout: default
 	
 	</div>
 	
-	<div class="six columns">
+	<div class="span6">
 		<div>
 
 		
@@ -58,9 +62,9 @@ layout: default
 			
 			<ul class="like-buttons">
 	            <li><div id="fb-root"></div>
-					<fb:like href="{{site.url}}{{site.baseurl}}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >Twittern</a></li>
-					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{site.baseurl}}{{page.url}}"></g:plusone></li>
+					<fb:like href="{{ BASE_PATH }}}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}}{{page.url}}" >Twittern</a></li>
+					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{ BASE_PATH }}}{{page.url}}"></g:plusone></li>
 			</ul>
 			
 			<hr>
@@ -69,15 +73,16 @@ layout: default
 				<li></li>
 				<li>
 					<h5>Comments</h5>
-	            <div id="fb-root"></div></script><fb:comments href="{{site.url}}{{site.baseurl}}{{item.url}}" num_posts="2" width="452" href="{{site.url}}{{site.baseurl}}"></fb:comments></li>
+	            <div id="fb-root"></div></script><fb:comments href="{{site.url}}{{ BASE_PATH }}}{{item.url}}" num_posts="2" width="452" href="{{site.url}}{{ BASE_PATH }}}"></fb:comments></li>
 			</ul> -->
 			
 			
 			<div id="related">
-			  <h5>Andere Rezepte</h5><br>
 			  <ul class="posts">
-			    {% for post in site.related_posts limit:3 %}
+			    {% for post in site.related_posts limit:10 %}
+					{% if post.category == 'recipe' %}
 			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endif %}
 			    {% endfor %}
 			  </ul>
 			</div>
@@ -87,7 +92,7 @@ layout: default
 	
 	
 	
-	<div class="three columns">
+	<div class="span3">
 		<br><br><p>
 		<h5>Zutaten für 4 Personen</h5>
 		</p>
@@ -102,8 +107,8 @@ layout: default
 </div>	
 
 <script type='text/javascript'>
-var track = ['{{site.url}}{{site.baseurl}}'];
-$(function() { dso.follow('{{site.url}}{{site.baseurl}}{{page.url}}', track) });
+var track = ['{{ BASE_PATH }}}'];
+$(function() { dso.follow('{{ BASE_PATH }}}{{page.url}}', track) });
 </script>
 
 <script>(function(d, s, id) {

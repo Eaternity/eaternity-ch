@@ -1,30 +1,30 @@
 ---
 layout: project-list
-title: Projekte 
+title: Projekte
 folder: projects
 ---
-
+{% include JB/setup %}
 
 {% for item in site.categories[page.folder] reversed %}
 		
-		<div class="row">
-			<div class="twelve columns">	
-				<div class="right">{{ item.date | date_to_string }}</div>
-				<a href="{{site.baseurl}}{{item.url}}"><img  src="{{site.baseurl}}/images/projects/{{ item.short }}/{{ item.images | first }}" ></a>
+		<div class="row-fluid">
+			<div class="span12">	
+				<div class="pull-right">{{ item.date | date_to_string }}</div>
+				<a href="{{ BASE_PATH }}{{item.url}}"><img  src="{{ ASSET_PATH }}/images/projects/{{ item.short }}/{{ item.images | first }}" ></a>
 			</div>
 		</div>
 		
-		<div class="row">
-			<div class="nine columns">
+		<div class="row-fluid">
+			<div class="span9">
 				
 				
 		
-				<a href="{{site.baseurl}}{{item.url}}"><h3>{{item.title}}</h3>
-				<h5>{{item.sub-title}}</h5></a>
+				<a href="{{ BASE_PATH }}{{item.url}}"><h2>{{item.title}}</h2>
+				<h4>{{item.sub-title}}</h4></a>
 				
 				<p>
 				{{ item.content | strip_html | truncatewords: 42 }} 
-				&nbsp;<a href="{{site.baseurl}}{{item.url}}">&rarr;&nbsp; weiterlesen.</a></p>
+				&nbsp;<a href="{{ BASE_PATH }}{{item.url}}">&rarr;&nbsp; weiterlesen.</a></p>
 				
 				
 				
@@ -35,7 +35,7 @@ folder: projects
 					{% for tag in media.tags %}
 						{% if tag == item.title %}
 
-								<li><a target="_blank" href="{{ site.baseurl }}/bla/{{ material.documents | first | escape_once }}">{{ media.title }}</a> – <strong>{{ media.media-title }}</strong></li>
+								<li><a target="_blank" href="{{ ASSET_PATH }}/files/{{ media.documents | first | escape_once }}">{{ media.title }}</a> – <strong>{{ media.media-title }}</strong></li>
 
 						{% endif %}
 					{% endfor %}
@@ -48,7 +48,7 @@ folder: projects
 					{% for tag in material.tags %}
 						{% if tag == item.title %}
 							<blockquote>
-								<a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ material.documents | first | escape_once }}">{{ material.documents | first }}</a>{% for document in material.documents offset:1 %}, <a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ document | escape_once }}">{{ document }}</a>{% endfor %}
+								<a target="_blank" href="{{ ASSET_PATH }}/files/{{ material.documents | first | escape_once }}">{{ material.documents | first }}</a>{% for document in material.documents offset:1 %}, <a target="_blank" href="{{ ASSET_PATH }}/material/{{ document | escape_once }}">{{ document }}</a>{% endfor %}
 							</blockquote>
 						{% endif %}
 					{% endfor %}
@@ -61,7 +61,7 @@ folder: projects
 					{% for tag in blog.tags %}
 						{% if tag == item.title %}
 
-								<li><a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ material.documents | first | escape_once }}">{{ blog.title }}</a></li>
+								<li><a target="_blank" href="{{ ASSET_PATH }}/material/{{ material.documents | first | escape_once }}">{{ blog.title }}</a></li>
 
 						{% endif %}
 					{% endfor %}
@@ -71,12 +71,12 @@ folder: projects
 				
 				<p>Mhh, Es gab auch leckere Rezepte:</p>
 				
-				<blockquote><ul class="block-grid three-up">
+				<blockquote><ul class="thumbnails">
 				{% for recipe in site.categories['recipes']  %}
 					{% for tag in recipe.tags %}
 						{% if tag == item.title %}
 
-								<li><img src="{{ site.baseurl }}/{{ recipe.image-thumb }}" ><a href="">{{ recipe.title }}</a></li>
+								<li class="span2"><img src="{{ ASSET_PATH }}/{{ recipe.image-thumb }}" ><a href="{{ BASE_PATH }}{{recipe.url}}">{{ recipe.title }}</a></li>
 
 						{% endif %}
 					{% endfor %}
@@ -85,18 +85,24 @@ folder: projects
 				
 				<p>Ein paar Impressionen:</p>
 				
-				<blockquote><ul class="block-grid three-up">
+				
+				<blockquote><ul class="thumbnails">
 				{% for all in site.posts  %}
 					{% for tag in all.tags %}
 						{% if tag == item.title %}
 						{% if all.impressions != empty %}
 							{% for image in all.impressions %}
 
-									<li><a href="#" data-reveal-id="{{ forloop.index }}modal"><img src="{{ site.baseurl }}/{{ image }}" ></a></li>
+									<li class="span2"><a data-toggle="modal" href="#Pic{{ forloop.index }}Modal"><img src="{{ ASSET_PATH }}/{{ image }}" ></a></li>
 									
-									<div id="{{ forloop.index }}modal" class="reveal-modal" style="margin-top:-500px">
-									     <img src="{{ site.baseurl }}/{{ image }}" >
-									     <a class="close-reveal-modal">&#215;</a>
+									<div id="Pic{{ forloop.index }}Modal" class="modal fade">
+										<div class="modal-header">
+									    	<a class="close" data-dismiss="modal">×</a>
+									  		<h3>{{ item.title }}</h3>
+									  	</div>
+										<div class="modal-body">
+											<img src="{{ ASSET_PATH }}/{{ image }}" >
+										</div>
 									</div>
 									
 							{% endfor %}
@@ -108,24 +114,24 @@ folder: projects
 
 			</div>
 			
-			<div class="three columns">
+			<div class="span3">
 				<br>
-				<ul  class="block-grid one-up">
-					<li><div class="prominent">
-						<h6>{{ item.impact  }}</h6>
+				<ul  class="thumbnails">
+					<li class="span2"><div class="prominent">
+						<h4>{{ item.impact  }}</h4>
 					</div></li>
 					
-					<li>{% if item.get-involved == true %}
-					<a href="{{site.baseurl}}/about/#personen" class="nice radius  white small button">Nehme daran Teil!</a>
+					<li class="span2">{% if item.get-involved == true %}
+					<a href="{{ BASE_PATH }}/about/#personen" class="btn">Nehme daran Teil!</a>
 					{% endif %}</li>
 
-					<li>{% if item.copy == true %}
-					<a href="{{site.baseurl}}/about/#personen" class="nice radius white small button">Kopiere diese Aktion.</a>
+					<li class="span2">{% if item.copy == true %}
+					<a href="{{ BASE_PATH }}/about/#personen" class="btn">Kopiere diese Aktion.</a>
 					{% endif %}</li>
 					
-					<li><strong>Was:</strong><br>{{ item.details  }}</li>
-					<li><strong>Wann und Wo:</strong><br>{{ item.happening  }}</li>
-					<li><strong>Wie:</strong><br>{{ item.ressources  }}</li>
+					<li class="span2"><strong>Was:</strong><br>{{ item.details  }}</li>
+					<li class="span2"><strong>Wann und Wo:</strong><br>{{ item.happening  }}</li>
+					<li class="span2"><strong>Wie:</strong><br>{{ item.ressources  }}</li>
 				</ul>
 				
 
@@ -135,13 +141,13 @@ folder: projects
 			</div>
 			
 		</div>	
-		<div class="row">
-			<div class="twelve columns">
+		<div class="row-fluid">
+			<div class="span12">
 				<h4>Partner</h4>
-				<ul class="block-grid two-up">
+				<ul class="thumbnails">
 					{% for partner in item.partners %}
-						<li><p style="padding:5px">
-							<img src="{{ site.baseurl }}/images/partner/{{ partner | downcase | replace:' ','_' }}.jpg"><a href="{{ site.baseurl }}{{ item.url }}-link to partner page with all projects">
+						<li class="span3"><p style="padding:5px">
+							<img src="{{ ASSET_PATH }}/images/partner/{{ partner | downcase | replace:' ','_' }}.jpg"><a href="{{ site.baseurl }}{{ item.url }}-link to partner page with all projects">
 							 &rarr; <strong>{{ partner }}</a></strong></p>
 						</li>
 					{% endfor %}
@@ -151,3 +157,5 @@ folder: projects
 		</div>
 		
 {% endfor %}
+
+<script src="{{ ASSET_PATH }}/js/jquery.js"></script>

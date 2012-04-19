@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Eaternity  &#10031; {{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+	<meta http-equiv="Keywords" content="eaternity, climatefriendly, meals, co2-monitoring, welternährung"/>
+    <meta name="author" content="{{ site.author.name }}">
+	<meta http-equiv="Content-Language" content="de" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<!-- Google-Font File-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800' rel='stylesheet' type='text/css'>
+	
+    <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/favicon.ico">
+    <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH }}/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH }}/images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+
+
+	<!-- Header Content -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					<a href="{{ HOME_PATH }}"><img class="logo" src="{{ ASSET_PATH }}/images/generic/logo-eaternity-small_04-11-2010.png" /></a>
+				</div>
+				<div class="span9">
+				<br><br>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="span9 offset3">
+					<nav>
+						<ul>
+							<li><a href="{{ BASE_PATH }}/about">Was ist Eaternity?</a></li>
+							<li><a href="{{ BASE_PATH }}/facts">Umweltfakten.</a></li>
+							<li><a href="{{ BASE_PATH }}/projects">Projekte & Erfolge</a></li>
+							<li><a href="{{ BASE_PATH }}/act">Werde Aktiv!</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		</div><!-- container -->
+	</header>
+	
+	<!-- This is the twitter navigation
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <ul class="nav">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+          </ul>
+        </div>
+      </div>
+    </div>
+	-->
+
+
+
+
+
+	<!-- Page Content -->
+		<!-- container -->
+		<div class="container">
+			<div class="page content"><!-- page -->
+
+
+
+			  {{ content }}
+
+
+
+				<div class="row">
+						&nbsp;
+				</div>
+				
+			</div><!-- page -->
+		</div><!-- container -->
+
+	<!-- Donation Dialog  -->
+
+	{% include custom/donateModal.html %}
+
+	<!-- Donation Dialog  -->
+
+
+
+	<!-- Footer Content -->
+	<footer>
+		<!-- container -->
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					<a href="{{ BASE_PATH }}/#"><h3>Seitenübersicht &larr;</h3></a>
+					<p>
+						<a href="{{ BASE_PATH }}/infos/#organisation">Organisation</a><br />
+						<a href="{{ BASE_PATH }}/blog/">Blog</a><br />
+						<a href="{{ BASE_PATH }}/recipes/#nice2">Rezepte</a><br />
+						<!-- a href="{{ BASE_PATH }}/#">Spenden  &rarr;</a><br /-->
+						<br />
+						<a href="{{ BASE_PATH }}/infos/#newsmedia">Presse</a><br />
+						<a href="{{ BASE_PATH }}/infos/#material">Materialien</a><br />
+						<!--a href="{{ BASE_PATH }}/#">Quellen?</a><br /-->
+						<br />
+						<a  target="_blank" href="http://support.eaternity.ch">FAQ &amp; Support</a><br />
+						<!--a href="{{ BASE_PATH }}/#">Feedback (Zur Homepage)?</a><br /-->
+						<!--a href="{{ BASE_PATH }}/#">Impressum ?</a><br /-->
+						<a href="{{ BASE_PATH }}/infos/#kontakt">Kontakt</a><br />
+					</p>
+
+					<h3><img src="{{ ASSET_PATH }}/images/generic/cc_icon_small.png" />&nbsp;2012 Eaternity</h3>
+					<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank"> Creative Commons Attribution 3.0 Unported License</a></p>
+					<p><a href="{{ BASE_PATH }}/legal">Haftbarkeit &amp; Rechtshinweise</a></p>
+
+				</div>
+				<div class="span3">
+
+					<h3>International</h3>
+					<p>
+					<a href="{{ BASE_PATH }}{{page.url}}#googtrans(en)" >English</a> /
+					<a href="{{ BASE_PATH }}{{page.url}}#googtrans(fr)" >Francais</a> /
+					<a href="{{ BASE_PATH }}{{page.url}}#googtrans(it)" >Italians</a>
+					<!-- div id="google_translate_element"></div -->
+					</p>
+
+					<!--h5>Newsletter</h5>
+					<p>Signup</p-->
+
+					<a href="{{ BASE_PATH }}/infos/#kontakt"><h3>Anschrift</h3>
+
+					<ul class="vcard">
+					    <li style="display:none" class="org">Eaternity</li>
+						<li class="street-address">Viaduktstrasse 93-95</li>
+						<li class="at">Im Hub Zürich</li>
+					    <li class="locality">CH-8005 Zürich</li>
+					    <li class="tel"><abbr title="Telefon">P:</abbr> +41 77-44-66-981</li>
+						<li style="display:none" class="email"><a href="mailto:info@eaternity.ch">info@eaternity.ch</a></li>
+					</ul>
+					</a>
+
+
+
+				</div>
+
+				<div class="span4 team offset2">
+
+					<a href="{{ BASE_PATH }}/infos/#team"><h3>Hallo, wir sind Eaternity &larr;</h3></a>
+
+					<ul class="thumbnails">
+					{% for item in site.categories['team'] reversed limit:6 %}
+
+							<li class="span1">
+								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
+							</li>
+
+				    {% endfor %}
+				    </ul>
+
+					<p>Werde Vereins-Mitglied. So kannst du aktiv mitwirken oder uns finanziell unterstützen.</p>
+					<a href="{{ BASE_PATH }}/act/#mitglied" class=" pull-right btn-small btn-inverse btn">Werde Mitglied &rarr;</a><a href="{{ BASE_PATH }}/infos/#team" class="btn-small btn">Unser Team</a>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- container -->
+	</footer>
+
+
+	<!-- Included JS Files -->
+	<script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+	<script src="{{ ASSET_PATH }}/js/app.js"></script>
+	
+	<script>
+	function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({
+	    pageLanguage: 'de',
+	    includedLanguages: 'de,en,fr,it',
+	    autoDisplay: false,
+	    gaTrack: true,
+	    gaId: 'UA-10486321-1',
+	    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+	  }, 'google_translate_element');
+	}
+	</script>
+	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+    {% include JB/analytics %}
+  </body>
+</html>
