@@ -19,7 +19,7 @@ folder: infos
 		-->
 		
 			{% for item in site.categories[page.folder] reversed %}
-					<li><a  href="javascript:{{ item.short }}.tab('show');window.location.hash = #{{ item.short }}"  data-target="#{{ item.short }}" data-toggle="tab">{{ item.title }}</a></li>
+					<li><a  href="#{{ item.short }}"  data-target="#{{ item.short }}" data-toggle="tab">{{ item.title }}</a></li>
 			{% endfor %}
 		</ul>
 	<div class="span9">
@@ -51,7 +51,7 @@ folder: infos
 										<ul>
 											{% for list_item in site.tags['Presse'] reversed %}
 											<li> 
-												<span>{{ list_item.date | date_to_string }} </span>  &raquo; <a href="{{ ASSET_PATH }}{{ list_item.url }}">
+												<span>{{ list_item.date | date_to_string }} </span>  &raquo; <a href="{{ BASE_PATH }}{{ list_item.url }}">
 												{{ list_item.title }}</a>  &rarr; <strong>{{ list_item.media }}</strong>
 
 											</li>
