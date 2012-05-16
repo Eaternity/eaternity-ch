@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Die klimafreundliche Rezepte-Küche.
+title: Zur klimafreundlichen Rezepte-Küche.
 folder: recipes
 ---
 
@@ -13,7 +13,7 @@ folder: recipes
 			<div class="carousel-inner" id="featured-preview">
 			
 				<!-- 5 thumnails passen auf die Seite-->
-				{% for item in site.categories['recipes'] reversed limit:5 %}
+				{% for item in site.categories['recipes'] limit:5 %}
 				<div class="{% if forloop.first %} active  {% endif %} item">
 					<a href ="{{ BASE_PATH }}{{item.url}}" data-thumb="{{ ASSET_PATH }}{{item.image-thumb}}" ><img src="{{ ASSET_PATH }}{{item.image-slider}}" class="bg"  /></a>
 				</div>
