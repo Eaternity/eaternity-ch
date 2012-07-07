@@ -23,7 +23,7 @@ Herzlichen Dank in diesem Sinne an Ernst&Young und wir freuen uns über Unterst�
 
 Berichtet darüber hat bereits der [Start up Ticker][3].
 
-Auch berichtet hat [Climate-KIC][4]
+Auch berichtet hat [Climate-KIC][4].
 
 
 
