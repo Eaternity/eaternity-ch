@@ -7,11 +7,11 @@ author: Stadt Zürich
 title: Saitanspiessli mit Couscoussalat
 
 type: Partner Rezept
-season: Dezember 2005
+season: Dezember
 
-image-big: /images/projects/menu_plus_zh/MenuPlus.jpg
-image-thumb: /images/projects/menu_plus_zh/menuplus_thumb.jpg
-image-slider: /images/projects/menu_plus_zh/cover-image.jpg
+image-big: /images/recipes/seitanspiessli.jpg
+image-thumb: /images/recipes/preview/seitanspiessli.jpg
+image-slider: /images/recipes/slider/seitanspiessli.jpg
 
 co2-value: 529
 

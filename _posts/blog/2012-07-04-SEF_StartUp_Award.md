@@ -25,9 +25,12 @@ Berichtet darüber hat bereits der [Start up Ticker][3].
 
 Auch berichtet hat [Climate-KIC][4].
 
+Das Niveau ist beeindruckend, aller eingereichten Projekte, berichtet [Social Entrepreneurship Foundation][5].
+
 
 
 [1]: http://sef-swiss.ch/
 [2]: http://sef-swiss.ch/sef-professionals-program/sef-award/
 [3]: http://www.startupticker.ch/news/july-2012/vier-gewinner-beim-social-entrepreneurship-award-a.aspx?tagid=
 [4]: http://www.climate-kic.org/about/resources/news-archive/detail/article/2012/07/05/sef-award-56-business-plans-submitted-4-winners-of-which-3-with-positive-impact-on-climate/
+[5]: http://sef-swiss.ch/sef-professionals-program/sef-award/

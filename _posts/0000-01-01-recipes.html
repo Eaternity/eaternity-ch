@@ -34,22 +34,22 @@ folder: recipes
 	<ul class="nav row-fluid nav-tabs" style="margin-bottom:0px;">
 		<li class="span3">
 			<a class="active  " data-target="#kitchen1" data-toggle="tab"><h4>Unsere Koch-Tips fürs Klima</h3>
-			<img src="{{ ASSET_PATH }}/images/frontpage/relevance.jpg" /></a>
+			<img src="{{ ASSET_PATH }}/images/kitchen/factors.jpg" /></a>
 		</li>
 	
 		<li class="span3">
 			<a  class=" " data-target="#kitchen2" data-toggle="tab"><h4>Alle Rezepte nach Saison</h3>
-			<img src="{{ ASSET_PATH }}/images/frontpage/vision.jpg" /></a>
+			<img src="{{ ASSET_PATH }}/images/kitchen/climate-recipes.jpg" /></a>
 		</li>
 	
 		<li class="span3">
 			<a  class=" " data-target="#kitchen3" data-toggle="tab"><h4>Mehrwerte auf allen Ebenen</h3>
-			<img src="{{ ASSET_PATH }}/images/frontpage/factors.jpg" /></a>
+			<img src="{{ ASSET_PATH }}/images/kitchen/why-it-is-great.jpg" /></a>
 		</li>
 	
 		<li class="span3">
 			<a  class=" " data-target="#kitchen4" data-toggle="tab"><h4>Eigene Rezepte vorschlagen</h3>
-			<img src="{{ ASSET_PATH }}/images/frontpage/factors.jpg" /></a>
+			<img src="{{ ASSET_PATH }}/images/kitchen/input-own.jpg" /></a>
 		</li>
 	
 	</ul>
@@ -58,7 +58,18 @@ folder: recipes
 	<div class="tab-content" style="background:white;padding-top:20px;-webkit-border-radius: 0 0 4px 4px ;
 	-moz-border-radius: 0 0 4px 4px ;
 	border-radius:0 0 4px 4px;padding:20px;border:0px">
-	  <div class="tab-pane fade in active well" id="kitchen1">This is kitchen tab 1's content. Pretty neat, huh?</div>
+	  <div class="tab-pane fade in active well" id="kitchen1">
+		<h3>Unsere klimafreundlichen Einkaufshelfer:</h3>
+<p>
+	1)	Besser pflanzlich statt tierisch: Obst, Gemüse und Getreide haben grundsätzlich die bessere Umweltbilanz, da die Tierhaltung deutlich mehr Ressourcen benötigt und dabei schädliche Methan-Emissionen entstehen.
+</p><p>
+	2)	Frisches Gemüse wählt man am besten saisonal: So braucht es kein Gewächshaus. Dessen Energieverbrauch für Beleuchtung und Beheizung ist sehr hoch und fällt oft sogar mehr ins Gewicht als ein längerer Transport aus dem wärmeren Süd-Europa.
+</p><p>
+	3)	Bezieht man regional hat man kurze Transportwege und fördert die  Region. Massgebend ist vor allem, dass damit auch kein Flugzeug Abgase in höheren Atmosphären ausstösst. Dort entstehen besonders starke Treibhaus-Effekte. Akzeptabel wäre jedoch ein Übersee-Transport mit dem Schiff.
+</p><p>
+	Über kulinarische Vielfalt mit ausgewogenen Zutaten freut sich nicht nur unsere Umwelt, sondern das Gekochte schmeckt auch gleich besser und hebt das allgemeine Wohlbefinden.</p></br>
+	<a href="#">PDF mit den Hintergründen zum ausdrucken und mitnehmen.</a>
+	</div>
 	  <div class="tab-pane fade well" id="kitchen2">
 		<h3>Leckere, klimafreundliche Rezepte.</h3><hr>
 		
@@ -66,8 +77,24 @@ folder: recipes
 		{% include custom/recipe-list.html %}
 	
 		</div>
-	  <div id="kitchen3" class="tab-pane fade well">This is kitchen tab 3's content. It's, you know...okay.</div>
-	  <div id="kitchen4" class="tab-pane fade well">This is kitchen tab 's content. It's, you know...okay.</div>
+	  <div id="kitchen3" class="tab-pane fade well">
+			<p>Gemeinsam können wir grosses Bewegen. Unsere Ernährung steht im Mittelpunkt unseres gesellschaftlichen Lebens - und prägt unsere Einstellung zu uns selbst. Kommt man auf den Genuss und hat Freude an leckerem Essen kann man sich viel Gutes tun. Gesund und ausgewogen sollte es sein - das gibt uns Energie. Mit klimafreundlicher Ernährung machen wir uns stark für Perspektiven die Zukunft haben und treffen eine Entscheidung, die uns unseren Planeten glücklich macht.</p>
+			<p>Mit unseren Rezepten streben wir die beste Mischung aus leckere, gesunden und günstigen Menüs an, welche ebenso klimafreundlich sind. Wie unsere bisherigen Projektumsetzungen zeigen - wird dies auch ao gefragt: <a href="#">siehe Projekte</a>.
+		
+		</div>
+	  <div id="kitchen4" class="tab-pane fade well">
+		
+		 <form action="actionpage.jsp" id="recipeForm">
+		   <input type="text" name="preperation" placeholder="Rezept Zubereitung hier ..." />
+		   <input type="submit" value="Rezept Berechnung Anfragen!" />
+		  </form>
+
+		  <!-- the result of the search will be rendered inside this div -->
+		  <div id="result"></div>
+	
+		
+		
+		</div>
 	</div>
 	
 </div>
@@ -85,8 +112,28 @@ $('.nav a').on('shown', function (e) {
 })
 
 </script>
+
 <script>
 $('.carousel').carousel()
 </script>
 
+<script>
+ /* attach a submit handler to the form */
+ $("#recipeForm").submit(function(event) {
+   /* stop form from submitting normally */
+   event.preventDefault(); 
 
+   /* get some values from elements on the page: */
+   var $form = $( this ),
+       term = $form.find( 'input[name="preperation"]' ).val(),
+       url = $form.attr( 'action' );
+
+   /* Send the data using post and put the results in a div */
+   $.post( url, { preperation: term },
+     function( data ) {
+         var content = $( data ).find( '#content' );
+         $( "#result" ).empty().append( content );
+     }
+   );
+ });
+</script>
