@@ -8,31 +8,22 @@ title: krautstielroulade mit ricotta-pilzfüllung
 type: Partner Rezept
 season: April
 
-image-big: /images/recipes/Krautstielroulade.jpg
-image-thumb: /images/recipes/preview/Krautstielroulade.jpg
-image-slider: /images/recipes/slider/Krautstielroulade.jpg
+image-big: /images/recipes/2012-07-15-Gnocci_mit_spinat.jpg
+image-thumb: /images/recipes/preview/2012-07-15-Gnocci_mit_spinat.jpg
+image-slider: /images/recipes/slider/2012-07-15-Gnocci_mit_spinat.jpg
 
 co2-value: 508
 
 zutaten:
 - <strong>Roulade</strong>
-- 8 krautstielblätter
-- 100 gr. Champignons (Zucht)
-- 100 gr. Eierschwämmli oder andere Zuchtpilze (Zucht) 
-- 1 schalotte (gelagert)
-- 400 gr. ricotta
-- 2 eigelb
-- 100 gr. Bintjekartoffeln
-- salz, pfeffer, muskatnuss
-- <strong>Sauce</strong>
-- 1 schalotte
-- 2 dl. weisswein
-- 1 lorbeerblatt
-- 1 dl. vollrahm
-- 2 EL gehackte Kräuter (petersilie, schnittlauch) salz, pfeffer
+- 8 
+
 
 
 ---
+
+Rezept ist noch anzupassen!
+
 
 Mit dieser Krautstiel-Roulade gab es das erste von Eaternity ausgezeichnete klimafreundliche Gericht in einem öffentlichen Restaurant im Zentrum von Zürich.
 
