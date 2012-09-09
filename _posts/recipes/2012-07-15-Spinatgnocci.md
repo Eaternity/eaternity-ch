@@ -3,10 +3,11 @@ layout: recipe
 category: recipes
 date: 2012-04-15
 
-author: Steffan vom Restaurant Viadukt
+author: Stefan vom Restaurant Viadukt
 title: krautstielroulade mit ricotta-pilzfüllung
 type: Partner Rezept
-season: April
+season: Frühling, Sommer
+season-date: 21.5 - 31.8
 
 image-big: /images/recipes/2012-07-15-Gnocci_mit_spinat.jpg
 image-thumb: /images/recipes/preview/2012-07-15-Gnocci_mit_spinat.jpg
