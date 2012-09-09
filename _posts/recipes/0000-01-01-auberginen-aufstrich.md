@@ -7,6 +7,8 @@ author: Andrea Roth
 title: Auberginen Brotaufstrich
 type: Monats Rezept
 season: Auberginen Saison
+season-date: xx-xx 
+
 
 image-big: /images/recipes/auberginen-aufstrich.jpg
 image-thumb: /images/recipes/preview/auberginen-aufstrich.jpg
@@ -23,7 +25,7 @@ zutaten:
 
 
 
-**zubereitung sauce**:
+
 xxx die gehackte schalotte zusammen mit dem weisswein und dem lorbeerblatt einkochen lassen.
 das lorbeerblatt entfernen und den vollrahm dazugeben und die sauce mit salz und pfeffer abschmecken. evtl. die sauce abbinden und die gehackten kräuter beigeben.
 fertigstellen:

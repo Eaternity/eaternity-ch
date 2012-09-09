@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Zur klimafreundlichen Rezepte-Küche.
+title: Die klimafreundliche Rezepte-Küche
 folder: recipes
 ---
 
@@ -15,7 +15,13 @@ folder: recipes
 				<!-- 5 thumnails passen auf die Seite-->
 				{% for item in site.categories['recipes'] limit:5 %}
 				<div class="{% if forloop.first %} active  {% endif %} item">
-					<a href ="{{ BASE_PATH }}{{item.url}}" data-thumb="{{ ASSET_PATH }}{{item.image-thumb}}" ><img src="{{ ASSET_PATH }}{{item.image-slider}}" class="bg"  /></a>
+					<a href ="{{ BASE_PATH }}{{item.url}}" data-thumb="{{ ASSET_PATH }}{{item.image-thumb}}" ><img src="{{ ASSET_PATH }}{{item.image-slider}}" class="bg"  />
+						<div class="carousel-caption">
+							<h6>{{item.title}}</h6>
+							<!--h1>Wir implementieren die Massnahmen das umzusetzen, was unsere Wissenschaft uns aufzeigt.</h1-->
+							<!-- <br><a href="{{ BASE_PATH }}/about/" class="btn">Mehr Informationen</a> -->
+						</div>	
+					</a>
 				</div>
 				{% endfor %}
 
@@ -31,58 +37,94 @@ folder: recipes
 
 <div class="row-fluid tabbable">
 	
-	<ul class="nav row-fluid nav-tabs" style="margin-bottom:0px;">
+	<ul class="nav row-fluid nav-tabs kitchen" style="margin-bottom:0px;">
 		<li class="span3">
-			<a class="active  " data-target="#kitchen1" data-toggle="tab"><h4>Unsere Koch-Tips fürs Klima</h3>
-			<img src="{{ ASSET_PATH }}/images/kitchen/factors.jpg" /></a>
+			<a class="active  " data-target="#kitchen1" data-toggle="tab"><h3>Unsere klimafreundlichen Kochtipps</h3>
+			<img src="{{ ASSET_PATH }}/images/kitchen/01_tipps.png" /></a>
 		</li>
 	
 		<li class="span3">
-			<a  class=" " data-target="#kitchen2" data-toggle="tab"><h4>Alle Rezepte nach Saison</h3>
-			<img src="{{ ASSET_PATH }}/images/kitchen/climate-recipes.jpg" /></a>
+			<a  class=" " data-target="#kitchen2" data-toggle="tab"><h3>Alle Rezepte</h3>
+			<img src="{{ ASSET_PATH }}/images/kitchen/02_alleRezepte_480px.png" /></a>
 		</li>
 	
 		<li class="span3">
-			<a  class=" " data-target="#kitchen3" data-toggle="tab"><h4>Mehrwerte auf allen Ebenen</h3>
-			<img src="{{ ASSET_PATH }}/images/kitchen/why-it-is-great.jpg" /></a>
+			<a  class=" " data-target="#kitchen3" data-toggle="tab"><h3>Vorteile für alle</h3>
+			<img src="{{ ASSET_PATH }}/images/kitchen/03_mehrwert_480px.png" /></a>
 		</li>
 	
 		<li class="span3">
-			<a  class=" " data-target="#kitchen4" data-toggle="tab"><h4>Eigene Rezepte vorschlagen</h3>
-			<img src="{{ ASSET_PATH }}/images/kitchen/input-own.jpg" /></a>
+			<a  class=" " data-target="#kitchen4" data-toggle="tab"><h3>Eigene Rezepte vorschlagen</h3>
+			<img src="{{ ASSET_PATH }}/images/kitchen/04_eigene-vorschlagen_480px.png" /></a>
 		</li>
 	
 	</ul>
 
 
-	<div class="tab-content" style="background:white;padding-top:20px;-webkit-border-radius: 0 0 4px 4px ;
+	<div class="tab-content" style="background:#f5f5f5;padding-top:20px;-webkit-border-radius: 0 0 4px 4px ;
 	-moz-border-radius: 0 0 4px 4px ;
-	border-radius:0 0 4px 4px;padding:20px;border:0px">
-	  <div class="tab-pane fade in active well" id="kitchen1">
-		<h3>Unsere klimafreundlichen Einkaufshelfer:</h3>
-<p>
-	1)	Besser pflanzlich statt tierisch: Obst, Gemüse und Getreide haben grundsätzlich die bessere Umweltbilanz, da die Tierhaltung deutlich mehr Ressourcen benötigt und dabei schädliche Methan-Emissionen entstehen.
-</p><p>
-	2)	Frisches Gemüse wählt man am besten saisonal: So braucht es kein Gewächshaus. Dessen Energieverbrauch für Beleuchtung und Beheizung ist sehr hoch und fällt oft sogar mehr ins Gewicht als ein längerer Transport aus dem wärmeren Süd-Europa.
-</p><p>
-	3)	Bezieht man regional hat man kurze Transportwege und fördert die  Region. Massgebend ist vor allem, dass damit auch kein Flugzeug Abgase in höheren Atmosphären ausstösst. Dort entstehen besonders starke Treibhaus-Effekte. Akzeptabel wäre jedoch ein Übersee-Transport mit dem Schiff.
-</p><p>
-	Über kulinarische Vielfalt mit ausgewogenen Zutaten freut sich nicht nur unsere Umwelt, sondern das Gekochte schmeckt auch gleich besser und hebt das allgemeine Wohlbefinden.</p></br>
-	<a href="#">PDF mit den Hintergründen zum ausdrucken und mitnehmen.</a>
+	border-radius:0 0 4px 4px;padding:20px;border-color: 
+	rgb(221, 221, 221);
+	border-style: solid;
+	border-width: 1px;border-top-width: 0px;">
+	  <div class="tab-pane fade in active" id="kitchen1">
+		<h2>Die wichtigsten Faktoren für klimafreundliche Gerichte</h2>
+		<hr>
+		<div class="row-fluid">
+
+
+			<div class="span3">
+				<img style="border: 6px solid white;" src="{{ ASSET_PATH }}/images/kitchen/05-faktor1_740px.png" />
+			</div>
+
+			<div class="span6">
+				<h3>Pflanzlich statt tierisch</h3>
+				Besser pflanzlich statt tierisch: Obst, Gemüse und Getreide haben grundsätzlich die bessere Klimabilanz, da die Tierhaltung deutlich mehr Ressourcen benötigt und dabei schädliche Methan-Emissionen entstehen.
+			</div>
+		</div>
+		<div class="row-fluid">
+
+
+			<div class="span3">
+				<img style="border: 6px solid white;" src="{{ ASSET_PATH }}/images/kitchen/05-faktor2_740px.png" />
+			</div>
+
+			<div class="span6">
+				<h3>Am besten saisonal</h3>
+				Frisches Gemüse wählt man am besten saisonal: So braucht es kein Gewächshaus. Dessen Energieverbrauch für Beleuchtung und Beheizung ist sehr hoch und fällt oft sogar mehr ins Gewicht als ein längerer Transport aus dem wärmeren Süd-Europa.
+			</div>
+		</div>
+		<div class="row-fluid">
+
+
+			<div class="span3">
+				<img style="border: 6px solid white;" src="{{ ASSET_PATH }}/images/kitchen/05-faktor3_740px.png" />
+			</div>
+
+			<div class="span6">
+				<h3>Regionale Produktwahl</h3>
+				Bezieht man regional hat man kurze Transportwege und fördert die  Region. Massgebend ist vor allem, dass damit auch kein Flugzeug Abgase in höheren Atmosphären ausstösst. Dort entstehen besonders starke Treibhaus-Effekte. Akzeptabel wäre jedoch ein Übersee-Transport mit dem Schiff.
+			</div>
+		</div>
+
+<hr>
+	<p>Über kulinarische Vielfalt mit ausgewogenen Zutaten freut sich nicht nur unsere Klima,<br /> sondern das Gekochte schmeckt auch gleich besser und hebt das allgemeine Wohlbefinden.</p>
+	
+	<a href="{{ ASSET_PATH }}/files/poster-homepage.pdf">PDF mit den Hintergründen zum ausdrucken und mitnehmen.</a>
 	</div>
-	  <div class="tab-pane fade well" id="kitchen2">
-		<h3>Leckere, klimafreundliche Rezepte.</h3><hr>
+	  <div class="tab-pane fade" id="kitchen2">
+		<h2>Unsere Auswahl an leckeren, klimafreundlichen Rezepten</h2><hr>
 		
 		{% assign numOfItems = 50 %}
 		{% include custom/recipe-list.html %}
 	
 		</div>
-	  <div id="kitchen3" class="tab-pane fade well">
+	  <div id="kitchen3" class="tab-pane fade">
 			<p>Gemeinsam können wir grosses Bewegen. Unsere Ernährung steht im Mittelpunkt unseres gesellschaftlichen Lebens - und prägt unsere Einstellung zu uns selbst. Kommt man auf den Genuss und hat Freude an leckerem Essen kann man sich viel Gutes tun. Gesund und ausgewogen sollte es sein - das gibt uns Energie. Mit klimafreundlicher Ernährung machen wir uns stark für Perspektiven die Zukunft haben und treffen eine Entscheidung, die uns unseren Planeten glücklich macht.</p>
-			<p>Mit unseren Rezepten streben wir die beste Mischung aus leckere, gesunden und günstigen Menüs an, welche ebenso klimafreundlich sind. Wie unsere bisherigen Projektumsetzungen zeigen - wird dies auch ao gefragt: <a href="#">siehe Projekte</a>.
+			<p>Mit unseren Rezepten streben wir die beste Mischung aus leckere, gesunden und günstigen Menüs an, welche ebenso klimafreundlich sind. Wie unsere bisherigen Projektumsetzungen zeigen - wird dies auch auch gefragt: <a href="#">siehe Projekte</a>.
 		
 		</div>
-	  <div id="kitchen4" class="tab-pane fade well">
+	  <div id="kitchen4" class="tab-pane fade">
 		
 		 <form action="actionpage.jsp" id="recipeForm">
 		   <input type="text" name="preperation" placeholder="Rezept Zubereitung hier ..." />

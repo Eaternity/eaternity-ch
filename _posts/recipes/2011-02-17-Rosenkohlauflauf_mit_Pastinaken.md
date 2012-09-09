@@ -3,7 +3,7 @@ layout: recipe
 category: recipes
 date: 2011-02-17
 
-publish: false
+published: false
 
 author: Thorsten Wrobel
 title: Rosenkohlauflauf mit Pastinaken

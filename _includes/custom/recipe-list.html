@@ -5,31 +5,33 @@
 
 	<div class="span3">
 
-		<img src="{{ ASSET_PATH }}{{ item.image-thumb }}" />
+		<img style="border: 6px solid white;" src="{{ ASSET_PATH }}{{ item.image-thumb }}" />
 	</div>
 	
-	<div class="span6">
-		<div>
-			<h5><a href="{{ BASE_PATH }}{{item.url}}">{{item.title}}</a></h5>
-			<!--small>2:18AM by Melissa</small-->
+	<div class="span6 right-line">
+		<div style="padding-left:20px;">
+			<a href="{{ BASE_PATH }}{{item.url}}"><h3>{{item.title}}</h3></a>
+			<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ item.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ item.author }}</small></div>
 			
-		
-			{{ item.content | strip_html | truncatewords: 38 }} 
-			<a href="{{ BASE_PATH }}{{item.url}}">&nbsp;weiterlesen</a>
+			<h4>Zubereitung</h4>
+			<p>{{ item.content | strip_html | truncatewords: 24 }}</p>
+			<a href="{{ BASE_PATH }}{{item.url}}" class="pull-right btn btn-inverse btn-small">zum Rezept</a>
 			
 		</div>
 		
 	</div>
 	
-	<div class="span3">
-		{% assign value = item.co2-value %}
-		{% include custom/co2-label.html %}
-		<div class="pull-right">Saison: {{ item.season }}</div>
+	<div class="span2">
+		<div class="label-recipe">
+			<h3>{{ item.co2-value }} g </h3>CO2-Äquivalent pro Person.<br><br>
+		    <h3>{{ item.season }}</h3>Saison: {{ item.season-date }}<br>
+		</div>
+		
 	</div>
 	
-	<hr />	
+
 
 	
 </div>	
-
+	<hr />	
 	{% endfor %}

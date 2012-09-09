@@ -5,35 +5,68 @@ layout: default
 
 
 <div class="row">
-	<div class="span12">
+	<div class="span12 recipeTitel" >
 		<img src="{{ ASSET_PATH }}{{ page.image-big }}">
+		<h6>{{page.title}}</h6>
 	</div>
 </div>
 
 <div class="row">
-	<div class="span3">
-		<p>{{ page.date | date_to_string }}</p>
-		<br>
-		{% assign value = page.co2-value %}
-		{% include custom/co2-label.html %}
-		
-			<p>Saison: {{ page.season }}</p>
-		
-		<h6>Zusammengestellt von: {{page.author}}.</h6>
-		<br><br>
-		
-		<h5><a href="{{ BASE_PATH }}/recipes/#kitchen2" ><img src="{{ ASSET_PATH }}/images/recipe_kitchen.jpg" />&laquo; Zur klimafreundlichen Rezepte-Küche</a></h5>
+	
+	<div class="span12">
+	{% if page.previous and page.previous.category == page.category %}
+	<a class='prev pull-left' href='{{ BASE_PATH }}{{page.previous.url}}'>&larr; vorhergehendes Rezept</a>
+	{% endif %}
+
+
+	{% if page.next and page.next.category == page.category %}
+	<a class='next pull-right' href='{{ BASE_PATH }}{{page.next.url}}'>nächstes Rezept &rarr;</a>
+	{% endif %}
+	</div>
+<br /><br /><br /><br /><br />
+</div>
+
+
+<div class="row">
+	<div class="span8 non-well right-line">
+
 		
 
-		<p>
-		{% if page.previous and page.previous.category == page.category %}
-	    <a class='prev' href='{{ BASE_PATH }}{{page.previous.url}}'>&laquo; Vorheriges Rezept</a>
-	    {% endif %}
-	    {% if page.next and page.next.category == page.category %}
-	    <a class='next' href='{{ BASE_PATH }}{{page.next.url}}'>Nächstes Rezept &raquo;</a>
-	    {% endif %}
-		</p>
+
+
+			<div style="padding-left:20px;">
+				<h1>{{page.title}}</h1>
+				<br />
+				<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ page.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ page.author }}</small></div>
+				<br /><br /><br />
+				<h2>Zubereitung</h2>
+				{{content}}
+
+
+				<div id="related">
+				  <ul class="posts">
+				    {% for post in site.related_posts limit:10 %}
+						{% if post.category == 'recipe' %}
+				      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endif %}
+				    {% endfor %}
+				  </ul>
+				</div>
+				
+				<hr />
+				<ul class="like-buttons">
+		            <li><div id="fb-root"></div>
+						<fb:like href="{{ BASE_PATH }}}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}}{{page.url}}" >Twittern</a></li>
+						<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{ BASE_PATH }}}{{page.url}}"></g:plusone></li>
+				</ul>
+				
+			</div>
+
+	
+
 		
+
 
 			
 		<div class='follow'>
@@ -51,23 +84,36 @@ layout: default
 	
 	</div>
 	
-	<div class="span6">
+	<div class="span3 info-recipe">
+		
+		<a href="{{ BASE_PATH }}/recipes/#kitchen2" class="btn btn-inverse">&larr; Zur Rezepte-Küche</a>
+		
+		<hr />
+		
+	
+		<h3>{{ page.co2-value }} g </h3>CO2-Äquivalent pro Person.<br>
+		<hr />
+	    <h3>{{ page.season }}</h3>Saison: {{ page.season-date }}<br>
+
+		<div class="double-line">
+		<hr />
+		<hr />
+		</div>
+		
+		<h3>Zutaten für 4 Personen:</h3>
+		</p>
+		<ul class="ingredients">
+			{% for ingedient in page.zutaten %}
+		      <li>{{ ingedient }}</li>
+		    {% endfor %}
+		</ul>
+		
+
 		<div>
 
 		
-			<h3>{{page.title}}</h3>
-			<small>{{page.media}}</small>
+
 			
-			{{content}}
-			
-			<ul class="like-buttons">
-	            <li><div id="fb-root"></div>
-					<fb:like href="{{ BASE_PATH }}}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}}{{page.url}}" >Twittern</a></li>
-					<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{ BASE_PATH }}}{{page.url}}"></g:plusone></li>
-			</ul>
-			
-			<hr>
 			
 			<!-- <ul class="social-media">
 				<li></li>
@@ -77,32 +123,13 @@ layout: default
 			</ul> -->
 			
 			
-			<div id="related">
-			  <ul class="posts">
-			    {% for post in site.related_posts limit:10 %}
-					{% if post.category == 'recipe' %}
-			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-					{% endif %}
-			    {% endfor %}
-			  </ul>
-			</div>
+
 			
 		</div>
 	</div>
 	
 	
 	
-	<div class="span3">
-		<br><br><p>
-		<h5>Zutaten für 4 Personen</h5>
-		</p>
-		<ul class="ingredients">
-			{% for ingedient in page.zutaten %}
-		      <li>{{ ingedient }}</li>
-		    {% endfor %}
-		</ul>
-		
-	</div>
 	
 </div>	
 
