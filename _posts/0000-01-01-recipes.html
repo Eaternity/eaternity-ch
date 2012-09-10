@@ -61,7 +61,7 @@ folder: recipes
 	</ul>
 
 
-	<div class="tab-content" style="background:#f5f5f5;padding-top:20px;-webkit-border-radius: 0 0 4px 4px ;
+	<div class="tab-content" style="background:#f5f5f5;padding:20px;-webkit-border-radius: 0 0 4px 4px ;
 	-moz-border-radius: 0 0 4px 4px ;
 	border-radius:0 0 4px 4px;padding:20px;border-color: 
 	rgb(221, 221, 221);
@@ -126,13 +126,58 @@ folder: recipes
 		</div>
 	  <div id="kitchen4" class="tab-pane fade">
 		
-		 <form action="actionpage.jsp" id="recipeForm">
-		   <input type="text" name="preperation" placeholder="Rezept Zubereitung hier ..." />
-		   <input type="submit" value="Rezept Berechnung Anfragen!" />
-		  </form>
+		
+		  <form  action="http://getsimpleform.com/messages?api_token=fe5735fab77a3443e87628d654c99774"  id="recipeForm" method="post">
+
+<div class="row-fluid">
+	        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+	        <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+		
+		<div class="span4">
+			 <p>
+			    <label>Name</label>
+			    <input type='text' name='name' />
+			  </p>
+
+			  <p>
+			    <label>Email-Adresse</label>
+			    <input type='text' name='email' />
+			  </p>
+
+			  <p>
+			    <label>Bild oder Datei zum Rezept</label>
+			    <input type='file' name='picture' />
+			  </p>
+			
+
+			  <!-- <p>
+			    <label>Gender</label>
+			    <select name='gender'>
+			      <option value="M">Male</option>
+			      <option value="F">Female</option>
+			    </select>
+			  </p>
+			 -->
+			
+<!-- 			  <p>
+			    <label for='kontaktieren'>Wollen Si?</label>
+			    <input type='checkbox' name='contact' value='Yes' id='contact-yes'>
+			    <input type='hidden' name='contact' value='No'>
+			  </p> -->
+
+			</div>
+			<div class="span8">
+
+	        <!-- all your input fields here.... -->
+	 		<label>Ihre Nachricht</label>
+	        <textarea  type='text' class="span7" rows='9' placeholder="Ihre Nachricht / Rezept hier ..." name='preperation' /></textarea>
+			</div>
+</div>
+	        <input type='submit' class="pull-right" value='Anfragen!' />
+	      </form>
 
 		  <!-- the result of the search will be rendered inside this div -->
-		  <div id="result"></div>
+		  <!-- <div id="result"></div> -->
 	
 		
 		
