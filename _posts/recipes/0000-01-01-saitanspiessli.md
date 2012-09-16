@@ -3,7 +3,7 @@ layout: recipe
 category: recipes
 date: 2012-01-04
 
-author: Stadt Zürich
+author: Thomas Scheuermann  von der Stadt Zürich
 title: Saitanspiessli mit Couscoussalat
 
 type: Partner Rezept

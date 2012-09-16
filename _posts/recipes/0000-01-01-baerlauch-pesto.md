@@ -3,10 +3,13 @@ layout: recipe
 category: recipes
 date: 2012-01-03
 
+published: true
+
+
 author: Manuel Klarmann
-type: Beliebtes Rezept
+type: Saisonales Rezept
 title: Spaghetti mit Bärlauchpesto.
-season: Fall 2005
+season: Frühling
 
 image-big: /images/recipes/pesto.jpg
 image-thumb: /images/recipes/preview/pesto.jpg

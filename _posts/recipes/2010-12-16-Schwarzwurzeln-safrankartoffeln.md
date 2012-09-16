@@ -5,13 +5,14 @@ date: 2010-12-16
 
 author: Andrea Roth
 title: Schwarzwurzeln mit Safrankartoffeln
+type: Winter Rezept
+season: Oktober bis März
 
 image-big: /images/recipes/2010-12-16-Dezember-Rezept_mit_Schwarzwurzeln.jpg
 image-thumb: /images/recipes/preview/2010-12-16-Dezember-Rezept_mit_Schwarzwurzeln.jpg
 image-slider: /images/recipes/slider/2010-12-16-Dezember-Rezept_mit_Schwarzwurzeln.jpg
 
-type: Winter Rezept
-season: Oktober bis März
+
 
 co2-value: 196
 
@@ -46,6 +47,3 @@ Unser Dezember-Rezept zeigt, wie ihr aus Schwarzwurzeln ein wunderbares Menu zau
 
 **Zubereitung**: Die Schalotten schälen und in klein schneiden. Olivenöl in einer grossen Pfanne erhitzen und Schaltotten mit den Kartoffeln gut 4 Minuten anbraten. In einer Gratinform die Safran, Koriander, Kreuzkümmel und Lorbeerblatt mit 400 ml Wasser mischen. Dann die Kartoffeln dazugeben und mit Salz und Pfeffer würzen. Die Kartoffeln bei 200 Grad für 40-50 Minuten im Backofen garen.
 
-[Read more...][1]
-
-[1]: x

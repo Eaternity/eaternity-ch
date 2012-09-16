@@ -3,6 +3,9 @@ layout: recipe
 category: recipes
 date: 2012-04-15
 
+published: false
+
+
 author: Stefan vom Restaurant Viadukt
 title: krautstielroulade mit ricotta-pilzfüllung
 type: Partner Rezept

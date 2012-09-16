@@ -3,8 +3,11 @@ layout: recipe
 category: recipes
 date: 2012-07-06
 
+published: false
+
+
 author: Andrea Roth
-title: Auberginen Brotaufstrich
+title: Energie Bälle
 type: Monats Rezept
 season: Auberginen Saison
 

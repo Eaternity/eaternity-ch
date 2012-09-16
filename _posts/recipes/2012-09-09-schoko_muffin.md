@@ -3,6 +3,9 @@ layout: recipe
 category: recipes
 date: 2012-04-15
 
+published: false
+
+
 author: Judith Ellens
 title: Schoko Muffin
 type: Partner Rezept

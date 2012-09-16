@@ -3,8 +3,8 @@ layout: recipe
 category: recipes
 date: 2012-04-15
 
-author: Steffan vom Restaurant Viadukt
-title: krautstielroulade mit ricotta-pilzfüllung
+author: Stefan vom Restaurant Viadukt
+title: Krautstielroulade mit Ricotta-Pilzfüllung
 type: Partner Rezept
 season: April
 

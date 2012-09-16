@@ -3,9 +3,12 @@ layout: recipe
 category: recipes
 date: 2012-07-06
 
-author: Andrea Roth
-title: Auberginen Brotaufstrich
-type: Monats Rezept
+published: false
+
+
+author: AG Konsum Uni Zürich
+title: Ausstecher
+type: Weihnachtsrezept Rezept
 season: Auberginen Saison
 
 image-big: /images/recipes/ausstecher.jpg
