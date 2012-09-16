@@ -19,7 +19,7 @@ image-slider: /images/recipes/slider/2012-09-09-schoko_muffin.jpg
 co2-value: 265
 
 zutaten:
--<strong>Bruschetta</strong>
+- <strong>Bruschetta</strong>
 - 500 g Brot
 - 600 g Broccoli
 - 150 g Mandeln
