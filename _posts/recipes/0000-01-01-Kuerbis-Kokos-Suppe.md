@@ -9,7 +9,8 @@ published: true
 author: Judith Ellens
 title: Fruchtige Kürbisherbstsuppe
 type: Herbst Rezept
-season: Kürbis Saison
+season: Herbst
+season-date: Kürbis Saison
 
 image-big: /images/recipes/kuerbis-kokos-suppe.jpg
 image-thumb: /images/recipes/preview/kuerbis-kokos-suppe.jpg
@@ -28,9 +29,12 @@ zutaten:
 - 50 ml Weisswein
 - 1-2 geschälte Quitten (150 g) oder 2-3 Zwetschgen
 - <strong>Zum Garnieren:</strong>
-- Kürbis- oder Sonnenblumenkerne frische Petersilie oder Basilikum
+- Kürbis- oder Sonnenblumenkerne 
+- frische Petersilie oder Basilikum
 - <strong>Würzmischung:</strong>
-- 1 gepresste Knoblauchzehe 1 TL gemahlener Koriander Zitronensaft
+- 1 gepresste Knoblauchzehe 
+- 1 TL gemahlener Koriander 
+- Zitronensaft
 - 30 ml Olivenöl
 - Zimt, gemahlene Nelken Salz, Pfeffer
 
