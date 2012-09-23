@@ -7,43 +7,36 @@ published: false
 
 
 author: Judith Ellens
-title: Schoko Muffin
-type: Partner Rezept
-season: Frühling, Sommer
-season-date: 21.5 - 31.8
+title: Schoko Bananen Muffin
+type: Leckeres Rezept
+season: ganzjährig
+season-date: -
 
 image-big: /images/recipes/2012-09-09-schoko_muffin.jpg
 image-thumb: /images/recipes/preview/2012-09-09-schoko_muffin.jpg
 image-slider: /images/recipes/slider/2012-09-09-schoko_muffin.jpg
 
-co2-value: 508
+co2-value: 473
+
 
 zutaten:
-- <strong>Roulade</strong>
-- 8 
-
+- <strong>ergibt 12 Stück</strong>
+- 300 g Mehl 
+- 150 g Rohrzucker
+- 2 EL Kakao
+- 1 Päckchen Backpulver
+- 1 Päckchen Natron
+- 150 g Schockolade (dunkel)
+- 2-3 Bananen (ca. 350 g)
+- 300 ml (Soja-) Milch
+- 80 ml Sonnenblumenöl
 
 
 ---
 
-Rezept ist noch anzupassen!
-
-
-Mit dieser Krautstiel-Roulade gab es das erste von Eaternity ausgezeichnete klimafreundliche Gericht in einem öffentlichen Restaurant im Zentrum von Zürich.
-
-**vorbereitung roulade**:
-die stengel der krautstielblätter von den blättern schneiden und in feine streifen schneiden.
-die blätter in salzwasser blanchieren.
-die champignons und die eierschwämmli in feine würfel schneiden und zusammen mit der gehackten schalotte und den geschnittenen krautstielstengeln weichdünsten.
-die kartoffeln schälen, in würfel schneiden & in salzwasser weichkochen. die gekochten kartoffeln durchs passe-vite pressen.
-die pilzmasse und die kartoffelmasse zum ricotta geben, die eigelbe dazugeben, vermischen und mit salz, pfeffer und muskatnuss abschmecken.
-zubereitung roulade:
-die blanchierten krautstielblätter (8stück) mit küchenpapier trockentupfen und auslegen.
-auf jedes blatt ca. 50 gr. der ricotta-pilzfüllung geben und rouladen formen. die fertigen rouladen auf ein ausgebuttertes blech geben und mit dem geriebenen sbrinz bestreuen. bei 180 grad im ofen überbacken.
-weisswein-kräutersauce:
-
-**zubereitung sauce**:
-die gehackte schalotte zusammen mit dem weisswein und dem lorbeerblatt einkochen lassen.
-das lorbeerblatt entfernen und den vollrahm dazugeben und die sauce mit salz und pfeffer abschmecken. evtl. die sauce abbinden und die gehackten kräuter beigeben.
-fertigstellen:
-auf tiefe teller etwas der kräutersauce geben und je 2 rouladen anrichten und mit gehackter petersilie garnieren.
+In einfachen Schritten:
+1. Vermische die trockene Zutaten. 
+2. Hacke den Schokolade in kleine Stücke und füge diese ebenfalls zu.
+2. Verrühre die Milch und das Sonnenblumenöl mit den trockenen Zutaten.
+3. Mische mit einer Gabel die Bananen fein und füge diese zur Teig-Masse
+4. Fülle die Muffinförmchen und backe alles ohne Vorheizen etwa 30 Minuten auf 180 Grad. 
