@@ -39,12 +39,12 @@ folder: recipes
 	
 	<ul class="nav row-fluid nav-tabs kitchen" style="margin-bottom:0px;">
 		<li class="span3">
-			<a class="active  " data-target="#kitchen1" data-toggle="tab"><h3>Unsere klimafreundlichen Kochtipps</h3>
+			<a class="active" data-target="#kitchen1" data-toggle="tab"><h3>Unsere klimafreundlichen Kochtipps</h3>
 			<img src="{{ ASSET_PATH }}/images/kitchen/01_tipps.png" /></a>
 		</li>
 	
 		<li class="span3">
-			<a  class=" " data-target="#kitchen2" data-toggle="tab"><h3>Alle Rezepte</h3>
+			<a  class="active" data-target="#kitchen2" data-toggle="tab"><h3>Alle Rezepte</h3>
 			<img src="{{ ASSET_PATH }}/images/kitchen/02_alleRezepte_480px.png" /></a>
 		</li>
 	
@@ -67,7 +67,7 @@ folder: recipes
 	rgb(221, 221, 221);
 	border-style: solid;
 	border-width: 1px;border-top-width: 0px;">
-	  <div class="tab-pane fade in active" id="kitchen1">
+	  <div class="tab-pane fade in" id="kitchen1">
 		<h2>Die wichtigsten Faktoren für klimafreundliche Gerichte</h2>
 		<hr>
 		<div class="row-fluid">
@@ -112,7 +112,7 @@ folder: recipes
 	
 	<a href="{{ ASSET_PATH }}/files/poster-homepage.pdf">PDF mit den Hintergründen zum ausdrucken und mitnehmen.</a>
 	</div>
-	  <div class="tab-pane fade" id="kitchen2">
+	  <div class="tab-pane fade active" id="kitchen2">
 		<h2>Unsere Auswahl an leckeren, klimafreundlichen Rezepten</h2><hr>
 		
 		{% assign numOfItems = 50 %}
