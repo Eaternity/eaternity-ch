@@ -1,0 +1,609 @@
+/* Override some defaults */
+html {
+  background-color: #eee;
+}
+
+
+body { 
+background: #fff url(../images/background.jpg) 0 0 repeat;
+font-family: "Open Sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+color: #555;
+}
+
+hr {
+	margin: 30px 0;
+}
+
+h5 {
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #181818;
+	line-height: 1.4;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+.container > footer {
+  margin-top: 20px;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+/* The white background content wrapper */
+.content {
+/*	display: none;*/
+	padding: 18px 18px;  margin: 0 auto;
+	border: 1.5px solid #FF8300;
+	 /*-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;*/
+	background: #ffffff;
+/*	background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
+	*/
+
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 5px 5px 5px 5px;
+     -moz-border-radius: 5px 5px 5px 5px;
+          border-radius: 5px 5px 5px 5px;
+
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.25);
+     -moz-box-shadow: 0 2px 5px rgba(0,0,0,.25);
+          box-shadow: 0 2px 5px rgba(0,0,0,.25);
+}
+
+/* Page header tweaks */
+.page-header {
+/*  background-color: #f5f5f5;*/
+	padding: 0px 20px 20px 0px;
+margin: 18px 0px 50px 0px;
+  border:0;
+  position:relative;
+
+}
+
+
+.page-header-recipe {
+/*  background-color: #f5f5f5;*/
+/*  padding: 20px 20px 10px;*/
+  margin: -18px -20px -40px;
+  border:0;
+  position:relative;
+  z-index:200;
+}
+img.corner {
+	max-height:160px;
+	margin-bottom:-140px;
+	margin-left:0px;
+
+}
+
+.page-header h1 {
+	font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 font-size: 30px;
+	 font-weight: 100;
+	 text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
+	 color:#F18224;
+	 text-align:left;
+	padding-left:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-transform: none;
+	max-width:300px;
+	margin-bottom:-60px;
+}
+
+
+.topbar .btn {
+  border: 0;
+}
+.well-non {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	text-align:justify;
+
+}
+
+.well-non h3 {
+	padding-bottom:0px;
+}
+
+.label-recipe {
+	min-height: 20px;
+	padding-left: 0px;
+	margin-right:-20px;
+	margin-bottom: 20px;
+}
+
+.label-recipe h3 {
+	padding-bottom:0px;
+}
+
+
+#kitchen1 img {
+	margin-bottom:30px;
+}
+#kitchen1 .span6 {
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+#recipeCarousel h6 {
+	text-align:left;
+  padding-left:20px;
+  text-transform: none;
+   font-style: italic;
+}
+
+#recipeCarousel .carousel-caption {
+	height: 70px;
+}
+
+.recipeTitel h6 {
+	font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 40px;
+	font-weight: 100;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.85);
+	color: 	#fff;
+	text-align: left;
+	padding-left: 30px;
+	text-transform: none;
+	font-style: italic;
+	margin-bottom:40px;
+	margin-top:-60px;
+}
+
+.info-recipe h3 {
+	padding-bottom:0em;
+}
+
+.info-recipe hr {
+	margin:0.8em 0em;
+	border-top:2px dotted #ccc;
+/*	border-top: 1px dotted #eeeeee;
+  	border-bottom: 1px dotted #ffffff;*/
+}
+
+.double-line {
+	margin:0.8em 0em;
+}
+
+.double-line hr { 
+margin:1px;
+padding:0px;
+}
+
+/* -----------------------------------------
+   Header and Footer
+----------------------------------------- */
+
+.logo {max-width: 180px; margin-bottom: -50px; margin-left: -18px;}
+
+header { 
+
+	padding-bottom: 645px; padding-top: 30px; margin-bottom:-620px;
+  /* background: url(../images/cut3.png) repeat-x ;*/
+  background: url(../images/background_falling.png) no-repeat;
+  background-position:80% 0%;
+  margin-left:20px; margin-right:20px;
+
+  min-height:80px;
+}
+
+/*header nav ul { margin: 0 0 0 -20px; padding: 0; float: right; overflow: hidden; }
+header nav ul li { margin: 0 0 0 20px; padding: 0; display: block; float: left; }*/
+
+
+header nav { 
+/*		display:none;*/
+	margin-top: 16px; margin-bottom:-6px; margin-right:-16px; }
+	
+header nav ul {  text-transform: uppercase; margin: 0 0 0 -20px; padding: 0; float: right; overflow: hidden; }
+header nav ul li { margin: 15px 0 0px 40px; padding: 0; display: block; float: left; position: relative; }
+header nav ul li:after { content: ""; display: block; width: 4px; height: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  position: absolute; top: 6px; right: -17px; }
+header nav ul li a { font-size: 15px; font-weight: 700; }
+header nav ul li a > span {  margin-right: 2px; }
+header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url(../images/icons/active-nav.png) 0 0 no-repeat; display: block; }
+
+header nav ul.show-on-mobile { display:none }
+
+header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;}
+
+
+
+footer { 
+
+	padding-bottom: 160px;  background: url(../images/background_footer-icons.png) 52% 90% repeat-x ; }
+footer .row { 
+/*		display:none;*/
+	margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 0px solid #ddd; }
+
+
+/* -----------------------------------------
+   Carousel
+----------------------------------------- */
+    .jumbotron { position: relative; margin-bottom: 20px; }
+    .jumbotron h1 { position: absolute; left: 20px; bottom: 20px; }
+	.jumbotron blockquote { padding: 0; border-left: none; font-size: 22px; font-weight: bold; background: url(../images/misc/quote.png) 0 0 no-repeat; padding: 9px 20px 0 19px; margin: 0 0 4px;
+}
+	 
+
+	.carousel-text { 
+	position: absolute; right: 10px; bottom: 20px; margin-right:10px; margin-left:10px;
+	width: 33%; background: rgba(255,255,255,0.45); padding: 20px;
+	
+	 -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius:10px; border: 1.5px solid #FF8300;
+		background: #efefef;
+		background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4));
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
+		box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+		-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+	
+	 }
+	 
+
+.carousel-text blockquote { padding: 0; border-left: none; font-size: 22px; font-weight: bold; background: url(../images/misc/quote.png) 0 0 no-repeat; padding: 9px 20px 0 19px; margin: 0 0 4px;
+}
+
+
+.carousel-text h1 { position: relative; left: 0px; bottom: 0px; font-size: 18px; font-weight: normal; }
+
+
+
+/* -----------------------------------------
+   Own Components
+----------------------------------------- */
+
+.top-info .thumbnail {
+  display: block;
+  padding: 1px;
+  line-height: 1;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.top-info a.thumbnail:hover{
+	border: 1px solid #aaa;
+}
+
+.btn { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; }
+.pull-right { margin-top:0em; margin-bottom:0em;}
+
+.blog {	border: 1px solid #EEE;padding: 0px 0px 0px 20px; margin-bottom:20px; margin-top:20px;}
+
+.eyecatcher {   margin-bottom: 10px;  }
+
+.top-info {
+	padding-top:10em;
+}
+
+.top-info li {
+background-color: #fff;
+text-align:center;
+}
+.top-info a {
+	padding: 1px;
+	}
+	
+.top-info a:hover {
+	text-decoration: none;
+}	
+
+/*.team img { padding: 4px; filter:gray;}*/
+.team hr { border: 0; }
+
+/*.team ul {
+	margin-left:0px;
+}*/
+
+/*.team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:105px;width:120px;margin:0px 4px -105px 4px;}*/
+
+/*.team .cover-thumb {position:relative;background-color:rgba(218,232,215,0.25); height:80px;width:90px;margin:4px 4px -84px 4px;}*/
+
+.prominent { 
+/*	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px; 
+	border: 1.5px solid #DF7921;
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%) url(../images/doodle2.png) right bottom no-repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4)) ;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
+	box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);*/
+		
+/*	padding: 10px;*/
+	/*margin-bottom:20px;*/
+}
+
+.right-line {
+	
+	border-right:2px dotted #ccc;
+	padding-right:40px;
+
+	
+}
+
+.tapete { background: url(../images/karotten-tapete2.png) center bottom repeat;}
+.recipe { background: url(../images/misc/spoon.png) right top no-repeat;}
+.recipe h5 {margin-right:60px; color:  #A75C21; margin-bottom: 0px; margin-top:18px; font-size:22px; line-height:26px;}
+.recipe h2 { margin: 14px 0px 0px 0px; line-height: 26px; font-weight:normal; }
+.recipe-frame {  background: #fff; padding:15px;}
+
+.carousel-caption {
+/*	background: -moz-linear-gradient(top, #FCFCFC 0%, #FBFBFB 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FCFCFC), color-stop(100%,#FBFBFB));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', endColorstr='#FBFBFB',GradientType=0 );
+	
+	text-align: center;*/
+	
+	height: 100px;
+	bottom: 0px;
+	background: none;
+	
+}
+.carousel-inner .item {
+	
+	padding-bottom:20px;
+}
+
+.carousel-caption h6 {
+  font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.85);
+  color:#fff;
+  text-align:right;
+  padding-right:30px;
+  text-transform: none;
+}
+
+.about-us {
+	min-height: 700px; 
+	/*background: white;*/
+}
+
+.about-us-nav {
+	margin-right: -1px !important;
+	min-height: 400px; 
+	padding-top:30px;
+
+}
+
+.about-us-nav li a{
+	/*background-color: transparent !important;*/
+}
+
+#DonateModal li a {
+	padding: 0px;
+	margin-right: 0px;
+}
+
+
+
+.kitchen > li > a {
+  display: block;
+  padding: 5px;
+  line-height: 1;
+  border: 1px solid #ddd;
+/*  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);*/
+  margin-bottom:25px;
+  text-align:right;
+ 
+}
+
+
+
+.kitchen .nav-tabs > .active > a, .nav-tabs > .active > a {
+color: #555555;
+background-color: 	#f5f5f5;
+border: 1px solid #ddd;
+border-bottom-color: transparent;
+cursor: default;
+padding-bottom:30px;
+ margin-bottom:0px;
+
+}
+
+.kitchen .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+color: #555555;
+background-color: 	#f5f5f5;
+border: 1px solid #ddd;
+border-bottom-color: transparent;
+cursor: default;
+}
+
+.kitchen .tab-content {
+	background-color: 	#f5f5f5;
+}
+.kitchen img {
+	max-height:150px;
+	padding-top:2em;
+	padding-right:15px;
+}
+
+.kitchen h3 {
+	height:2em;
+	padding-right:20px;
+	padding-left:6px;
+	margin-bottom:-3em;
+	position:relative;
+	z-index:200;
+	text-align:left;
+}
+
+.tab-pane h3{
+  padding-bottom:0.4em;
+}
+
+.tab-pane h2{
+  padding-bottom:0em;
+}
+
+
+.recipe-info small{
+	color: #F18224;
+	margin-right:15px; 
+}
+
+
+.recipe-info img {
+	max-height: 16px;
+	margin-right:5px; 
+	margin-bottom:-1px;
+}
+.recipe-info {
+	padding-bottom:1.4em;
+}
+
+/* -----------------------------------------
+   Text
+----------------------------------------- */
+p.intro { font-size: 18px; line-height: 1.3; color: #555; }
+h1 small, h2 small, h3 small, h4 small, h5 small { color: #777; font-size: 60%; font-weight: normal; }
+h1 { text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.55); }
+h2 { font-weight: 600; padding-bottom:1.6em; color:#000;}
+h3 { font-weight: 600; padding-bottom:1.2em; line-height: 26px;}
+
+footer h3 {
+	font-size: 17px;
+	font-weight: 400;
+}
+
+a { color: #F18224; text-decoration: none; line-height: inherit; }
+a:hover { color: #F18224; text-decoration: underline; }
+/* #DF7921
+color: #FF8300; 
+*/
+/* -----------------------------------------
+   Vcard
+----------------------------------------- */
+.vcard li {
+	list-style-type: none;
+	margin-left: -25px;
+}
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	line-height:28px;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#005F6B;
+	border-radius: 3px;
+	text-decoration:none;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+
+
+.like-buttons {
+	list-style-type: none !important;
+	  display: inline-block;
+	    margin: 0;
+  padding: 0;
+}
+
+.social-media {
+	list-style-type: none !important;
+	  display: inline-block;
+	    margin: 0;
+  padding: 0;
+}
+
+/* ------- pagination -------- */
+
+.pagination {
+  height: 36px;
+}
+
+.pagination ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.pagination li {
+  display: inline;
+}
+
+.pagination li:first-child a {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+.pagination li:last-child a {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.pagination a {
+  float: left;
+  padding: 0 14px;
+  line-height: 34px;
+  border: 1px solid #DDD;
+  border-left-width: 0;
+}
+
+.pagination a:hover, .active a {
+  background-color: whiteSmoke;
+}
+
+/*.disabled a, .disabled a:hover,
+.active a, .active a:hover {
+  color: #999;
+  cursor: default;
+}*/
+
+.disabled a:hover {
+  background-color: transparent;
+}
+
+/* -----------------------------------------
+   Die Rezepte-Küche
+----------------------------------------- */
+.ingredients li {
+	list-style-type: none;
+}
+
+	

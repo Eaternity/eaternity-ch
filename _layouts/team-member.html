@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
+
+{% include JB/setup %}
+
 <div class="row">
-	<div class="twelve columns">
-		<img src="{{site.baseurl}}{{ page.portrait }}" width="940px;">
+	<div class="span12">
+		<img src="{{ ASSET_PATH }}{{ page.portrait }}">
 	</div>
 </div>
+
 <div class="row">
-	<div class="three columns">
+	<div class="span3">
 
 		
 		<h5><a href="{{site.baseurl}}/infos/#team" ><!--img src="/eaternity-website/images/recipe_kitchen.jpg" /-->&laquo; Zur Team  Übersicht</a></h5>
@@ -40,7 +44,7 @@ layout: default
 			
 	</div>
 	
-	<div class="six columns">
+	<div class="span6">
 		<div>
 
 		
@@ -60,7 +64,7 @@ layout: default
 	
 	
 	
-	<div class="three columns">
+	<div class="span3">
 	    
 	    <br>
         <br>
@@ -70,7 +74,7 @@ layout: default
 		  
 		  	{% if page.previous and page.previous.category == page.category %}
   		        <li> 
-   			      <img src="{{site.baseurl}}{{ page.previous.square }}" />
+   			      <img src="{{ ASSET_PATH }}{{ page.previous.square }}" />
    			      &laquo; <a href="{{site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a>
    			    </li>
    			    
@@ -78,7 +82,7 @@ layout: default
   		    
   		    {% if page.next and page.next.category == page.category %}
       		    <li> 
-   			      <img src="{{site.baseurl}}{{ page.next.square }}" />
+   			      <img src="{{ ASSET_PATH }}{{ page.next.square }}" />
    			      <a href="{{site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a> &raquo; 
    			    </li>
 

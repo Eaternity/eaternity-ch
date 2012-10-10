@@ -8,6 +8,7 @@ published: false
 short: jlandolt
 twitter: 
 contact: jlandolt@eaternity.ch
+published: false
 
 title: Jonas Landolt
 thumb: /images/team/jlandolt_thumb.jpg

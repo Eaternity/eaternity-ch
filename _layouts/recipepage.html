@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /:categories
+---
+{% include JB/setup %}
+
+<div class="page-header-recipe">
+	<img class="corner" src="{{ ASSET_PATH }}/images/corner.png" />
+  <h1>{{ page.title }} <small>{{ page.tagline }}</small></h1>
+</div>
+
+<div class="row">
+  <div class="span12">
+    {{ content }}
+  </div>
+</div>

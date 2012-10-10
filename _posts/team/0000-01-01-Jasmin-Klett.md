@@ -5,6 +5,7 @@ date: 0002-01-03
 
 short: jklett
 contact: jklett@eaternity.ch
+published: false
 
 title: Jasmin Klett
 thumb: /images/team/jklett_thumb.jpg

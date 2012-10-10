@@ -19,7 +19,8 @@
 	
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+ <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <!-- <link href="/style.css" rel="stylesheet" type="text/css" media="all"> -->
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -141,7 +142,7 @@
 					<p>
 					<a href="{{ BASE_PATH }}{{page.url}}#googtrans(en)" >English</a> /
 					<a href="{{ BASE_PATH }}{{page.url}}#googtrans(fr)" >Francais</a> /
-					<a href="{{ BASE_PATH }}{{page.url}}#googtrans(it)" >Italians</a>
+					<a href="{{ BASE_PATH }}{{page.url}}#googtrans(it)" >Italiano</a>
 					<!-- div id="google_translate_element"></div -->
 					</p>
 
@@ -169,7 +170,7 @@
 					<a href="{{ BASE_PATH }}/infos/#team"><h3>Hallo, wir sind Eaternity &larr;</h3></a>
 
 					<ul class="thumbnails">
-					{% for item in site.categories['team'] reversed limit:6 %}
+					{% for item in site.categories['team'] reversed limit:12 %}
 
 							<li class="span1">
 								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
