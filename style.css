@@ -1,13 +1,20 @@
+---
+layout: 
+title:  
+
+---
 /* Override some defaults */
+{% include JB/setup %}
+
 html {
   background-color: #eee;
 }
 
 
 body { 
-background: #fff url(../images/background.jpg) 0 0 repeat;
+background: #fff url({{ ASSET_PATH }}/images/background.jpg) 0 0 repeat;
 font-family: "Open Sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
-color: #555;
+color: #333;
 }
 
 hr {
@@ -184,8 +191,8 @@ padding:0px;
 header { 
 
 	padding-bottom: 645px; padding-top: 30px; margin-bottom:-620px;
-  /* background: url(../images/cut3.png) repeat-x ;*/
-  background: url(../images/background_falling.png) no-repeat;
+  /* background: url({{ ASSET_PATH }}/images/cut3.png) repeat-x ;*/
+  background: url({{ ASSET_PATH }}/images/background_falling.png) no-repeat;
   background-position:80% 0%;
   margin-left:20px; margin-right:20px;
 
@@ -205,7 +212,7 @@ header nav ul li { margin: 15px 0 0px 40px; padding: 0; display: block; float: l
 header nav ul li:after { content: ""; display: block; width: 4px; height: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  position: absolute; top: 6px; right: -17px; }
 header nav ul li a { font-size: 15px; font-weight: 700; }
 header nav ul li a > span {  margin-right: 2px; }
-header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url(../images/icons/active-nav.png) 0 0 no-repeat; display: block; }
+header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url({{ ASSET_PATH }}/images/icons/active-nav.png) 0 0 no-repeat; display: block; }
 
 header nav ul.show-on-mobile { display:none }
 
@@ -215,7 +222,7 @@ header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;
 
 footer { 
 
-	padding-bottom: 160px;  background: url(../images/background_footer-icons.png) 52% 90% repeat-x ; }
+	padding-bottom: 160px;  background: url({{ ASSET_PATH }}/images/background_footer-icons.png) 52% 90% repeat-x ; }
 footer .row { 
 /*		display:none;*/
 	margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 0px solid #ddd; }
@@ -226,7 +233,7 @@ footer .row {
 ----------------------------------------- */
     .jumbotron { position: relative; margin-bottom: 20px; }
     .jumbotron h1 { position: absolute; left: 20px; bottom: 20px; }
-	.jumbotron blockquote { padding: 0; border-left: none; font-size: 22px; font-weight: bold; background: url(../images/misc/quote.png) 0 0 no-repeat; padding: 9px 20px 0 19px; margin: 0 0 4px;
+	.jumbotron blockquote { padding: 0; border-left: none; font-size: 22px; font-weight: bold; background: url({{ ASSET_PATH }}/images/misc/quote.png) 0 0 no-repeat; padding: 9px 20px 0 19px; margin: 0 0 4px;
 }
 	 
 
@@ -246,7 +253,7 @@ footer .row {
 	 }
 	 
 
-.carousel-text blockquote { padding: 0; border-left: none; font-size: 22px; font-weight: bold; background: url(../images/misc/quote.png) 0 0 no-repeat; padding: 9px 20px 0 19px; margin: 0 0 4px;
+.carousel-text blockquote { padding: 0; border-left: none; font-size: 22px; font-weight: bold; background: url({{ ASSET_PATH }}/images/misc/quote.png) 0 0 no-repeat; padding: 9px 20px 0 19px; margin: 0 0 4px;
 }
 
 
@@ -312,7 +319,7 @@ text-align:center;
 .prominent { 
 /*	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px; 
 	border: 1.5px solid #DF7921;
-	background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%) url(../images/doodle2.png) right bottom no-repeat;
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%) url({{ ASSET_PATH }}/images/doodle2.png) right bottom no-repeat;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4)) ;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 );
 	box-shadow: 0 2px 5px rgba(0,0,0,0.35);
@@ -331,8 +338,8 @@ text-align:center;
 	
 }
 
-.tapete { background: url(../images/karotten-tapete2.png) center bottom repeat;}
-.recipe { background: url(../images/misc/spoon.png) right top no-repeat;}
+.tapete { background: url({{ ASSET_PATH }}/images/karotten-tapete2.png) center bottom repeat;}
+.recipe { background: url({{ ASSET_PATH }}/images/misc/spoon.png) right top no-repeat;}
 .recipe h5 {margin-right:60px; color:  #A75C21; margin-bottom: 0px; margin-top:18px; font-size:22px; line-height:26px;}
 .recipe h2 { margin: 14px 0px 0px 0px; line-height: 26px; font-weight:normal; }
 .recipe-frame {  background: #fff; padding:15px;}
