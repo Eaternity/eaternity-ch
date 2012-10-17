@@ -6,22 +6,14 @@ folder: blog
 
 {% include JB/setup %}
 
+
+
+
 <div class="row-fluid">
 	<div class="span8">
-		<a href="{{ BASE_PATH }}/blog/"><h2>Blog</h2></a>
-		<p>This is some text to describe the blog. This is some text to describe the blog.</p>
-			<hr />
 	</div>
-		
-	<div class="span4">
-		<div class="row-fluid">
-			<div class="span6">
-				<img src="{{ ASSET_PATH }}/images/karotten.png" />
-			</div>
-		</div>
-	</div>
-	
 </div>
+
 
 <!-- this is only for the blog -->
 <!-- Platzieren Sie diese Render-Anweisung an einer geeigneten Stelle. -->
@@ -29,24 +21,42 @@ folder: blog
 
 <div class="row-fluid">
 	<div class="span8">
+	
+	<div class="row-fluid">
+		<div class="span8">
+			<div class="page-header">
+			  <h1>{{ page.title }} <small>{{ page.tagline }}</small></h1>
+				<!-- <p>Sie interessiert, was wir jetzt gerade machen und erreicht haben? Lesen Sie weiter!</p> -->
+			</div>
+		</div>
+		<div class="span4">
+			<div style="text-align:right; color:#F18224; float:right;margin-top:2em;">
+			abonnieren: email, rss
+			</div>
+		</div>
+	</div>
+		
 
 {% for item in site.categories[page.folder] limit:6 %}
 
 	<div class="row-fluid">
-		<div class="span3">
-			{{ item.date | date_to_string }}
-		</div>
-		
-		<div class="span9">
-			<div class="well">
-				<a href="{{ BASE_PATH }}{{item.url}}"><img  src="{{ ASSET_PATH }}/images/blog/{{ item.image }}" >
-				<h3>{{item.title}}</h3></a>
-				<!--small>2:18AM by Melissa</small-->
+		<div class="span12">
+			<div class="well-non">
+				<a href="{{ BASE_PATH }}{{item.url}}">
+					<h2 style="padding-bottom: 0.2em;">{{item.title}}</h2>
+					<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ item.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ item.author }}</small></div>
+					<img  src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.image }}" ><h3 style="padding-bottom: 0.2em;">{{item.subtitle}}</h3>
+				</a>			
 				
-			
-				{{ item.content | strip_html | truncatewords: 42 }} 
-				<a href="{{ BASE_PATH }}{{item.url}}">&nbsp;weiterlesen</a>
+
+				<p>
+				{{ item.content | strip_html | truncatewords: 42 }}
+				</p>
+
+				icon 12 Kommentare
+				<a href="{{ BASE_PATH }}{{item.url}}" class="pull-right btn btn-inverse btn-small">&nbsp;weiterlesen</a>
 				
+				<div style="margin:auto" class="bottom-line"></div>
 				<!-- ul class="like-buttons">
 		            <li><div id="fb-root"></div>
 						<fb:like href="{{ BASE_PATH }}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
@@ -56,7 +66,6 @@ folder: blog
 				
 			</div>
 			
-			<hr />
 			
 		</div>
 
@@ -66,22 +75,34 @@ folder: blog
 	</div>
 	
 	<div class="span4">
-		<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+		<div class="well">
+			
+
+			<div class="row-fluid">
+				<div class="span6">
+					<img src="{{ ASSET_PATH }}/images/karotten.png" />
+				</div>
+			</div>
+
+			
+			<p>Was bisher geschah! Clicken Sie sich durch unsere Blog-artikel und erleben Sie was Eaternity über die letzten Jahre gemacht hat!</p>
 		
 		
 	
 
-		<hr />
+			<hr />
 		
-		<ul>
-		{% for more in site.categories[page.folder] offset:6 %}
-			<li><h6>{{ more.date | date_to_string }} – <a href="{{ BASE_PATH }}{{more.url}}">{{more.title}}</h6></a>
-		{% endfor %}
-		</ul>
+			<ul style="list-style-type: none;margin-left: 0px;">
+			{% for more in site.categories[page.folder] offset:6 %}
+				<li style="color:#333;"><h6>{{ more.date | date_to_string }}</h6><a href="{{ BASE_PATH }}{{more.url}}"><small>{{more.title}}</small></a></li>
+			{% endfor %}
+			</ul>
 		
+		</div>	
 	</div>			
 </div>
 
+ 
 
 <!-- pagination (a page1 folder isn't created by Jekyll.
 To avoid 404s when going to the first page it must be

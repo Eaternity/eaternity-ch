@@ -3,7 +3,8 @@ layout: blog-post
 category: blog
 
 
-title: SEF Start-Up Award 2012 von Ernst&Young - und wir haben gewonnen!
+title: SEF Start-Up Award 2012 von Ernst&Young 
+subtitle: ... und wir haben gewonnen!
 image: 2012-07-04-SEF_StartUp_Award.jpg
 
 tags:

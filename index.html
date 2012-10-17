@@ -83,22 +83,18 @@ tagline: Supporting tagline
 			
 			<div class="row">
 				<div class="span8 right-line">
-					<h2>Wir freuen uns auf deine Unterstützung</h2>
-				<p>Gemeinsam können wir grosses Bewegen. Unsere Ernährung steht im Mittelpunkt unseres gesellschaftlichen Lebens - und prägt unsere Einstellung zu uns selbst. Kommt man auf den Genuss und hat Freude an leckerem Essen kann man sich viel Gutes tun. Gesund und ausgewogen sollte es sein - das gibt uns Energie. Mit klimafreundlicher Ernährung machen wir uns stark für Perspektiven die Zukunft haben und treffen eine Entscheidung, die uns unseren Planeten glücklich macht.</p>
-		
-			<a href="{{ BASE_PATH }}/act/" class="pull-right btn btn-inverse btn-small">mitmachen</a>
-		
-	
-		
-		
+					<h1>Willkommen bei Eaternity</h1>
+					</br>
+				<h3 style=" text-align: center; ">Wo Genuss und Nachhaltigkeit Hand in Hand gehen!</h3>
+			
 				<ul class="thumbnails top-info">
 				  <li class="span4">
-						<a href="{{ BASE_PATH }}/about/facts" class="thumbnail"><img src="{{ ASSET_PATH }}/images/frontpage/relevance.jpg" />
-						</a><a href="{{ BASE_PATH }}/about/facts"><h3>Relevanz &amp; Möglichkeiten.</h3></a>
+						<a href="{{ BASE_PATH }}/facts" class="thumbnail"><img src="{{ ASSET_PATH }}/images/frontpage/01_Relevanz.png" />
+						</a><a href="{{ BASE_PATH }}/facts"><h3>Relevanz &amp; Möglichkeiten.</h3></a>
 				  </li>
 				  <li class="span4">
-						<a href="{{ BASE_PATH }}/about/eaternity" class="thumbnail"><img src="{{ ASSET_PATH }}/images/frontpage/vision.jpg" /></a>
-						<a href="{{ BASE_PATH }}/about/eaternity"><h3>Unsere Vision umsetzen.</h3></a>
+						<a href="{{ BASE_PATH }}/about" class="thumbnail"><img src="{{ ASSET_PATH }}/images/frontpage/02_vision.png" /></a>
+						<a href="{{ BASE_PATH }}/about"><h3>Entscheidungen Ermöglichen.</h3></a>
 				  </li>
 				  <!-- <li class="span4">
 						<a href="{{ BASE_PATH }}/about/recipes" class="thumbnail"><img src="{{ ASSET_PATH }}/images/frontpage/factors.jpg" />
@@ -106,27 +102,14 @@ tagline: Supporting tagline
 				  </li> -->
 				</ul>
 
-		
-		
-				</div>
-				
-				<div class="span3 prominent">
-					<h3>Voller Genuss &#10031; Weniger CO₂</h3>
-					<p>
-					Eaternity hat zum Ziel klimafreundliche Ernährung in der Gesellschaft zu etablieren.</p>
-			
-					<a href="{{ BASE_PATH }}/act/" class="pull-right btn btn-inverse btn-small">werde aktiv</a>
-				
-				
-				
-					<div class="row-fluid top-info">
+		<div class="row-fluid">
 						<div class="span8">
-						<a href="{{ BASE_PATH }}/blog/index.html"><h3>Blog</h3></a>
+						<a href="{{ BASE_PATH }}/blog/index.html"><h2>Blog / News</h2></a>
 
 						</div>
 						<div class="span4">
 							<div class="btn-group pull-right">
-							<a target="_blank" href="https://www.facebook.com/eaternity" class="btn-mini  btn">Facebook</a><a target="_blank" href="https://twitter.com/eaternity" class="btn-mini  btn">Twitter</a><a target="_blank" href="https://plus.google.com//103258917793939014629" class="btn-mini btn">Google+</a></div>
+							<a target="_blank" href="https://www.facebook.com/eaternity" class="btn-mini  btn">Facebook</a><a target="_blank" href="https://twitter.com/eaternity" class="btn-mini  btn">Twitter</a><a target="_blank" href="https://plus.google.com/103258917793939014629" class="btn-mini btn">Google+</a></div>
 						</div>
 						<div class="span12">
 
@@ -135,11 +118,39 @@ tagline: Supporting tagline
 						    {% endfor %}
 
 						</div>
-
+						<br>
+					
 					</div>
-					
-					
+		
+				</div>
 				
+				<div class="span3">
+				<h3><a href="{{ BASE_PATH }}/offers"> Informationen für Unternehmen</a></h3>
+				<hr>
+				<h3> <strong>Awards </strong></h3>
+				<br>
+				<p> Beste Innovation 2012 bei Innovation4Motivation vom GDI und celebrationpoint </p><br>
+				<p>SEF Award Spezialpreis Soziale Innovation von Ernst&Young </p><br>
+				<p> WWF Hub Fellowship </p><br>
+					
+				<h3> <strong>Partner </strong></h3><br>
+				
+				<ul class="thumbnails">
+				  <li class="span2">
+						<a> <img src="{{ ASSET_PATH }}/images/partner/eth.jpg" /></a>
+				  </li>
+				  <li class="span2">
+						<a><img src="{{ ASSET_PATH }}/images/partner/stadt-zuerich.jpg" /></a>
+					</li>
+				</ul>
+				
+				<br>
+				<p> Eaternity auf Youtube!</p>
+				<a> link zum prix nature video </a>
+				</br>				
+				<p>	Eaternity hat zum Ziel klimafreundliche Ernährung in der Gesellschaft zu etablieren.</p>
+					<a href="{{ BASE_PATH }}/act/" class="pull-right btn btn-inverse btn-small">mitmachen</a>
+					
 				</div>
 			</div>
 		</div>
@@ -187,6 +198,12 @@ tagline: Supporting tagline
 	</div-->
 </div>
 
+<div class=row">
+	<div class="span 12">
+		<h2> Neue Rezepte für den Herbst </h2>
+		</br>
+	</div>
+</div>
 
 <div class="row">
 	{% for item in site.categories['recipes'] reversed limit:2 %}
