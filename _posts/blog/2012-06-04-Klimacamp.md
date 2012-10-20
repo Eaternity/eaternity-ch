@@ -6,6 +6,8 @@ category: blog
 title: Eaternity am Klimacamp 2012
 image: 2012-06-04_Klimacamp-zurich.jpg
 
+author: Alexandra Müller
+
 tags:
 -
 

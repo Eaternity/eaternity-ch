@@ -14,11 +14,14 @@ square: /images/team/jmaisenbacher_180.jpg
 portrait: /images/team/jmaisenbacher.jpg
 
 comment: |
- Zu jeder guten Idee gehören auch Personen die sie umsetzen. In der Schnittstelle zwischen unserer Vision und dem Kunde fühle ich mich am wohlsten.
+  Eaternity hat eine spannende Vision, die gesunden und ressourcenschonenden Genuss auf den Tisch bringt. Ein Business, dass durch den Kopf und den Magen geht. Kunden dafür zu begeistern macht da doppelt Spass.
 
 materialien:
 
 ---
 
 
-Jan Maisenbacher joined in July 2012 to lead the development of a solid customer base and built-up of strong partnerships for Eaternity. Jan holds a german bachelor of media economics and a MBA from the uni- versity of St. Gallen. He’s ten years in business and was selling innovative services for international swiss corpo- rates (like the Tata group or the leading market researcher GfK). With his core strengths in listening, persistence and communication he knows how to discover and win clients. Jan is a curious and emotional intelligent person- ality who adores steep learning curves.
+Jan Maisenbacher ist im Juli 2012 zum Team gestossen, um mitzuhelfen einen Kundenstamm und starke Partnerschaften für den Going-to-market aufzubauen. 
+
+Jan besitzt einen Bachelor in Medienwirtschaft und einen Change Management MBA der Universität St. Gallen. Seit über 10 Jahren ist er in Unternehmen tätig, die neue Märkte mit innovativen Dienstleistungen erobern möchten. Seine Stärken liegen in der persönlichen Kommunikation, Kundenentwicklung sowie im Projekt- und Changemanagement. 
+Jan ist stets neugierig und im Teammodus unterwegs und ist passionierter Leckeresser, Unterwasserrugbyspieler und Familienvater. 

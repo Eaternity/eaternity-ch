@@ -2,13 +2,14 @@
 category: media
 
 tags:
-- Menu Plus
+- Aargauer Zeitung
 
 title: Artikel zum Menu Plus
 
 media-title: Tagessanzeiger
+
 documents:
-- KurzInfo_Eaternity.pdf
+- 2011-12-19-Aargauer_Zeitung-Verein_Eaternity.pdf
 
 ---
 

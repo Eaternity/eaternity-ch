@@ -8,6 +8,7 @@ published: true
 image: 2012-02-04_Nachhaltigkeitsmesse_Gessnerallee.jpg
 title: Nachhaltigkeitsmesse «Expanding Energy» in der Gessnerallee Zürich
 
+author: Alexandra Müller
 
 media: 
 
@@ -19,8 +20,6 @@ tags:
 partner:
 - Theater Gessnerallee
 ---
-
-
 
 *Am Samstag 4. Februar 2012 lud die Gessnerallee Zürich zu einer Nachhaltigkeitsmesse ein. Interessant wurde das Thema Nachhaltigkeit in künstlerischer Perspektive aufgearbeitet und präsentiert. Und so hatten wir die Möglichkeit mit unserem frisch gewonnen WWF Hub Fellowship beim Programm mitzuwirken. Wir konnten unsere Aspekte der Nachhaltigkeit der Öffentlichkeit vorstellen und uns mit verschiedenen Organisationen und Erwerbstätigen auszutauschen.*
 

@@ -7,10 +7,12 @@ image: 2012-09-19-GDI_Studie.jpg
 title: Interessantes aus der Konsumenten-Forschung
 blog-image: 2012.09.19-GDI_Studie2.jpg
 
+author: Marleen Schäfer
+
 media: 
 
 tags:
- -  Nachricht
+- Nachricht
 - Forschung
 
 
@@ -25,6 +27,6 @@ Zentral für einen neuen und innovativen Markt ist die Transparenz. Viele Schwei
 Interessant war auch der erkennbare Trend weg von ungesunden Fast Food und Fertiggerichten, hin zu einer Esskultur, in der die eigene Gesundheit zusammen mit Tradition und Beisammensein eine zentrale Rolle spielen. Bei dem heutigen Überfluss an Produkten, wünscht sich der Konsument hier zudem, eine Vereinfachung. Denn der Lebensmittelkauf oder –verzehr kann schnell zu einem komplizierten Prozess werden.   
 Erfreulich ist der jetzt schon erkennbare Trend hin zu mehr frischen Produkten, die aus der Region stammen. Viele Schweizer finden zurück zu den traditionellen Wochenmärkten oder dem kleinen Tante-Emma Laden um die Ecke. 
 Fazit für Eaternity: Viele Konsumenten sind für Umweltthemen sensibilisiert. Sie suchen ein Umfeld, in dem es einfach ist die richtige Entscheidung zu treffen, ohne sich an Vorschriften zu halten. Gesundes, nachhaltiges und leckeres Essen wird erwünscht, bei dem jeder ein bisschen den Bezug zur natürlichen Nahrung zurück bekommen kann.
-Link zum Bericht auf der Homepage des GDI [1]. 
+Link zum Bericht auf der [Homepage des GDI][1]. 
 
 [1]: http://www.gdi.ch/de/Think-Tank/Studien/Product-Detail/106

@@ -2,13 +2,14 @@
 category: media
 
 tags:
-- Menu Plus
+- Prix Nature
 
-title: Artikel zum Menu Plus
+title: Schweizer illustrieren ihr gruenes Engagement
 
-media-title: Tagessanzeiger
+media-title: Schweizer_Illustrierte
+
 documents:
-- KurzInfo_Eaternity.pdf
+- grl_2012-08-06-1.pdf
 
 ---
 

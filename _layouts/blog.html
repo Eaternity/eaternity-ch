@@ -1,48 +1,136 @@
 ---
 layout: default
+folder: blog
 ---
+
 {% include JB/setup %}
+
+
+
 
 <div class="row-fluid">
 	<div class="span8">
-		<a href="{{ BASE_PATH }}/blog/"><h2>Blog</h2></a>
-		<p>This is some text to describe the blog. This is some text to describe the blog.</p>
-			<hr />
 	</div>
-		
-	<div class="span4">
-		<div class="row-fluid">
-			<div class="span6">
-				<img src="{{ ASSET_PATH }}/images/karotten.png" />
-			</div>
-		</div>
-	</div>
-	
 </div>
+
 
 <!-- this is only for the blog -->
 <!-- Platzieren Sie diese Render-Anweisung an einer geeigneten Stelle. -->
 
 
-
 <div class="row-fluid">
 	<div class="span8">
+	
+
 		
 {{ content }}
-		
+
 	</div>
 	
 	<div class="span4">
-		<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+		<div class="well">
+			
+
+
+			
+			<p>Was bisher geschah! Clicken Sie sich durch unsere Blog-artikel und erleben Sie was Eaternity über die letzten Jahre gemacht hat!</p>
 		
 		
+	
+
+			<hr />
 		
-		<div class="prominent">
-			<h5>Warum spendest du nicht?</h5>
-			<a href="#" class="nice radius full-width black button"  data-reveal-id="donateModal">Jetzt Spenden</a>
+			<ul>
+			{% for more in site.categories[page.folder] offset:6 %}
+				<li style="color:#333;"><h6>{{ more.date | date_to_string }}</h6><a href="{{ BASE_PATH }}{{more.url}}"><small>{{more.title}}</small></a></li>
+			{% endfor %}
+			</ul>
+		
+		
+			<hr />
+		
+		
+
+			<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+
+
+
+			<div class="prominent">
+				<h5>Warum spendest du nicht?</h5><br />
+				<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
+			</div>
+
+			<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
+
+
+		</div>	
+		
+		
+		<div class="row-fluid">
+			<div class="span6 offset6">
+				<img src="{{ ASSET_PATH }}/images/karotten.png" />
+			</div>
 		</div>
 		
-		<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
-
 	</div>			
 </div>
+
+ 
+
+<!-- pagination (a page1 folder isn't created by Jekyll.
+To avoid 404s when going to the first page it must be
+specified separately) -->
+
+
+<!--
+
+<div class="pagination">
+  <ul>
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <li>
+          <a href="/">&laquo;</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/page{{paginator.previous_page}}">&laquo;</a>
+        </li>
+      {% endif %}
+    {% else %}
+      <li class="disabled">
+        <a href="#">&laquo;</a>
+      </li>
+    {% endif %}
+    {% if paginator.page == 1 %}
+      <li class="active">
+        <a href="#">1</a>
+      </li>
+    {% else %}
+      <li>
+        <a href="/">1</a>
+      </li>
+    {% endif %}
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+        <li class="active">
+          <a href="#">{{count}}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/page{{count}}">{{count}}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+      <li>
+        <a href="/page{{paginator.next_page}}">&raquo;</a>
+      </li>
+    {% else %}
+      <li class="disabled">
+        <a href="#">&raquo;</a>
+      </li>
+    {% endif %}
+  </ul>
+</div>
+
+-->

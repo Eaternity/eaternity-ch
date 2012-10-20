@@ -2,13 +2,14 @@
 category: media
 
 tags:
-- Menu Plus
+- Migros Magazin
 
 title: Artikel zum Menu Plus
 
 media-title: Tagessanzeiger
+
 documents:
-- KurzInfo_Eaternity.pdf
+- 2011_MM_43_saisonkueche.pdf
 
 ---
 

@@ -2,13 +2,14 @@
 category: media
 
 tags:
-- Menu Plus
+- Stadt Zürich
 
-title: Artikel zum Menu Plus
+title: Schweizer illustrieren ihr gruenes Engagement
 
-media-title: Tagessanzeiger
+media-title: Schweizer_Illustrierte
+
 documents:
-- KurzInfo_Eaternity.pdf
+- LAY_cafeteria_folder.pdf
 
 ---
 

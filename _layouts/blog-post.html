@@ -1,51 +1,62 @@
 ---
-layout: page
+layout: blog
 ---
 
 {% include JB/setup %}
 
 
 <div class="row-fluid">
-	<div class="span8">
-
-<div class="row-fluid">
-	<div class="span3">
-		{{ page.date | date_to_string }}
-		<br />
+	<div class="span10">
 		{% if page.previous and page.previous.category == page.category %}
-	    <a class='prev' href='{{ BASE_PATH }}{{page.previous.url}}'>&laquo; Prev</a>
+	    <a class='prev' href='{{ BASE_PATH }}{{page.previous.url}}'>&larr;  vorhergehender Blogartikel</a>
 	    {% endif %}
 	    {% if page.next and page.next.category == page.category %}
-	    <a class='next' href='{{ BASE_PATH }}{{page.next.url}}'>Next &raquo;</a>
+	    <a class='next' style="float:right" href='{{ BASE_PATH }}{{page.next.url}}'>nächster Blogartikel &rarr;</a>
 	    {% endif %}
-	</div>
 	
+		<div class="page-header">
+		  <h1 style="padding-left: 20px;">{{ page.title }} <small>{{ page.tagline }}</small></h1>
+		 <div class="recipe-info" style="padding-left: 20px;"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ page.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ page.author }}</small></div>
+			<!-- <p>Sie interessiert, was wir jetzt gerade machen und erreicht haben? Lesen Sie weiter!</p> -->
+		</div>
+	</div>
+	<div class="span2">
+		<div style="text-align:right; color:#F18224; float:right;margin-top:2em;">
+		<a href="{{ BASE_PATH }}/blog/"><h2>zurück zum Blog</h2></a>
+		</div>
+	</div>
+</div>
 
-	<div class="span9">
+
+<div class="row-fluid">
+	<div class="span12">
+		
 		<img src="{{ ASSET_PATH }}/images/blog/{{ page.image }}" >
 
 			<small>{{page.media}}</small>
+			<div class="well-non bottom-line">
 			
-
+			<p>
 			
 			{{content}}
 			
-			
-			
-			<hr>
-
-			
-			<h5>Comments</h5>
+			</p>
+			</div>
+		
+			<div class="well-non">
+				
 			<div class="comments">
 		    {% include JB/comments %}
 		  	</div>
 			
-			<ul class="like-buttons">
+			</div>
+			
+			<!-- <ul class="like-buttons">
 	            <li><div id="fb-root"></div>
 					<fb:like href="{{ BASE_PATH }}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
 					<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}{{item.url}}" >Twittern</a></li>
 					<li><g:plusone size="medium" annotation="inline" href="{{ BASE_PATH }}{{item.url}}"></g:plusone></li>
-			</ul>
+			</ul> -->
 			
 			<!-- div id="related">
 			  <h5>Related Posts</h5><br>
@@ -59,37 +70,10 @@ layout: page
 	</div>
 </div>	
 
-	</div>
-	
-	<div class="span4">
-		<a href="{{ BASE_PATH }}/blog/"><h2>zurück zum Blog</h2></a>
-			
-		<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
-		
-		
-		
-		<div class="prominent">
-			<h5>Warum spendest du nicht?</h5><br />
-			<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
-		</div>
-		
-		<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
 
 
-		<hr />
-		
 
-		
-		<ul>
-		{% for more in site.categories['blog'] %}
-			<li><h6>{{ more.date | date_to_string }} – <a href="{{ BASE_PATH }}{{more.url}}">{{more.title}}</h6></a>
-		{% endfor %}
-		</ul>
-		
-	</div>			
-</div>
-
-<script>(function(d, s, id) {
+<!-- <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -105,6 +89,6 @@ layout: page
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-</script>
+</script> -->
 
 <script src="{{ ASSET_PATH }}/js/jquery.js"></script>

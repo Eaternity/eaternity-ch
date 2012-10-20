@@ -54,7 +54,7 @@
 							<li><a href="{{ BASE_PATH }}/about"><img class="about" src="{{ ASSET_PATH }}/images/icons/nav_about.png" />Was ist Eaternity</a></li>
 							<li><a  href="{{ BASE_PATH }}/facts"><img class="facts" src="{{ ASSET_PATH }}/images/icons/nav_umweltfakten.png" />Umweltfakten</a></li>
 							<li><a  href="{{ BASE_PATH }}/projects"><img class="projects" src="{{ ASSET_PATH }}/images/icons/nav_projekte.png" />Projekte und Erfolge</a></li>
-							<li><a href="{{ BASE_PATH }}/act"><img class="act" src="{{ ASSET_PATH }}/images/icons/nav_mitglied-werden.png" />Werde Mitglied</a></li>
+							<li><a href="{{ BASE_PATH }}/act"><img class="act" src="{{ ASSET_PATH }}/images/icons/nav_mitglied-werden.png" />Werde Aktiv</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -85,7 +85,7 @@
 	<!-- Page Content -->
 		<!-- container -->
 		<div class="container">
-			<div class="page content"><!-- page -->
+			<div class="page content-start"><!-- page -->
 
 
 
@@ -93,10 +93,7 @@
 
 
 
-				<div class="row">
-						&nbsp;
-				</div>
-				
+
 			</div><!-- page -->
 		</div><!-- container -->
 
@@ -114,7 +111,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span3">
-					<a href="{{ BASE_PATH }}/#"><h3>Seitenübersicht &larr;</h3></a>
+					<a href="{{ BASE_PATH }}/archive.html"><h3>Seitenübersicht</h3></a>
 					<p>
 						<a href="{{ BASE_PATH }}/infos/#organisation">Organisation</a><br />
 						<a href="{{ BASE_PATH }}/blog/">Blog</a><br />
@@ -125,14 +122,15 @@
 						<a href="{{ BASE_PATH }}/infos/#material">Materialien</a><br />
 						<!--a href="{{ BASE_PATH }}/#">Quellen?</a><br /-->
 						<br />
-						<a  target="_blank" href="http://support.eaternity.ch">FAQ &amp; Support</a><br />
+						<!-- <a  target="_blank" href="http://support.eaternity.ch">FAQ &amp; Support</a><br /> -->
 						<!--a href="{{ BASE_PATH }}/#">Feedback (Zur Homepage)?</a><br /-->
 						<!--a href="{{ BASE_PATH }}/#">Impressum ?</a><br /-->
-						<a href="{{ BASE_PATH }}/infos/#kontakt">Kontakt</a><br />
+						
 					</p>
 
-					<h3><img src="{{ ASSET_PATH }}/images/generic/cc_icon_small.png" />&nbsp;2012 Eaternity</h3>
-					<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />Die Inhalte dieser Seite stehen soweit nicht anders angegeben unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz</a>.</p>
+					<h3><!-- <img src="{{ ASSET_PATH }}/images/generic/cc_icon_small.png" /> --> &copy; &nbsp;2012 Eaternity</h3>
+					<p><a href="{{ BASE_PATH }}/infos/#kontakt">Kontakt</a></p>
+					<!-- <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> --><!-- <br />Die Inhalte dieser Seite stehen soweit nicht anders angegeben unter einer  --><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz</a></p>
 					<p><a href="{{ BASE_PATH }}/legal">Haftbarkeit &amp; Rechtshinweise</a></p>
 
 				</div>
@@ -151,7 +149,7 @@
 
 					<a href="{{ BASE_PATH }}/infos/#kontakt"><h3>Anschrift</h3>
 
-					<ul class="vcard">
+					<ul class="vcard" style="padding-left:26px">
 					    <li style="display:none" class="org">Eaternity</li>
 						<li class="street-address">Viaduktstrasse 93-95</li>
 						<li class="at">Im Hub Zürich</li>
@@ -167,20 +165,62 @@
 
 				<div class="span4 team offset2">
 
-					<a href="{{ BASE_PATH }}/infos/#team"><h3>Hallo, wir sind Eaternity &larr;</h3></a>
+					<a href="{{ BASE_PATH }}/infos/#team"><h3 style="text-align:right">Wir sind Eaternity</h3></a>
 
-					<ul class="thumbnails">
-					{% for item in site.categories['team'] reversed limit:12 %}
-
-							<li class="span1">
-								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
-							</li>
+					<div class="row-fluid">
+							<div class="span12">
+								<!-- <ul class=""> -->
+									<p>
+									<div class="row-fluid ">
+					{% for item in site.categories['team'] reversed limit:3 %}
+						
+						
+							<div class="span4">
+								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail recipe-frame-small"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
+							</div>
 
 				    {% endfor %}
-				    </ul>
+				    			</div>
+								</p>
+					</div></div>
+				
+					<div class="row-fluid">
+							<div class="span12">
+								<!-- <ul class=""> -->
+									<p>
+									<div class="row-fluid ">
+					{% for item in site.categories['team'] reversed offset:3 limit:3 %}
+						
+						
+							<div class="span4">
+								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail recipe-frame-small"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
+							</div>
 
-					<p>Werde Mitglied! So kannst du aktiv mitwirken oder uns finanziell unterstützen.</p>
-					<a href="{{ BASE_PATH }}/act/#mitglied" class=" pull-right btn-small btn-inverse btn">Mitglied werden &rarr;</a><a href="{{ BASE_PATH }}/infos/#team" class="btn-small btn">Unser Team</a>
+				    {% endfor %}
+				    			</div>
+								</p>
+					</div></div>
+				
+				
+					<div class="row-fluid">
+							<div class="span12">
+								<!-- <ul class=""> -->
+									<p>
+									<div class="row-fluid ">
+					{% for item in site.categories['team'] reversed offset:6 limit:3 %}
+						
+						
+							<div class="span4">
+								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail recipe-frame-small"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
+							</div>
+
+				    {% endfor %}
+				    			</div>
+								</p>
+					</div></div>
+					<br />
+					<!-- p>Werde Mitglied! So kannst du aktiv mitwirken oder uns finanziell unterstützen.</p -->
+					<a href="{{ BASE_PATH }}/act/#mitglied" class=" pull-right btn-small btn-orange btn">Mitglied werden</a><a href="{{ BASE_PATH }}/infos/#team" class="btn-small btn-inverse btn">das Team</a>
 
 
 				</div>
