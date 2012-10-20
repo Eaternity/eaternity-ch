@@ -7,7 +7,7 @@ title: Mit Seedcity Garteninitiative der ETH
 documents: 
  - 2011-04-01-seedcity-frühlingsmarkt.pdf
 
-image: seedcity.jpg
+blog-image: seedcity.jpg
 
 authors: 
  - Manuel Klarmann

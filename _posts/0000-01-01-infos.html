@@ -133,7 +133,7 @@ folder: infos
 									
 										
 										<p><a href='{{ BASE_PATH }}{{float_list_item.url}}'>
-										<img src="{{ ASSET_PATH }}{{ float_list_item.blog-image }}" />
+										{% if float_list_item.blog-image != null %}<img src="{{ ASSET_PATH }}{{ float_list_item.blog-image }}" />{% endif %}
 									     &raquo;{{ float_list_item.title }}</a></p>
 									
 									
