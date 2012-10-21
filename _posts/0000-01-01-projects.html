@@ -28,7 +28,7 @@ folder: projects
 				
 				
 				
-				<p>Liste von Medienartikel zur Aktion:</p>
+				<p>Weiteführende Infos, Medien:</p>
 				
 				<blockquote><ul>
 				{% for media in site.categories['media']  %}
@@ -42,7 +42,6 @@ folder: projects
 				{% endfor %}
 				</ul></blockquote>
 
-				<p>Hier gibt es weitere Dokumente:</p>
 				
 				{% for material in site.categories['material']  %}
 					{% for tag in material.tags %}
@@ -54,7 +53,6 @@ folder: projects
 					{% endfor %}
 				{% endfor %}
 				
-				<p>Blogartikel? Gibt es hier:</p>
 				
 				<blockquote><ul>
 				{% for blog in site.categories['blog']  %}
@@ -83,7 +81,7 @@ folder: projects
 				{% endfor %}
 				</ul></blockquote>
 				
-				<p>Ein paar Impressionen:</p>
+				<p>Impressionen:</p>
 				
 				
 				<blockquote><ul class="thumbnails">

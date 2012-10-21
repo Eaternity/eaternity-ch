@@ -1,19 +1,153 @@
 ---
 layout: page
 title: Projekte & Erfolge
+folder: projects
 ---
+
+
 {% include JB/setup %}
 
-<div class="row">
-	<div class="span4"><img src="{{ ASSET_PATH }}/images/smiley.png"></div>
-	<div class="span8">
-		<h3>Hier steht was uns glücklich macht.<br>Hier verwirklicht sich unsere Vision.</h3>
-			<hr />
+
+
+
+<div class="row-fluid">
+	<div class="span12">
+		
+			<h3>Hier steht was uns glücklich macht.<br>Hier verwirklicht sich unsere Vision.</h3>
+
+		
 	</div>
 </div>
 
+
 <!-- this is only for the blog -->
 <!-- Platzieren Sie diese Render-Anweisung an einer geeigneten Stelle. -->
+
+
+<div class="row-fluid">
+	<div class="span9">
+	
+
+		
+{{ content }}
+
+	</div>
+	
+	<div class="span3">
+		<div class="well">
+			
+
+			 <p>Mit unseren Projekten und Massnahmen erreichen wir Menschen direkt und betreiben Öffentlichkeitsarbeit. Stück für Stück realiseren wir
+	        zusammen mit Partnern klimafreundliche Menüs. Bringen die Thematik auf den Tisch,sensibiliseren und bewegen. Diese Plattform dient auch als
+	        Vorlage für weitere Projekte, unsere Erfahrungen und Materialien finden sich in der jeweiligen Projektübersicht – und sind für ein weiteres
+	        Projekt bereit verwendet zu werden.</p>
+	
+			<h2>Dein Projekt.</h2><br>
+			<p>
+			<a href="{{ BASE_PATH }}/act/" class="btn">Jetzt anfragen und realisieren!</a>
+			</p>
+			<p>Sei selbst die Veränderung die du in der Welt sehen möchtest!</p>
+
+	 	</div>
+
+		<br>
+		 <p>Eigene Ideen und Vorschläge kannst du auch in unserem <a target="_blank" href="http://support.eaternity.ch">Support Forum</a> einbringen.
+	       Wir freuen uns über Hinweise und Ideen wie wir eine grössere Wirkung erzielen könne.</p>
+
+	
+
+			<hr />
+		
+			<ul>
+			{% for more in site.categories[page.folder] offset:6 %}
+				<li style="color:#333;"><h6>{{ more.date | date_to_string }}</h6><a href="{{ BASE_PATH }}{{more.url}}"><small>{{more.title}}</small></a></li>
+			{% endfor %}
+			</ul>
+		
+		
+			<hr />
+		
+		
+
+			<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+
+
+
+			<div class="prominent">
+				<h5>Warum spendest du nicht?</h5><br />
+				<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
+			</div>
+
+			<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
+
+
+		</div>	
+		
+		
+	</div>			
+</div>
+
+ 
+
+<!-- pagination (a page1 folder isn't created by Jekyll.
+To avoid 404s when going to the first page it must be
+specified separately) -->
+
+
+<!--
+
+<div class="pagination">
+  <ul>
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <li>
+          <a href="/">&laquo;</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/page{{paginator.previous_page}}">&laquo;</a>
+        </li>
+      {% endif %}
+    {% else %}
+      <li class="disabled">
+        <a href="#">&laquo;</a>
+      </li>
+    {% endif %}
+    {% if paginator.page == 1 %}
+      <li class="active">
+        <a href="#">1</a>
+      </li>
+    {% else %}
+      <li>
+        <a href="/">1</a>
+      </li>
+    {% endif %}
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+        <li class="active">
+          <a href="#">{{count}}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/page{{count}}">{{count}}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+      <li>
+        <a href="/page{{paginator.next_page}}">&raquo;</a>
+      </li>
+    {% else %}
+      <li class="disabled">
+        <a href="#">&raquo;</a>
+      </li>
+    {% endif %}
+  </ul>
+</div>
+
+-->
+
+
 
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -33,37 +167,3 @@ title: Projekte & Erfolge
   })();
 </script>
 
-
-<div class="row">
-	<div class="span4 ">
-		
-		
-		<div class="well">
-		<div class="prominent">
-			 <p>Mit unseren Projekten und Massnahmen erreichen wir Menschen direkt und betreiben Öffentlichkeitsarbeit. Stück für Stück realiseren wir
-	        zusammen mit Partnern klimafreundliche Menüs. Bringen die Thematik auf den Tisch,sensibiliseren und bewegen. Diese Plattform dient auch als
-	        Vorlage für weitere Projekte, unsere Erfahrungen und Materialien finden sich in der jeweiligen Projektübersicht – und sind für ein weiteres
-	        Projekt bereit verwendet zu werden.</p>
-	
-			<h2>Dein Projekt.</h2><br>
-			<p>
-			<a href="{{ BASE_PATH }}/act/" class="btn">Jetzt anfragen und realisieren!</a>
-			</p>
-			<p>Sei selbst die Veränderung die du in der Welt sehen möchtest!</p>
-
-	 	</div>
-
-		<br>
-		 <p>Eigene Ideen und Vorschläge kannst du auch in unserem <a target="_blank" href="http://support.eaternity.ch">Support Forum</a> einbringen.
-	       Wir freuen uns über Hinweise und Ideen wie wir eine grössere Wirkung erzielen könne.</p>
-	
-		</div>		
-	</div>
-	
-	<div class="span8">
-		
-		{{ content }}
-	
-
-	</div>			
-</div>

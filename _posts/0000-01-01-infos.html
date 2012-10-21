@@ -37,6 +37,9 @@ folder: infos
 						<h3>{{ item.sub-header }}</h3>
 					</div>
 					<div class="span4"> 
+						{% if item.focus-image != null %}
+							 <img src="{{ ASSET_PATH }}/images/infos/{{ item.focus-image }}" />
+						{% endif %}
 							{{ item.focus }} 
 					</div>
 				</div>

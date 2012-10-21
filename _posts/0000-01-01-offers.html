@@ -30,7 +30,7 @@ date: 0002-01-03
 <div class="row">
 	<div class="span4">
 		
-		<a href="#demo5" data-toggle="collapse"  data-parent="#accordion"><img src="http://placehold.it/370x300"></a>
+		
 		<h3><a href="#demo5" data-toggle="collapse" data-parent="#accordion">Grossunternehmen</a></h3>
 		<p>Die Ernährung Ihrer Angestellten hat eine grosse Auswirkung auf deren persönliche Leistungs- und Gesundheitsbilanz. Und somit auch auf Ihren Unternehmenserfolg.  Neben der Leistungs- wird die Umweltbilanz von Grossunternehmen immer wichtiger. 
 		Die Reduktion von Treibhausgas-Emissionen ist ein zentrales Element jeder Corporate Social Responsability Strategie.  </p>
@@ -40,8 +40,8 @@ date: 0002-01-03
 	</div>
 	<div class="span4">
 		
-		<a><img src="http://placehold.it/370x300"></a>
-		<h3><a ref="#demo6" data-toggle="collapse"  data-parent="#accordion">Gemeinschaftsgastronomien</a></h3>
+		
+		<h3><a href="#demo6" data-toggle="collapse"  data-parent="#accordion">Gemeinschaftsgastronomien</a></h3>
 		<p>Gemeinschaftsgastronomie-management ist Kostenmanagement. Möglichst ressourcenschonend zum bestmöglichsten Preis zu produzieren wird immer schwieriger. Gleichzeitig wird Ihr Gast vor Ort immer anspruchsvoller. 
 		Neben gutem Essen erwartet er höchstmöglichste Transparenz um sich mit gutem Gefühl gesund ernähren zu können.</p>
 	<button type="button" class="btn btn-inverse btn-mini pull-right" data-toggle="collapse" data-target="#demo11" data-parent="#accordion">
@@ -50,7 +50,7 @@ date: 0002-01-03
 	</div>
 	<div class="span4">
 		
-		<a><img src="http://placehold.it/370x300"></a>
+		
 		<h3><a href="#demo7" data-toggle="collapse"  data-parent="#accordion">Restaurants</a></h3>
 		<p>Eine emotionale Gastbeziehung aufbauen zu können ist die hohe Kunst jedes Restaurantbetriebes.  Interessant sind innovative Konzepte, die ohne grossen finanziellen Aufwand zu einem festen Bestandteil werden. 
 		Dem Gast ein gutes Gefühl bei der Menüwahl zu bieten ist hier ein klarer Zukunftstrend. </p>
@@ -116,15 +116,14 @@ date: 0002-01-03
 <div class="row">
 	<div class="span12">
 		<p>Haben wir Ihr Interesse geweckt? Dann kontaktieren Sie uns für ein unverbindliches Gespräch!</p>
-		<a href="/contact/> - Kontakt </a>
 		</br>
+		<a href="/contact/"> - Kontakt </a>
 	</div>
 </div>
 
-<div class="row">
-	<div class="span12">
-		<a>
-		<button class="btn" type="button" href="/projects/">Weiter zu unseren Projekten und Erfolgen </button>
-		</a>
-	</div>
-</div>	
+
+
+<script src="{{ ASSET_PATH }}/js/jquery.js"></script>
+<script >
+$(".collapse").collapse()
+</script>
