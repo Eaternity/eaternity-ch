@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Projekte & Erfolge
 folder: projects
 ---
@@ -7,15 +7,20 @@ folder: projects
 
 {% include JB/setup %}
 
+<div class="page-header-recipe">
+	<img class="corner" src="{{ ASSET_PATH }}/images/corner.png" />
+  <h1>{{ page.title }} <small>{{ page.tagline }}</small></h1>
+</div>
 
 
 
-<div class="row-fluid">
+<div class="row">
 	<div class="span12">
-		
-			<h3>Hier steht was uns glücklich macht.<br>Hier verwirklicht sich unsere Vision.</h3>
 
-		
+			
+			<img style="padding: 40px 0px 40px 0px;" src="{{ ASSET_PATH }}/images/act/gerold.jpg" />
+			
+			<!-- <h3>Hier steht was uns glücklich macht.<br>Hier verwirklicht sich unsere Vision.</h3> -->
 	</div>
 </div>
 
@@ -47,38 +52,43 @@ folder: projects
 			<a href="{{ BASE_PATH }}/act/" class="btn">Jetzt anfragen und realisieren!</a>
 			</p>
 			<p>Sei selbst die Veränderung die du in der Welt sehen möchtest!</p>
+			
+			
+			
+			
+				<br />
+				 <p>Eigene Ideen und Vorschläge kannst du auch in unserem <a target="_blank" href="http://support.eaternity.ch">Support Forum</a> einbringen.
+			       Wir freuen uns über Hinweise und Ideen wie wir eine grössere Wirkung erzielen könne.</p>
+
+
+
+					<hr />
+
+					<ul>
+					{% for more in site.categories[page.folder] offset:6 %}
+						<li style="color:#333;"><h6>{{ more.date | date_to_string }}</h6><a href="{{ BASE_PATH }}{{more.url}}"><small>{{more.title}}</small></a></li>
+					{% endfor %}
+					</ul>
+
+
+					<hr />
+
+
+
+					<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+
+
+
+					<div class="prominent">
+						<h5>Warum spendest du nicht?</h5><br />
+						<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
+					</div>
+
+					<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
 
 	 	</div>
 
-		<br>
-		 <p>Eigene Ideen und Vorschläge kannst du auch in unserem <a target="_blank" href="http://support.eaternity.ch">Support Forum</a> einbringen.
-	       Wir freuen uns über Hinweise und Ideen wie wir eine grössere Wirkung erzielen könne.</p>
-
 	
-
-			<hr />
-		
-			<ul>
-			{% for more in site.categories[page.folder] offset:6 %}
-				<li style="color:#333;"><h6>{{ more.date | date_to_string }}</h6><a href="{{ BASE_PATH }}{{more.url}}"><small>{{more.title}}</small></a></li>
-			{% endfor %}
-			</ul>
-		
-		
-			<hr />
-		
-		
-
-			<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
-
-
-
-			<div class="prominent">
-				<h5>Warum spendest du nicht?</h5><br />
-				<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
-			</div>
-
-			<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
 
 
 		</div>	
