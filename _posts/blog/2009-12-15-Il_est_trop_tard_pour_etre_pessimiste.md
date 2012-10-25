@@ -3,7 +3,7 @@ layout: blog-post
 category: blog
 date: 2009-12-15
 
-image: http://placehold.it/452x150
+image: 2009-12-15-Il_est_trop_tard_pour_etre_pessimiste_II.md
 title: „Il est trop tard pour etre pessimiste.“ 
 blog-image:  
 
@@ -23,7 +23,3 @@ Anschliessend betrat James Balog die „Bühne“ und präsentierte eindrucksvol
 
 Der Promis noch nicht genug, konnten wir am Ende des Abends noch Yann Arthus-Betrand die Hand schütteln und ein Autogramm von ihm abholen. Im Gegenzug bekam er von uns einen eaternity-Flyer. Wir sind gespannt, wen wir als nächstes treffen!
 
-[Rear more][1]
-
-[1]: 2009-12-15-Il_est_trop_tard_pour_etre_pessimiste_II.md
- 

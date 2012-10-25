@@ -122,6 +122,7 @@
 						<a href="{{ BASE_PATH }}/infos/#material">Material</a><br />
 						<!--a href="{{ BASE_PATH }}/#">Quellen?</a><br /-->
 						<br />
+						<a href="{{ BASE_PATH }}/infos/#kontakt">Kontakt</a>
 						<!-- <a  target="_blank" href="http://support.eaternity.ch">FAQ &amp; Support</a><br /> -->
 						<!--a href="{{ BASE_PATH }}/#">Feedback (Zur Homepage)?</a><br /-->
 						<!--a href="{{ BASE_PATH }}/#">Impressum ?</a><br /-->
@@ -129,7 +130,7 @@
 					</p>
 
 					<h3><!-- <img src="{{ ASSET_PATH }}/images/generic/cc_icon_small.png" /> --> &copy; &nbsp;2012 Eaternity</h3>
-					<p><a href="{{ BASE_PATH }}/infos/#kontakt">Kontakt</a></p>
+					<p></p>
 					<!-- <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> --><!-- <br />Die Inhalte dieser Seite stehen soweit nicht anders angegeben unter einer  --><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz</a></p>
 					<p><a href="{{ BASE_PATH }}/legal">Haftbarkeit &amp; Rechtshinweise</a></p>
 
@@ -172,10 +173,10 @@
 								<!-- <ul class=""> -->
 									<p>
 									<div class="row-fluid ">
-					{% for item in site.categories['team'] reversed limit:3 %}
+					{% for item in site.categories['team'] reversed limit:4 %}
 						
 						
-							<div class="span4">
+							<div class="span3">
 								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail recipe-frame-small"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
 							</div>
 
@@ -189,10 +190,10 @@
 								<!-- <ul class=""> -->
 									<p>
 									<div class="row-fluid ">
-					{% for item in site.categories['team'] reversed offset:3 limit:3 %}
+					{% for item in site.categories['team'] reversed offset:4 limit:4 %}
 						
 						
-							<div class="span4">
+							<div class="span3">
 								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail recipe-frame-small"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
 							</div>
 
@@ -207,10 +208,10 @@
 								<!-- <ul class=""> -->
 									<p>
 									<div class="row-fluid ">
-					{% for item in site.categories['team'] reversed offset:6 limit:3 %}
+					{% for item in site.categories['team'] reversed offset:8 limit:4 %}
 						
 						
-							<div class="span4">
+							<div class="span3">
 								<a href="{{ BASE_PATH }}{{item.url}}" class="thumbnail recipe-frame-small"><!--div onMouseover="document.getElementById('{{ item.short }}').style.display='none';"  id="{{ item.short }}" class="cover-thumb"></div--><img id="{{ item.short }}" src="{{ ASSET_PATH }}/{{item.thumb}}" onMouseout="document.getElementById('{{ item.short }}').style.display='block';"/></a>
 							</div>
 
@@ -218,9 +219,8 @@
 				    			</div>
 								</p>
 					</div></div>
-					<br />
 					<!-- p>Werde Mitglied! So kannst du aktiv mitwirken oder uns finanziell unterstützen.</p -->
-					<a href="{{ BASE_PATH }}/act/#mitglied" class=" pull-right btn-small btn-orange btn">Mitglied werden</a><a href="{{ BASE_PATH }}/infos/#team" class="btn-small btn-inverse btn">das Team</a>
+					<a href="{{ BASE_PATH }}/infos/#kontakt" class=" pull-right btn-small btn-orange btn">Kontakt</a><a href="{{ BASE_PATH }}/infos/#team" class="btn-small btn-inverse btn">das Team</a>
 
 
 				</div>

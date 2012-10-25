@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 category: blog
-date: 2011-05-26
 
 title: SeedCity @ Science City Frühlings-Markt
 blog-image: 

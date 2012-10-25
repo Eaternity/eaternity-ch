@@ -3,7 +3,7 @@ layout: blog-post
 category: blog
 date: 2009-12-15
 
-image: http://placehold.it/452x150
+image: 2009-12-15-Il_est_trop_tard_pour_etre_pessimiste.jpg
 title: 
 blog-image:  
 
@@ -26,7 +26,7 @@ Der Promis noch nicht genug, konnten wir am Ende des Abends noch Yann Arthus-Bet
 [1]: http://www.extremeicesurvey.org/
 
 image: 2009-12-15-Il_est_trop_tard_pour_etre_pessimiste_II.jpg
-image: 2009-12-15-Il_est_trop_tard_pour_etre_pessimiste.jpg
+
 
 
  

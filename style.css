@@ -19,12 +19,22 @@ ul {
 	list-style-type: disc;
 }
 
+
 .normal li {
 	padding-top:0.5em;
 	padding-bottom:0.5em;
 	list-style-type: disc;
 		margin-left:20px;
 }
+
+.project-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.project-list ul li:before {
+content: "✯ ";
+}
+
 
 body { 
 background: #fff url({{ ASSET_PATH }}/images/background.jpg) 0 0 repeat;
@@ -377,6 +387,19 @@ footer a {
 /* -----------------------------------------
    Own Components
 ----------------------------------------- */
+
+
+.project-details img {
+	max-height: 18px;
+	margin-bottom:-2px;
+	padding-right:4px;
+}
+
+.social-media img {
+	padding-top:3px;
+	max-height: 22px;
+	
+}
 
 .thumbnail a {
 	padding: 8px;

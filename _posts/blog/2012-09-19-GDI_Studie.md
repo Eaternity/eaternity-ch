@@ -1,11 +1,10 @@
 ---
 layout: blog-post
 category: blog
-date: 2012-09-19
 
 image: 2012-09-19-GDI_Studie.jpg
 title: Interessantes aus der Konsumenten-Forschung
-blog-image: 2012.09.19-GDI_Studie2.jpg
+blog-image: 2012-09-19-GDI_Studie.jpg
 
 author: Marleen Schäfer
 

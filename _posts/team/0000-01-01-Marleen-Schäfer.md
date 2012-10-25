@@ -8,6 +8,9 @@ twitter:
 contact: mschaefer@eaternity.ch
 
 title: Marleen Schäfer
+position: Projektleitung - Bildung
+
+
 thumb: /images/team/mschaefer_thumb.jpg
 square: /images/team/mschaefer_180.jpg
 portrait: /images/team/mschaefer.jpg

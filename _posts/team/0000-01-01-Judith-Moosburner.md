@@ -1,13 +1,16 @@
 ---
 layout: team-member
 category: team
-date: 0002-01-03
+date: 2013-09-01
 
 short: jmoosburner
 
 contact: jmoosburner@eaternity.ch
 
 title: Judith Moosburner
+position: Creative
+
+
 thumb: /images/team/jmoosburner_thumb.jpg
 square: /images/team/jmoosburner_180.jpg
 portrait: /images/team/jmoosburner.jpg

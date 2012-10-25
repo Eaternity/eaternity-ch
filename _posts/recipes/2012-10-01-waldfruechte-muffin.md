@@ -18,6 +18,9 @@ image-slider: /images/recipes/slider/2012-10-01-waldfruechte-muffin.jpg
 
 co2-value: 340 (113 g pro Muffin)
 
+tags:
+- Menu Plus
+
 
 zutaten:
 - <strong>ergibt 12 Stück</strong>

@@ -1,13 +1,15 @@
 ---
 layout: team-member
 category: team
-date: 0002-01-03
+date: 2008-10-10
 
 short: mklarmann
 twitter: mklarmann
 contact: mklarmann@eaternity.ch
 
 title: Manuel Klarmann
+position: Founder & CEO
+
 thumb: /images/team/mklarmann_thumb.jpg
 square: /images/team/mklarmann_180.jpg
 portrait: /images/team/mklarmann.jpg
@@ -15,11 +17,6 @@ portrait: /images/team/mklarmann.jpg
 comment: |
  Bei Eaternity gibt es ständig gutes Essen. Dazu kommen noch die Umweltaspekte, die auch nur überzeugen können. Auch die Liebe zur Natur geht bei mir durch den Magen.
 
-materialien:
-- bookHollow1.jpg
-- bookHollow2.jpg
-- bookHollow3.jpg
-- bookHollow4.jpg
 ---
 
 

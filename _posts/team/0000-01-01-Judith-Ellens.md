@@ -1,12 +1,14 @@
 ---
 layout: team-member
 category: team
-date: 0002-01-03
+date: 2008-10-11
 
 short: jellens
 contact: judith.ellens@eaternity.ch
 
 title: Judith Ellens
+position: Founder & COO
+
 thumb: /images/team/jellens_thumb.jpg
 square: /images/team/jellens_180.jpg
 portrait: /images/team/jellens.jpg

@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 category: blog
-date: 0002-01-03
 
 title: Zürcher Umwelttage - Thema Ernährung 
 blog-image: 

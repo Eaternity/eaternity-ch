@@ -93,15 +93,76 @@ folder: infos
 								
 								{% when 'team' %}
 									
-									<ul class="thumbnails">
-										{% for list_item in site.categories[item.list] reversed %}
-										<li class="span2"> 
-											<a href="{{ BASE_PATH }}{{ list_item.url }}" style="background:white;" class="thumbnail"><img src="{{ ASSET_PATH }}{{ list_item.square }}">
-											{{ list_item.title }}</a>
-											
-										</li>
+										{% for list_item in site.categories[item.list] reversed  %}
+										
+										
+										<div class="row-fluid">
+											<div class="span6">
+													<div class="span2"><img  src="{{ ASSET_PATH }}{{ list_item.square }}" class="thumbnail"></div>
+													<!-- {{ list_item.title }} -->
+							
+
+
+
+													<div class="span2">
+												    {% if list_item.contact %}
+									
+												    <p>Email: <a href='mailto:{{ list_item.contact }}'>{{ list_item.contact }}</a></p>
+												    {% endif %}
+
+
+													{% if list_item.twitter %}
+						
+												    <p>Twitter: <a target='_blank' href='http://twitter.com/{{ list_item.twitter }}'>@{{ list_item.twitter }}</a></p>
+												    {% endif %}
+
+
+
+										    		{% if list_item.materialien %}
+										    
+										    		<p>
+										    		<h5>Vorträge und Materialien zur Person</h5>
+										    		</p>
+										    		<ul>
+										    			{% for item in list_item.materialien %}
+										    		      <li>{{ item }}</li>
+										    		    {% endfor %}
+										    		</ul>
+										    		{% endif %}
+													</div>
+
+											</div>
+
+											<div class="span6">
+												<div>
+
+
+													<h2>{{list_item.title}}</h2>
+													<h3>{{list_item.position}}</h3>
+													<blockquote>"{{ list_item.comment }}"</blockquote>
+
+					
+
+
+
+
+
+
+
+												</div>
+											</div>
+										</div>
+										<div class="row-fluid">
+											<div class="span12">
+													{{list_item.content}}
+													<br />
+													<hr />
+											</div>
+										</div>
+										
+										
 										{% endfor %}
-									</ul>
+							
 
 								{% when 'referenzen' %}
 									
@@ -109,7 +170,7 @@ folder: infos
 
 											{% for list_item in site.categories[item.list] reversed %}
 													
-											<a href="{{ site.baseurl }}{{ list_item.url }}" style="margin-top:20px;background:white;" class="thumbnail span6"><li style="padding:10px 10px 0px 10px;"><img src="{{ ASSET_PATH }}/images/partner/{{ list_item.partner-logo }}"> <p> &rarr; <strong>{{ list_item.title }}</strong></p></li></a>
+											<!-- <a href="{{ BASE_PATH }}{{ list_item.url }}" style="margin-top:20px;background:white;" class="thumbnail span6"> --><li style="padding:10px 10px 0px 10px;"><img class="span2"  src="{{ ASSET_PATH }}/images/partner/{{ list_item.partner-logo }}"> <br /><p> &rarr; <strong>{{ list_item.title }}</strong></p></li><!-- </a> -->
 													
 											{% endfor %}
 										</ul>
@@ -136,16 +197,16 @@ folder: infos
 									
 										
 										<p><a href='{{ BASE_PATH }}{{float_list_item.url}}'>
-										{% if float_list_item.blog-image != null %}<img src="{{ ASSET_PATH }}{{ float_list_item.blog-image }}" />{% endif %}
+										{% if float_list_item.blog-image != null %}<img src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ float_list_item.blog-image }}" />{% endif %}
 									     &raquo;{{ float_list_item.title }}</a></p>
 									
 									
 									{% when 'projects' %}
 
 
-										<p><a href='{{ BASE_PATH }}{{float_list_item.url}}'>
+										<p><!-- <a href='{{ BASE_PATH }}{{float_list_item.url}}'> -->
 										<img src="{{ ASSET_PATH }}/images/projects/{{ float_list_item.short }}/{{ float_list_item.images | first }}" />
-									     &raquo;{{ float_list_item.title }}</a></p>
+									     &raquo;{{ float_list_item.title }}<!-- </a> --></p>
 									
 									{% else %}
 									     

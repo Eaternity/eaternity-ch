@@ -15,12 +15,12 @@ folder: blog
 	</div>
 	<div class="span4">
 		<div style="text-align:right; color:#F18224; float:right;margin-top:2em;">
-		abonnieren: email, <a href="{{ BASE_PATH }}/atom.xml">rss</a>
+		abonnieren: <a href="{{ BASE_PATH }}/atom.xml">rss</a>
 		</div>
 	</div>
 </div>
 
-{% for item in site.categories[page.folder] limit:6 %}
+{% for item in site.categories[page.folder] limit:8 %}
 
 	<div class="row-fluid">
 		<div class="span12">
@@ -28,7 +28,7 @@ folder: blog
 				<a href="{{ BASE_PATH }}{{item.url}}">
 					<h2 style="padding-bottom: 0.2em;">{{item.title}}</h2>
 					<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ item.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ item.author }}</small></div>
-					<img  src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.image }}" ><h3 style="padding-bottom: 0.2em;">{{item.subtitle}}</h3>
+					{% if item.blog-image != null %}<img src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.blog-image }}" >{% endif %}<h3 style="padding-bottom: 0.2em;">{{item.subtitle}}</h3>
 				</a>			
 				
 
@@ -40,7 +40,7 @@ folder: blog
 				{% endif %}
 				</p>
 				
-				icon <a href="{{ BASE_PATH }}{{item.url}}#disqus_thread">Kommentare</a>.
+				<a href="{{ BASE_PATH }}{{item.url}}#disqus_thread">Kommentare</a>.
 				
 				<a href="{{ BASE_PATH }}{{item.url}}" class="pull-right btn btn-inverse btn-small">&nbsp;weiterlesen</a>
 				

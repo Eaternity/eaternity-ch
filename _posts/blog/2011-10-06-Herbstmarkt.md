@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 category: blog
-date: 2011-10-06
 
 image: http://placehold.it/452x150
 title: Eaternity am Herbstmarkt

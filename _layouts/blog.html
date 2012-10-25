@@ -41,27 +41,27 @@ folder: blog
 			<hr />
 		
 			<ul>
-			{% for more in site.categories[page.folder] offset:6 %}
+			{% for more in site.categories[page.folder] offset:8 %}
 				<li style="color:#333;"><h6>{{ more.date | date_to_string }}</h6><a href="{{ BASE_PATH }}{{more.url}}"><small>{{more.title}}</small></a></li>
 			{% endfor %}
 			</ul>
 		
 		
-			<hr />
-		
-		
+			<!-- <hr />
+			
+			
 
-			<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
+				<p>This is some content in the sidebar. Quicklings to topics via Tag-Cloud. Information about retweets of this page.</p>
 
 
 
-			<div class="prominent">
-				<h5>Warum spendest du nicht?</h5><br />
-				<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
-			</div>
+				<div class="prominent">
+					<h5>Warum spendest du nicht?</h5><br />
+					<a class="btn-inverse btn" data-toggle="modal" href="#DonateModal">Jetzt Spenden</a>
+				</div>
 
-			<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote>
-
+				<blockquote>"I love my children! Thank you Rebekah Children's Services!. This info should appear kind of on every page." <cite>Loving Mother</cite></blockquote> -->
+	
 
 		</div>	
 		

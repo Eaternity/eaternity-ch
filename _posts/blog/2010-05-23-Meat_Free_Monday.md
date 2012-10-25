@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 category: blog
-date: 2010-05-23
 
 image: http://placehold.it/452x150
 title: Meat Free Monday titel 

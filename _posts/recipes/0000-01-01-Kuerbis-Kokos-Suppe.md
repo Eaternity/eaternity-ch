@@ -18,6 +18,9 @@ image-slider: /images/recipes/slider/kuerbis-kokos-suppe.jpg
 
 co2-value: 243
 
+tags:
+ - Treffpunkt Science City Herbstmarkt
+
 zutaten:
 - 1 Kürbis (ca. 1 kg) 
 - 120 g Zwiebeln 

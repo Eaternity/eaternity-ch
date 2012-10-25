@@ -1,13 +1,14 @@
 ---
 layout: team-member
 category: team
-date: 0002-01-03
+date: 2012-08-01
 
 short: jmaisenbacher
 twitter: 
 contact: jmaisenbacher@eaternity.ch
 
 title: Jan Maisenbacher
+position: Business Development
 
 thumb: /images/team/jmaisenbacher_thumb.jpg
 square: /images/team/jmaisenbacher_180.jpg

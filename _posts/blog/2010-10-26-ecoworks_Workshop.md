@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 category: blog
-date: 2010-10-26
+
 
 image: http://placehold.it/452x150
 title: ecoworks Workshop 2010 

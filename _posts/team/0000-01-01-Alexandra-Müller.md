@@ -1,7 +1,7 @@
 ---
 layout: team-member
 category: team
-date: 2012-02-15
+date: 2014-02-15
 
 published: true
 
@@ -10,6 +10,8 @@ twitter:
 contact: amueller@eaternity.ch
 
 title: Alexandra Müller
+position: Projekte
+
 thumb: /images/team/amueller_thumb.jpg
 square: /images/team/amueller_180.jpg
 portrait: /images/team/amueller1.jpg
