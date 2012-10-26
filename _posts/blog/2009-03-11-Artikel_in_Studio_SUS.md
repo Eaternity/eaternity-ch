@@ -3,6 +3,9 @@ layout: blog-post
 category: blog
 date: 2009-03-11
 
+published: false
+
+
 image: http://placehold.it/452x150
 title: Artikel in Studio!SUS  
 blog-image:  

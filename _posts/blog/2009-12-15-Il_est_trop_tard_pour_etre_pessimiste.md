@@ -7,6 +7,9 @@ image: 2009-12-15-Il_est_trop_tard_pour_etre_pessimiste_II.md
 title: „Il est trop tard pour etre pessimiste.“ 
 blog-image:  
 
+published: false
+
+
 media: 
 
 tags:

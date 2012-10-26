@@ -3,6 +3,9 @@ layout: blog-post
 category: blog
 date: 2010-01-06
 
+
+published: false
+
 image: http://placehold.it/452x150
 title: Unsere glückliche Gewinnerin  
 blog-image: 

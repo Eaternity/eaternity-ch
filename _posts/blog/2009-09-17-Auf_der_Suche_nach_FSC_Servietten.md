@@ -3,6 +3,9 @@ layout: blog-post
 category: blog
 date: 2009-09-17
 
+published: false
+
+
 image: http://placehold.it/452x150
 title: Auf der Suche nach FSC Servietten 
 blog-image:  

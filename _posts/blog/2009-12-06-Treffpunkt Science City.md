@@ -3,6 +3,8 @@ layout: blog-post
 category: blog
 date: 2009-12-06
 
+
+
 image: http://placehold.it/452x150
 title: 6. Dezember Eaternity am Treffpunkt Science City.
 blog-image: 

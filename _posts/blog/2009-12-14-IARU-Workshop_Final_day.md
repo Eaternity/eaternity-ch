@@ -7,6 +7,9 @@ image: http://placehold.it/452x150
 title: IARU-Workshop - Final day 
 blog-image:  
 
+published: false
+
+
 media: 
 
 tags:

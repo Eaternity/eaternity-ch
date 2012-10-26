@@ -3,6 +3,9 @@ layout: blog-post
 category: blog
 date: 2009-11-26
 
+published: false
+
+
 image: http://placehold.it/452x150
 title: eaternity Pilot-Wochen Presse Echo  
 blog-image:  

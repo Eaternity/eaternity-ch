@@ -7,6 +7,9 @@ image: http://placehold.it/452x150
 title: Saisongemüse
 blog-image:  
 
+published: false
+
+
 media: 
 
 tags:

@@ -3,6 +3,9 @@ layout: blog-post
 category: blog
 date: 2010-12-14
 
+published: false
+
+
 image: http://placehold.it/452x150
 title:  Climate Justice Now
 blog-image: 
