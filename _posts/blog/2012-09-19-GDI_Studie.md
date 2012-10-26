@@ -4,6 +4,7 @@ category: blog
 
 image: 2012-09-19-GDI_Studie.jpg
 title: Interessantes aus der Konsumenten-Forschung
+subtitle: ... Nachhaltigkeit ist eine klare Erwartung!
 blog-image: 2012-09-19-GDI_Studie.jpg
 
 author: Marleen Schäfer

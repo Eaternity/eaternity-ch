@@ -3,7 +3,8 @@ layout: blog-post
 category: blog
 
 image: 2012-10-25-diskussion.png
-title: Gespaltene Reaktionen zum Artikel im Tagesanzeiger über die SV-Group
+title: Gespaltene Reaktionen zu "One Two We" im Tagesanzeiger über die SV-Group
+subtitle: ... was bedeutet klimafreundliche Ernährung tatsächlich?
 blog-image: 2012-10-25-kommentar.png
 
 author: Marleen Schäfer
