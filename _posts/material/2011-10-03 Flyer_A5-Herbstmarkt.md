@@ -1,12 +1,12 @@
 ---
 layout: material
 category: material
-date: 2012-01-25
+date: 2010-10-01
 
-title: Dokumente zum WWF Hub Fellowship
+title: Kürbis und Karottensuppe am Herbstmarkt
 
 documents: 
- - 2012-01-25 Slides Hub Fellowship Eaternity.pdf
+ - eaternity-flyer-eth-markt.pdf
 
 authors: 
  - Manuel Klarmann
@@ -14,15 +14,13 @@ authors:
  - Judith Moosburner
 
 tags:
- - Partner
- - Menu Plus
+ - Herbstmarkt
 
 partner:
- - WWF Schweiz
- - Hub Zürich
+ - Mäder Kräuter
+ - Science City
 
 ---
 
 
-In Vorbereitung zum Finale am 27.Januer 2012 konnten wir beim Hub Pre-Pitch unsere Präsentation testen. Hier könnt Ihr sie jetzt downloaden.
-
+Kerbel und Rosmarin gab es für jeden der beim Herbstmarkt vorbeischaute.

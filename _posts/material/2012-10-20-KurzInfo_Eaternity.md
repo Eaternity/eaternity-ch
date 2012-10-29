@@ -1,12 +1,13 @@
 ---
 layout: material
 category: material
-date: 2012-01-25
+date: 2011-01-10
 
-title: Dokumente zum WWF Hub Fellowship
+
+title: Kurzinfo zu Eaternity
 
 documents: 
- - 2012-01-25 Slides Hub Fellowship Eaternity.pdf
+ - KurzInfo_Eaternity.pdf
 
 authors: 
  - Manuel Klarmann
@@ -15,14 +16,12 @@ authors:
 
 tags:
  - Partner
- - Menu Plus
+
 
 partner:
- - WWF Schweiz
- - Hub Zürich
+
 
 ---
 
 
-In Vorbereitung zum Finale am 27.Januer 2012 konnten wir beim Hub Pre-Pitch unsere Präsentation testen. Hier könnt Ihr sie jetzt downloaden.
 

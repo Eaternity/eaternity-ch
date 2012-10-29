@@ -2,8 +2,6 @@
 layout: page
 date: 0002-01-03
 title: Umweltfakten
-published: false
-
 ---
 
 {% include JB/setup %}
@@ -24,15 +22,17 @@ published: false
 <div class="well">
 	<div class="row-fluid">
 		<div class="span12 ">
-			<h1>Die Relevanz </h1>
+			<div style="">
+			<h1>Alle reden von Wohnen und Mobilität... </h1>
+			</div>
 			<hr>
 			<div class="row-fluid">
 				<div class="span5">
 					
-					<p>Unsere Ernährung verursacht mehr als ein Drittel der konsumbedingten Treibhausgase in Europa, dass sind über 2 Tonnen CO₂ pro Person im Jahr. 
-					Bezogen auf schädliche Treibhausgas Emissionen, nimmt die Ernährung den gleichen Stellenwert an wie die Bereiche Wohnen und Mobilität. </p>
-					<p>Dabei besonders wichtig: in der Schweiz werden 60% dieser Treibhausgase ausserhalb der Landesgrenze verursacht. Diese Stammen also von Lebens- und Futtermitteln die wir importieren. 
-					Unser Einfluss auf die Welt hört nicht an der Grenze auf.  </p>
+					<p>...doch unsere Ernährung verursacht mehr als ein Drittel der konsumbedingten Treibhausgase in Europa. 
+					Bezogen auf schädliche Treibhausgasemissionen nimmt die Ernährung den gleichen Stellenwert an wie die Bereiche Wohnen und Mobilität: Über 2 Tonnen CO₂ pro Person im Jahr. </p>
+					<p>Dabei besonders wichtig: in der Schweiz werden 60% dieser Treibhausgase ausserhalb der Landesgrenze verursacht. Importierte Lebens- und Futtermitteln zeigen: Unser Fussabdruck ist global - ebenso wie die Klimaveränderung. 
+					  </p>
 					
 					<button type="button" class="btn btn-inverse btn-mini pull-right" data-toggle="collapse" data-target="#demo4" data-parent="#accordion0">
 		  weiter lesen
@@ -54,13 +54,12 @@ published: false
 <div class="row">
 	<div class="span12" id="accordion0">
 			<div id="demo4" class="collapse">
-				<div class="well"> Wir produzieren mehr CO₂ als unser Klima verträgt. Der Ausstoss von Treibhausgasen verändert unser Klima. In der Schweiz können schon jetzt veränderungen im Klima, Gletscherschmelzen, und Vegetationsveränderungen festegestellt werden. 
-				Damit diese Veränderungen nicht zu drastisch werden, müssen wir die Treibhausgas-Emissionen reduzieren!    
+				<div class="well"> Wir produzieren mehr CO₂ als unser Klima verträgt. Der Ausstoss von Treibhausgasen verändert unser Klima. In der Schweiz werden heute bereits Veränderungen im Klima sichtbar. Das Abschmelzen der Gletscher,  Vegetationsveränderungen, extreme Wetterereignisse. Dabei ist die Schweiz im Vergleich mit anderen Ländern noch "gut" bedient.
+				Treibhausgas-Emissionen zu reduzieren ist international politisch und gesellschaftlich unbestritten und verhindert im Idealfall Schlimmeres.   
 				<br>
-				<br>Obwohl bei der Produktion von allen Lebensmitteln Klimagase entstehen, sind nicht alle Lebensmittel mit grossen Mengen CO2 verbunden. 
-				Es gibt welche die das Klima stärker und andere die das Klima geringer belasten. Lebensmittel tierischer Herkunft, wie Fleisch und Käse belasten das Klima wesentlich mehr als andere Lebensmittel. 
-				Bei unserem täglichen Essen, lassen sich rund 60% der Treibhausgase auf die Herstellung von tierischen Produkten zurück rechnen. Lesen Sie weiter um zu erfahren wieso das so ist!
-				<br>
+				<br>Obwohl bei der Produktion von allen Lebensmitteln schädliche Klimagase entstehen sind nicht alle Lebensmittel mit grossen Mengen CO2 verbunden. 
+				Noch weiss die Gesellschaft darüber viel zu wenig. Lebensmittel tierischer Herkunft beispielsweise belasten das Klima wesentlich mehr als andere Lebensmittel. 
+				Bei unserem täglichen Essen lassen sich rund 60% der Treibhausgase auf die Herstellung von tierischen Produkten zurück rechnen. Dank Eaternity und unserer Arbeit erfahren Sie mehr zu diesem Thema. 				<br>
 <br><FONT SIZE=2>Quelle: Jungbluth et al. (2011) Environmental impacts of Swiss consumption and production; Tukker et al. (2006) Environmental Impact of Products</FONT>
 				
 				</div>
@@ -68,18 +67,20 @@ published: false
 	</div>
 </div>
 
+
+<!-- JAN: Hier würde ich eine Zwischenüberschrift einfügen: Der abstrakte CO2 Begriff fassbar gemacht -->
 <div class="row">
 	<div class="span4">
-		<a href="adopt-a-child.php"><img src="{{ ASSET_PATH }}/images/facts/Konsum-cheeseburger.png"></a>
-		<h3><a href="adopt-a-child.php">Der Anteil am Konsum.</a></h3>
+		<a href="#demo2" data-toggle="collapse"  data-parent="#accordion1"><img src="{{ ASSET_PATH }}/images/facts/Konsum-cheeseburger.png"></a>
+		<h3><a href="#demo2" data-toggle="collapse"  data-parent="#accordion1">Der Anteil am Konsum.</a></h3>
 		<p style="height:5em">Wenn Sie einen Cheeseburger essen, dann haben Sie die gleiche Wirkung auf das Klima, wie wenn Sie 500 Stunden fernsehen.</p>
 		<button type="button" class="btn btn-inverse btn-mini pull-right" data-toggle="collapse" data-target="#demo2" data-parent="#accordion1">
 		  weiter lesen
 		</button>
 	</div>
 	<div class="span4">
-		<a href="adoption-home-evaluation.php"><img src="{{ ASSET_PATH }}/images/facts/zutat.png"></a>
-		<h3><a href="adoption-home-evaluation.php">Die Zutat entscheidet.</a></h3>
+		<a href="#demo3" data-toggle="collapse"  data-parent="#accordion1"><img src="{{ ASSET_PATH }}/images/facts/zutat.png"></a>
+		<h3><a href="#demo3" data-toggle="collapse"  data-parent="#accordion1">Die Zutat entscheidet.</a></h3>
 		<p style="height:5em">Die Produktion von 1 kg Kartoffeln verursacht ca. 17 mal weniger CO2 als 1 kg Schweinefleisch. 
 		Verschiedene Lebensmittel belasten das Klima unterschiedlich. </p>
 		<button type="button" class="btn btn-inverse btn-mini pull-right" data-toggle="collapse" data-target="#demo3" data-parent="#accordion1">
@@ -87,9 +88,9 @@ published: false
 		</button>
 	</div>
 	<div class="span4">
-		<a href="foster-a-child.php"> <img src="{{ ASSET_PATH }}/images/facts/CO2Wert-Mahlzeit.jpg"></a>
-		<h3><a href="foster-a-child.php">Der CO₂-Wert einer Mahlzeit.</a></h3>
-		<p style="height:5em">Jede Mahlzeit verursacht Emissionen. Wir zeigen Ihnen auf, wie die einzelnen Mahlzeiten im Vergleich abschneiden.</p>
+		<a href="#demo1" data-toggle="collapse"  data-parent="#accordion1"> <img src="{{ ASSET_PATH }}/images/facts/CO2Wert-Mahlzeit.jpg"></a>
+		<h3><a href="#demo1" data-toggle="collapse"  data-parent="#accordion1">Der CO₂-Wert einer Mahlzeit.</a></h3>
+		<p style="height:5em">Jede Mahlzeit verursacht Emissionen. Eaternity schafft ein neues Bewusstsein und zeigt wie die einzelnen Mahlzeiten im Vergleich abschneiden.</p>
 		<button type="button" class="btn btn-inverse btn-mini pull-right" data-toggle="collapse" data-target="#demo1" data-parent="#accordion1">
 		  weiter lesen
 		</button>
@@ -103,6 +104,7 @@ published: false
 		<br />
 	</div>
 </div>
+
 <div class="row">
 	<div class="span12" id="accordion1">
 			<div id="demo1" class="collapse">
@@ -128,7 +130,7 @@ Damit könnte man dann 8 Wochen lang fernsehen. Und das jeden Tag!
  </div>
 			</div>			
 			<div id="demo3" class="collapse">
-				<div class="well">In der Landwirtschaftsphase entsteht in generellem der Löwenteil an Emissionen. Das gilt sowohl für Fleisch als für das meiste Gemüse. Die Dünger- und Pestizide-Einsatz und Produktion, der Einsatz von Maschinen, die Produktion und Transport von Futtermitteln, die Verarbeitung der Gülle, weitere Materialien und Stromverbrauch für Ställe und andere Gebäude. Das alles kostet Energie und verursacht Emissionen. 
+				<div class="well">In der Landwirtschaftsphase entsteht der Löwenteil an Emissionen. Das gilt sowohl für Fleisch als für das meiste Gemüse. Dünger- und Pestizide-Einsatz, der Einsatz von Maschinen, die Produktion und Transport von Futtermitteln, die Verarbeitung der Gülle, weitere Materialien und Stromverbrauch für Ställe und andere Gebäude. Das alles kostet Energie und verursacht Emissionen. 
 				Bis zu 80% der Emissionen können in der landwirtschaftlichen Phase anfallen, je nachdem welches Lebensmittel man betrachtet.  
 				<br>
 <br>Für die Produktion von Fleisch werden mehr Ressourcen benötigt als bei der Produktion von Gemüse und Getreide. Der Crux dabei ist, dass die gefressenen pflanzlichen Proteine aus dem Futter nicht 1 zu 1 in tierische Proteine umgewandelt werden. Verspeisen wir die Kartoffel dagegen direkt selber, sparen wir diesen Zwischenschritt und benötigen weniger Ressourcen. Auch die Gülle verursacht weitere Emissionen, die es bei pflanzliche Produkten nicht gibt.
@@ -148,13 +150,13 @@ Damit könnte man dann 8 Wochen lang fernsehen. Und das jeden Tag!
 	</div>
 </div>
 
-
+<!--  JAN: Die Kuchengrafik würde ich nach oben holen unter die Wolke -->
 
 <div class="well">
 	<div class="row">
 		<div class="span12 ">
 
-			<h1> Das Potential </h1>
+			<h1> Eaternity ermöglicht eine Hebelwirkung </h1>
 			<hr>
 			<div class="row">
 				<div class="span6">
@@ -164,8 +166,8 @@ Damit könnte man dann 8 Wochen lang fernsehen. Und das jeden Tag!
 				</div>
 				<div class="span5 prominent">
 				
-					<p>Eine genussvolle, gesunde und klimafreundliche Ernährung verursacht über 50% weniger Treibhausgase. Das ist 1 Tonne CO₂ pro Person im Jahr. Dazu steht sie für eine faire und angemessene Rohstoffverwendung.</p>
-					<a href="{{ BASE_PATH }}/act/" class="pull-right btn">Zu den Studien &rarr;</a>
+					<p>Eine genussvolle, gesunde und klimafreundliche Ernährung verursacht über 50% weniger Treibhausgase - wohlgemerkt ohne Einbussen in der individuellen Lebensqualität. Das ist 1 Tonne CO₂ pro Person im Jahr. Eine klimafreundliche Ernährung ist zudem Garant für eine bessere Nutzung von immer knapper werdenden Rohstoffen.</p>
+					<a href="{{ BASE_PATH }}/facts/#quellen" class="pull-right btn">Zu den Studien &rarr;</a>
 				</div>
 			</div>
 		</div>
@@ -180,7 +182,7 @@ Damit könnte man dann 8 Wochen lang fernsehen. Und das jeden Tag!
 		
 		<a href="#demo5" data-toggle="collapse"  data-parent="#accordion"><img src="{{  ASSET_PATH }}/images/facts/50p-Reduktion.png"></a>
 		<h3><a href="#demo5" data-toggle="collapse" data-parent="#accordion">Ihr persönliches Potential.</a></h3>
-		<p>Genussvoll essen und geniessen verstärkt das Lebensgefühl. Mit der richtigen Auswahl an Zutaten schont man gleichzeitig auch das Klima. Eine Win-Win Situation!  </p>
+		<p style="height:5em">Genussvoll essen und geniessen verstärkt das Lebensgefühl. Mit der richtigen Auswahl an Zutaten schont man gleichzeitig auch das Klima. Eine Win-Win Situation!  </p>
 	<button type="button" class="btn btn-inverse btn-mini pull-right" data-toggle="collapse" data-target="#demo5" data-parent="#accordion">
 		  weiter lesen
 		</button>
@@ -188,8 +190,8 @@ Damit könnte man dann 8 Wochen lang fernsehen. Und das jeden Tag!
 	<div class="span4">
 		
 		<a href="#demo6" data-toggle="collapse"  data-parent="#accordion"><img src="{{  ASSET_PATH }}/images/facts/1million-tonnen.png"></a>
-		<h3><a>1 Million Tonnen.</a></h3>
-		<p>Wenn jeder ein Jahr lang drei Mal pro Woche klimafreundlich isst, dann ist das als ob wir gemeinsam ein Wald von 1 Million Bäumen pflanzen. </p>
+		<h3><a href="#demo6" data-toggle="collapse"  data-parent="#accordion">1 Million Tonnen.</a></h3>
+		<p style="height:5em">Wenn jeder ein Jahr lang drei Mal pro Woche klimafreundlich isst, dann ist das als ob wir gemeinsam ein Wald von 1 Million Bäumen pflanzen. </p>
 		<button type="button" class="btn btn-inverse btn-mini pull-right" data-toggle="collapse" data-target="#demo6" data-parent="#accordion">
 		  weiter lesen
 		</button>
@@ -198,9 +200,16 @@ Damit könnte man dann 8 Wochen lang fernsehen. Und das jeden Tag!
 		
 		<a href="{{ BASE_PATH }}/characters/"><img src="{{  ASSET_PATH }}/images/facts/3063508196_9ebd2535e3_b.png"></a>
 		<h3><a href="{{ BASE_PATH }}/characters/">3 Lebensstile.</a></h3>
-		<p>Jeder kann durch kleine Veränderungen seine Emissionen reduzieren. Michael, Barbara und Ueli haben den ersten Schritt bereits getan. Lernen Sie sie kennen! </p>
+		<p style="height:5em">Jeder kann durch kleine Veränderungen seine Emissionen reduzieren. Michael, Barbara und Ueli haben den ersten Schritt bereits getan. Lernen Sie sie kennen! </p>
 	</div>
 </div>
+
+<div class="row">
+	<div class="span12">
+		<br />
+	</div>
+</div>
+
 
 <div class="row">
 	<div class="span12" id="accordion">
@@ -208,18 +217,18 @@ Damit könnte man dann 8 Wochen lang fernsehen. Und das jeden Tag!
 				<div class="well">Es ist leicht etwas zu machen und zu verändern. 
 				Besonders ist es sehr viel leichter und kostengünstiger Emissionen bei der Ernährung zu sparen als das Haus zu dämmen und die eigene Mobilität einzuschränken. 
 <br>
-<br>Durch die Wahl mehr Obst und Gemüse, eiweissreiche Produkte wie Tofu, Linsen und Erbsen, sowie Getreideprodukte und Nüsse zu essen, kann jeder direkt das Klima schonen. 
-Gleichzeitig setzen Sie auf Ihre Gesundheit und habe ein besseres Lebensgefühl. Vor allem aber helfen Sie mit, die zukünftige Welt positiv zu gestalten. <br>
-Wir setzen auf saisonales Gemüse und Obst, weniger Käse und Fleisch sowie auf regionale Produkte.
+<br>Durch die bewusste Essenswahl kann jeder direkt das Klima schonen. Konkret: mehr Obst, Gemüse, eiweissreiche Produkte (Tofu, Linsen und Erbsen), Getreideprodukte und Nüsse. 
+Gleichzeitig setzen Sie auf Ihre Gesundheit und haben ein besseres Lebensgefühl. Wir bei Eaternity setzen auf saisonales Gemüse und Obst, weniger Käse und Fleisch sowie auf regionale Produkte. Helfen Sie mit, unseren Planeten positiv zu gestalten. <br>
+
 <br>
 <br>Ein clever zusammengestelltes Essen hat im Schnitt 1 Kilogramm weniger CO₂ verursacht. Viele gesunde und leckere Ideen und Anreize finden Sie in der Rezepteküche.
 
  </div>
 			</div>
 			<div id="demo6" class="collapse">
-				<div class="well">Isst man bereits drei Mal pro Woche klug, einfach und klimafreundlich, dann verursacht man 150 kg weniger CO2 im Jahr. Dein Beitrag, auch wenn er klein ist, macht einen wesentlichen Unterschied. Denn wenn jeder in der Schweiz das gleiche machen würde, dann sparen wir gemeinsam über eine Million Tonnen CO2 pro Jahr ein! 
+				<div class="well">Isst man bereits drei Mal pro Woche klimafreundlich werden 150 kg weniger CO2 im Jahr verursacht. Dein Beitrag, sei er auch noch so klein, macht einen wesentlichen Unterschied. Würde jeder Schweizer/jede Schweizerin mitmachen, dann sparen wir gemeinsam über eine Million Tonnen CO2 pro Jahr ein! 
 				<br>
-				<br>Das hat den gleichen Effekt wie 370.000 weniger Autos auf der Strasse im Jahr, oder entspricht einem Wald von 1.000.000 erwachsenen Bäumen. Ein ganzer Lebensraum für Pflanzen und Tiere. Das erreichen wir gemeinsam!
+				<br>Das hat den gleichen Effekt wie 370.000 weniger Autos auf der Strasse im Jahr oder entspricht einem Wald von 1.000.000 erwachsenen Bäumen. 
 <br>
 <br><FONT SIZE=2>Quelle: Diverse (siehe Quellenverzeichnis)</FONT>
  </div>
@@ -236,7 +245,7 @@ Wir setzen auf saisonales Gemüse und Obst, weniger Käse und Fleisch sowie auf 
 
 <div class="row">
 	<div id="quellen" class="span8 right-line">
-		<h3>Quellenverzeichnis </h3>
+		<h3>Eine Auswahl der wichtigsten Wissensquellen zur Thematik </h3>
 		<div class="row-fluid">
 			<div class="span12"><hr /></div>
 		</div>
@@ -285,11 +294,15 @@ Wir setzen auf saisonales Gemüse und Obst, weniger Käse und Fleisch sowie auf 
 	</div>
 	<div class="span3">	
 		<div class="prominent">
-			<h2 style=" text-align: center; ">Datengrundlage und Methode</h2>
-			</br><p>Eaternity stützt seine CO2-Werte auf Ökobilanzierungen und benützt ausschliesslich CO2-Äquivalente.</p>
+			<h2 style=" text-align: center; ">Woher bekommt Eaternity die Fakten?</h2>
+			</br><p>Eaternity stützt seine CO2-Werte auf Ökobilanzierungen und benützt ausschliesslich sogenannte wissenschaftlich anerkannten CO2-Äquivalente.</p>
 			
-			<br><p>
-				In einer Ökobilanz wird der ganze Lebensweg eines Produktes analysiert. In jeder Lebensphase wird angeschaut wie viel CO2 durch Energie- und Benzinverbrauch verursacht wird. Neben CO2, gibt es noch weitere Klimagase wie Lachgas und Methan. Diese werden auch in der Analyse berücksichtigt um das gesamte Treibhauspotential eines Produktes festzustellen. Das funktioniert zum Beispiel so: bei dem Einsatz von Stickstoff-Dünger wird nur ein Teil des Stickstoffs durch die Pflanzen aufgenommen. Ein weiterer Teil landet als Lachgas (N2O) in der Luft. Das Lachgas wird dann auf eine Menge CO2 mit entsprechender Klimawirkung umgerechnet und mit den Emissionen aus anderen Lebensphasen zusammengerechnet. 
+			<br /><p>
+				Die Ökobilanz analysiert den ganzen Lebensweg eines Produktes. Jede Phase eines Produktes wird hinsichtlich Energie- und Benzinverbrauch durchleuchtet. Neben CO2 gibt es noch weitere Klimagase berücksichtigt (Lachgas, Methan). So ensteht ein Gesamtbild des gesamten Treibhauspotentials eines Produktes. 
+				
+			<br /><br />
+				
+				Beispiel: beim Einsatz von Stickstoff-Dünger wird nur ein Teil des Stickstoffs durch die Pflanzen aufgenommen. Ein weiterer Teil landet als Lachgas (N2O) in der Luft. Das Lachgas wird auf eine Menge CO2 mit entsprechender Klimawirkung umgerechnet und mit den Emissionen aus anderen Lebensphasen zusammengerechnet. 
 				Die Wirkung von diesen Gasen auf das Klima ist nicht zu unterschätzen. Lachgas hat zum Beispiel eine 300 mal stärkere Wirkung auf das Klima wie CO2!</p>
 		</div>
 

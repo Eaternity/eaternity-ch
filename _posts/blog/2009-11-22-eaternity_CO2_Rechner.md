@@ -4,7 +4,7 @@ category: blog
 date: 2009-11-23
 
 image: http://placehold.it/452x150
-title: eaternity CO2 Rechner 
+title: Eaternity CO2 Rechner 
 blog-image:  
 
 media: 

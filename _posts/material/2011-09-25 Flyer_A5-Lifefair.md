@@ -2,7 +2,7 @@
 layout: material
 category: material
 
-title: Apero an der Lifefair
+title: Apero an der Lifefair 2011
 
 documents: 
  - 2012-01-25 Slides Hub Fellowship Eaternity.pdf

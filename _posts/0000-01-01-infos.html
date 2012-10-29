@@ -66,17 +66,20 @@ folder: infos
 										
 										<ul>
 											{% for list_item in site.categories[item.list] reversed %}
-											<li> 
-												<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ ASSET_PATH }}{{ list_item.url }}">
-												{{ list_item.title }}</a>
-
+											<li>
+											<span>{{ list_item.date | date_to_string }} </span>  &raquo; 
+											{% for document in list_item.documents reversed %}
+											<a target="_blank" href="{{ ASSET_PATH }}/files/{{ document | escape_once }}">{{ list_item.title }}  &larr; </a>
+											{% endfor %}
+											
 											</li>
+											
 											{% endfor %}
 										</ul>
 								
 								{% when 'material' %}
 									<ul>
-										{% for list_item in site.categories[item.list] reversed %}
+										{% for list_item in site.categories[item.list] %}
 										<li> 
 											<span><a href="{{ ASSET_PATH }}{{ list_item.url }}">{{ list_item.date | date_to_string }}</a></span>  &raquo; 
 											{{ list_item.title }}:

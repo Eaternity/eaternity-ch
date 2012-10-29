@@ -3,7 +3,7 @@ layout: material
 category: material
 date: 2012-01-25
 
-title: Dokumente zum WWF Hub Fellowship
+title: Leckere Rezepte von Hiltl für den Nachhaltigen Adventskalender
 
 documents: 
  - 2011-12-01-weihnachtsdinner-gammarus.zip

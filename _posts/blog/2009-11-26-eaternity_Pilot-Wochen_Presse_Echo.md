@@ -7,7 +7,7 @@ published: false
 
 
 image: http://placehold.it/452x150
-title: eaternity Pilot-Wochen Presse Echo  
+title: Eaternity Pilot-Wochen Presse Echo  
 blog-image:  
 
 media: 

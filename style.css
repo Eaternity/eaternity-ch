@@ -388,6 +388,10 @@ footer a {
    Own Components
 ----------------------------------------- */
 
+#awards-link span4 {
+	max-height:40px;
+}
+
 
 .project-details img {
 	max-height: 18px;

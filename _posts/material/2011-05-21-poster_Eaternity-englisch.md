@@ -2,6 +2,8 @@
 layout: material
 category: material
 
+published: false
+
 title: IARU Workshop Poster
 
 documents: 

@@ -15,7 +15,7 @@ square: /images/team/mklarmann_180.jpg
 portrait: /images/team/mklarmann.jpg
 
 comment: |
- Bei Eaternity gibt es ständig gutes Essen. Dazu kommen noch die Umweltaspekte, die auch nur überzeugen können. Auch die Liebe zur Natur geht bei mir durch den Magen.
+ Bei Eaternity gibt es ständig gutes Essen. Dazu kommen noch die Umweltaspekte, die auch nur überzeugen können. Auch die Liebe zur Natur geht bei mir durch den Magen. Dazu gibt es jeden Tag, auch wenn es mal nicht so gut klappt, das schöne Gefühl mit meiner Arbeit etwas Gutes zu tun. 
 
 ---
 

@@ -3,7 +3,7 @@ layout: blog-post
 category: blog
 
 image: http://placehold.it/452x150
-title: Meat Free Monday titel 
+title: Meat Free Monday 
 blog-image: 
 
 media: 

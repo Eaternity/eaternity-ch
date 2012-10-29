@@ -10,7 +10,7 @@ twitter:
 contact: amueller@eaternity.ch
 
 title: Alexandra Müller
-position: Projekte
+position: Mitarbeit Projekte
 
 thumb: /images/team/amueller_thumb.jpg
 square: /images/team/amueller_180.jpg
