@@ -20,7 +20,7 @@ partner:
 
 ---
 
- AUnser primäres Ziel ist es, so effektiv wie möglich CO2 einzusparen. Dass dies nicht immer so einfach ist, mussten wir schon bei unseren ersten Druckmaterialien für die Aktionswoche erfahren. Um die Emissionen, verursacht durch unsere Aktionswochen im Physikrestaurant Science City, gering zu halten, versuchen wir für die begleitenden Werbemassnahmen schon bestehende Kommunikationskanäle zu nutzen.
+ Unser primäres Ziel ist es, so effektiv wie möglich CO2 einzusparen. Dass dies nicht immer so einfach ist, mussten wir schon bei unseren ersten Druckmaterialien für die Aktionswoche erfahren. Um die Emissionen, verursacht durch unsere Aktionswochen im Physikrestaurant Science City, gering zu halten, versuchen wir für die begleitenden Werbemassnahmen schon bestehende Kommunikationskanäle zu nutzen.
  
 [Read more][1]
 

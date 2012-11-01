@@ -2,6 +2,8 @@
 layout: blog-post
 category: blog
 
+published: false
+
 title: Zürcher Umwelttage - Thema Ernährung 
 blog-image: 
 circa: Fall 2005

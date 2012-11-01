@@ -2,6 +2,8 @@
 layout: blog-post
 category: blog
 
+published: false
+
 image: http://placehold.it/452x150
 title: Eaternity am Herbstmarkt
 
@@ -22,7 +24,7 @@ partner:
 
 Eaternity ist zusammen mit [SeedCity][1] am [ETH Wochenmarkt][2] in Science City. So gibt es jeden Donnerstag im Monat Oktober frische handverlesene Rezepte sowie das Aktuellste zur klimafreundlichen Ernährung. Wir freuen uns auf euren Besuch auf der Piazza (ETH Hönggerberg) und hoffen wieder einmal direkter mit unserer Botschaft bei euch zu sein. 
 
-[Read more...][3]
+[Bilder][3]
 
 
 [1]: http://www.seedcity.ethz.ch/

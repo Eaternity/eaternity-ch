@@ -2,6 +2,8 @@
 layout: blog-post
 category: blog
 
+published: false
+
 image: http://placehold.it/452x150
 title: Wädenswiler Lebensmitteltagung 
 blog-image: 

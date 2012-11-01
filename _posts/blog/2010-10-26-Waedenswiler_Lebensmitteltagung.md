@@ -1,6 +1,7 @@
 ---
 layout: blog-post
 category: blog
+date: 26-10-2010
 
 image: http://placehold.it/452x150
 title: Wädenswiler Lebensmitteltagung 
