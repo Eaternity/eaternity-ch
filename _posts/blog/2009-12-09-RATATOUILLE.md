@@ -3,9 +3,9 @@ layout: blog-post
 category: blog
 date: 2009-12-09
 
-image: http://placehold.it/452x150
+image: 2009-12-09-RATATOUILLE.II.Poster.jpg
 title: RATATOUILLE im Mittwochskino am 9.Dezember 
-blog-image: 
+blog-image: 2009-12-09-RATATOUILLE.II.Poster.jpg
 
 published: false
 

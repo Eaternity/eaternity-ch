@@ -4,7 +4,7 @@ category: blog
 
 published: false
 
-image: xxx
+image: 2012-10-28-erdbeerschneeman.png
 title: Erdbeeren im Winter in der Umweltarena
 subtitle: ... und unsere wissenschaftliche Beratung trägt Früchte.
 blog-image: xxx
@@ -28,4 +28,4 @@ Unterstützt haben wir die Austellung bei weiteren Berechnungen. So sind von ver
 
 Merkt man sich am also: Erbeeren sind nicht der ideale Fluggastbegleiter.
 
-[1]: link zur Ausstellung
+[1]: http://www.erdbeerenimwinter.ch/aktueller-standort/

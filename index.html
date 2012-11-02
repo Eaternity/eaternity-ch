@@ -109,7 +109,9 @@ tagline: Supporting tagline
 					<div class="span12">
 							<ul>
 							{% for item in site.categories['blog'] limit:3 %}
-							<li><br /><span style="width:100px;padding-top:1em;">{{ item.date | date_to_string }}</span><a href="{{ BASE_PATH }}{{ item.url }}"><h6 style="padding-top:0px;">{{ item.title }}</h6><small>{% if item.subtitle != null %}{{ item.subtitle }}</small><br />{% endif %}</a></li>
+							<li>{% if item.blog-image != null %}<a href="{{ BASE_PATH }}{{ item.url }}"><img style="margin-left:-10px;padding-right:16px" class="span2" src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.blog-image }}" ></a>{% endif %}
+								
+								<span style="width:100px;padding-top:1em;">{{ item.date | date_to_string }}</span><a href="{{ BASE_PATH }}{{ item.url }}"><h6 style="padding-top:0px;">{{ item.title }}</h6><small>{% if item.subtitle != null %}{{ item.subtitle }}</small><br />{% endif %}</a></li><li><br /></li>
 						    {% endfor %}
 							</ul>
 

@@ -3,7 +3,7 @@ layout: blog-post
 category: blog
 
 
-image: http://placehold.it/452x150
+image: 2010-10-26-ecoworks_Workshop.jpg
 title: ecoworks Workshop 2010 
 blog-image: 
 

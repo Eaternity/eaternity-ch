@@ -3,9 +3,9 @@ layout: blog-post
 category: blog
 date: 2010-12-04
 
-image: http://placehold.it/452x150
-title:  COP15 IARU Student Program 
-blog-image: 
+image: 2009-12-14-COP15_IARU_Student_Program.DSC_0288.jpg
+title:  COP15 IARU Student Program (English)
+blog-image: 2009-12-14-COP15_IARU_Student_Program.DSC_0288.jpg
 
 media:  
 

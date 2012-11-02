@@ -3,6 +3,8 @@ layout: blog-post
 category: blog
 date: 2009-12-09
 
+published: false
+
 image: http://placehold.it/452x150
 title: eaternity und Mittwochskino zeigen RATATOUILLE am 9.Dezember
 blog-image: 

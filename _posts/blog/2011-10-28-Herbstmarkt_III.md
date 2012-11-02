@@ -3,10 +3,10 @@ layout: blog-post
 category: blog
 date: 2011-10-28
 
-image: http://placehold.it/452x150
+image: 2010-10-26-ETH Markt.jpg
 title: Herbstmarkt an der ETH Hönggerberg
 
-blog-image: /images/blog/2012-01-28_hub-fellows-cover.jpg
+blog-image: 2010-09-27-Sience_City_Kraeuterstand_korb.jpg
 
 media: Beobachter Natur
 
