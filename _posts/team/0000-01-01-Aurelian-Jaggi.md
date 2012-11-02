@@ -3,7 +3,7 @@ layout: team-member
 category: team
 date: 2012-11-02
 
-published:false
+published: false
 
 short: ajaggi
 twitter: 
