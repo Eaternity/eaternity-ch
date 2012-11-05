@@ -31,6 +31,14 @@ Auch berichtet hat [Climate-KIC][4].
 
 Das Niveau ist beeindruckend, aller eingereichten Projekte, berichtet [Social Entrepreneurship Foundation][5].
 
+[SEF Award 2012 Social Innovation Winner][6] from [Eaternity][7] on Vimeo. Awarded by the Social Entrepeneurship Foundation - sponsored by Ernst & Young
+
+
+<iframe src="http://player.vimeo.com/video/45307258" width="733" height="412" frameborder="0" webkitAllowFullScreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowFullScreen="allowfullscreen"  scrolling="no"></iframe> 
+
+
+
+
 
 
 [1]: http://sef-swiss.ch/
@@ -38,3 +46,8 @@ Das Niveau ist beeindruckend, aller eingereichten Projekte, berichtet [Social En
 [3]: http://www.startupticker.ch/news/july-2012/vier-gewinner-beim-social-entrepreneurship-award-a.aspx?tagid=
 [4]: http://www.climate-kic.org/about/resources/news-archive/detail/article/2012/07/05/sef-award-56-business-plans-submitted-4-winners-of-which-3-with-positive-impact-on-climate/
 [5]: http://sef-swiss.ch/sef-professionals-program/sef-award/
+[6]: http://vimeo.com/45307258
+[7]: http://vimeo.com/eaternity
+
+
+
