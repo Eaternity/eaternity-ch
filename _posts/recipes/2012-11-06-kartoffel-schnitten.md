@@ -2,7 +2,7 @@
 layout: recipe
 category: recipes
 
-published: false
+published: true
 
 
 author: Marleen Schäfer
@@ -15,11 +15,10 @@ image-big: /images/recipes/2012-11-06-kartoffel-schnitten.jpg
 image-thumb: /images/recipes/preview/2012-11-06-kartoffel-schnitten.jpg
 image-slider: /images/recipes/slider/2012-11-06-kartoffel-schnitten.jpg
 
-co2-value:  ...
+co2-value:  193
 
 
 tags:
-- Menu Plus
 
 
 zutaten:
