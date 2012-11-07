@@ -21,7 +21,6 @@ comment: |
 
 ---
 
-####
 Aurelian Jaggi ist für das Kernstück von Eaternity - der CO2-Rechner - zuständig. Er ist im November 2012 zum Team gestossen.
 Aurelian hat seinen Bachelor in Informationstechnologien & Elektrotechnik an der ETH Zürich im Oktober 2011 absolviert. Während seines 
 Praktikums bei der Schmid & Partner Engineering AG konnte er seine programmiertechnischen Fähigkeiten verbessern. Seit zwei Jahren ist er als Projektleiter
