@@ -2,7 +2,7 @@
 layout: blog-post
 category: blog
 
-image: http://placehold.it/452x150
+image: 2010-05-23-Meat_Free_Monday.jpg
 title: Meat Free Monday 
 blog-image: 
 

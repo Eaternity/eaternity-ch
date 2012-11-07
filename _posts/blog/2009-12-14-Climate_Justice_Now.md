@@ -7,7 +7,7 @@ published: false
 
 
 image: http://placehold.it/452x150
-title:  Climate Justice Now
+title:  Climate Justice Now (English)
 blog-image: 
 
 media:  

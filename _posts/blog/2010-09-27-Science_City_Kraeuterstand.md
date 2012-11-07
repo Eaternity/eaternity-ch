@@ -2,7 +2,7 @@
 layout: blog-post
 category: blog
 
-image: http://placehold.it/452x150
+image: 2010-10-26-ETH_Markt.jpg
 title: Science City Kräuterstand - mit Eaternity am Herbstmarkt
 
 blog-image: 

@@ -3,6 +3,8 @@ layout: blog-post
 category: blog
 date: 2009-11-25
 
+published: false
+
 image: http://placehold.it/452x150
 title: eaternity Pilot Wochen  
 blog-image:  
