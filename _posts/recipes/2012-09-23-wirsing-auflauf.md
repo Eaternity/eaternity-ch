@@ -43,9 +43,9 @@ zutaten:
 
 
 Etwa 8 Wirsingblätter kurz blanchieren (ca. 2 Minuten in kochendes Salzwasser) und zur Seite stellen. 
-Die Zwiebeln und Pilzen feinschneiden und im Öl goldbraun anbraten. Der restlicher Wirsing, die getrocknete Tomaten, das alte Brot und der Knoblauch feinschneiden und in eine Schüssel geben. Füge das Wasser, das Gemüsebouillonpulver, die Pilze, die Zwiebeln, den Thymian und den Pfeffer zu. Lasse das Brot weich werden und knete und durchmische alles zu einer feste Masse. Belege den Ofenschüssel mit 4 Wirsingblätter, füge die Brot-Masse zu und decke die Masse mit den restlichen Wirsingblätter ab.
+Die Zwiebeln und Pilze feinschneiden und im Öl goldbraun anbraten. Der restliche Wirsing, die getrockneten Tomaten, das alte Brot und den Knoblauch feinschneiden und in eine Schüssel geben. Füge das Wasser, das Gemüsebouillonpulver, die Pilze, die Zwiebeln, den Thymian und den Pfeffer zu. Lasse das Brot weich werden und knete und durchmische alles zu einer feste Masse. Belege den Ofenschüssel mit 4 Wirsingblätter, füge die Brot-Masse zu und decke die Masse mit den restlichen Wirsingblätter ab.
 
 Mandelmus mit Milch und Wasser mischen und langsam erhitzen (gut rühren). Mehl in wenig Wasser auflösen
-und der kochenden Mandelmasse unter ständiges Rühren beigeben. Mit Salz, Pfeffer, Muskat und eventuell ein Schluck Weisswein würzen. Die Sauce über den Auflauf giessen
+und der kochenden Mandelmasse unter ständigen Rühren beigeben. Mit Salz, Pfeffer, Muskat und eventuell einem Schluck Weisswein würzen. Die Sauce über den Auflauf giessen
 
 Im Ofen, ohne Vorheizen, auf 225 °C ca. 30 Min. backen.
