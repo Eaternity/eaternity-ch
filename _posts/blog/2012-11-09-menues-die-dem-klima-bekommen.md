@@ -4,7 +4,7 @@ category: blog
 
 published: true
 
-image: 2012-11-09-htr.png
+image: 2012-11-09-htr.jpg
 title: "Menüs, die dem Klima bekommen"
 subtitle: ... der neueste Artikel über Eaternity erschienen in der htr Hotel Revue
 blog-image: 2012-11-09-htr.jpg
