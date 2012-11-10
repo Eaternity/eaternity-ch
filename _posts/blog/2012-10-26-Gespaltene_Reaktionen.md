@@ -14,6 +14,7 @@ media:
 tags:
 - Nachricht
 - Forschung
+- Presse
 
 
 short:

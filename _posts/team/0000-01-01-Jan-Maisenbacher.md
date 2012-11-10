@@ -8,7 +8,7 @@ twitter:
 contact: jmaisenbacher@eaternity.ch
 
 title: Jan Maisenbacher
-position: Business Development
+position: Customer Development
 
 thumb: /images/team/jmaisenbacher_thumb.jpg
 square: /images/team/jmaisenbacher_180.jpg

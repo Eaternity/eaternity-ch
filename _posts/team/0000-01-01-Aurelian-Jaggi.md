@@ -10,7 +10,7 @@ twitter:
 contact: ajaggi@eaternity.ch
 
 title: Aurelian Jaggi
-position: Lead Software
+position: Softwaredevelopment
 
 thumb: /images/team/ajaggi_thumb.jpg
 square: /images/team/ajaggi_180.jpg

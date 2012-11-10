@@ -9,8 +9,8 @@ published: true
 author: Manuel Klarmann
 title: Apfel Pfannkuchen
 type: Leckeres Rezept
-season: (ganzjährig) 
-season-date: -
+season: ganzjährig
+season-date: 
 
 image-big: /images/recipes/2012-10-06-apfel-pfannkuchen.jpg
 image-thumb: /images/recipes/preview/2012-10-06-apfel-pfannkuchen.jpg

@@ -8,8 +8,8 @@ published: true
 author: Marleen Schäfer
 title: Ofen-Hokaido mit Linsen und Kartoffel Schnitten
 type: Echt Leckeres Rezept
-season: (Herbst) 
-season-date: -
+season: Herbst
+season-date: September bis Dezember
 
 image-big: /images/recipes/2012-11-06-kartoffel-schnitten.jpg
 image-thumb: /images/recipes/preview/2012-11-06-kartoffel-schnitten.jpg
