@@ -23,7 +23,7 @@ partner:
  - 
 
 short: 
-- Die Aufgabe: 4 Kundensegmente, 4 Produkte, 4 Preisstrategien - welche MBA Gruppe hat das beste Geschäftsmodel für Eaternity. Welchen Wert bieten wir Firmen, Gemeinschaftsgrastronomen, Restaurants und Retailer. 
+- Die Aufgabe - 4 Kundensegmente, 4 Produkte, 4 Preisstrategien - welche MBA Gruppe hat das beste Geschäftsmodel für Eaternity. Welchen Wert bieten wir Firmen, Gemeinschaftsgrastronomen, Restaurants und Retailer. 
 
 ---
 
