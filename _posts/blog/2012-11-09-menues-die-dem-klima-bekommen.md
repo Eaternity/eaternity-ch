@@ -27,8 +27,8 @@ short:
 {% include JB/setup %}
 
 
-Im [htr Hotel Revue][1] erscheint zur Zeit eine Serie über "Köpfe 2012" und Judith und Manuel sind dabei! Vorgestellt werden Menschen aus der Gastro-branche, welche in diesem Jahr Preise gewonnen haben. 
-Na, da gehören Judith und Manuel sicherlich dazu. Danke an die htr für den zutreffenden und detaillierten Artikel über Manuel, Judith und deren Erfolg mit Eaternity!
+Judith und Manuel sind mit Eaternity in der Serie "Köpfe 2012" der [htr Hotel Revue][1]. Vorgestellt werden Menschen aus der Gastro-branche, welche in diesem Jahr Preise gewonnen haben. 
+Na, da gehört Eaternity sicherlich dazu. Danke an die htr für den zutreffenden und detaillierten Artikel über unseren Erfolge!
 [Zum Artikel][2]
 
 [1]: http://www.htr.ch/index.html

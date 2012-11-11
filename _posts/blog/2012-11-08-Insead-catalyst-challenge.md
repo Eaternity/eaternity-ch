@@ -22,10 +22,14 @@ tags:
 partner:
  - 
 
+short: 
+- Die Aufgabe: 4 Kundensegmente, 4 Produkte, 4 Preisstrategien - welche MBA Gruppe hat das beste Geschäftsmodel für Eaternity. Welchen Wert bieten wir Firmen, Gemeinschaftsgrastronomen, Restaurants und Retailer. 
+
 ---
 
 
 {% include JB/setup %}
+
 
 Die Aufgabe: 4 Kundensegmente, 4 Produkte, 4 Preisstrategien - welche MBA Gruppe hat das beste Geschäftsmodel für Eaternity. Welchen Wert bieten wir Firmen, Gemeinschaftsgrastronomen, Restaurants und Retailer. 
 
@@ -34,6 +38,7 @@ Zuerst gab es eine Einführung in die Hintergründe von Eaternity. Eine 20min Pr
 ![Discussing with INSEAD MBA]({{ ASSET_PATH }}/images/blog/2012-11-08-hub-insead-challenge/discussion.jpg "Discussing with INSEAD MBA")
 ![Listening to details of the case]({{ ASSET_PATH }}/images/blog/2012-11-08-hub-insead-challenge/listening.jpg "Listening to details of the case")
 
+
 Diese stürzten sich 45min hochengagiert in die Ausarbeitung, um Ihre Ergebnisse der Jury zu präsentieren: bestehend aus Ruth und Christoph vom HUB Fellowship Programm, Christine vom INSEAD Social Entreprenership Catalist und Manuel von Eaternity.
 
-Gewonnen haben alle. Alle Teams konnten wertvollen Input präsentieren und neue Ideen auf den Tisch bringen. Anschliessend konnten wir die Diskussion und den Individuellen Input der Teilnehmer nicht mehr bremsen und wurden gezwungen das Programm um eine volle Stunde zu verlängern um den Tatendrang der MBA Studenten gerecht zu werden. Hochengagiert und Inspirierend konnte man alle 20 MBA erleben. Kurz alles Personen die bestimmt in Zukunft auch in ihrem Arbeitsumfeld einen Eindruck hinterlassen werden - nicht nur bei Eaternity.
+Gewonnen haben alle. Alle Teams konnten wertvollen Input präsentieren und neue Ideen auf den Tisch bringen. Anschliessend konnten wir die Diskussion und den Individuellen Input der Teilnehmer nicht mehr bremsen und wurden gezwungen das Programm um eine volle Stunde zu verlängern um den Tatendrang der MBA Studenten gerecht zu werden. Hochengagiert und Inspirierend konnte man alle 20 MBA erleben. Kurz alle Personen die bestimmt in Zukunft auch in ihrem eigenen Arbeitsumfeld einen Eindruck hinterlassen werden - nicht nur bei Eaternity.
