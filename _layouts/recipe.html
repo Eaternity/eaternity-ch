@@ -49,11 +49,12 @@ footer .row {
 				<h1>{{page.title}}</h1>
 				<br />
 				<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ page.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ page.author }}</small></div>
+				<fb:like href="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like>
 				<br /><br /><br />
 				<h2>Zubereitung</h2>
 				{{content}}
 
-
+					<hr />
 				
 
 				<h5>Kommentare</h5>
@@ -64,9 +65,11 @@ footer .row {
 			  	</div>
 
 
-		
 
-				<div id="related">
+				
+				
+
+				<!-- <div id="related">
 				  <ul class="posts">
 				    {% for post in site.related_posts limit:10 %}
 						{% if post.category == 'recipe' %}
@@ -74,10 +77,10 @@ footer .row {
 						{% endif %}
 				    {% endfor %}
 				  </ul>
-				</div>
+				</div> -->
 				
-				<hr />
-				<fb:like href="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like>
+			
+
 				<!-- <ul class="like-buttons">
 		            <li><div id="fb-root"></div>
 						<br /></li>
@@ -95,17 +98,17 @@ footer .row {
 
 
 			
-		<div class='follow'>
+		<!-- <div class='follow'>
 		    <div class='graph'>
 		      <div class='tens'></div>
 		      <div class='ones'></div>
 		      <div class='mask'></div>
 		    </div>
-		    <strong class='title'><span class='count'></span> <!-- tweets link to this blog post. --></strong>
-
+		    <strong class='title'><span class='count'></span> </strong> -->
+<!-- tweets link to this blog post. -->
 		    <!-- <small>Start a conversation with <a target='_blank' href='http://twitter.com/eaternity'>@eaternity</a> on Twitter.</small> -->
-		    <div class='tweets'></div>
-		</div>
+		    <!-- <div class='tweets'></div>
+		</div> -->
 
 	
 	</div>
