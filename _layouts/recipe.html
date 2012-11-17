@@ -54,6 +54,18 @@ footer .row {
 				{{content}}
 
 
+				
+
+				<h5>Kommentare</h5>
+
+
+				<div class="comments">
+			    {% include JB/comments %}
+			  	</div>
+
+
+		
+
 				<div id="related">
 				  <ul class="posts">
 				    {% for post in site.related_posts limit:10 %}
@@ -67,14 +79,16 @@ footer .row {
 				<hr />
 				<ul class="like-buttons">
 		            <li><div id="fb-root"></div>
-						<fb:like href="{{ BASE_PATH }}}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}}{{page.url}}" >Twittern</a></li>
-						<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{ BASE_PATH }}}{{page.url}}"></g:plusone></li>
+						<fb:like href="{{ BASE_PATH }}}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like><br /></li>
+					
+						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}}{{page.url}}" >Twittern</a><br /></li>
+					<li></li>
+						<li><g:plusone size="medium" annotation="inline" href="{{site.url}}{{ BASE_PATH }}}{{page.url}}"></g:plusone><br /></li>
 				</ul>
 				
 			</div>
 
-	
+		
 
 		
 
@@ -125,13 +139,7 @@ footer .row {
 		
 
 			
-			
-			<!-- <ul class="social-media">
-				<li></li>
-				<li>
-					<h5>Comments</h5>
-	            <div id="fb-root"></div></script><fb:comments href="{{site.url}}{{ BASE_PATH }}}{{item.url}}" num_posts="2" width="452" href="{{site.url}}{{ BASE_PATH }}}"></fb:comments></li>
-			</ul> -->
+
 			
 			
 
@@ -144,10 +152,10 @@ footer .row {
 	
 </div>	
 
-<script type='text/javascript'>
+<!-- <script type='text/javascript'>
 var track = ['{{ BASE_PATH }}'];
 $(function() { dso.follow('{{ BASE_PATH }}}{{page.url}}', track) });
-</script>
+</script> -->
 
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

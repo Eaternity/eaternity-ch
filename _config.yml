@@ -29,7 +29,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : www.eaternity.ch
+production_url : eaternity.ch
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -85,7 +85,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
       short_name : eaternity-web
     livefyre :
@@ -93,7 +93,7 @@ JB :
     intensedebate :
       account : 123abc
     facebook :
-      appid : 123
+      appid : 178395151751
       num_posts: 5
       width: 580
       colorscheme: light

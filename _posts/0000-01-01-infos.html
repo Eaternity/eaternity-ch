@@ -81,7 +81,7 @@ folder: infos
 									<ul>
 										{% for list_item in site.categories[item.list] %}
 										<li> 
-											<span><a href="{{ ASSET_PATH }}{{ list_item.url }}">{{ list_item.date | date_to_string }}</a></span>  &raquo; 
+											<span><a href="{{ BASE_PATH }}{{ list_item.url }}">{{ list_item.date | date_to_string }}</a></span>  &raquo; 
 											{{ list_item.title }}:
 											
 											<blockquote><ul>

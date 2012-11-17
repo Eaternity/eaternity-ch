@@ -4,7 +4,7 @@ category: blog
 
 published: true
 
-title: Wir haben 20 INSEAD MBA Studenten herausgefordert
+title: Wir haben 25 INSEAD MBA Studenten herausgefordert
 subtitle: ... im Rahmen des Social Entrepreneurship Catalyst und dem HUB Fellowship
 blog-image: 2012-11-08-hub-insead-challenge.jpg
 circa: 

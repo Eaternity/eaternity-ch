@@ -8,7 +8,7 @@ twitter: mklarmann
 contact: mklarmann@eaternity.ch
 
 title: Manuel Klarmann
-position: Founder & CEO
+position: Gründer & Geschäftsführer
 
 thumb: /images/team/mklarmann_thumb.jpg
 square: /images/team/mklarmann_180.jpg

@@ -7,7 +7,7 @@ short: jellens
 contact: judith.ellens@eaternity.ch
 
 title: Judith Ellens
-position: Founder & COO
+position: Gründerin & Stellvertr. Geschäftsführerin
 
 thumb: /images/team/jellens_thumb.jpg
 square: /images/team/jellens_180.jpg
