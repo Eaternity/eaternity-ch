@@ -1,4 +1,4 @@
-<div id="fb-root"></div>
+<div id="fb-comment-id"></div>
 
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -20,7 +20,7 @@ $(document).ready(function(){
         var fbml = '<div class="fb-comments" data-href="{{ site.production_url }}" data-num-posts="{{ site.JB.comments.facebook.num_posts }}" data-width="WIDTH" data-colorscheme="{{ site.JB.comments.facebook.colorscheme }}"></div>';//$('#likeBoxTemplate').text().toString();
 
         // the containing element in which the Likebox resides
-        var container = $('#fb-root');  
+        var container = $('#fb-comment-id');  
 
         // we should only redraw if the width of the container has changed
         if(fbWidth != container.width()){
