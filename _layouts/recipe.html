@@ -77,14 +77,15 @@ footer .row {
 				</div>
 				
 				<hr />
-				<ul class="like-buttons">
+				<fb:like href="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like>
+				<!-- <ul class="like-buttons">
 		            <li><div id="fb-root"></div>
-						<fb:like href="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like><br /></li>
+						<br /></li>
 					
 						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}" >Twittern</a><br /></li>
 					<li></li>
 						<li><g:plusone size="medium" annotation="inline" href="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}"></g:plusone><br /></li>
-				</ul>
+				</ul> -->
 				
 			</div>
 
@@ -165,7 +166,7 @@ $(function() { dso.follow('{{ BASE_PATH }}}{{page.url}}', track) });
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <script type="text/javascript">
   window.___gcfg = {lang: 'de'};
@@ -175,5 +176,5 @@ $(function() { dso.follow('{{ BASE_PATH }}}{{page.url}}', track) });
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-</script>
+</script> -->
 
