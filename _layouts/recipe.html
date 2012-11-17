@@ -49,7 +49,9 @@ footer .row {
 				<h1>{{page.title}}</h1>
 				<br />
 				<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ page.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ page.author }}</small></div>
-				<fb:like href="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like>
+				
+				<div class="fb-like" data-href="{{ site.production_url }}{{ BASE_PATH }}{{page.url}}" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+				
 				<br /><br /><br />
 				<h2>Zubereitung</h2>
 				{{content}}
@@ -140,13 +142,7 @@ footer .row {
 
 		<div>
 
-		
-
-			
-
-			
-			
-
+	
 			
 		</div>
 	</div>
@@ -161,6 +157,9 @@ var track = ['{{ BASE_PATH }}'];
 $(function() { dso.follow('{{ BASE_PATH }}}{{page.url}}', track) });
 </script> -->
 
+
+
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
