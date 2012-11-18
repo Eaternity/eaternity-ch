@@ -28,7 +28,7 @@ Das Risotto lässt sich auch prima selber kochen, eine [Koch-Anleitung und gibt 
 [SeedCity][3], der erste Gemeinschaftsgarten auf dem Hönggerberg, ist da! SeedCity widmet sich der Förderung sozialer und ökologischer Nachhaltigkeit auf dem ETH Science City Campus sowie in Städten.  Ihr Zweck ist den Campus zu beleben! Mittels gemeinschaftsfördernde Gartenarbeit schafft SeedCity schöne, ertragreiche, ökologisch vielfaltige and sozial anregende Räume.
 
 
-[1]: {{ BASE_PATH }}/recipes/spargelrisotto
-[2]: {{ BASE_PATH }}/material/seedcity-frühlingsmarkt
+[1]: {{ BASE_PATH }}/recipes/spargelrisotto/
+[2]: {{ BASE_PATH }}/material/seedcity-frühlingsmarkt/
 [3]: http://www.seedcity.ethz.ch/
 

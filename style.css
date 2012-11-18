@@ -19,6 +19,17 @@ ul {
 	list-style-type: disc;
 }
 
+.awards li {
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	margin-left:20px;
+	border-bottom:2px dotted #ccc;
+}
+
+.awards li h6 {
+	padding-top: 0em;
+	font-weight: 600;
+}
 
 .normal li {
 	padding-top:0.5em;
@@ -146,7 +157,7 @@ small {
 	font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 32px;
 	font-weight: 100;
-	text-shadow: 0px 1px 2px 
+	text-shadow: 1px 2px 2px 
 	rgba(0, 0, 0, 0.85);
 	color: #fff;
 	padding-left:10px;
@@ -492,10 +503,10 @@ text-align:center;
 }
 
 .tapete { /*background: url({{ ASSET_PATH }}/images/karotten-tapete2.png) center bottom repeat;*/}
-.recipe { background: url({{ ASSET_PATH }}/images/misc/spoon.png) right -8px no-repeat;}
-.recipe h5 {margin-right:60px; color:  #333; margin-bottom: 0px; margin-top:0px; font-size:14px; line-height:26px; font-weight:400; text-transform:uppercase;}
-.recipe h3 { margin: 16px 0px -6px 0px; line-height: 22px; font-weight:600; font-size:20px; }
-.recipe p { height:6em;}
+/*.recipe { background: url({{ ASSET_PATH }}/images/misc/spoon.png) right -8px no-repeat;}*/
+.recipe h5 {margin-right:60px; color:  #1f1f1f; margin-bottom: 0px; margin-top:0px; font-size:14px; line-height:26px; font-weight:400; text-transform:uppercase;}
+.recipe h3 { margin: 16px 0px -6px 0px; line-height: 22px; font-weight:600; font-size:20px;color:  #1f1f1f; }
+.recipe p { height:6em; color:#1f1f1f;}
 .recipe-frame {  background: #fff; padding:8px;}
 .recipe-frame-small {  background: #fff; padding:4px;}
 
@@ -517,7 +528,7 @@ text-align:center;
 }
 
 .carousel-caption h6 {
-  font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+/*  font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
   font-size: 40px;
   font-weight: 100;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.85);
