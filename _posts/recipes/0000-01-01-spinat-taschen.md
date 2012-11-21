@@ -8,7 +8,7 @@ published: false
 
 
 author: Judith Ellens
-title: Spinat Taschen
+title: Spinat-Taschen
 type: Monats Rezept
 season: Spinat-Saison
 
