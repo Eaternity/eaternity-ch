@@ -6,7 +6,7 @@ published: true
 
 
 author: Marleen Schäfer
-title: Ofen-Hokaido mit Linsen und Kartoffel Schnitten
+title: Ofen-Hokkaidō mit Linsen und Kartoffel Schnitten
 type: Echt Leckeres Rezept
 season: Herbst
 season-date: September bis Dezember

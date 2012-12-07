@@ -6,7 +6,7 @@ published: true
 
 
 author: Thomas Hahn
-title: Orangen Hokaido Curry
+title: Orangen Hokkaidō Curry
 type: 
 season: Herbst
 season-date: Kürbis-Saison
