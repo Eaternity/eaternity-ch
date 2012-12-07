@@ -5,7 +5,7 @@ category: material
 title: Apero an der Lifefair 2011
 
 documents: 
- - 2012-01-25 Slides Hub Fellowship Eaternity.pdf
+ - 2011-09-25-Flyer_A5-Lifefair.pdf
 
 authors: 
  - Manuel Klarmann
