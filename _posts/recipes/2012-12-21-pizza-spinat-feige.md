@@ -11,9 +11,9 @@ type: Pizza im Herbst
 season: Herbst
 season-date: September bis Dezember
 
-image-big: /images/recipes/2012-11-21-pizza-spinat-feige.jpg
-image-thumb: /images/recipes/preview/2012-11-21-pizza-spinat-feige.jpg
-image-slider: /images/recipes/slider/2012-11-21-pizza-spinat-feige.jpg
+image-big: /images/recipes/2012-12-21-pizza-spinat-feige.jpg
+image-thumb: /images/recipes/preview/2012-12-21-pizza-spinat-feige.jpg
+image-slider: /images/recipes/slider/2012-12-21-pizza-spinat-feige.jpg
 
 co2-value:  193
 
