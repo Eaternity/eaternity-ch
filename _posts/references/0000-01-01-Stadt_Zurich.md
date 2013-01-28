@@ -6,6 +6,7 @@ title: Stadt Zürich
 partner-tag: Stadt Zürich
 
 partner-logo: stadt-zuerich.jpg
+partner-link: http://www.stadt-zuerich.ch/menu-plus
 
 cover-image: 
 

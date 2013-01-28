@@ -2,10 +2,12 @@
 category: references
 date: 2012-01-25
 
-title: HUB Zurich und WWF Fellowship
+title: HUB Zurich
 partner-tag: Fellowship
 
-partner-logo: Fellowship.jpg
+partner-logo: hubzuerich.jpg
+partner-link: http://zurich.the-hub.net
+
 
 cover-image: 
 

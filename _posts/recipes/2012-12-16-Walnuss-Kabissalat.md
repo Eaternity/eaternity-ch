@@ -6,7 +6,7 @@ published: true
 
 
 author: Judith Ellens
-title: Pfiffiger Kabissalat mit Walnüssen und Rosinen
+title: Pfiffiger Kabissalat mit Walnüssen
 type: Ein klimafreundliches Adventsrezept
 season: Adventszeit
 season-date:

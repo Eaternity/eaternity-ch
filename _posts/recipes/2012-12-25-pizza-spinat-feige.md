@@ -2,18 +2,18 @@
 layout: recipe
 category: recipes
 
-published: false
+published: true
 
 
 author: Judith Ellens
-title: Pizza mit Spinat&Pistazien und Orientalisch&Feige
+title: Pizza orientalisch mit Feige
 type: Pizza im Herbst
 season: Herbst
 season-date: September bis Dezember
 
-image-big: /images/recipes/2012-12-21-pizza-spinat-feige.jpg
-image-thumb: /images/recipes/preview/2012-12-21-pizza-spinat-feige.jpg
-image-slider: /images/recipes/slider/2012-12-21-pizza-spinat-feige.jpg
+image-big: /images/recipes/2012-12-25-pizza-spinat-feige.jpg
+image-thumb: /images/recipes/preview/2012-12-25-pizza-spinat-feige.jpg
+image-slider: /images/recipes/slider/2012-12-25-pizza-spinat-feige.jpg
 
 co2-value:  193
 
@@ -29,19 +29,6 @@ zutaten:
 - 1 EL Zucker
 - 320 ml Wasser
 - Salz
-- <strong>Spinat-Belag</strong>
-- 100 g Jungspinat
-- 1 Zehe Knoblauch
-- 1/2 rote Zwiebel
-- 60 g Pistazien (geröstet?)
-- 2 EL Olivenöl
-- Salz, Pfeffer
-- wenig Wasser
-- <strong>Spinat-Topping</strong>
-- 150g (1 Tüte) Mozzarella
-- 1/2 rote Zwiebel
-- 1/2 Zwiebel
-- 1 Karotte
 - <strong>Feigen-Belag</strong>
 - 1 Dose Tomaten
 - 2 EL Tomatenmark
@@ -68,3 +55,7 @@ zutaten:
 ---
 
 
+Pizzateig vermischen, kneten und auswellen. Den Belag zur Tomatensosse zum ausstreichen auf der Pizza zusammenfügen. Mit dem Topping die Pizza garnieren und bei 220 Grad 12min backen. Der Tip für eine clevere Kombination: Das [Pistazien Pesto][1] macht sich auch prima als Topping.
+{% include JB/setup %}
+
+[1]: {{ BASE_PATH }}/recipes/Pistazien-Pesto/

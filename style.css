@@ -50,7 +50,8 @@ content: "✯ ";
 body { 
 background: #fff url({{ ASSET_PATH }}/images/background.jpg) 0 0 repeat;
 font-family: "Open Sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
-color: #333;
+/*color: #333;*/
+color: #4D2E00;
 }
 
 hr {
@@ -64,6 +65,10 @@ hr {
 	#E69A57;
 }
 
+h1, h2, h3, h4, h5, h6 { 
+	color: #4D2E00;
+	}
+
 h5 {
 	font-size: 1.2em;
 	font-weight: normal;
@@ -73,7 +78,7 @@ h5 {
 
 h6 {
 	font-size: 1em;
-	color: #333333;
+	color: #4D2E00;
 	text-transform: none;
 	padding-bottom:none;
 	padding-top:1em;
@@ -81,7 +86,7 @@ h6 {
 }
 
 small {
-	color:#333;
+	color: #4D2E00;
 }
 
 .navbar {

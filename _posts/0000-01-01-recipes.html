@@ -14,7 +14,7 @@ folder: recipes
 			<div class="carousel-inner" id="featured-preview">
 			
 				<!-- 5 thumnails passen auf die Seite-->
-				{% for item in site.categories['recipes'] limit:5 %}
+				{% for item in site.categories['recipes'] limit:8 %}
 				<div class="{% if forloop.first %} active  {% endif %} item">
 					<a href ="{{ BASE_PATH }}{{item.url}}" data-thumb="{{ ASSET_PATH }}{{item.image-thumb}}" ><img src="{{ ASSET_PATH }}{{item.image-slider}}" class="bg"  />
 						<div class="carousel-caption">
@@ -49,11 +49,12 @@ folder: recipes
 			<img src="{{ ASSET_PATH }}/images/kitchen/02_alleRezepte_480px.png" /></a>
 		</li>
 	
-		<!-- <li class="span3">
-				<a  class=" " data-target="#kitchen3" data-toggle="tab"><h3>Vorteile für alle</h3>
+		<li class="span3">
+				<a  class=" " data-target="#kitchen3" href="#kitchen3" data-toggle="tab"><h3>Vorteile für Alle</h3>
 				<img src="{{ ASSET_PATH }}/images/kitchen/03_mehrwert_480px.png" /></a>
-			</li>
+		</li>
 		
+		<!--
 			<li class="span3">
 				<a  class=" " data-target="#kitchen4" data-toggle="tab"><h3>Eigene Rezepte vorschlagen</h3>
 				<img src="{{ ASSET_PATH }}/images/kitchen/04_eigene-vorschlagen_480px.png" /></a>
@@ -68,6 +69,7 @@ folder: recipes
 	rgb(221, 221, 221);
 	border-style: solid;
 	border-width: 1px;border-top-width: 0px;">
+	
 	  <div class="tab-pane fade" id="kitchen1">
 		<h2>Die wichtigsten Faktoren für klimafreundliche Gerichte</h2>
 		<hr>
@@ -113,18 +115,66 @@ folder: recipes
 	
 	<a href="{{ ASSET_PATH }}/files/poster-homepage.pdf">PDF mit den Hintergründen zum ausdrucken und mitnehmen.</a>
 	</div>
-	  <div class="tab-pane fade in active" id="kitchen2">
+	
+	<div class="tab-pane fade in active" id="kitchen2">
 		<h2>Unsere Auswahl an leckeren, klimafreundlichen Rezepten</h2><hr>
 		
 		{% assign numOfItems = 50 %}
 		{% include custom/recipe-list.html %}
 	
-		</div>
-	  <div id="kitchen3" class="tab-pane fade">
-			<p>Gemeinsam können wir grosses Bewegen. Unsere Ernährung steht im Mittelpunkt unseres gesellschaftlichen Lebens - und prägt unsere Einstellung zu uns selbst. Kommt man auf den Genuss und hat Freude an leckerem Essen kann man sich viel Gutes tun. Gesund und ausgewogen sollte es sein - das gibt uns Energie. Mit klimafreundlicher Ernährung machen wir uns stark für Perspektiven die Zukunft haben und treffen eine Entscheidung, die uns unseren Planeten glücklich macht.</p>
-			<p>Mit unseren Rezepten streben wir die beste Mischung aus leckere, gesunden und günstigen Menüs an, welche ebenso klimafreundlich sind. Wie unsere bisherigen Projektumsetzungen zeigen - wird dies auch auch gefragt: <a href="#">siehe Projekte</a>.
+	</div>
+		
+		
+	  <div id="kitchen3" class="tab-pane fade in">
+			
+			<div class="page-header">
+			  <h1>Vorteile der klimafreundlichen Ernährung</h1>
+			</div>
+			
+			
+			
+			<h3>Gemeinsam können wir grosses Bewegen.</h3> 
+			<p>Unsere Ernährung steht im Mittelpunkt unseres gesellschaftlichen Lebens - und prägt unsere Einstellung zu uns selbst. Kommt man auf den Genuss und hat Freude an gutem Essen kann man sich und anderen viel Gutes tun.</p>
+			<p>Unsere Ernährung verursacht ein Drittel der konsumbedingten Umweltbelastungen in der Schweiz. Zusammen mit Partnern setzt sich Eaternity für eine nachhaltige Ernährung ein.</p>
+			
+			<h3>Klimafreundliche Ernährung öffnet uns attraktive globale Perspektiven.</h3>
+			<p>Über 2 Tonnen CO2 Ausstoss im Jahr pro Schweizer gehen auf unsere Ernährung zurück. Würde die gesamte Weltbevölkerung ihren Ernährungsstil dem unseren angleichen bräuchte es ausserdem 2-3 mal so viel Land und 3 mal so viel Wasser. Eine genussvolle klimafreundliche Ernährung, mit wenig Fleisch und Milchprodukten sowie mehr saisonalem Obst und Gemüse, verursacht 50% weniger Treibhausgase. Dazu steht sie für eine faire und angemessene Rohstoffverwendung.</p>
+
+			<p>Ein herkömmliches Menu verursacht ca. 2 kg CO₂ - entsprechend besteht ein Einsparpotential pro Menu von ca. 1kg CO₂.</p>
+			<p>Isst jeder Schweizer 3 mal pro Woche klimafreundlich sparen wir über einen Millionen Tonnen CO₂ im Jahr. Mit klimafreundlicher Ernährung machen wir uns stark für Perspektiven die Zukunft haben und treffen Entscheidungen, die uns und unseren Planeten glücklich machen.</p>
+			
+
+
+
+			<h3>Klimafreundlich essen ist gesund.</h3> 
+			<p>So gibt es uns Energie und trägt bei zu unserem Wohlbefinden. Öfters klimafreundlich essen bedeutet sich gesünder zu Ernähren. Wer vermehrt Früchte, Gemüse, Nüsse und Vollkornprodukte isst, sowie tierische Produkte mit Mass verzehrt, hat klare gesundheitliche Vorteile (Quelle: BAG, 2006, Gesundheitliche Vor- und Nachteile einer vegetarischen Ernährung Expertenbericht der Eidgenössischen Ernährungskommission).</p>
+		    <h3>Transparenz ermächtigt und emanzipiert.</h3>
+			<p>Integration von CO₂-Werten kreiert Transparenz und ein objektives und nachvollziehbares Entscheidungskriterium. So nehmen sie dem Gast nicht die Entscheidung, sondern geben ihm erst recht die Wahl. Ermächtigt können wir so selbst nachzuvollziehen, verstehen und entscheiden. Die bewusste Wahl öffnet Möglichkeiten und gibt uns Inspiration weiterzuvermitteln.</p>
+			<h3>CO₂ ist ein umfassender und wichtiger Nachhaltigkeits-Indikator.</h3>
+			<p>Neben dem Treibhauspotential ist CO₂ ebenso ein Indikator für den Ressourcenverbrauch. So zieht man Parallelen mit dem Land-, Wasser-, Pestizid- und Düngerverbrauch. Rein biologische Produktion fokussiert zur Zeit lediglich auf den Pestizid und Düngerverbrauch und ist nicht bedingt klimafreundlich. Auch vegetarisch allein ist ein ungenügender Indikator für die Nachhaltigkeit. Vegetarische Menüs mit viel Milch- und energieintensiven Produkten sind umweltschädlicher als manche Menüs mit Fleisch. CO₂ als Indikator kreiert hier Transparenz und einen objektiven Entscheidungs-Standard für die Nachhaltigkeit.</p>
+			<h3>Klimafreundlich geniessen bedeutet sorgenfrei geniessen.</h3>
+			<p>So besteht sie aus der besten Mischung von schmackhaften, gesunden und frischen Zutaten, und ebenso wir die nachhaltige Menü-Wahl garantiert. Dem engagierten Geniesser wird signalisiert, dass dort Verantwortung übernommen wird, wo es sie braucht - und er hier einen vertrauenswürdigen Partner an seiner Seite hat. So nimmt man die Last hier sich den Kopf zu zerbrechen und bekommt ein interessantes und inspirierendes Gesprächsthema mit auf den Weg.</p>
+
+			<h2>Nachhaltigkeit bedeutet für Eaternity</h2> 
+			<p>Dass wir in unseren Handlungsmöglichkeiten, stets diejenige ins Blickfeld rücken, die einen Weg zu einer klimafreundlichen  und ressourcengerechten Welt aufzeigen.</p>
+			
+			<h3>Perspektive Eaternity</h3>
+			<p>Klimafreundlich Essen sollte möglichst zusammen mit anderen Nachhaltigkeitskriterien umgesetzt werden. Insbesondere diese welche nicht in genügendem Mass durch CO₂ umfasst werden (wie z.B. Biodiversität, Überfischung sowie soziale Kriterien wie Fair-Trade). Bei der Menü-Gestaltung werden diese Kriterien idealerweise ebenso aktiv bei Entscheidungen mit einbezogen und ergänzen somit die klimafreundliche Kriterien.</p>
+			<h3>Lokale Produktion und Gemeinschaftsgärten bringen uns zusammen und stärken uns.</h3>
+			<p>Sie garantieren absolute Frische und unterstützen dabei noch unsere lokale Gemeinschaft. Wir lernen pflanzliche Nahrungsmittel, die Grundlage einer nachhaltigen Ernährung, Wert zu schätzen und behalten die Kontrolle.</p>
+			<h3>Biologischer Landbau hält unsere Lebensgrundlage gesund und bietet Lebensraum für Pflanzen und Tiere.</h3>
+			<p>Er erhält auf natürliche Weise die Bodenqualität und Fruchtbarkeit auch für zukünftige Generationen. Der bewusste Einsatz von natürlichen Ressourcen zur Düngung und Schädlingsbekämpfung hält unsere Gewässer und Böden frei von giftigen chemischen Stoffen und Verschmutzung.</p>
+			
+			
+			<h2>Unsere Projekte</h2> 
+			
+			<p>Mit unseren Rezepten streben wir die beste Mischung aus leckere, gesunden und günstigen Menüs an, welche ebenso klimafreundlich sind. Wie wir es bisher umsetzen findet sich unter <a href="#">unseren Projekte</a>.
 		
 		</div>
+		
+		
+		
+		
 	  <div id="kitchen4" class="tab-pane fade">
 		
 		

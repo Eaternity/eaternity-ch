@@ -68,8 +68,8 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : http://dl.dropbox.com/u/1214503/eaternity-assets
-  #  ASSET_PATH : /eaternity-assets
+  #  ASSET_PATH : http://dl.dropbox.com/u/1214503/eaternity-assets
+  ASSET_PATH : /eaternity-assets
   # this is just copied....
 
 
