@@ -25,7 +25,7 @@ zutaten:
 - 1 Knoblauchzehe
 - 2 Stangen Sellerie
 - 2 El Petersilie, gehackt
-- 25g Butter
+- 20g Butter
 - 2 El Zitronensaft
 - Brotkrumen
 - 4 El Öl
@@ -43,6 +43,7 @@ zutaten:
 - Salz, Pfeffer, Olivenöl
 - 1-2 TL Speisestärke
 - 100 ml Rahm
+- <strong>600 g Bratkartoffel</strong>
 
 ---
 
