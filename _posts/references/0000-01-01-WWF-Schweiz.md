@@ -5,9 +5,11 @@ date: 2012-01-25
 title: WWF Schweiz
 partner-tag: Fellowship
 
-partner-logo: wwf-supported.jpg
+partner-logo: wwf_logo_free_tab.jpg
 partner-link: http://fellowship.the-hub.net
 
+partner-subtitle: Unterstützt durch den WWF
+partner-comment:
 
 cover-image: 
 

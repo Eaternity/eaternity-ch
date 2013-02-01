@@ -173,7 +173,7 @@ folder: infos
 
 											{% for list_item in site.categories[item.list] reversed %}
 													
-											<a href="{{ list_item.partner-link }}" style="margin-top:20px;background:white;" class="thumbnail span6"><li style="padding:10px 10px 10px 10px;"><img class="span2" style="padding:5px;"  src="{{ ASSET_PATH }}/images/partner/{{ list_item.partner-logo }}" /> <br /><p style="float:right;"> &rarr; <strong>{{ list_item.title }}</strong></p> </li></a>
+											<a href="{{ list_item.partner-link }}" style="margin-top:20px;background:white;" class="thumbnail span6"><li style="padding:10px 10px 10px 10px;"><div class="span2" style="padding:5px;"><img  src="{{ ASSET_PATH }}/images/partner/{{ list_item.partner-logo }}" /><small>{{ list_item.partner-subtitle }}</small></div> <br /><p style="float:right;"> &rarr; <strong>{{ list_item.title }}</strong></p> </li></a>
 													
 											{% endfor %}
 										</ul>
