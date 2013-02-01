@@ -3,6 +3,8 @@ layout: team-member
 category: team
 date: 2012-08-01
 
+published: false
+
 short: jmaisenbacher
 twitter: 
 contact: jmaisenbacher@eaternity.ch
