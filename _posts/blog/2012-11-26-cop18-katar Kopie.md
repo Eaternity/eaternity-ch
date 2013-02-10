@@ -2,7 +2,6 @@
 layout: blog-post
 category: blog
 
-published: true
 
 title: Was bringt die diesjährige Klimakonferenz?
 subtitle: Ab heute wird in Doha, Katar, 2 Wochen lang diskutiert, verhandelt und diskutiert.
