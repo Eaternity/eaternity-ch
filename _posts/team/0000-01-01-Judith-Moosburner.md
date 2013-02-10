@@ -1,7 +1,7 @@
 ---
 layout: team-member
 category: team
-date: 2013-09-01
+date: 2013-12-01
 
 short: jmoosburner
 
