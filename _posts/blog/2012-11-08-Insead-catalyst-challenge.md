@@ -14,7 +14,7 @@ image: 2012-11-08-hub-insead-challenge.jpg
 media: 
 
 slides:
-
+author: Manuel Klarmann
 
 tags:
 
