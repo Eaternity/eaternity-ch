@@ -34,3 +34,7 @@ short:
 
 
 Spontan haben wir entschieden, dass Judith die entscheidende Präsentation gibt. Vorbereitet hatten wir Finanzvorhersage, Markt- und Konkurrenz-studie, Businessmodell, Roadmap, Team und natürlich unseren Ansatz für das Problem das wir lösen wollen. Präsentiert wurde 10min, dann gab es 10min lang spannende Fragen. Die Fragen waren hatten Tiefgang, waren nicht unbedingt einfach, aber es zeigte schon, dass wir das Wesentliche vermitteln konnten. Ein wichtiger Schritt, mit dem Preis von 10.000 CHF können wir insbesondere die Entwicklung unseres Business Case voranbringen. Gratulation auch an die anderen 4 Start-Ups die am selben Tag punkten konnten.
+
+Berichtet darüber hat das [Startwerk.ch][1].
+
+[1]: http://startwerk.ch/2013/01/17/tech-startups-praemiert-eaternity-upicto-osmoblue-und-mimedis/
