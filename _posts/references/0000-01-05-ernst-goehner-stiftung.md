@@ -1,6 +1,6 @@
 ---
 category: references
-date: 2012-01-25
+event-date: 2012-01-25
 
 title: Ernst Göhner Stiftung
 partner-tag: 
@@ -17,4 +17,4 @@ tags:
 
 ---
 
-20.000CHF Für Webseite und CO2-Rechner.
+Förderungsbetrag von 20.000CHF für Webseite, CO2-Rechner.

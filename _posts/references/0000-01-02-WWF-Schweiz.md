@@ -1,6 +1,6 @@
 ---
 category: references
-date: 2012-01-25
+event-date: 2012-01-25
 
 title: WWF Schweiz
 partner-tag: Fellowship
@@ -20,4 +20,4 @@ tags:
 
 ---
 
-30.000CHF und 1ne Hub unlimited Mitgliedschaft.
+Finanzierung und Coaching im Rahmen des HUB Fellowship für Biodiversität und Ressourceneffizienz. Direkte Sachwärte in 30.000CHF Förderung und eine Hub Unlimited Mitgliedschaft für ein Jahr. (März 2012)

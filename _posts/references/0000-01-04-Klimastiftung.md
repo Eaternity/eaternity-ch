@@ -1,6 +1,6 @@
 ---
 category: references
-date: 2012-11-01
+event-date: 2012-11-01
 
 title: Klimastiftung Schweiz
 partner-tag: 
@@ -17,4 +17,4 @@ tags:
 
 ---
 
-20.000 CHF für Webseite, Klimarechnung und Pressearbeit.
+Förderungsbetrag von 20.000CHF für Webseite, CO2-Rechner und Namensnennung bei Presseartikeln.

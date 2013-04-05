@@ -1,6 +1,6 @@
 ---
 category: references
-date: 2012-01-25
+event-date: 2012-01-25
 
 title: Climate-CIK
 partner-tag: Climate-CIK
@@ -17,4 +17,4 @@ tags:
 
 ---
 
-Durch Coaching
+Unterstützung durch Schulungen von Steve Blank und Ken Morse Schulungen finanziert sowie direktes Coaching von Climate-KIC. 
