@@ -17,4 +17,4 @@ tags:
 
 ---
 
-Förderungsbetrag von 20.000CHF für Webseite, CO2-Rechner und Unterstützung in der Pressearbeit.
+Förderungsbetrag von 20.000CHF für Webseite und CO2-Rechner. Unterstützung in der Pressearbeit.
