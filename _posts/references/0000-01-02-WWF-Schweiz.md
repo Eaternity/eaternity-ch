@@ -20,4 +20,4 @@ tags:
 
 ---
 
-Finanzierung und Coaching im Rahmen des HUB Fellowship für Biodiversität und Ressourceneffizienz. Direkte Sachwärte in 30.000CHF Förderung und eine Hub Unlimited Mitgliedschaft für ein Jahr. (März 2012)
+Finanzielle Unterstützung und Coaching im Rahmen des HUB Fellowship für Biodiversität und Ressourceneffizienz. Direkte Sachwerte in 30.000CHF Förderung und eine Hub Unlimited Mitgliedschaft für ein Jahr. (März 2012)
