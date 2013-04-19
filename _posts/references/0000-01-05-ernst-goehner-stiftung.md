@@ -17,4 +17,4 @@ tags:
 
 ---
 
-Förderungsbetrag von 20.000CHF für Webseite, CO2-Rechner.
+Förderungsbetrag von 20.000CHF für Webseite und CO2-Rechner.
