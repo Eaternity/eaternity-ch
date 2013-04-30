@@ -1,4 +1,5 @@
 ---
+layout: page
 category: references
 event-date: 2012-11-01
 
