@@ -49,11 +49,13 @@ Zur bisherigen Berichterstattungen in der Presse darüber:
 
 - Erster war mal wieder der [Startupticker.ch][2].
 - [Moneycab][3] berichtet auch darüber.
+- Auftakt zum CO2-Rechner Beta-Test -> Eaternity und Equitable im [Radiobericht im SRF 1 Trend][4] zum mitlauschen.
 
 [press]:{{ ASSET_PATH }}/files/20130429_MM-Klimaschutz-zum-Essen-CO2-Rechner-Eaternity-Klimastiftung-Schweiz.pdf
 [1]:http://co2.eaternity.ch
 [2]:http://www.startupticker.ch/en/news/april-2013/klimastiftung-unterstuetzt-eaternity-projekt#
 [3]:http://www.moneycab.com/mcc/2013/04/29/klimastiftung-verein-eaternity-testet-co2-rechner-fuer-menues/
+[4]:http://www.srf.ch/sendungen/trend/rezepte-fuer-einen-umweltfreundlichen-genuss-8
 
 
 

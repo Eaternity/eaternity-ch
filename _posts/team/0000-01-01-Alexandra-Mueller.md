@@ -3,7 +3,7 @@ layout: team-member
 category: team
 date: 2013-01-01
 
-published: true
+published: false
 
 short: amueller
 twitter: 
