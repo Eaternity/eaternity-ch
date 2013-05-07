@@ -28,14 +28,14 @@ zutaten:
 - 1 TL Cayennepfeffer
 - ½ TL Kurkuma
 - 10 gr. Sesamsamen
-- 500 dl Kokosnussmilch
+- 500 ml Kokosnussmilch
 - 1 EL Zitronensaft
 - 200 gr. Tofu
 - 2 EL Rapsöl
 - 1 EL Sojasauce
 - 1 EL Sesamöl
 - 1 EL Maizena
-- 10 dl Weisswein
+- 80 ml Weisswein
 - Salz, Pfeffer
 
 ---
