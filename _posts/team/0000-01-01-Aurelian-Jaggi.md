@@ -10,7 +10,8 @@ twitter:
 contact: ajaggi@eaternity.ch
 
 title: Aurelian Jaggi
-position: Softwaredevelopment
+position: Gründer & Software Entwickler
+english-position: Founder & Software Developer
 
 thumb: /images/team/ajaggi_thumb.jpg
 square: /images/team/ajaggi_180.jpg
