@@ -4,7 +4,7 @@ category: blog
 
 published: true
 
-title: Lecker klimafreundlich im Restaurant Equi-Table.
+title: Lecker klimafreundlich im Restaurant EquiTable.
 subtitle: ... im Sankt Meinrad wird Nachhaltigkeit gross geschrieben!
 blog-image: 2013-05-19-equitable.jpg
 circa: 
@@ -25,14 +25,14 @@ partner:
  - 
 
 short: 
-- Das Equi-Table präsentiert sich klimafreundlich mit leckeren Menus.
+- Das EquiTable präsentiert sich klimafreundlich mit leckeren Menus.
 
 ---
 
 
 {% include JB/setup %}
 
-Zum Start unseres Beta-Test haben wir zusammen mit dem Restaurant [Equi-Table][2] im [Sankt Meinrad][4] den CO2-Wert berechnet. Das hier Nachhaltigkeit gross geschrieben ist keine Überraschung mehr - wir haben drei leckere Gerichte genauer unter die Lupe genommen. Und das Gericht [Karottengarten][meal] lässt sich gleich als top-klimafreundlich auszeichnen!
+Zum Start unseres Beta-Test haben wir zusammen mit dem Restaurant [EquiTable][2] im [Sankt Meinrad][4] den CO2-Wert berechnet. Das hier Nachhaltigkeit gross geschrieben ist keine Überraschung mehr - wir haben drei leckere Gerichte genauer unter die Lupe genommen. Und das Gericht [Karottengarten][meal] lässt sich gleich als top-klimafreundlich auszeichnen!
 
 Weil es neu und innovativ ist was hier passiert, dass den Gästen tatsächlich eine Wahl geboten wird, wurde auch gleich im Radio darüber berichtet:  [Radiobericht im SRF 1 Trend][3].
 
