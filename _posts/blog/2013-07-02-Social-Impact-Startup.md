@@ -4,7 +4,7 @@ category: blog
 
 published: true
 
-title: Wir sind jetzt ein offizielles Social Impact Start Award
+title: Wir sind jetzt ein offizielles Social Impact Start-Up
 subtitle: mit Preis (HUB Fellowship) und Zeugnis von iq-consult und SAP.
 blog-image: 2013-07-02-sis.jpg
 circa: 
