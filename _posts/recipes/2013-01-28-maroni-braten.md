@@ -6,7 +6,7 @@ published: true
 
 
 author: Tobias Klarmann
-title: Maronibraten mit Pilz-Rotwein-Sosse und Bratkartoffeln
+title: Maronibraten mit Pilz-Rotwein-Sosse
 
 type: Ordentliches Schlemmer-Rezept
 season: In den Wintermonaten
