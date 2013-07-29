@@ -14,7 +14,7 @@ layout: default
 	<div class="span3">
 
 		
-		<h5><a href="{{site.baseurl}}/infos/#team" ><!--img src="/eaternity-website/images/recipe_kitchen.jpg" /-->&laquo; Zur Team  Übersicht</a></h5>
+		<h5><a href="{{ BASE_PATH }}/infos/#team" ><!--img src="/eaternity-website/images/recipe_kitchen.jpg" /-->&laquo; Zur Team  Übersicht</a></h5>
 		
  	        
 		    {% if page.contact %}
@@ -75,7 +75,7 @@ layout: default
 		  	{% if page.previous and page.previous.category == page.category %}
   		        <li> 
    			      <img src="{{ ASSET_PATH }}{{ page.previous.square }}" />
-   			      &laquo; <a href="{{site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a>
+   			      &laquo; <a href="{{ BASE_PATH }}{{ page.previous.url }}">{{ page.previous.title }}</a>
    			    </li>
    			    
   		    {% endif %}
@@ -83,7 +83,7 @@ layout: default
   		    {% if page.next and page.next.category == page.category %}
       		    <li> 
    			      <img src="{{ ASSET_PATH }}{{ page.next.square }}" />
-   			      <a href="{{site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a> &raquo; 
+   			      <a href="{{ BASE_PATH }}{{ page.next.url }}">{{ page.next.title }}</a> &raquo; 
    			    </li>
 
   		    {% endif %}
