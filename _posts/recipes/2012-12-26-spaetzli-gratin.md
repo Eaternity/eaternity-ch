@@ -10,7 +10,7 @@ title: Spätzli Gratin mit Marroni
 
 type: Winter Rezept
 season: bis Februar
-season-date: - 
+season-date: 
 
 image-big: /images/recipes/2012-12-26-spaetzli-gratin.jpg
 image-thumb: /images/recipes/preview/2012-12-26-spaetzli-gratin.jpg

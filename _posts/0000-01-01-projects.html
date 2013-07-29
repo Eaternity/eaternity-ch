@@ -69,7 +69,7 @@ folder: projects
 					{% for tag in material.tags %}
 						{% if tag == item.title %}
 
-								<li><a target="_blank" href="{{ ASSET_PATH }}/files/{{ material.documents | first | escape_once }}">{{ material.documents | first }}</a>{% for document in material.documents offset:1 %}, <a target="_blank" href="{{ ASSET_PATH }}/material/{{ document | escape_once }}">{{ document }}</a>{% endfor %}</li>
+								<li><a target="_blank" href="{{ ASSET_PATH }}/files/{{ material.documents | first | escape_once }}">{{ material.documents | first }}</a>{% for document in material.documents offset:1 %}, <a target="_blank" href="{{ ASSET_PATH }}/files/{{ document | escape_once }}">{{ document }}</a>{% endfor %}</li>
 
 						{% endif %}
 					{% endfor %}
@@ -81,7 +81,7 @@ folder: projects
 					{% for tag in blog.tags %}
 						{% if tag == item.title %}
 
-								<li><a target="_blank" href="{{ ASSET_PATH }}/material/{{ material.documents | first | escape_once }}">{{ blog.title }}</a></li>
+								<li><a target="_blank" href="{{ ASSET_PATH }}/files/{{ material.documents | first | escape_once }}">{{ blog.title }}</a></li>
 
 						{% endif %}
 					{% endfor %}

@@ -10,7 +10,7 @@ title: Karotten Kuchen
 
 type: Ein Rezept für alle Fälle
 season: Karotten gibt es das ganze Jahr
-season-date: - 
+season-date: 
 
 image-big: /images/recipes/2013-03-04-veganer-karotten-kuchen.jpg
 image-thumb: /images/recipes/preview/2013-03-04-veganer-karotten-kuchen.jpg

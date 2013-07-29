@@ -27,7 +27,7 @@ Herzlichen Dank in diesem Sinne an Ernst&Young und wir freuen uns über Unterst�
 
 Berichtet darüber hat bereits der [Start up Ticker][3].
 
-Auch berichtet hat [Climate-KIC][4].
+Auch berichtet hat [Climate-KIC][4] (Die Referenz auf Eaternity ist hier leider nachträglich verschwunden - wie waren einer der 3 von den 4).
 
 Das Niveau ist beeindruckend, aller eingereichten Projekte, berichtet [Social Entrepreneurship Foundation][5].
 
@@ -42,10 +42,10 @@ Das Niveau ist beeindruckend, aller eingereichten Projekte, berichtet [Social En
 
 
 [1]: http://sef-swiss.ch/
-[2]: http://sef-swiss.ch/sef-professionals-program/sef-award/
+[2]: http://seif.org/award/preistrager/
 [3]: http://www.startupticker.ch/news/july-2012/vier-gewinner-beim-social-entrepreneurship-award-a.aspx?tagid=
-[4]: http://www.climate-kic.org/about/resources/news-archive/detail/article/2012/07/05/sef-award-56-business-plans-submitted-4-winners-of-which-3-with-positive-impact-on-climate/
-[5]: http://sef-swiss.ch/sef-professionals-program/sef-award/
+[4]: http://www.climate-kic.org/sef-award-3-out-of-4-winners-are-climate-innovators/
+[5]: http://seif.org/award/preistrager/
 [6]: http://vimeo.com/45307258
 [7]: http://vimeo.com/eaternity
 

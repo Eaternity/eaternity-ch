@@ -10,7 +10,7 @@ title: Maronibraten mit Pilz-Rotwein-Sosse
 
 type: Ordentliches Schlemmer-Rezept
 season: In den Wintermonaten
-season-date: - 
+season-date: 
 
 image-big: /images/recipes/2013-01-28-maroni-braten.jpg
 image-thumb: /images/recipes/preview/2013-01-28-maroni-braten.jpg

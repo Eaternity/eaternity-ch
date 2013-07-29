@@ -9,8 +9,8 @@ author: Fabian Fuchs vom Equi-Table
 title: Der Karotten Garten
 
 type: Vom Equi-Table
-season: -
-season-date: - 
+season: 
+season-date:  
 
 image-big: /images/recipes/2013-05-19-equitable-karottengarten.jpg
 image-thumb: /images/recipes/preview/2013-05-19-equitable-karottengarten.jpg
