@@ -47,4 +47,4 @@ Eaternity sieht sich als Bindeglied zwischen Wissenschaft und Praxis. Wir bereit
 
 [Mehr zum ETH Wochenmarkt][1]
 
-[1]: http://www.vs.ethz.ch/projekte/wochenmarkt
+[1]: http://www.vs.ethz.ch/standortentwicklung/science_city/wochenmarkt
