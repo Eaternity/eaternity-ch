@@ -19,4 +19,4 @@ Auch in England wird die Botschaft von eaternity weiterverbreitet! Meat Free Mon
 
 [Read more...][1]
 
-[1]: http://meatfreemondays.com/uncategorized/from-here-to-eaternity-the-meat-free-project-to/
+[1]:http://meatfreemondays.com/uncategorized/from-here-to-eaternity-the-meat-free-project-to
