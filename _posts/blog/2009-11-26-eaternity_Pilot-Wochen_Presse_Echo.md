@@ -20,9 +20,10 @@ partner:
 
 ---
 
+Zum Artikel in der ETH life
 20min Studentenecke
 
-ETH life
+
 
 [2009-11-26-eaternity_Pilot-Wochen_Presse_Echo_ethlife.jpg][1]
  
