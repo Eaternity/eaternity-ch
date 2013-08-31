@@ -10,7 +10,7 @@ author: Judith Ellens
 title: Schoko Bananen Muffin
 type: Leckeres Rezept
 season: ganzjährig
-season-date: -
+season-date: 
 
 image-big: /images/recipes/2012-09-09-schoko_muffin.jpg
 image-thumb: /images/recipes/preview/2012-09-09-schoko_muffin.jpg

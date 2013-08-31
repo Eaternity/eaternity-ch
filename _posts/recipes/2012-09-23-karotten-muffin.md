@@ -10,7 +10,7 @@ author: Judith Ellens
 title: Karotten Haselnuss Muffin
 type: Leckeres Rezept
 season: ganzjährig
-season-date: -
+season-date: 
 
 image-big: /images/recipes/2012-10-23-karotten-muffin.jpg
 image-thumb: /images/recipes/preview/2012-10-23-karotten-muffin.jpg
