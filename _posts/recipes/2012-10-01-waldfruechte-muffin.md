@@ -9,7 +9,7 @@ published: true
 author: Judith Ellens
 title: Waldfrüchte Muffin
 type: Leckeres Rezept
-season: (ganzjährig) 
+season: ganzjährig 
 season-date: -
 
 image-big: /images/recipes/2012-10-01-waldfruechte-muffin.jpg
@@ -36,9 +36,12 @@ zutaten:
 
 
 ---
-
 In einfachen Schritten:
-1. Vermische die trockene Zutaten (auch die Gewürze). 
-2. Verrühre die Milch, der Zitronensaft und das Sonnenblumenöl mit den trockenen Zutaten.
-3. Füge die TK-Waldfrüchte zu und vermische sie vorsichtig mit dem Teig
-4. Fülle die Muffinförmchen und backe alles ohne Vorheizen etwa 30 Minuten auf 180 Grad.
+
+Vermische die trockene Zutaten (auch die Gewürze). 
+
+Verrühre die Milch, der Zitronensaft und das Sonnenblumenöl mit den trockenen Zutaten.
+
+Füge die TK-Waldfrüchte zu und vermische sie vorsichtig mit dem Teig
+
+Fülle die Muffinförmchen und backe alles ohne Vorheizen etwa 30 Minuten auf 180 Grad.
