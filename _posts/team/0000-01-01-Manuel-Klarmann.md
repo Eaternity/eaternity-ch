@@ -16,7 +16,7 @@ square: /images/team/mklarmann_180.jpg
 portrait: /images/team/mklarmann.jpg
 
 comment: |
- Die Arbeit bei Eaternity erfüllt mir ein persönliches Bedürfnis. Kontrolle und Sicherheit zu haben, dass ich meine Fähigkeit dort einbringe, wo durch sie am meisten Wert entsteht. Sie erfüllt mir den Wunsch gemeinsam zu Erschaffenen, Menschen glücklicher zu machen und Wegweisendes unserer Gesellschaft beizutragen. Ich freue mich Menschen zu motivieren bei uns mitzuwirken um in Zukunft mit Ihnen auf unseren Erfolg zurückschauen zu dürfen.
+ Die Arbeit bei Eaternity erfüllt mir ein persönliches Bedürfnis. Kontrolle und Sicherheit zu haben, dass ich meine Fähigkeit dort einbringe, wo durch sie am meisten Wert entsteht. Eaternity erfüllt mir den Wunsch gemeinsam zu erschaffen, Menschen glücklicher zu machen und Wegweisendes unserer Gesellschaft beizutragen. Ich freue mich Menschen zu motivieren bei uns mitzuwirken um in Zukunft mit Ihnen auf unseren Erfolg zurückschauen zu dürfen.
 
 ---
 
