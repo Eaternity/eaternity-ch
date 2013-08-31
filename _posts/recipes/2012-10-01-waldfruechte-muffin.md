@@ -10,7 +10,7 @@ author: Judith Ellens
 title: Waldfrüchte Muffin
 type: Leckeres Rezept
 season: ganzjährig 
-season-date: -
+season-date: 
 
 image-big: /images/recipes/2012-10-01-waldfruechte-muffin.jpg
 image-thumb: /images/recipes/preview/2012-10-01-waldfruechte-muffin.jpg
@@ -36,6 +36,7 @@ zutaten:
 
 
 ---
+
 In einfachen Schritten:
 
 Vermische die trockene Zutaten (auch die Gewürze). 

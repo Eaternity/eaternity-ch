@@ -18,7 +18,6 @@ image-slider: /images/recipes/slider/2012-10-06-apfel-pfannkuchen.jpg
 
 co2-value:  (16 g pro Apfelküchli) total 64
 
-
 tags:
 - Menu Plus
 
