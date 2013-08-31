@@ -9,8 +9,8 @@ published: true
 author: Judith Ellens
 title: Nussige Spinat-Linsen Lasagne mit Birne
 type: Klimamenu Rezept
-season: -
-season-date: -
+season: 
+season-date: 
 
 image-big: /images/recipes/2012-09-15-Gemueselasagne.jpg
 image-thumb: /images/recipes/preview/2012-09-15-Gemueselasagne.jpg

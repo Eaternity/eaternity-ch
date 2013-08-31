@@ -10,7 +10,7 @@ author: Judith Ellens
 title: Wirsing Brot Auflauf
 type: Klimamenu Rezept
 season: ganzjährig-
-season-date: -
+season-date:
 
 image-big: /images/recipes/2012-10-23-wirsing-auflauf.jpg
 image-thumb: /images/recipes/preview/2012-10-23-wirsing-auflauf.jpg
