@@ -28,13 +28,14 @@ zutaten:
 - 2 EL Olivenöl
 - Salz, Pfeffer
 - wenig Wasser
-- <strong>Topping</strong>
+- <strong>Topping (für Pizza)</strong>
 - 150g (1 Tüte) Mozzarella
 - 1/2 rote Zwiebel
 - 1/2 Zwiebel
 - 1 Karotte
 ---
 
-Nudeln kochen und die Zwiebeln mit Karotten im Topp in bissgrossen stücken kurz in der Pfanne im heissen Fett ausschwenken.
-Zutaten des Pesto zusammen mixen: fertig. Abschmecken mit Olivenöl, Salz und Pfeffer.
+Nudeln kochen und die Zwiebeln mit Karotten im Topf in bissgrossen stücken kurz in der Pfanne im heissen Fett ausschwenken.
+
+Zutaten des Pesto in Mixer und fertig. Abschmecken mit Olivenöl, Salz und Pfeffer.
 
