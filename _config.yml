@@ -74,7 +74,7 @@ JB :
   # new we use google drive
   ASSET_PATH : http://googledrive.com/host/0ByM_it2EqPa7cU5obUtzV2lqVW8/eaternity-assets
   
-  #  ASSET_PATH : /eaternity-assets
+  #  ASSET_PATH : /public/eaternity-assets
   # this is just copied....
 
 
