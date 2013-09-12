@@ -4,8 +4,8 @@ category: blog
 
 published: true
 
-title: Im Monat September gibt es das "Klimamenu" mit myblueplanet 
-subtitle: Voller Genuss - 1 kg weniger CO2
+title: Voller Genuss - 1 kg weniger CO2
+subtitle: Im Monat September gibt es das "Klimamenu" mit myblueplanet.
 blog-image: 2013-10-12-klimamenu.jpg
 circa: 
 
