@@ -3,7 +3,7 @@
 # permalink: /:categories/:year/:month/:day/:title 
 permalink: /:categories/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "design-stuff", "CNAME", ".gitignore"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "design-stuff", "CNAME", ".gitignore", "public"]
 auto: false
 pygments: true
 
@@ -29,7 +29,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : eaternity.ch
+production_url : http://eaternity.ch
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
