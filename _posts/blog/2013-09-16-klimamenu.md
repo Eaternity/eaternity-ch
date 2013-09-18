@@ -42,7 +42,7 @@ Schauen Sie vorbei und probieren Sie es aus. Überzeugen Sie die Gastgeber auch 
 ![Miss Earth Schweiz Klimamenu]({{ ASSET_PATH }}/images/blog/2013-09-12-klimamenu_miss.jpg "Miss Earth Schweiz Klimamenu")
 Zur Medienmitteilung geht es hier: [Medienmeldung_Klimamenu_20130917][3]
 
-[1]:www.klimamenu.ch/
+[1]:http://www.klimamenu.ch/
 [2]:http://www.myblueplanet.ch/
 [3]:{{ ASSET_PATH }}/files/Medienmeldung_Klimamenu_20130917.pdf
 
