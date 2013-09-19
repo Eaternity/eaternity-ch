@@ -2,17 +2,17 @@
 layout: blog-post
 category: blog
 
-published: false
+published: true
 
-title: Schweizer Gastgeber kochen fair und klimafreundlich!
-subtitle: hotelleriesuisse lanciert Kampagne mit Max Haverlaar, myclimate und uns.
-blog-image: 2013-09-12-klimamenu.jpg
+title: Diese Woche kochen wir fair und klimafreundlich!
+subtitle: Hotelleriesuisse lanciert Kampagne mit Max Havelaar, myclimate und Eaternity.
+blog-image: 2013-09-19-maxhavelaar.jpg
 circa: 
 
 
 author: Judith Ellens
 
-image: 2013-09-12-klimamenu.jpg
+image: 2013-09-19-maxhavelaar-qinoa.jpg
 media: 
 
 slides:
@@ -22,7 +22,9 @@ tags:
 
 
 partner:
- - myblueplanet
+ - MaxHavelaar
+ - hotelleriesuisse
+ - myclimate
 
 short: 
 - In 10 fortschrittlichen Restaurants in Zürich und Winterthur klimafreundlich dinieren.
@@ -35,7 +37,7 @@ short:
 
 
 Schweizer Gastgeber kochen fair und klimafreundlich!
-Kreativität ohne Grenzen.
+Neue Ideen, frischer Wind - und vor allem frisches Gemüse!
 
 hotelleriesuisse lanciert in Zusammenarbeit mit MaxHavelaar, Eaternity und myclimate die Spezialwoche „Wir kochen fair & klimafreundlich“.
  
@@ -52,9 +54,5 @@ Oder koche selber [ein faires, klimafreundliches und protein-reiches Limetten-Qu
 
 
 
-![Miss Earth Schweiz Klimamenu]({{ ASSET_PATH }}/images/blog/2013-09-12-klimamenu_miss.jpg "Miss Earth Schweiz Klimamenu")
-Zur Medienmitteilung geht es hier: [Medienmeldung_Klimamenu_20130917][3]
-
-[3]:{{ ASSET_PATH }}/files/Medienmeldung_Klimamenu_20130917.pdf
-
+![Kampagne fair&klimafreundlich]({{ ASSET_PATH }}/images/blog/2013-09-19-maxhavelaar-logo.jpg "Kampagne fair&klimafreundlich")
 
