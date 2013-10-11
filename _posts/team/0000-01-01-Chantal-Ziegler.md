@@ -3,7 +3,7 @@ layout: team-member
 category: team
 date: 2013-06-01
 
-published: true
+published: false
 
 short: cziegler
 twitter: 
