@@ -49,10 +49,48 @@ content: "✯ ";
 
 body { 
 background: #fff url({{ ASSET_PATH }}/images/background.jpg) 0 0 repeat;
-font-family: "Open Sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-family: "FuturaLT Book", "Open Sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
 /*color: #333;*/
 color: #4D2E00;
 }
+
+p { 
+font-family: "FuturaLT Book", "Open Sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+/*color: #333;*/
+}
+
+
+
+
+@font-face {
+	font-family: 'FuturaLT Light';
+	src: local('FuturaLT Light'), local('FuturaLT-Light'), url('{{ ASSET_PATH }}fonts/FuturaLT-Light.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaLT Book';
+	src: local('FuturaLT Book'), local('FuturaLT-Book'), url('{{ ASSET_PATH }}fonts/FuturaLT-Book.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaLT';
+	src: local('FuturaLT'), url('{{ ASSET_PATH }}fonts/FuturaLT.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaLT Bold';
+	src: local('FuturaLT Bold'), local('FuturaLT-Bold'), url('{{ ASSET_PATH }}fonts/FuturaLT-Bold.woff') format('woff');
+	font-weight: 800;
+	font-style: bold;
+}
+
+
 
 hr {
 	margin: 30px 0;
@@ -159,7 +197,7 @@ small {
 }
 
 .content-stop h2 {
-	font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "FuturaLT Light", "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 32px;
 	font-weight: 100;
 	text-shadow: 1px 2px 2px 
@@ -182,7 +220,7 @@ small {
 }
 
 .page-header h1 {
-	font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "FuturaLT Light", "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	 font-size: 30px;
 	 font-weight: 100;
 	 text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
@@ -212,7 +250,7 @@ img.corner {
 }
 
 .page-header-recipe h1 {
-	font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "FuturaLT Light", "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	 font-size: 30px;
 	 font-weight: 100;
 	 text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
@@ -275,7 +313,7 @@ img.corner {
 }
 
 .recipeTitel h6 {
-	font-family: "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "FuturaLT Light", "HelveticaNeue-Ultralight", "Helvetica Neue Ultralight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 40px;
 	font-weight: 100;
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.85);
@@ -442,7 +480,7 @@ footer a {
 	border: 1px solid #aaa;
 }
 
-.btn { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; }
+.btn { font-family: "FuturaLT", "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; }
 .pull-right { margin-top:0em; margin-bottom:0em;}
 
 .blog {	border: 1px solid #EEE;padding: 0px 0px 0px 20px; margin-bottom:20px; margin-top:20px;}
