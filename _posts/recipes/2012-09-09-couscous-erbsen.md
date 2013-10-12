@@ -9,8 +9,8 @@ published: false
 author: Eaternity Team
 title: Couscoussalat mit Kefen und Erbsli
 type: Juni Rezept
-season: -
-season-date: -
+season: 
+season-date: 
 
 image-big: /images/recipes/.jpg
 image-thumb: /images/recipes/preview/.jpg

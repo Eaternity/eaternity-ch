@@ -10,7 +10,7 @@ author: Chuchitisch Team
 title: Chicorée-Dörrtomaten-Gemüse auf Polenta
 type: Partner Rezept
 season: März
-season-date: -
+season-date: 
 
 image-big: /images/recipes/.jpg
 image-thumb: /images/recipes/preview/-.jpg

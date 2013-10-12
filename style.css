@@ -64,28 +64,28 @@ font-family: "FuturaLT Book", "Open Sans", "Helvetica Neue", "HelveticaNeue", He
 
 @font-face {
 	font-family: 'FuturaLT Light';
-	src: local('FuturaLT Light'), local('FuturaLT-Light'), url('{{ ASSET_PATH }}fonts/FuturaLT-Light.woff') format('woff');
+	src: local('FuturaLT Light'), local('FuturaLT-Light'), url('{{ ASSET_PATH }}/fonts/FuturaLT-Light.woff') format('woff');
 	font-weight: 200;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'FuturaLT Book';
-	src: local('FuturaLT Book'), local('FuturaLT-Book'), url('{{ ASSET_PATH }}fonts/FuturaLT-Book.woff') format('woff');
+	src: local('FuturaLT Book'), local('FuturaLT-Book'), url('{{ ASSET_PATH }}/fonts/FuturaLT-Book.woff') format('woff');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'FuturaLT';
-	src: local('FuturaLT'), url('{{ ASSET_PATH }}fonts/FuturaLT.woff') format('woff');
+	src: local('FuturaLT'), url('{{ ASSET_PATH }}/fonts/FuturaLT.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'FuturaLT Bold';
-	src: local('FuturaLT Bold'), local('FuturaLT-Bold'), url('{{ ASSET_PATH }}fonts/FuturaLT-Bold.woff') format('woff');
+	src: local('FuturaLT Bold'), local('FuturaLT-Bold'), url('{{ ASSET_PATH }}/fonts/FuturaLT-Bold.woff') format('woff');
 	font-weight: 800;
 	font-style: bold;
 }

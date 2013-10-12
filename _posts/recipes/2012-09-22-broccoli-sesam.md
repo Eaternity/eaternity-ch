@@ -10,7 +10,7 @@ author: Judith Ellens
 title: Broccoli Sesam Nudeln
 type: Spezial Rezept
 season: 
-season-date: -
+season-date: 
 
 image-big: /images/recipes/2012-10-22-broccoli-sesam-nudeln.jpg
 image-thumb: /images/recipes/preview/2012-10-22-broccoli-sesam-nudeln.jpg

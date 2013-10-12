@@ -10,7 +10,7 @@ author: Eaternity Team
 title: Halloween Spezial Kürbissuppe
 type: Spezial Rezept
 season: Kürbis-Saison
-season-date: -
+season-date: 
 
 image-big: /images/recipes/.jpg
 image-thumb: /images/recipes/preview/.jpg

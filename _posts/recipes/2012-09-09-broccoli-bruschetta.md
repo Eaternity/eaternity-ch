@@ -9,8 +9,8 @@ published: false
 author: Chuchitisch Team
 title: Broccoli Bruschetta mit Karottensalat
 type: Juni Rezept
-season: -
-season-date: -
+season: 
+season-date: 
 
 image-big: /images/recipes/2012-09-09-schoko_muffin.jpg
 image-thumb: /images/recipes/preview/2012-09-09-schoko_muffin.jpg
