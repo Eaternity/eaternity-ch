@@ -31,9 +31,33 @@ author :
 #
 production_url : http://eaternity.ch
 
-
-	  	  	  
-		  
+# Prose Configuration
+#
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://eaternity.ch/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "layout"
+        field:
+          element: "multiselect"
+          label: "Select Layout"
+          placeholder: "Choose Layout"
+          options:
+            - name: "Blog-Post"
+              value: "blog-post"
+            - name: "Team-Member"
+              value: "team-member"
+            - name: "References"
+              value: "references"
+            - name: "Recipe"
+              value: "recipes"
  
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
