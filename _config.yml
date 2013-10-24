@@ -36,8 +36,6 @@ production_url : http://eaternity.ch
 prose:
   rooturl: '_posts'
   siteurl: 'http://eaternity.ch/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'media'
   metadata:
     _posts:
       - name: "layout"
