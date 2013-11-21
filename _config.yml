@@ -7,6 +7,17 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 auto: false
 pygments: true
 
+languages:
+  - name: 'English'
+    key: 'en'
+  - name: 'Deutsch'
+    key: 'de'
+
+# Prose settings
+prose:
+  rooturl: '_posts'
+
+
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
 
 # Themes are encouraged to use these universal variables 
