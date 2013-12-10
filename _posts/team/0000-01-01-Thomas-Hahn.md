@@ -3,7 +3,7 @@ layout: team-member
 category: team
 date: 2012-07-01
 
-published: true
+published: false
 
 short: thahn
 twitter: 
