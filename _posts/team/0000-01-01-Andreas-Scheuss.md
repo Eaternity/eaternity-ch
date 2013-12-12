@@ -6,7 +6,7 @@ date: 2008-10-10
 published: false
 
 short: ascheuss
-twitter: mklarmann
+twitter:
 contact: ascheuss@eaternity.ch
 
 title: Andreas Scheuss
@@ -18,13 +18,9 @@ square: /images/team/ascheuss_180.jpg
 portrait: /images/team/ascheuss.jpg
 
 comment: |
- Eaternity erfüllt mir den Wunsch gemeinsam zu erschaffen, Menschen glücklicher zu machen und Wegweisendes unserer Gesellschaft beizutragen. Ich freue mich Menschen zu motivieren bei uns mitzuwirken um in Zukunft mit Ihnen auf unseren Erfolg zurückschauen zu dürfen. Die Arbeit bei Eaternity erfüllt mir ein persönliches Bedürfnis - Kontrolle und Sicherheit zu haben, dass ich meine Fähigkeit dort einbringe, wo durch sie am meisten Wert entsteht. 
+Komplexe Systeme - seien es ökologische, ökonomische oder gar politische - sind die grössten Herausforderungen unserer Zeit. In jedem Lebensbereich wollen wir mit unvollständigen Daten und unbekannten Variablen möglichst gute Entscheidungen treffen. Eaternity versucht im Bereich Ernährung und Klimawandel genau dies zu tun. Deshalb bin ich begeistert ein Teil dieses Unternehmens zu sein.
 
 ---
 
-
-Manuel Klarmann setzt sich seit Beginn 2008 begeistert für Eaternity ein, ab 2011 als Geschäftsführer. Er ist ein kreativer Kopf, eine treibende Kraft und hat entscheidendes Technik- und Marktverständnis. Als Gründer und Visionär findet sich seine Rolle im Start-Up seit 2011 in der Produkt-Konzeption und dem Auffinden von Partnern und Mitarbeitern. Er sieht seine persönliche Aufgabe darin Eaternity den grossen Zielen am Horizont konsequent ein Stück näher zu bringen: Gesunde und nachhaltige Ernährung allen Menschen zugänglich zu machen.
-
-
-Manuel Klarmann studierte Mathematik mit Psychologie und Informatik an der Ludwig Maximillians Universität in München und an der Universität Utrecht. Nach dem Erhalt des Bachelordiploms in Mathematik mit Neuroinformatik an der Universität Zürich absolvierte er den Master in Neuroinformatik an der ETH Zürich in 2011. Er realisierte als freier Mitarbeiter der Earlybirdmedia AG München Internetauftritte sowie die informationstechnische Automatisierung von Testauswertungen des Youngworld Institut München. Er hielt diverse Mathematik Tutorien an den Universitäten sowie Informatik-Schulungen an den Beruflichen Fortbildungszentren der Bayerischen Wirtschaft in München.
+Andreas Scheuss begann seinen Einstieg in das Berufsleben mit einer Ausbildung aus Kaufmännischer Angestellte an der Wirtschaftsmittelschule (WMS) in St.Gallen. Anschliessend studierte er Mathematik und Philosophie an der Universität Zürich. Schon zu dieser Zeit war er aktiv dabei, die Universität im Speziellen und die Universität im Allgemeinen nachhaltiger zu gestalten. Seit seinem Abschluss als Master of Science in Mathematics ist er bei der Software-Entwicklung von Eaternity dabei.
 
