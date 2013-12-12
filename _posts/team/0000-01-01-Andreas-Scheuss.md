@@ -3,7 +3,7 @@ layout: team-member
 category: team
 date: 2008-10-10
 
-published: false
+published: true
 
 short: ascheuss
 twitter:
