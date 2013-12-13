@@ -1,7 +1,7 @@
 ---
 layout: team-member
 category: team
-date: 2008-10-10
+date: 2013-08-01
 
 published: true
 
