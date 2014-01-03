@@ -16,8 +16,7 @@ square: /images/team/mklarmann_180.jpg
 portrait: /images/team/mklarmann.jpg
 
 comment: |
- Mit Eaternity erschaffen wir Wegweisendes für unsere Gesellschaft. Ich habe Freude daran Menschen dafür zu begeistern mitzuwirken - damit wir in Zukunft gemeinsam auf unseren Erfolg zurückschauen können. Bei Eaternity habe ich das gute Gefühl meine Fähigkeiten dort einzubringen, wo durch sie am meisten Wert entsteht. 
-
+ Mit Eaternity erschaffen wir Wegweisendes für unsere Gesellschaft. Ich habe Freude daran Menschen dafür zu begeistern mitzuwirken - damit wir in Zukunft gemeinsam auf unseren Erfolg zurückschauen können. Bei Eaternity habe ich das gute Gefühl meine Fähigkeiten dort einzubringen, wo durch sie am meisten Wert entsteht.
 ---
 
 Manuel Klarmann setzt sich seit Beginn 2008 begeistert für Eaternity ein, ab 2011 als Geschäftsführer. Er ist ein kreativer Kopf, eine treibende Kraft und hat entscheidendes Technik- und Marktverständnis. Als Gründer und Visionär findet sich seine Rolle im Start-Up seit 2011 in der Produkt-Konzeption und dem Auffinden von Partnern und Mitarbeitern. Er sieht seine persönliche Aufgabe darin Eaternity den grossen Zielen am Horizont konsequent ein Stück näher zu bringen: Gesunde und nachhaltige Ernährung allen Menschen zugänglich zu machen.
