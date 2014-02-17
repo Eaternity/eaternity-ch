@@ -3,7 +3,6 @@ layout: recipe
 
 lang: de
 categories:
-
 - recipes
 
 published: true
