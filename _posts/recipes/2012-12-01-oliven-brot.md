@@ -1,6 +1,8 @@
 ---
 layout: recipe
-category: recipes
+lang: de
+categories:
+    - recipes
 
 published: false
 

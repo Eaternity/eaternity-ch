@@ -1,6 +1,8 @@
 ---
 layout: recipe
-category: recipes
+lang: de
+categories:
+    - recipes
 date: 2010-12-16
 
 author: Andrea Roth

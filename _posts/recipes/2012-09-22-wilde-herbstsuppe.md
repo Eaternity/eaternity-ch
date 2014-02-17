@@ -1,6 +1,8 @@
 ---
 layout: recipe
-category: recipes
+lang: de
+categories:
+    - recipes
 date: 2012-09-22
 
 published: true

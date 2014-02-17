@@ -1,6 +1,8 @@
 ---
 layout: recipe
-category: recipes
+lang: de
+categories:
+    - recipes
 date: 2012-01-04
 
 author: Thomas Scheuermann  von der Stadt Zürich
