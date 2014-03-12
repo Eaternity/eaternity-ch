@@ -6,6 +6,7 @@ event-date: 2013-06-12
 title: Greenlicious
 partner-tag: greenlicious
 
+
 partner-logo: greenlicious.jpg
 partner-link: http://www.greenlicious.org
 

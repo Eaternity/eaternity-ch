@@ -4,7 +4,6 @@
 permalink: /:categories/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "design-stuff", "CNAME", ".gitignore", "public"]
-auto: false
 pygments: true
 
 languages:
