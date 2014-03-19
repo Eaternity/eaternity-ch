@@ -1,6 +1,9 @@
 ---
 layout: blog-post
-category: blog
+lang: en
+categories: 
+- en
+- blog
 
 published: true
 
