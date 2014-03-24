@@ -34,7 +34,7 @@ TED ist eine Nonprofit-Organisation mit der Mission, gute Ideen rund um den Glob
 
 Nur die allerbesten Ideen schaffen es zu TEDx, dem Event von TED. Unsere war aber nicht nur eine davon, sondern sogar der Headliner der Veranstaltung. Danke TEDx für diese einmalige Chance, wir lieben Euch! : )
 
-Schaut Euch [das Video][1] an und erfahrt mehr über die Entstehung der Idee, was Kofi Annan dazu meint und wohin unsere Reise führen soll. 
+Schaut Euch [das Video][1] (mit deutschen und englischen Untertiteln) an und erfahrt mehr über die Entstehung der Idee, was Kofi Annan dazu meint und wohin unsere Reise führen soll. 
 
 Haben wir euch überzeugt? Dann macht es wie TEDx, spread the word und teilt die Idee. Liked das Video auf unserer Facebook-Seite, schickt es an eure Liebsten und zeigt, dass auch Ihr unser Anliegen unterstützt. Tausend Dank!
 
