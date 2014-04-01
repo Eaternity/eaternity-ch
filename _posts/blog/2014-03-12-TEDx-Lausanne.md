@@ -40,4 +40,4 @@ Haben wir euch überzeugt? Dann macht es wie TEDx, spread the word und teilt die
 
 [![TEDx Bühne]({{ ASSET_PATH }}/images/blog/2014-03-12-TEDx-Lausanne/full_scope.jpg "TEDx Bühne")][1]
 
-[1]:http://www.youtube.com/watch?v=2g9GedPylM8
+[1]:http://tedxtalks.ted.com/video/Eating-is-an-environmental-actM
