@@ -2,6 +2,7 @@
 layout: team-member
 category: team
 date: 2012-09-01
+published: false
 
 short: mschaefer
 twitter: 
