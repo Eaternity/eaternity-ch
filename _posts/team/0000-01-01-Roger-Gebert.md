@@ -22,4 +22,4 @@ comment: |
 
 ---
 
-Roger bringt über 10 Jahre Erfahrung in Marketing und Sales bei Eaternity ein. Seine bisherige Arbeit verrichtete er u.a. bei Unilever und Kraft Foods - hier konnte hier an spannenden Marktetablierungen wie z.B.: Ben&Jerry arbeiten. Seinen MBA machte er an der Hochschule in Sankt Gallen. 
+Roger bringt über 10 Jahre Erfahrung in Marketing und Sales bei Eaternity ein. Seine bisherige Arbeit verrichtete er u.a. bei Unilever und Kraft Foods - er konnte hier an spannenden Marktetablierungen wie z.B.: Ben&Jerry arbeiten. Seinen MBA machte er an der Hochschule in Sankt Gallen. 

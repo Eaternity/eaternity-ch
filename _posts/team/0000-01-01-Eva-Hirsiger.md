@@ -22,4 +22,4 @@ comment: |
 
 ---
 
-Eva Hirsiger ist seit 2013 ETH Master in Umweltnaturwissenschaften. Berufserfahrung bringt Sie durch Ihre Arbeit im Energieberatungsbüro INES Energieplanung ein. Praktische Arbeitserfahrung hat sie auf dem Bauernhof und in der Bioholzofenbäckerei der Eltern. Bei Eaternity arbeitet Eva Hirsiger an der Schnittstelle zu unseren Wissenschaftlern. Sie modelliert ökologische Prozessdaten zur dynmischen Berechnung der CO2-Werte, welche in die Entwicklung der CO2-Rechner Software einfliessen.
+Eva Hirsiger ist seit 2013 ETH Master in Umweltnaturwissenschaften. Berufserfahrung bringt Sie durch Ihre Arbeit im Energieberatungsbüro INES Energieplanung ein. Praktische Arbeitserfahrung hat sie auf dem Bauernhof und in der Bioholzofenbäckerei der Eltern. Bei Eaternity arbeitet Eva Hirsiger an der Schnittstelle zu unseren Wissenschaftlern. Sie modelliert ökologische Prozessdaten zur dynamischen Berechnung der CO2-Werte, welche in die Entwicklung der CO2-Rechner Software einfliessen.
