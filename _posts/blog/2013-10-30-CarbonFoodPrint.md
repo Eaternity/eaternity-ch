@@ -7,7 +7,7 @@ published: true
 author: Roger Gebert
 
 title: Gebert Rüf Stiftung unterstützt Eaternity
-subtitle: Das Projekt CarbonFoodPrint fördert unsere Entwicklung als Start-Up.
+subtitle: CarbonFoodPrint fördert unsere Entwicklung unserer Datebank.
 
 short: 
 - Im Rahmen des Projekts CarbonFoodPrint der Gebert Rüf Stiftung wird zusammen mit den Hochschulen...

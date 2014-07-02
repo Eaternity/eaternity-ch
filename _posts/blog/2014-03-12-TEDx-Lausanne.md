@@ -7,7 +7,7 @@ published: true
 author: Roger Gebert
 
 title: Eaternity war bei TEDx!
-subtitle: Manuel über die Geschichte und Vision von Eaternity bei TEDx im Video.
+subtitle: Video über die Geschichte und Vision von Eaternity.
 
 short: 
 - Nur die allerbesten Ideen schaffen es zu TEDx...

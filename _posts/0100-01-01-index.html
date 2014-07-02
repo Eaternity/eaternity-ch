@@ -140,7 +140,7 @@ permalink: /
 				<div class="row-fluid bottom-line">	
 					<div class="span12">
 							<ul>
-							{% for item in site.categories['blog'] limit:3 %}
+							{% for item in site.categories['blog'] limit:8 %}
 							<li>{% if item.blog-image != null %}<a href="{{ BASE_PATH }}{{ item.url }}"><img style="margin-left:-10px;padding-right:16px" class="span2" src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.blog-image }}" ></a>{% endif %}
 								
 								<span style="width:100px;padding-top:1em;">{{ item.date | date_to_string }}</span><a href="{{ BASE_PATH }}{{ item.url }}"><h6 style="padding-top:0px;">{{ item.title }}</h6><small>{% if item.subtitle != null %}{{ item.subtitle }}</small><br />{% endif %}</a></li><li><br /></li>
@@ -226,20 +226,23 @@ permalink: /
 				
 					<a href="{{ BASE_PATH }}/about/#awards-link" ><h3><strong>Preise und Auszeichnungen</strong></h3></a>
 					<ul class="awards">
+					<li><h6>Ashoka Impact Program - 2014</h6> Ashoka Switzerland</li>
+					<li><h6>Innovate For Climate - Stage 2 & 3</h6> von Climate-KIC Switzerland</li>
 					<li><h6>TEDx Lausanne 2014</h6> Erste Präsentation der Veranstaltung</li>
-					<li><h6>Gerbert Rüf Stiftung</h6> fördert das Projekt CarbonFoodPrint</li>
-					<li><h6>Innovate For Climate - Stage 2</h6> von Climate-KIC Switzerland</li>
-					<li><h6>Finalist AXA Innovation Award 2013 (Letzten 5)</h6> der AXA Winterthur</li>
+					<li><h6>CTI Start-Up Label Phase 3 (2014)</h6> Kommission für Technologie und Innovation der Schweiz</li>
+					<li><h6>Gerbert Rüf Stiftung 2013</h6> fördert das Projekt CarbonFoodPrint</li>
+					<li><h6>Finalist AXA Innovation Award 2013 (Besten 5)</h6> der AXA Winterthur</li>
 					<li><h6>Social Impact Start-Up Award 2013</h6>von SAP Schweiz AG</li>
 					<li><h6>2.ter Platz Umweltpreis "Trophee de Femmes 2013"</h6>von Yves Rocher</li>
 					<li><h6>VentureKick Stage 1 (Januar 2013)</h6> für unseren Business-Pitch</li>
 					<li><h6>Beste Innovation 2012 beim Innovation4Motivation</h6>vom GDI und celebrationpoint</li>
 					<li><h6>Finalist Future Impact Price 2012 (Letzten 5)</h6> von «Partnering for Global Impact»</li>
-					<li><h6>1.ter Platz Publikumspreis Präsenstation der Geschäftsidee</h6>Entrepreneursclub Zürich</li>
-					<li><h6>SEF Award Spezialpreis Soziale Innovation</h6>von Ernst&Young und Seif</li>
-					<li><h6>2.ter Platz beim Prix Nature</h6> <a target="_blank" href="http://www.youtube.com/watch?v=2g9GedPylM8">Link zum Prix Nature Video</a></li>
-					<li><h6>Fellowship für Biodiversität und Resourceneffizient</h6>vom WWF Schweiz und HUB Zürich</li>
-					<li><h6>1.ter Platz des ersten ecoworks Workshops</h6>der ETH</li>
+					<li><h6>1.ter Platz Publikumspreis Präsenstation der Geschäftsidee 2012</h6>Entrepreneursclub Zürich</li>
+					<li><h6>SEF Award Spezialpreis Soziale Innovation 2012</h6>von Ernst&Young und Seif</li>
+					<li><h6>2.ter Platz beim Prix Nature 2012</h6> <a target="_blank" href="http://www.youtube.com/watch?v=2g9GedPylM8">Link zum Prix Nature Video</a></li>
+					<li><h6>Fellowship für Biodiversität und Resourceneffizient 2012</h6>vom WWF Schweiz und HUB Zürich</li>
+					<li><h6>Kofi Annan - Podiumsdiskussion 2010</h6> von der Richard R. Ernst Lecture</li>
+					<li><h6>1.ter Platz des ersten ecoworks Workshops 2008</h6>der ETH</li>
 					<ul>
 					
 				<!-- <h3><strong>Partner </strong></h3><br>

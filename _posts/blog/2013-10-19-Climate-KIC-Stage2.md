@@ -12,7 +12,7 @@ circa:
 
 author: Manuel Klarmann
 
-image: 2013-10-19-Climate-KIC-Stage2.png
+image: 2013-10-19-Climate-KIC-Stage2.jpg
 media: 
 
 slides:
@@ -24,7 +24,7 @@ tags:
 partner:
 
 short: 
-- In 10 fortschrittlichen Restaurants in Zürich und Winterthur klimafreundlich dinieren.
+- Es war uns schon immer eine grosse Freude ...
 
 ---
 
