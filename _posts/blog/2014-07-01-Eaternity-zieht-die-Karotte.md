@@ -10,7 +10,7 @@ title: Eaternity zieht die Karotte
 subtitle: Halbzeit 2014 und VIEL ist passiert.
 
 short: 
-- Nur die allerbesten Ideen schaffen es zu TEDx...
+- Als geschickten Schachzug, zieht Eaternity die Karotte ...
 
 blog-image: 2014-07-01-Eaternity-zieht-die-Karotte.jpg
 image: 2014-07-01-Eaternity-zieht-die-Karotte/erfolg.jpg
@@ -29,7 +29,7 @@ partner:
 {% include JB/setup %}
 
 
-Als geschickten Schachzug, zieht Eaternity die Karotte aus der Erde. Die Menge ist überrascht.
+Als geschickten Schachzug, zieht Eaternity die Karotte aus der Erde. Die Menge ist überrascht. (Siehe Bild)
 
 Es ist in letzter Zeit so viel passiert, dass wir nicht dazukamen ordentlich darüber zu berichten: Deswegen gibt es jetzt hier eine kurze Zusammenfassung:
 
