@@ -2,7 +2,7 @@
 layout: blog-post
 category: blog
 
-published: false
+published: true
 
 author: Manuel Klarmann
 
