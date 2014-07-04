@@ -33,21 +33,26 @@ Als geschickten Schachzug, zieht Eaternity die Karotte aus der Erde. Die Menge i
 
 Es ist in letzter Zeit so viel passiert, dass wir nicht dazukamen ordentlich darüber zu berichten: Deswegen gibt es jetzt hier eine kurze Zusammenfassung:
 
-* [Unser Team ist gewachsen, direkt und indirekt arbeiten jetzt Roger Gebert, Eva Hirsiger, Matthias Stucki, Deborah Scharfy, Martina Blum und Fabian Kostadinov an den vielen unterschiedlichen und wichtigen Projekten von Eaternity.][team]
+* [Unser Team ist gewachsen][team], direkt und indirekt arbeiten jetzt Roger Gebert, Eva Hirsiger, Matthias Stucki, Deborah Scharfy, Martina Blum und Fabian Kostadinov an den vielen unterschiedlichen und wichtigen Projekten von Eaternity.
 
-* [Mit dem Ashoka Impact Programm ziehen wir in die internationalen Föderprogramme des "Social Entrepreneurship" ein. Unter Gleichgesinnten helfen wir uns zum Erfolg.][ashoka]
+* Mit dem [Ashoka Impact Programm][ashoka] ziehen wir in die internationalen Föderprogramme des "Social Entrepreneurship" ein. Unter Gleichgesinnten helfen wir uns zum Erfolg.
 
-* [Sentience Politics macht Meinung für eine Gesetzestext Initiatve für nachhaltige Ernährung. Wir haben die Mittel und die Zeit ist reif hier zu Unterstützen.][sentience]
+* [Sentience Politics macht Meinung][sentience] für eine Gesetzestext Initiatve für nachhaltige Ernährung. Wir haben die Mittel und die Zeit ist reif hier zu Unterstützen.
 
-* [Einer unserer schönsten Tage - am BAFU wurde der Umwelttag mit umweltfreundlichen Menus gefeiert. Wir waren mittendrin und mit dabei.][BAFU]
+![Spannung]({{ ASSET_PATH }}/images/blog/2014-07-01-Eaternity-zieht-die-Karotte/spannung.jpg "Die Spannung steigt")
 
-* [Mit unserem Markteintritt (und der Gründung unserer AG) bekommt auch unser Produkt, der "Eaternity Award" ein neues Zuhause - mit ihm geht brandneue Webseite geht an den Start: www.eaternity.com][eaternity.com]
+* Einer unserer schönsten Tage - am BAFU wurde der Umwelttag mit [umweltfreundlichen Menus gefeiert][BAFU]. Wir waren mittendrin und mit dabei.
 
-* [Die Compass Group (Schweiz) AG, ist unser erster grosser Kunde. Mit diesen als Partner setzen wir ein Umweltprogramm um was noch seines Gleichen sucht.][compass]
+* Mit unserem Markteintritt (und der Gründung unserer AG) bekommt auch unser Produkt, der ["Eaternity Award"][eaternity.com] ein neues Zuhause - mit ihm geht brandneue Webseite geht an den Start: www.eaternity.com
 
-* [Climate-KIC begleitet uns wie von Anbeginn bis zum glorreichen Erfolg. Mit Jubel und Posaunen sind wir nun offiziell in Phase 3 des Beschleunigungsprogramms.][kic]
+* Die Compass Group (Schweiz) AG, ist unser erster grosser Kunde. Mit diesen als Partner setzen wir ein [Umweltprogramm um was noch seines Gleichen sucht][compass].
 
-* [Und wer es noch nicht mitbekommen hat: wir waren im Februar bei TEDx Lausanne und haben eine der besten Präsentationen überhaupt hingelegt.][tedx]
+![gute wahl]({{ ASSET_PATH }}/images/blog/2014-07-01-Eaternity-zieht-die-Karotte/gute-wahl.jpg "gute Wahl")
+
+* Climate-KIC begleitet uns wie von Anbeginn bis zum glorreichen Erfolg. Mit Jubel und Posaunen sind wir nun offiziell in Phase 3 des [Beschleunigungsprogramms].[kic]
+
+* Und wer es noch nicht mitbekommen hat: wir waren im Februar bei TEDx Lausanne und haben eine der [besten Präsentationen][tedx] überhaupt hingelegt.
+
 
 
 Wir bleiben fleissig und arbeiten schon an den nächsten Innovationen für unsere Köche - unsere Klimahelden.
