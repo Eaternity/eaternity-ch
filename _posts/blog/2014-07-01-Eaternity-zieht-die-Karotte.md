@@ -4,7 +4,7 @@ category: blog
 
 published: false
 
-author: Roger Gebert
+author: Manuel Klarmann
 
 title: Eaternity zieht die Karotte
 subtitle: Halbzeit 2014 und VIEL ist passiert.
@@ -52,5 +52,12 @@ Es ist in letzter Zeit so viel passiert, dass wir nicht dazukamen ordentlich dar
 
 Wir bleiben fleissig und arbeiten schon an den nächsten Innovationen für unsere Köche - unsere Klimahelden.
 
-
+[team]:http://eaternity.ch/infos/#team
+[ashoka]:http://eaternity.ch/blog/Ashoka-Impact-Program/
+[sentience]:http://eaternity.ch/blog/Sentience-Politics/
+[BAFU]:http://eaternity.ch/blog/BAFU-Umwelttag/
+[eaternity.com]:http://eaternity.ch/blog/Eaternity-Award/
+[compass]:http://eaternity.ch/blog/Compass-Start/
+[kic]:http://eaternity.ch/blog/Climate-KIC-Stage3/
+[tedx]:http://eaternity.ch/blog/TEDx-Lausanne/
 
