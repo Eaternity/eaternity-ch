@@ -389,11 +389,13 @@ permalink: /
 					<!-- <ul class=""> -->
 						<div class="row-fluid ">
 							{% for item in site.categories['recipes'] reversed offset:1 limit:4 %}
+							{% unless item.categories contains 'en' %}
 							<div class="span3">
 								<a href="{{ BASE_PATH }}{{ item.url }}" class="thumbnail recipe-frame-small" data-placement="bottom" rel="tooltip" title="{{ item.title }}">
 									<img  src="{{ ASSET_PATH }}{{ item.image-thumb }}" />
 								</a>
 							</div>
+							{% endunless %}
 							{% endfor %}
 						</div>
 				</div>
@@ -401,11 +403,13 @@ permalink: /
 					<!-- <ul class=""> -->
 						<div class="row-fluid ">
 							{% for item in site.categories['recipes'] reversed offset:5 limit:4 %}
+							{% unless item.categories contains 'en' %}
 							<div class="span3">
 								<a href="{{ BASE_PATH }}{{ item.url }}" class="thumbnail recipe-frame-small" data-placement="bottom" rel="tooltip" title="{{ item.title }}">
 									<img  src="{{ ASSET_PATH }}{{ item.image-thumb }}" />
 								</a>
 							</div>
+							{% endunless %}
 							{% endfor %}
 						</div>
 				</div>

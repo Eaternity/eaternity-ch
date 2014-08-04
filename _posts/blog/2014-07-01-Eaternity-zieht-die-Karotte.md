@@ -49,7 +49,7 @@ Es ist in letzter Zeit so viel passiert, dass wir nicht dazukamen ordentlich dar
 
 ![gute wahl]({{ ASSET_PATH }}/images/blog/2014-07-01-Eaternity-zieht-die-Karotte/gute-wahl.jpg "gute Wahl")
 
-* Climate-KIC begleitet uns wie von Anbeginn bis zum glorreichen Erfolg. Mit Jubel und Posaunen sind wir nun offiziell in Phase 3 des [Beschleunigungsprogramms].[kic]
+* Climate-KIC begleitet uns wie von Anbeginn bis zum glorreichen Erfolg. Mit Jubel und Posaunen sind wir nun offiziell in Phase 3 des [Beschleunigungsprogramms][kic].
 
 * Und wer es noch nicht mitbekommen hat: wir waren im Februar bei TEDx Lausanne und haben eine der [besten Präsentationen][tedx] überhaupt hingelegt.
 

@@ -15,6 +15,7 @@ folder: recipes
 			
 				<!-- 5 thumnails passen auf die Seite-->
 				{% for item in site.categories['recipes'] limit:8 %}
+				{% unless item.categories contains 'en' %}
 				<div class="{% if forloop.first %} active  {% endif %} item">
 					<a href ="{{ BASE_PATH }}{{item.url}}" data-thumb="{{ ASSET_PATH }}{{item.image-thumb}}" ><img src="{{ ASSET_PATH }}{{item.image-slider}}" class="bg"  />
 						<div class="carousel-caption">
@@ -24,6 +25,7 @@ folder: recipes
 						</div>	
 					</a>
 				</div>
+					{% endunless %}
 				{% endfor %}
 
 			</div>

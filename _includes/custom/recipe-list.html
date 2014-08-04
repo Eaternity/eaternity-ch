@@ -1,5 +1,6 @@
 
 	{% for item in site.categories[page.folder] limit:numOfItems %}
+	 {% unless item.categories contains 'en' %}
 <div class="row-fluid">
 	
 
@@ -33,5 +34,6 @@
 
 	
 </div>	
-	<hr />	
+	<hr />
+	{% endunless %}	
 	{% endfor %}
