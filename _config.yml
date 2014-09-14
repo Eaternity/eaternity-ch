@@ -6,6 +6,9 @@ permalink: /:categories/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "design-stuff", "CNAME", ".gitignore", "public"]
 pygments: true
 
+gems:
+  - jekyll-sitemap
+  
 languages:
   - name: 'English'
     key: 'en'
