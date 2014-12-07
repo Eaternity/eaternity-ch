@@ -10,7 +10,7 @@ permalink: /
 <div class="row eyecatcher">
 	<div class="span12">
 		<div id="myCarousel" class="carousel">
-			
+
 			 <!-- Carousel items -->
 			<div class="carousel-inner" id="featured">
 				<div class="item">
@@ -21,7 +21,7 @@ permalink: /
 						<!-- <br><a href="{{ BASE_PATH }}/about/" class="btn">Mehr Informationen</a> -->
 					</div>
 				</div>
-				
+
 				<div class="item">
 					<img src="{{ ASSET_PATH }}/images/eyecatcher/meal622.jpg" class="bg" />
 					<div class="carousel-caption">
@@ -29,8 +29,8 @@ permalink: /
 						<!-- <br><a href="{{ BASE_PATH }}/act/" class="btn">Mehr Informationen</a> -->
 					</div>
 				</div>
-		
-				
+
+
 				<div class="item">
 					<img src="{{ ASSET_PATH }}/images/eyecatcher/waage622.jpg" class="bg" />
 					<div class="carousel-caption">
@@ -38,7 +38,7 @@ permalink: /
 						<!-- <br><a href="{{ BASE_PATH }}/act/" class="btn">Mehr Informationen</a> -->
 					</div>
 				</div>
-				
+
 				<div class="item">
 					<img src="{{ ASSET_PATH }}/images/eyecatcher/tree622.jpg" class="bg" />
 					<div class="carousel-caption">
@@ -46,7 +46,7 @@ permalink: /
 						<!-- <br><a href="{{ BASE_PATH }}/act/" class="btn">Mehr Informationen</a> -->
 					</div>
 				</div>
-				
+
 				<div class="item">
 					<img src="{{ ASSET_PATH }}/images/eyecatcher/team622.jpg" class="bg" />
 					<div class="carousel-caption">
@@ -54,8 +54,8 @@ permalink: /
 						<!-- <br><a href="{{ BASE_PATH }}/act/" class="btn">Mehr Informationen</a> -->
 					</div>
 				</div>
-				
-				
+
+
 				<div class="item">
 					<img src="{{ ASSET_PATH }}/images/eyecatcher/soup622.jpg" class="bg" />
 					<div class="carousel-caption">
@@ -64,18 +64,18 @@ permalink: /
 					</div>
 				</div>
 
-				
+
 			</div>
 			<!-- Carousel nav -->
 			 <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 			 <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 			<!--a href="{{ BASE_PATH }}/#" id="prev" class="slider">&larr;</a>
 			<a href="{{ BASE_PATH }}/#" id="next" class="slider">&rarr;</a-->
-			
+
 		</div>
-	
+
 	</div>
-</div>	
+</div>
 
 <div class="well-non">
 <div class="row">
@@ -88,16 +88,16 @@ permalink: /
 					<br />
 					<h3 style=" text-align: center; ">Und dafür Genuss bewusst zu erleben.</h3>
 					<br /><br />
-					
-					
-					
-<!-- 					<div class="row-fluid" style="hidden:true">	
+
+
+
+<!-- 					<div class="row-fluid" style="hidden:true">
 						<div class="span12">
 							<h2 style="padding-bottom:0em;">Aktuelles</h2>
 							<p>
 							Unsere Arbeit geht gut voran. Wir freuen uns über die starke Unterstützung und suchen weiterhin Personen unserer Gesinnung, welche sich unserem Team anschliessen wollen. Schreibt uns einfach.
 							</p>
-							<br /> 
+							<br />
 
 							<ul class="top-info row-fluid">
 							  <li class="span6">
@@ -113,11 +113,11 @@ permalink: /
 						<br /><br />
 
 					</div> -->
-					
-					
-					
-					
-					
+
+
+
+
+
 				</div>
 				<br /><br />
 				<div class="row-fluid">
@@ -133,34 +133,34 @@ permalink: /
 						</div>
 					</div>
 				</div>
-				
-				
-				
-				<div class="row-fluid bottom-line">	
+
+
+
+				<div class="row-fluid bottom-line">
 					<div class="span12">
 							<ul>
 							{% for item in site.categories['blog'] limit:8 %}
 							<li>{% if item.blog-image != null %}<a href="{{ BASE_PATH }}{{ item.url }}"><img style="margin-left:-10px;padding-right:16px" class="span2" src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.blog-image }}" ></a>{% endif %}
-								
+
 								<span style="width:100px;padding-top:1em;">{{ item.date | date_to_string }}</span><a href="{{ BASE_PATH }}{{ item.url }}"><h6 style="padding-top:0px;">{{ item.title }}</h6><small>{% if item.subtitle != null %}{{ item.subtitle }}</small><br />{% endif %}</a></li><li><br /></li>
 						    {% endfor %}
 							</ul>
 
 					</div>
-				<br />	
+				<br />
 					<a href="{{ BASE_PATH }}/blog/index.html" class="pull-right btn btn-inverse btn-small">weitere Artikel</a>
 				</div>
 				<br /><br />
-				
-				
-				<div class="row-fluid">	
+
+
+				<div class="row-fluid">
 					<div class="span12">
 						<h2 style="padding-bottom:0em;">Hintergründe</h2>
 						<p>
 						Vor 4 Jahren sind wir über die ersten Studien gestolpert. Seitdem ist uns die Relevanz der Ernährung in Bezug auf den Klimawandel immer mehr bewusst geworden. Nach Berechnungen und weiteren Überlegungen sahen wir das Potential 50% der Emissionen einzusparen! Jetzt haben wir konkrete Massnahmen entwickelt, mit welchen jeder Person ermöglicht wird, die Entscheidung zur klimafreundlichen Ernährung zu treffen.
 						</p>
-						<br /> 
-						
+						<br />
+
 						<ul class="top-info row-fluid">
 						  <li class="span6">
 								<a href="{{ BASE_PATH }}/facts" class="thumbnail"><img src="{{ ASSET_PATH }}/images/frontpage/01_Relevanz.jpg" />
@@ -177,54 +177,55 @@ permalink: /
 						</ul>
 					</div>
 					<br />
-					
-					<hr />	
-					<br /> <br /> 
-					
-					
+
+					<hr />
+					<br /> <br />
+
+
 					<h2 style="padding-bottom:0em;">Wo geht es hin?</h2>
-					<br /> 
+					<br />
 					<ul class="row-fluid">
 					  <li class="span6">
-						
-					<h3><strong>Die Vision</strong></h3>		
+
+					<h3><strong>Die Vision</strong></h3>
 					<p>Der Verein Eaternity hat zum Ziel klimafreundliche Ernährung in der Gesellschaft zu etablieren.</p>
 					<a href="{{ BASE_PATH }}/act/" class="pull-right btn btn-inverse btn-small">mitmachen</a>
-					
-					
+
+
 					 </li>
 					  <li class="span6">
-					
+
 					<h3><strong>Theory of Change</strong></h3>
 					<p>Mit einem Social-Business wollen wir zusammen mit Partnern jedem den Zugang zu einer Entscheidung ermöglichen.</p>
 					<a href="{{ BASE_PATH }}/offers/#socialbusiness" class="pull-right btn btn-success btn-small">Zum Business-Model</a>
-					
+
 					</li></ul>
-					
+
 						<hr>
-						
+
 					<a class="btn btn-success" href="{{ BASE_PATH }}/offers" style="margin-left: auto; margin-right: auto">Informationen für Unternehmen</a>
-						
-					
+
+
 				</div>
-				
-			
-				
-		
+
+
+
+
 			</div>
-				
+
 			<div class="span4" align="left" >
-				
-					<br /> 
+
+					<br />
 					<h3><strong>Eaternity bei TEDx Lausanne 2014</strong></h3>
-					<a target="_blank" href="http://tedxtalks.ted.com/video/Eating-is-an-environmental-actM"><img src="{{ ASSET_PATH }}/images/frontpage/tedxlausanne.jpg" /> Link zum TEDx Video </a>	
+					<a target="_blank" href="http://tedxtalks.ted.com/video/Eating-is-an-environmental-actM"><img src="{{ ASSET_PATH }}/images/frontpage/tedxlausanne.jpg" /> Link zum TEDx Video </a>
 					<hr />
-				
-				
-			
-				
+
+
+
+
 					<a href="{{ BASE_PATH }}/about/#awards-link" ><h3><strong>Preise und Auszeichnungen</strong></h3></a>
 					<ul class="awards">
+					<li><h6>Join our Core- 2014</h6> Ben&Jerry and Ashoka international</li>
 					<li><h6>Ashoka Impact Program - 2014</h6> Ashoka Switzerland</li>
 					<li><h6>Innovate For Climate - Stage 2 & 3</h6> von Climate-KIC Switzerland</li>
 					<li><h6>TEDx Lausanne 2014</h6> Erste Präsentation der Veranstaltung</li>
@@ -243,9 +244,9 @@ permalink: /
 					<li><h6>Kofi Annan - Podiumsdiskussion 2010</h6> von der Richard R. Ernst Lecture</li>
 					<li><h6>1.ter Platz des ersten ecoworks Workshops 2008</h6>der ETH</li>
 					<ul>
-					
+
 				<!-- <h3><strong>Partner </strong></h3><br>
-				
+
 				<ul class="thumbnails">
 				  <li class="span2">
 						<a> <img src="{{ ASSET_PATH }}/images/partner/eth.jpg" /></a>
@@ -254,13 +255,13 @@ permalink: /
 						<a><img src="{{ ASSET_PATH }}/images/partner/stadt-zuerich.jpg" /></a>
 					</li>
 				</ul>
-				
+
 				-->
 
 					<hr />
-						
-					
-					<h3><strong>Job-Angebot</strong></h3>	
+
+
+					<h3><strong>Job-Angebot</strong></h3>
 					<p>Es gibt bei Eaternity eine Stelle für einen Software Engineer!</p>
 					<!-- Beta-Test - Kombiniere leckere Menüs und spare CO2 - Ein grosser Schritt für uns ist geschafft. Mit dem CO2-Rechner wird es jedem möglich sein selbst Rezepte einzugeben und den CO2-Wert zu berechnen. Hilf uns mit deinem Feedback zur unserer Vision den Rechner auf eure Bedürfnisse anzupassen. -->
 					<a target="_blank" href="{{ ASSET_PATH }}/files/Job_Offer-Software-Engineer-Eaternity.pdf"><!-- <img src="{{ ASSET_PATH }}/images/frontpage/job_offer.jpg" />  -->Link zur Ausschreibung</a>
@@ -272,8 +273,8 @@ permalink: /
 					<a target="_blank" href="http://www.ifi.uzh.ch/isr/teaching/masterarbeiten/Masterarbeit_GUI_for_Eaternity_DB.pdf ">Masterarbeit: Vereinfachung von Lebenszyklus-Analysen</a>
 					<a target="_blank" href="http://www.ifi.uzh.ch/isr/teaching/masterarbeiten/Masterarbeit_Eaternity_Motivation.pdf ">Masterarbeit: Reporting zur Motivation nachhaltiger Handlungen</a>
 
-				
-					
+
+
 				</div>
 			</div>
 		</div>
@@ -287,8 +288,8 @@ permalink: /
 
 <!--div class="row ">
 	<div class="span12">
-		
-		
+
+
 		<div class="well">
 			<div class="row-fluid">
 				<div class="span8">
@@ -300,18 +301,18 @@ permalink: /
 					<a target="_blank" href="https://www.facebook.com/eaternity" class="btn-mini  btn">Facebook</a><a target="_blank" href="https://twitter.com/eaternity" class="btn-mini  btn">Twitter</a><a target="_blank" href="https://plus.google.com//103258917793939014629" class="btn-mini btn">Google+</a></div>
 				</div>
 				<div class="span12">
-					
+
 					{% for item in site.categories['blog'] limit:3 %}
 						<span>{{ item.date | date_to_string }}</span>  &raquo; <a href="{{ BASE_PATH }}{{ item.url }}">{{ item.title }}</a><br />
 				    {% endfor %}
 
 				</div>
-					
+
 			</div>
 		</div>
-	
-	
-	
+
+
+
 	</div>
 	<div class="span6">
 		<div class="blog">
@@ -348,16 +349,16 @@ permalink: /
 								<h5>{{ item.type }}</h5>
 								<h3>{{ item.title }}</h3>
 							</a>
-							<p>{{ item.content | strip_html | truncatewords: 22 }} 
+							<p>{{ item.content | strip_html | truncatewords: 22 }}
 							<!-- <a href="{{ BASE_PATH }}{{item.url}}">&nbsp;weiterlesen</a> --></p>
-							
+
 						</div>
 						<a href="{{ BASE_PATH }}{{item.url}}" class="pull-right btn btn-inverse btn-small">zum Rezept</a>
-		    
+
 				</div>
 			</div>
 		{% endfor %}
-		
+
 			<div class="span6 tapete">
 				<div class="row-fluid">
 						<div class="span6">
@@ -372,7 +373,7 @@ permalink: /
 							</a>
 							<p>In unserer umfangreichen Rezepte-Küche findet sich etwas für jeden Geschmack - und stets Gutes fürs Klima!
 							<!-- <a href="{{ BASE_PATH }}{{item.url}}">&nbsp;weiterlesen</a> --></p>
-							
+
 						</div>
 		    			<a href="{{ BASE_PATH }}/recipes/#kitchen2" class="pull-right btn btn-inverse btn-small">stöbern!</a>
 				</div>
@@ -381,9 +382,9 @@ permalink: /
 
 
 	<div class="row-fluid">
-		
+
 			<hr class="special" />
-			
+
 			<div class="row-fluid recipe-tooltips">
 				<div class="span6">
 					<!-- <ul class=""> -->
@@ -432,7 +433,7 @@ permalink: /
 
 
 
-<!--  
+<!--
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.
