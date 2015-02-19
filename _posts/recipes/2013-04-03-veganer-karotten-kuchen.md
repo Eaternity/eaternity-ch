@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=4e6675be-1c10-478e-9fe1-c7de2aafc8c5&scope=PUBLIC&customer=Eaternity
 
 author: Aurelian Jaggi
 title: Karotten Kuchen

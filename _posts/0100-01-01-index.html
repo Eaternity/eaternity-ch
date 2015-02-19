@@ -340,12 +340,12 @@ permalink: /
 			<div class="span6 tapete">
 				<div class="row-fluid">
 						<div class="span6">
-							<a href="{{ BASE_PATH }}{{ item.url }}" class="thumbnail recipe-frame">
+							<a href="{{ item.eaternity-cloud-url }}" class="thumbnail recipe-frame">
 								<img  src="{{ ASSET_PATH }}{{ item.image-thumb }}" />
 							</a>
 						</div>
 						<div class="span6 recipe">
-							<a href="{{ BASE_PATH }}{{ item.url }}">
+							<a href="{{ item.eaternity-cloud-url }}">
 								<h5>{{ item.type }}</h5>
 								<h3>{{ item.title }}</h3>
 							</a>
@@ -362,12 +362,12 @@ permalink: /
 			<div class="span6 tapete">
 				<div class="row-fluid">
 						<div class="span6">
-							<a href="{{ BASE_PATH }}/recipes/#kitchen2" class="thumbnail recipe-frame">
+							<a href="http://co2.eaternity.ch/#publicRecipeView:scope=PUBLIC&customer=Eaternity" class="thumbnail recipe-frame">
 								<img  src="{{ ASSET_PATH }}/images/kitchen/02_alleRezepte_480px.png" />
 							</a>
 						</div>
 						<div class="span6 recipe">
-							<a href="{{ BASE_PATH }}/recipes/#kitchen2">
+							<a href="http://co2.eaternity.ch/#publicRecipeView:scope=PUBLIC&customer=Eaternity">
 								<h5>Menu-Bibliothek</h5>
 								<h3>Die Rezepte Küche</h3>
 							</a>
@@ -375,7 +375,7 @@ permalink: /
 							<!-- <a href="{{ BASE_PATH }}{{item.url}}">&nbsp;weiterlesen</a> --></p>
 
 						</div>
-		    			<a href="{{ BASE_PATH }}/recipes/#kitchen2" class="pull-right btn btn-inverse btn-small">stöbern!</a>
+		    			<a href="http://co2.eaternity.ch/#publicRecipeView:scope=PUBLIC&customer=Eaternity" class="pull-right btn btn-inverse btn-small">stöbern!</a>
 				</div>
 			</div>
 	</div>
@@ -392,7 +392,7 @@ permalink: /
 							{% for item in site.categories['recipes'] reversed offset:1 limit:4 %}
 							{% unless item.categories contains 'en' %}
 							<div class="span3">
-								<a href="{{ BASE_PATH }}{{ item.url }}" class="thumbnail recipe-frame-small" data-placement="bottom" rel="tooltip" title="{{ item.title }}">
+								<a href="{{ item.eaternity-cloud-url }}" class="thumbnail recipe-frame-small" data-placement="bottom" rel="tooltip" title="{{ item.title }}">
 									<img  src="{{ ASSET_PATH }}{{ item.image-thumb }}" />
 								</a>
 							</div>
@@ -406,7 +406,7 @@ permalink: /
 							{% for item in site.categories['recipes'] reversed offset:5 limit:4 %}
 							{% unless item.categories contains 'en' %}
 							<div class="span3">
-								<a href="{{ BASE_PATH }}{{ item.url }}" class="thumbnail recipe-frame-small" data-placement="bottom" rel="tooltip" title="{{ item.title }}">
+								<a href="{{ item.eaternity-cloud-url }}" class="thumbnail recipe-frame-small" data-placement="bottom" rel="tooltip" title="{{ item.title }}">
 									<img  src="{{ ASSET_PATH }}{{ item.image-thumb }}" />
 								</a>
 							</div>

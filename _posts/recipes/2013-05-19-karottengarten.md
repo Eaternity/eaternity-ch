@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=c0e7cd35-cf9c-4b0f-88cd-d52ba3a9f948&scope=PUBLIC&customer=Eaternity
 
 author: Fabian Fuchs vom Equi-Table
 title: Der Karotten Garten

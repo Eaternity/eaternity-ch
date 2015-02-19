@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=774fb060-0815-4d9d-87f0-2d6f58024828&scope=PUBLIC&customer=Eaternity
 
 author: Tobias Klarmann
 title: Maronibraten mit Pilz-Rotwein-Sosse

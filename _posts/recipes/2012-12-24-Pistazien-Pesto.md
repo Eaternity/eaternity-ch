@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=adea6b25-14a8-4efa-bfe1-248d235f2bd5&scope=PUBLIC&customer=Eaternity
 
 author: Judith Ellens
 title: Würziges Pistazien Pesto mit Jungspinat

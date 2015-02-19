@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=af0fe40d-6d20-478f-a668-5f41b1b958f5&scope=PUBLIC&customer=Eaternity
 
 author: Judith Ellens
 title: Pfiffiger Kabissalat mit Walnüssen

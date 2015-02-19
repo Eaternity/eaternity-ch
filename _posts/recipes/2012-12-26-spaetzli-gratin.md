@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=cb6656d9-2f15-4d6c-89ac-05a1c1bbf867&scope=PUBLIC&customer=Eaternity
 
 author: Judith Ellens
 title: Spätzli Gratin mit Marroni

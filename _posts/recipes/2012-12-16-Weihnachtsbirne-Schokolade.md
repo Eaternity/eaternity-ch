@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=75a6bd49-3fb6-497c-b539-0250d0663c7c&scope=PUBLIC&customer=Eaternity
 
 author: Judith Ellens
 title: Weihnachtsbirne mit Schokolade

@@ -5,7 +5,7 @@ categories:
     - recipes
 
 published: true
-
+eaternity-cloud-url: https://co2.eaternity.ch/#publicRecipeEdit:id=ba34fba3-7135-4701-b8c4-ee43842cc9ad&scope=PUBLIC&customer=Eaternity
 
 author: Judith Ellens
 title: Pizza orientalisch mit Feige
