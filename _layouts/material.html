@@ -12,7 +12,7 @@ layout: default
 		
 		<blockquote><ul>
 			{% for document in page.documents reversed %}
-			<li><strong><a target="_blank" href="http://dl.dropbox.com/u/1214503/eaternity/{{ document | escape_once }}">{{ document }}  &larr; </a></strong><br> Autoren: {{ page.authors | first }}{% for author in page.authors offset:1 %}, {{author}} {% endfor %}</li>
+			<li><strong><a target="_blank" href="{{ ASSET_PATH }}/files/{{ document | escape_once }}">{{ document }}  &larr; </a></strong><br> Autoren: {{ page.authors | first }}{% for author in page.authors offset:1 %}, {{author}} {% endfor %}</li>
 			{% endfor %}
 		</ul></blockquote>
 

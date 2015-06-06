@@ -14,7 +14,7 @@ folder: material
 			
 			<div class="span9">
 				<div>
-					<a href="{{ BASE_PATH }}{{item.url}}"><img  src="{{ ASSET_PATH }}{{ item.image }}" >
+					<!-- <a href="{{ BASE_PATH }}{{item.url}}"><img  src="{{ ASSET_PATH }}{{ item.image }}" > -->
 					<h3>{{item.title}}</h3></a>
 					<!--small>2:18AM by Melissa</small-->
 					
@@ -25,7 +25,7 @@ folder: material
 					<ul class="like-buttons">
 			            <li><div id="fb-root"></div>
 							<fb:like href="{{ BASE_PATH }}{{ item.url }}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-							<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}{{item.url}}" >Twittern</a></li>
+							<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}{{ item.url }}" >Twittern</a></li>
 							<li><g:plusone size="medium" annotation="inline" href="{{ BASE_PATH }}{{ item.url }}"></g:plusone></li>
 					</ul>
 
