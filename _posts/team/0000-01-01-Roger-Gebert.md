@@ -17,7 +17,7 @@ square: /images/team/rgebert_180.jpg
 portrait: /images/team/rgebert.jpg
 
 comment: |
-  Ich möchte aktiv an der Werlt arbeiten, die ich gerne sehen würde. Eine Welt voller Respekt, auch gegenüber der Natur. Voller Empathy um gemeinsame Ziele zu erreichen.
+  Ich möchte aktiv an der Welt arbeiten, die ich gerne sehen würde. Eine Welt voller Respekt, auch gegenüber der Natur. Voller Empathy um gemeinsame Ziele zu erreichen.
 
 
 ---
