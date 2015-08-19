@@ -4,7 +4,7 @@ category: blog
 date: 2009-03-11
 
 image: http://placehold.it/452x150
-title: Von Eat Less CO2 nach FoodStep nach eaternity 
+title: Von EatLessCO2 nach FoodStep nach Eaternity 
 blog-image:  
 
 media: 
@@ -16,11 +16,11 @@ partner:
 
 ---
 
-Für alle die bereits über den Artikel in Studio!Sus gestolpert sind. Die Aktuelle Nachricht: Wir heissen jetzt Eaternity! EatLess CO2 war zu negativ, FoodStep schon vergeben... Wir haben eine ganze Weile rumexperimentiert bis wir den richtigen Namen gefunden haben... und hatten auch eine ganze Menge guter Vorschläge: 
+Für alle die bereits über den Artikel in Studio!Sus gestolpert sind. Die aktuelle Nachricht: Wir heissen jetzt Eaternity! EatLessCO2 war zu negativ, FoodStep schon vergeben... Wir haben eine ganze Weile rumexperimentiert bis wir den richtigen Namen gefunden haben... und hatten auch eine ganze Menge guter Vorschläge: 
 
-Food4More, GoodStep, Issdas, FoodAct, proclimate, well-co2ndsidered.
+Food4More, GoodStep, Issdas, FoodAct, proclimate, well-co2nsidered.
 
-Und wir sind extrem zufrieden mit unserem neuem Namen, er drückt genau das aus, was wir mit unserem Projekt erreichen wollen. Und können uns nun auch keinen besseren mehr vorstellen!
+Und wir sind extrem zufrieden mit unserem neuem Namen, er drückt genau das aus, was wir mit unserem Projekt erreichen wollen. Und können uns nun auch keinen Besseren mehr vorstellen!
 
 Danke auch an Project21, für die bisherige Unterstützung... Ihr seid unter anderem die ersten die über unser Projekt schreiben!
 

@@ -2,7 +2,7 @@
 category: projects
 date: 2014-05-26
 
-title: Wir essen die die Welt gesund.
+title: Wir essen die Welt gesund.
 sub-title: Compass Group (Schweiz) AG
 short: compass_group_ch
 
